@@ -1,0 +1,36 @@
+{
+  "aktualizovano": "2026-05-11 18:23",
+  "tyden": "11.05. - 17.05.2026",
+  "kina": [
+    {
+      "nazev": "Kino Aero",
+      "url": "https://www.kinoaero.cz/",
+      "filmy": []
+    },
+    {
+      "nazev": "Bio Oko",
+      "url": "https://www.biooko.net/",
+      "filmy": []
+    },
+    {
+      "nazev": "Svetozor",
+      "url": "https://kinosvetozor.cz/",
+      "filmy": []
+    },
+    {
+      "nazev": "Lucerna",
+      "url": "https://www.kinolucerna.cz/",
+      "filmy": []
+    },
+    {
+      "nazev": "Kino Mat",
+      "url": "https://www.mat.cz/kino/",
+      "filmy": []
+    },
+    {
+      "nazev": "Edison Filmhub",
+      "url": "https://www.edisonfilmhub.cz/program",
+      "filmy": []
+    }
+  ]
+}
