@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="cs">
-<head>
-<meta charset="UTF-8">
+<!-- saved from url=(0045)file:///C:/Users/sewar/Downloads/index_2.html -->
+<html lang="cs"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Počasí Praha - Live Dashboard</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+<link rel="stylesheet" href="./index_pocasi_podolí_files/tabler-icons.min.css">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { min-height: 100vh; }
@@ -317,10 +317,68 @@
     .kino-direct-links { grid-template-columns: 1fr; }
     .kino-tab { font-size: 11px; padding: 5px 11px; }
   }
+
+  /* ── PODOLÍ WIDGET ── */
+  .podoli-card {
+    background: rgba(20,20,30,0.55); backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px; padding: 24px; margin-bottom: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  }
+  .podoli-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .podoli-header-left { display: flex; align-items: center; gap: 10px; }
+  .podoli-header-icon { font-size: 22px; color: #38bdf8; }
+  .podoli-header-title { font-size: 15px; font-weight: 600; }
+  .podoli-header-sub { font-size: 11px; opacity: 0.5; margin-top: 2px; }
+  .podoli-updated { font-size: 10px; opacity: 0.4; }
+
+  .podoli-pools { display: flex; flex-direction: column; gap: 14px; margin-bottom: 20px; }
+
+  .podoli-pool { background: rgba(0,0,0,0.25); border-radius: 14px; padding: 16px; }
+  .podoli-pool-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+  .podoli-pool-name { font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+  .podoli-pool-icon { font-size: 16px; }
+  .podoli-pool-status {
+    font-size: 11px; font-weight: 600; padding: 3px 10px;
+    border-radius: 999px; letter-spacing: 0.03em;
+  }
+  .podoli-pool-status.green { background: rgba(16,185,129,0.25); color: #6ee7b7; border: 1px solid rgba(16,185,129,0.4); }
+  .podoli-pool-status.yellow { background: rgba(251,191,36,0.25); color: #fde68a; border: 1px solid rgba(251,191,36,0.4); }
+  .podoli-pool-status.red { background: rgba(239,68,68,0.25); color: #fca5a5; border: 1px solid rgba(239,68,68,0.4); }
+
+  .podoli-bar-wrap { position: relative; height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px; overflow: hidden; margin-bottom: 8px; }
+  .podoli-bar-fill { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
+  .podoli-bar-fill.green { background: linear-gradient(90deg, #10b981, #34d399); }
+  .podoli-bar-fill.yellow { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+  .podoli-bar-fill.red { background: linear-gradient(90deg, #ef4444, #f87171); }
+
+  .podoli-bar-pct { font-size: 12px; opacity: 0.7; }
+
+  .podoli-tip {
+    background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.2);
+    border-radius: 12px; padding: 12px 16px; font-size: 12px; line-height: 1.6;
+    color: #bae6fd; display: flex; align-items: flex-start; gap: 10px;
+  }
+  .podoli-tip i { font-size: 16px; flex-shrink: 0; margin-top: 1px; color: #38bdf8; }
+
+  .podoli-best-time {
+    display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px;
+  }
+  .podoli-time-chip {
+    background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3);
+    border-radius: 8px; padding: 4px 10px; font-size: 11px; color: #6ee7b7;
+  }
+
+  @media (max-width: 600px) {
+    .podoli-pool-name { font-size: 12px; }
+  }
 </style>
 </head>
 <body class="fallback-cloudy">
-<div class="bg-photo" id="bg-photo"></div>
+<div class="bg-photo active" id="bg-photo" style="background-image: url(&quot;https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=1920&amp;q=80&quot;);"></div>
 <div class="bg-overlay"></div>
 <div class="particles" id="particles"></div>
 
@@ -332,16 +390,194 @@
     </div>
     <div class="updated">
       <span class="pulse"></span>
-      <span id="last-updated">Načítám...</span>
+      <span id="last-updated">Aktualizováno 19:13</span>
     </div>
   </div>
 
   <div id="content">
-    <div class="loading">
-      <i class="ti ti-loader-2"></i>
-      Stahuji data z meteorologických serverů...
+      <div class="card hero-card">
+        <div class="hero-photo" id="hero-photo" style="background-image: url(&quot;https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=1920&amp;q=80&quot;);">
+          <div class="hero-icon-wrap">
+            <i class="ti ti-cloud-sun hero-icon cloud"></i>
+            <div><span class="hero-temp-badge">19° max / 6° min</span></div>
+            <div class="hero-desc">Polojasno</div>
+          </div>
+        </div>
+        <div class="hero-data">
+          <div class="temp-grid">
+            <div class="temp-block">
+              <div class="temp-big">19°<span class="temp-big-small">C</span></div>
+              <div class="temp-label"><i class="ti ti-temperature" style="font-size:11px;"></i> Aktuální teplota</div>
+            </div>
+            <div class="temp-block feels">
+              <div class="temp-big">16°<span class="temp-big-small">C</span></div>
+              <div class="temp-label"><i class="ti ti-mood-smile" style="font-size:11px;"></i> Pocitová teplota</div>
+            </div>
+          </div>
+          <div>
+            <div class="stat-row"><span class="stat-row-label"><i class="ti ti-droplet" style="font-size:14px;"></i> Vlhkost</span><span class="stat-row-val">31%</span></div>
+            <div class="stat-row"><span class="stat-row-label"><i class="ti ti-wind" style="font-size:14px;"></i> Vítr</span><span class="stat-row-val">6 km/h</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><i class="ti ti-sun"></i> Slunce dnes</div>
+        <div class="sun-cycle">
+          <div class="sun-time">
+            <div class="sun-time-icon sunrise"><i class="ti ti-sunrise"></i></div>
+            <div class="sun-time-val">5:11</div>
+            <div class="sun-time-lbl">Východ</div>
+          </div>
+          <div class="sun-arc-wrap">
+            <div class="sun-arc"></div>
+            <div class="sun-marker " style="left: 90.16803890078515%; top: 69.60080085994326%;"></div>
+          </div>
+          <div class="sun-time">
+            <div class="sun-time-icon sunset"><i class="ti ti-sunset"></i></div>
+            <div class="sun-time-val">20:45</div>
+            <div class="sun-time-lbl">Západ</div>
+          </div>
+        </div>
+        <div class="day-length"><i class="ti ti-clock" style="font-size:12px; vertical-align:-1px;"></i> Délka dne: <strong>15h 34m</strong></div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><i class="ti ti-lungs"></i> Kvalita ovzduší v Praze</div>
+
+        <div class="aqi-main-row">
+          <div class="aqi-num">36</div>
+          <div class="aqi-label">Evropský index kvality ovzduší (0–100+)</div>
+          <div class="aqi-status good">Dobrá</div>
+        </div>
+
+        <div class="pm-card">
+          <div class="pm-header">
+            <div class="pm-name-block">
+              <span class="pm-name">PM2.5</span>
+              <span class="pm-fullname">Jemné prachové částice</span>
+            </div>
+            <div class="pm-val-block"><span class="pm-val">6</span><span class="pm-unit">μg/m³</span></div>
+          </div>
+          <div class="pm-bar"><div class="pm-bar-fill low" style="width:24%"></div></div>
+          <div class="pm-explain">Mikročástice menší než 2.5 mikrometru. Vznikají při spalování (auta, topení, průmysl). Jsou nejnebezpečnější — pronikají hluboko do plic a krve. Limit WHO: 25 μg/m³.</div>
+        </div>
+
+        <div class="pm-card">
+          <div class="pm-header">
+            <div class="pm-name-block">
+              <span class="pm-name">PM10</span>
+              <span class="pm-fullname">Hrubé prachové částice</span>
+            </div>
+            <div class="pm-val-block"><span class="pm-val">8</span><span class="pm-unit">μg/m³</span></div>
+          </div>
+          <div class="pm-bar"><div class="pm-bar-fill low" style="width:16%"></div></div>
+          <div class="pm-explain">Větší prachové částice (do 10 mikrometrů). Pochází z dopravy, stavebnictví, prachu z ulic. Dráždí dýchací cesty. Limit WHO: 50 μg/m³.</div>
+        </div>
+
+        <div class="pm-card">
+          <div class="pm-header">
+            <div class="pm-name-block">
+              <span class="pm-name">NO₂</span>
+              <span class="pm-fullname">Oxid dusičitý</span>
+            </div>
+            <div class="pm-val-block"><span class="pm-val">6</span><span class="pm-unit">μg/m³</span></div>
+          </div>
+          <div class="pm-bar"><div class="pm-bar-fill low" style="width:15%"></div></div>
+          <div class="pm-explain">Plyn z výfuků aut a spalování paliv. Nejvyšší u rušných silnic. Dráždí plíce, zhoršuje astma. Limit WHO: 40 μg/m³.</div>
+        </div>
+
+        <div class="pm-card">
+          <div class="pm-header">
+            <div class="pm-name-block">
+              <span class="pm-name">O₃</span>
+              <span class="pm-fullname">Přízemní ozón</span>
+            </div>
+            <div class="pm-val-block"><span class="pm-val">91</span><span class="pm-unit">μg/m³</span></div>
+          </div>
+          <div class="pm-bar"><div class="pm-bar-fill mid" style="width:75.83333333333333%"></div></div>
+          <div class="pm-explain">Vzniká reakcí výfukových plynů se slunečním zářením. Nejhorší v létě odpoledne. Dráždí oči, plíce, snižuje výkonnost. Limit WHO: 120 μg/m³.</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><i class="ti ti-clock"></i> Odpočítávání srážek</div>
+        <div class="countdown-grid">
+          <div class="countdown-box last-rain">
+            <i class="ti ti-cloud-rain countdown-icon"></i>
+            <div style="font-size:11px; opacity:0.7; text-transform:uppercase; letter-spacing:0.05em;">Naposledy pršelo</div>
+            <div class="countdown-num">2</div>
+            <div class="countdown-unit">dny zpět</div>
+          </div>
+          <div class="countdown-box next-rain">
+            <i class="ti ti-umbrella countdown-icon"></i>
+            <div style="font-size:11px; opacity:0.7; text-transform:uppercase; letter-spacing:0.05em;">Další déšť za</div>
+            <div class="countdown-num">-</div>
+            <div class="countdown-unit">nepravděpodobně</div>
+          </div>
+        </div>
+        
+        <div style="background:rgba(16,185,129,0.25); border:1px solid rgba(16,185,129,0.4); border-radius:12px; padding:14px; margin-top:12px; display:flex; align-items:center; gap:10px;">
+          <i class="ti ti-sun" style="font-size:20px; color:#10b981;"></i>
+          <span style="font-size:14px;">Nejbližších 7 dní bez výrazných srážek</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><i class="ti ti-calendar"></i> Předpověď 7 dní</div>
+        <div class="forecast-row">
+            <div class="forecast-day">Dnes</div>
+            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
+            <div class="forecast-temp">19°/6°</div>
+            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
+            <div class="forecast-prob">0%</div>
+          </div><div class="forecast-row">
+            <div class="forecast-day">Zítra</div>
+            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
+            <div class="forecast-temp">21°/9°</div>
+            <div class="forecast-bar"><div class="forecast-fill " style="width:38%"></div></div>
+            <div class="forecast-prob">38%</div>
+          </div><div class="forecast-row">
+            <div class="forecast-day">St</div>
+            <div class="forecast-icon"><i class="ti ti-cloud-rain"></i></div>
+            <div class="forecast-temp">19°/13°</div>
+            <div class="forecast-bar"><div class="forecast-fill dry" style="width:20%"></div></div>
+            <div class="forecast-prob">20%</div>
+          </div><div class="forecast-row">
+            <div class="forecast-day">Čt</div>
+            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
+            <div class="forecast-temp">23°/11°</div>
+            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
+            <div class="forecast-prob">3%</div>
+          </div><div class="forecast-row">
+            <div class="forecast-day">Pá</div>
+            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
+            <div class="forecast-temp">24°/11°</div>
+            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
+            <div class="forecast-prob">1%</div>
+          </div><div class="forecast-row">
+            <div class="forecast-day">So</div>
+            <div class="forecast-icon"><i class="ti ti-cloud-sun"></i></div>
+            <div class="forecast-temp">25°/12°</div>
+            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
+            <div class="forecast-prob">2%</div>
+          </div><div class="forecast-row">
+            <div class="forecast-day">Ne</div>
+            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
+            <div class="forecast-temp">29°/13°</div>
+            <div class="forecast-bar"><div class="forecast-fill dry" style="width:14%"></div></div>
+            <div class="forecast-prob">14%</div>
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><i class="ti ti-bulb"></i> Dnešní verdict</div>
+        <div class="verdict">
+          <i class="ti ti-message-circle"></i>
+          <div>Slušný den. Užij si ho.</div>
+        </div>
+      </div>
     </div>
-  </div>
 
   <div style="text-align:center; margin-top:16px;">
     <button class="refresh-btn" onclick="loadWeather()">
@@ -351,6 +587,66 @@
 
   <div style="text-align:center; margin-top:16px; font-size:11px; opacity:0.7;">
     Data: Open-Meteo · Air Quality API · Lokace: Praha
+  </div>
+
+  <!-- PODOLÍ WIDGET -->
+  <div class="podoli-card" id="podoli-card">
+    <div class="podoli-header">
+      <div class="podoli-header-left">
+        <i class="ti ti-wave-sine podoli-header-icon"></i>
+        <div>
+          <div class="podoli-header-title">🏊 Podolí – odhad obsazenosti</div>
+          <div class="podoli-header-sub">Odhad podle počasí, času a dne</div>
+        </div>
+      </div>
+      <div class="podoli-updated" id="podoli-updated">19:13</div>
+    </div>
+
+    <div class="podoli-pools" id="podoli-pools">
+      <div class="podoli-pool">
+        <div class="podoli-pool-header">
+          <div class="podoli-pool-name">🌊 Venkovní 50m</div>
+          <span class="podoli-pool-status green">🟢 Skoro prázdno</span>
+        </div>
+        <div class="podoli-bar-wrap">
+          <div class="podoli-bar-fill green" style="width:5%"></div>
+        </div>
+        <div class="podoli-bar-pct">~5% kapacity</div>
+      </div>
+      <div class="podoli-pool">
+        <div class="podoli-pool-header">
+          <div class="podoli-pool-name">🏊 Venkovní 33m</div>
+          <span class="podoli-pool-status green">🟢 Skoro prázdno</span>
+        </div>
+        <div class="podoli-bar-wrap">
+          <div class="podoli-bar-fill green" style="width:5%"></div>
+        </div>
+        <div class="podoli-bar-pct">~5% kapacity</div>
+      </div>
+      <div class="podoli-pool">
+        <div class="podoli-pool-header">
+          <div class="podoli-pool-name">🏟️ Vnitřní 50m</div>
+          <span class="podoli-pool-status green">🟢 Skoro prázdno</span>
+        </div>
+        <div class="podoli-bar-wrap">
+          <div class="podoli-bar-fill green" style="width:10%"></div>
+        </div>
+        <div class="podoli-bar-pct">~10% kapacity</div>
+      </div></div>
+
+    <div class="podoli-tip" id="podoli-tip" style="display: flex;">
+      <i class="ti ti-bulb"></i>
+      <div id="podoli-tip-text">Průměrný provoz. Nejklidnější bývá všední den dopoledne (9-11h) nebo po obědě (11-13:30h).</div>
+    </div>
+
+    <div class="podoli-best-time" id="podoli-best-time">
+    <div style="font-size:11px; opacity:0.5; width:100%; margin-bottom:4px;">
+      <i class="ti ti-clock" style="font-size:11px;"></i> Nejklidnější časy dnes:
+    </div>
+    <span class="podoli-time-chip">6:00–9:00</span>
+    <span class="podoli-time-chip">11:00–13:30</span>
+    <span class="podoli-time-chip">po 19:30</span>
+  </div>
   </div>
 
   <!-- KINO PANEL -->
@@ -403,7 +699,7 @@
 
 </div>
 
-<div class="photo-credit" id="photo-credit"></div>
+<div class="photo-credit" id="photo-credit">Česká pahorkatina · Unsplash</div>
 
 <script>
 const BACKGROUNDS = {
@@ -837,6 +1133,14 @@ async function loadWeather() {
       const bgUrl = BACKGROUNDS[key].url;
       heroPhoto.style.backgroundImage = `url('${bgUrl}')`;
     }
+
+    // Aktualizuj Podolí widget
+    renderPodoli({
+      teplota: curTemp,
+      pocitova: feelsTemp,
+      wmo: curCode
+    });
+
   } catch(e) {
     document.getElementById('content').innerHTML = `
       <div class="error">
@@ -955,8 +1259,202 @@ async function loadKinoData() {
 
 // ── END KINO PANEL ───────────────────────────────────────────────────────────
 
+// ── PODOLÍ OBSAZENOST ───────────────────────────────────────────────────────
+
+function vypocitejPodoli(pocasi) {
+  const ted = new Date();
+  const hodina = ted.getHours() + ted.getMinutes() / 60;
+  const denTydne = ted.getDay(); // 0=ne, 1=po, 2=ut... 6=so
+  const mesic = ted.getMonth() + 1; // 1-12
+  const vikend = denTydne === 0 || denTydne === 6;
+  const pracovniDen = !vikend;
+  const letniPrazdniny = mesic === 7 || mesic === 8;
+  const letniSezona = mesic >= 5 && mesic <= 9;
+
+  // Data z počasí
+  const teplota = pocasi.teplota || 15;
+  const pocitovaTeplota = pocasi.pocitova || teplota;
+  const wmoKod = pocasi.wmo || 0;
+  const prsi = [51,53,55,61,63,65,80,81,82,95,96,99].includes(wmoKod);
+  const slunecno = [0,1].includes(wmoKod);
+  const oblacno = [2,3].includes(wmoKod);
+
+  // ── VENKOVNÍ 50m ──────────────────────────────────────────────
+  let venk50 = 20; // základní obsazenost
+
+  // Počasí
+  if (prsi) venk50 -= 35;
+  if (slunecno) venk50 += 20;
+  if (teplota > 20) venk50 += 15;
+  if (teplota > 25) venk50 += 20;
+  if (teplota > 30) venk50 += 10;
+  if (pocitovaTeplota > 25 && slunecno) venk50 += 15;
+
+  // Den v týdnu
+  if (vikend && slunecno && pocitovaTeplota > 25) venk50 += 35; // full house
+  else if (vikend) venk50 += 15;
+
+  // Čas
+  if (hodina >= 6 && hodina < 9) venk50 -= 10;      // brzy ráno klidné
+  if (hodina >= 9 && hodina < 11) venk50 += 5;       // dopoledne
+  if (hodina >= 11 && hodina < 13.5) venk50 -= 10;   // OBĚD – klidnější
+  if (hodina >= 13.5 && hodina < 17) venk50 += 10;   // odpoledne
+  if (hodina >= 17 && hodina < 19) {                  // lidi z práce!
+    if (pracovniDen && teplota > 20) venk50 += 35;
+    else if (vikend && slunecno && pocitovaTeplota > 25) venk50 += 25;
+  }
+  if (hodina >= 19) venk50 -= 15; // večer se vyprázdní
+  if (hodina >= 21) venk50 -= 20;
+
+  // Sezóna
+  if (letniPrazdniny) venk50 += 15;
+  if (!letniSezona) venk50 -= 20; // mimo sezónu
+
+  // ── VENKOVNÍ 33m ──────────────────────────────────────────────
+  let venk33 = venk50 - 5; // podobný jako 50m, trochu méně
+
+  // ── VNITŘNÍ 50m ───────────────────────────────────────────────
+  let vnitr = 25; // základní
+
+  // Počasí – vnitřní je oblíbenější když je hůř venku
+  if (prsi) vnitr += 20;
+  if (slunecno && teplota > 25) vnitr -= 10; // lidi jsou venku
+  if (!letniSezona) vnitr += 15; // mimo sezónu více lidi uvnitř
+
+  // Den
+  if (vikend) vnitr += 15;
+  if (pracovniDen && letniSezona) vnitr -= 5; // lidi venku v létě
+
+  // Čas
+  if (hodina >= 6 && hodina < 9) vnitr += 20;    // ranní plavci!
+  if (hodina >= 9 && hodina < 11) vnitr += 5;
+  if (hodina >= 11 && hodina < 13.5) vnitr -= 10; // oběd klidnější
+  if (hodina >= 17 && hodina < 19) vnitr += 25;   // lidi z práce
+  if (hodina >= 19) vnitr -= 10;
+  if (hodina >= 21) vnitr -= 15;
+
+  // Letní prázdniny – školy neplavou → vnitřní volnější
+  if (letniPrazdniny) vnitr -= 10;
+
+  // Ořízni na 5-98%
+  const clamp = (v) => Math.min(98, Math.max(5, Math.round(v)));
+  return {
+    venk50: clamp(venk50),
+    venk33: clamp(venk33),
+    vnitr:  clamp(vnitr),
+    prsi, slunecno, teplota, pocitovaTeplota,
+    vikend, pracovniDen, hodina, letniSezona
+  };
+}
+
+function statusBarva(pct) {
+  if (pct >= 75) return 'red';
+  if (pct >= 45) return 'yellow';
+  return 'green';
+}
+
+function statusText(pct) {
+  if (pct >= 85) return '🔴 Full house';
+  if (pct >= 65) return '🔴 Narváno';
+  if (pct >= 45) return '🟡 Průměrně';
+  if (pct >= 25) return '🟢 Pohoda';
+  return '🟢 Skoro prázdno';
+}
+
+function statusClass(pct) {
+  if (pct >= 65) return 'red';
+  if (pct >= 45) return 'yellow';
+  return 'green';
+}
+
+function vygenerujTip(d) {
+  const { venk50, vnitr, prsi, slunecno, teplota, pocitovaTeplota, vikend, pracovniDen, hodina, letniSezona } = d;
+
+  // Nejlepší časy dnes
+  let tipy = [];
+
+  if (prsi) {
+    tipy.push('Prší – venkovní bazény budou skoro prázdné, ideální čas na venkovní plavání bez davů!');
+  } else if (vikend && slunecno && pocitovaTeplota > 25) {
+    tipy.push('Víkend + slunečno + teplo = full house. Nejlepší šance: přijď před 9:00 nebo po 19:30.');
+  } else if (pracovniDen && teplota > 20 && hodina >= 17 && hodina < 19) {
+    tipy.push('Teď je špička – lidi přicházejí z práce. Zkus přijít po 19:00 nebo zítra dopoledne.');
+  } else if (hodina >= 11 && hodina < 13.5) {
+    tipy.push('Oběd je nejklidnější čas – bazény jsou nyní méně obsazené než obvykle. Dobré načasování!');
+  } else if (pracovniDen && hodina >= 9 && hodina < 11) {
+    tipy.push('Dopoledne ve všední den – lidi jsou v práci, bazény relativně klidné. Dobrá volba!');
+  } else if (!letniSezona) {
+    tipy.push('Mimo hlavní sezónu – venkovní bazény jsou klidnější, vnitřní trochu více obsazený.');
+  } else {
+    tipy.push('Průměrný provoz. Nejklidnější bývá všední den dopoledne (9-11h) nebo po obědě (11-13:30h).');
+  }
+
+  return tipy[0];
+}
+
+function renderPodoli(pocasi) {
+  const d = vypocitejPodoli(pocasi);
+  const pools = [
+    { id: 'venk50', nazev: 'Venkovní 50m', icon: '🌊', pct: d.venk50, dostupny: d.letniSezona },
+    { id: 'venk33', nazev: 'Venkovní 33m', icon: '🏊', pct: d.venk33, dostupny: d.letniSezona },
+    { id: 'vnitr',  nazev: 'Vnitřní 50m',  icon: '🏟️', pct: d.vnitr,  dostupny: true },
+  ];
+
+  const ted = new Date();
+  document.getElementById('podoli-updated').textContent =
+    `${ted.getHours()}:${String(ted.getMinutes()).padStart(2,'0')}`;
+
+  // Vykresli bazény
+  document.getElementById('podoli-pools').innerHTML = pools.map(pool => {
+    if (!pool.dostupny) {
+      return `
+        <div class="podoli-pool" style="opacity:0.5;">
+          <div class="podoli-pool-header">
+            <div class="podoli-pool-name">${pool.icon} ${pool.nazev}</div>
+            <span class="podoli-pool-status yellow">Mimo sezónu</span>
+          </div>
+          <div style="font-size:11px; opacity:0.6;">Venkovní bazény jsou otevřeny května do září</div>
+        </div>`;
+    }
+    const barva = statusBarva(pool.pct);
+    const stav = statusText(pool.pct);
+    const cls = statusClass(pool.pct);
+    return `
+      <div class="podoli-pool">
+        <div class="podoli-pool-header">
+          <div class="podoli-pool-name">${pool.icon} ${pool.nazev}</div>
+          <span class="podoli-pool-status ${cls}">${stav}</span>
+        </div>
+        <div class="podoli-bar-wrap">
+          <div class="podoli-bar-fill ${barva}" style="width:${pool.pct}%"></div>
+        </div>
+        <div class="podoli-bar-pct">~${pool.pct}% kapacity</div>
+      </div>`;
+  }).join('');
+
+  // Tip
+  const tipEl = document.getElementById('podoli-tip');
+  const tipText = document.getElementById('podoli-tip-text');
+  tipText.textContent = vygenerujTip(d);
+  tipEl.style.display = 'flex';
+
+  // Nejlepší časy
+  const bestEl = document.getElementById('podoli-best-time');
+  bestEl.innerHTML = `
+    <div style="font-size:11px; opacity:0.5; width:100%; margin-bottom:4px;">
+      <i class="ti ti-clock" style="font-size:11px;"></i> Nejklidnější časy dnes:
+    </div>
+    <span class="podoli-time-chip">6:00–9:00</span>
+    <span class="podoli-time-chip">11:00–13:30</span>
+    <span class="podoli-time-chip">po 19:30</span>
+  `;
+}
+
+// ── END PODOLÍ ───────────────────────────────────────────────────────────────
+
 loadWeather();
 setInterval(loadWeather, 30 * 60 * 1000);
 </script>
-</body>
-</html>
+
+
+</body></html>
