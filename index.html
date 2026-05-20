@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -267,7 +266,6 @@
   .kino-toggle-sub { font-size: 11px; opacity: 0.6; margin-top: 2px; }
   .kino-chevron { font-size: 20px; opacity: 0.6; transition: transform 0.3s ease; }
   .kino-chevron.open { transform: rotate(180deg); }
-
   .kino-panel {
     display: none; background: rgba(20,20,30,0.55); backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.15);
@@ -275,40 +273,18 @@
     box-shadow: 0 8px 32px rgba(0,0,0,0.3); margin-top: -16px;
   }
   .kino-panel.open { display: block; }
-
-  /* RPG karty */
-  .rpg-film {
-    display: flex; align-items: center; gap: 14px;
-    padding: 14px 16px; border-radius: 14px;
-    background: rgba(0,0,0,0.25); margin-bottom: 10px;
-    border-left: 4px solid transparent;
-    transition: background 0.2s;
-  }
+  .rpg-film { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border-radius: 14px; background: rgba(0,0,0,0.25); margin-bottom: 10px; border-left: 4px solid transparent; transition: background 0.2s; }
   .rpg-film:hover { background: rgba(255,255,255,0.07); }
   .rpg-film:last-child { margin-bottom: 0; }
-  .rpg-rank {
-    font-size: 11px; font-weight: 700;
-    min-width: 28px; text-align: center; opacity: 0.5;
-  }
-  .rpg-badge {
-    font-size: 10px; font-weight: 700;
-    padding: 3px 8px; border-radius: 6px;
-    letter-spacing: 0.06em; min-width: 80px;
-    text-align: center; flex-shrink: 0;
-    border: 1px solid transparent;
-  }
+  .rpg-rank { font-size: 11px; font-weight: 700; min-width: 28px; text-align: center; opacity: 0.5; }
+  .rpg-badge { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 6px; letter-spacing: 0.06em; min-width: 80px; text-align: center; flex-shrink: 0; border: 1px solid transparent; }
   .rpg-title { flex: 1; font-size: 14px; font-weight: 500; line-height: 1.3; }
   .rpg-count { font-size: 12px; opacity: 0.5; flex-shrink: 0; text-align: right; }
-
   .kino-loading { text-align: center; padding: 40px 20px; opacity: 0.7; }
   .kino-loading i { font-size: 28px; display: block; margin-bottom: 10px; animation: spin 1s linear infinite; }
   .kino-error { text-align: center; padding: 30px 16px; opacity: 0.7; font-size: 13px; line-height: 1.6; }
   .kino-error i { font-size: 32px; display: block; margin-bottom: 10px; color: #f59e0b; }
-
-  @media (max-width: 600px) {
-    .rpg-badge { min-width: 65px; font-size: 9px; }
-    .rpg-title { font-size: 13px; }
-  }
+  @media (max-width: 600px) { .rpg-badge { min-width: 65px; font-size: 9px; } .rpg-title { font-size: 13px; } }
 
   /* ── PODOLÍ WIDGET ── */
   .podoli-card {
@@ -442,13 +418,10 @@
     </div>
     <i class="ti ti-chevron-down kino-chevron" id="kino-chevron"></i>
   </button>
-
   <div class="kino-panel" id="kino-panel">
     <div class="section-title" style="margin-bottom:16px;"><i class="ti ti-sword"></i> Filmový radar · RPG edice</div>
     <div id="kino-rpg-list"></div>
-    <div style="text-align:center; margin-top:16px; font-size:11px; opacity:0.35;" id="kino-footer">
-      Načítám data...
-    </div>
+    <div style="text-align:center; margin-top:16px; font-size:11px; opacity:0.35;" id="kino-footer">Načítám data...</div>
   </div>
   <!-- END KINO PANEL -->
 
@@ -909,7 +882,6 @@ async function loadWeather() {
 // ── KINO PANEL ──────────────────────────────────────────────────────────────
 
 const KINA_JSON_URL = 'https://raw.githubusercontent.com/sewarespekt-jpg/pocasi-hub/main/kina.json';
-
 let kinoOpen = false;
 let kinoLoaded = false;
 
@@ -935,47 +907,25 @@ function toggleKino() {
 async function loadKinoData() {
   const listEl = document.getElementById('kino-rpg-list');
   const footerEl = document.getElementById('kino-footer');
-
   listEl.innerHTML = '<div class="kino-loading"><i class="ti ti-loader-2"></i>Načítám filmový radar...</div>';
-
   try {
     const res = await fetch(KINA_JSON_URL + '?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     const filmy = data.filmy || [];
-
     if (filmy.length === 0) {
-      listEl.innerHTML = `
-        <div class="kino-error">
-          <i class="ti ti-alert-circle"></i>
-          Žádné filmy k zobrazení.<br>
-          <span style="font-size:11px;">Scraper běží každé úterý ve 22:00.</span>
-        </div>`;
+      listEl.innerHTML = '<div class="kino-error"><i class="ti ti-alert-circle"></i>Žádné filmy k zobrazení.<br><span style="font-size:11px;">Scraper běží každé úterý ve 22:00.</span></div>';
       return;
     }
-
     listEl.innerHTML = filmy.map((film, i) => {
       const barva = film.barva || '#94a3b8';
       const projekce = film.pocet_projekci === 1 ? '1 projekce' : `${film.pocet_projekci}× projekce`;
-      return `
-        <div class="rpg-film" style="border-left-color: ${barva};">
-          <div class="rpg-rank">#${i + 1}</div>
-          <div class="rpg-badge" style="color:${barva}; border-color:${barva}40; background:${barva}18;">${film.rarita}</div>
-          <div class="rpg-title">${film.titul}</div>
-          <div class="rpg-count">${projekce}</div>
-        </div>`;
+      return `<div class="rpg-film" style="border-left-color: ${barva};"><div class="rpg-rank">#${i + 1}</div><div class="rpg-badge" style="color:${barva}; border-color:${barva}40; background:${barva}18;">${film.rarita}</div><div class="rpg-title">${film.titul}</div><div class="rpg-count">${projekce}</div></div>`;
     }).join('');
-
     kinoLoaded = true;
     footerEl.textContent = `Aktualizováno: ${data.aktualizovano || '—'} · Týden: ${data.tyden || '—'}`;
-
   } catch(e) {
-    listEl.innerHTML = `
-      <div class="kino-error">
-        <i class="ti ti-alert-circle"></i>
-        Program se nepodařilo načíst.<br>
-        <span style="font-size:11px;">${e.message}</span>
-      </div>`;
+    listEl.innerHTML = `<div class="kino-error"><i class="ti ti-alert-circle"></i>Program se nepodařilo načíst.<br><span style="font-size:11px;">${e.message}</span></div>`;
     footerEl.textContent = 'Chyba načítání dat';
   }
 }
