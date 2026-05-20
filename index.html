@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<!-- saved from url=(0045)file:///C:/Users/sewar/Downloads/index_2.html -->
-<html lang="cs"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Počasí Praha - Live Dashboard</title>
-<link rel="stylesheet" href="./index_pocasi_podolí_files/tabler-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { min-height: 100vh; }
@@ -275,47 +276,38 @@
   }
   .kino-panel.open { display: block; }
 
-  .kino-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
-  .kino-tab {
-    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 999px; padding: 6px 14px; font-size: 12px; font-weight: 500;
-    color: rgba(255,255,255,0.7); cursor: pointer; transition: all 0.2s; font-family: inherit;
+  /* RPG karty */
+  .rpg-film {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 16px; border-radius: 14px;
+    background: rgba(0,0,0,0.25); margin-bottom: 10px;
+    border-left: 4px solid transparent;
+    transition: background 0.2s;
   }
-  .kino-tab:hover { background: rgba(255,255,255,0.15); color: white; }
-  .kino-tab.active { background: rgba(245,158,11,0.35); border-color: rgba(245,158,11,0.6); color: #fef3c7; }
-
-  .kino-content { display: none; }
-  .kino-content.active { display: block; }
+  .rpg-film:hover { background: rgba(255,255,255,0.07); }
+  .rpg-film:last-child { margin-bottom: 0; }
+  .rpg-rank {
+    font-size: 11px; font-weight: 700;
+    min-width: 28px; text-align: center; opacity: 0.5;
+  }
+  .rpg-badge {
+    font-size: 10px; font-weight: 700;
+    padding: 3px 8px; border-radius: 6px;
+    letter-spacing: 0.06em; min-width: 80px;
+    text-align: center; flex-shrink: 0;
+    border: 1px solid transparent;
+  }
+  .rpg-title { flex: 1; font-size: 14px; font-weight: 500; line-height: 1.3; }
+  .rpg-count { font-size: 12px; opacity: 0.5; flex-shrink: 0; text-align: right; }
 
   .kino-loading { text-align: center; padding: 40px 20px; opacity: 0.7; }
   .kino-loading i { font-size: 28px; display: block; margin-bottom: 10px; animation: spin 1s linear infinite; }
-
-  .kino-film { display: flex; align-items: flex-start; gap: 14px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
-  .kino-film:last-child { border-bottom: none; padding-bottom: 0; }
-  .kino-film-emoji { font-size: 26px; flex-shrink: 0; margin-top: 2px; }
-  .kino-film-info { flex: 1; }
-  .kino-film-title { font-size: 15px; font-weight: 600; line-height: 1.3; margin-bottom: 4px; }
-  .kino-film-meta { font-size: 12px; opacity: 0.6; margin-bottom: 6px; }
-  .kino-film-times { display: flex; flex-wrap: wrap; gap: 6px; }
-  .kino-time-badge { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; padding: 3px 9px; font-size: 11px; font-weight: 500; }
-  .kino-section-label { font-size: 11px; font-weight: 600; opacity: 0.4; text-transform: uppercase; letter-spacing: 0.08em; margin: 16px 0 10px; }
-  .kino-section-label:first-child { margin-top: 0; }
-
-  .kino-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 12px; color: rgba(255,255,255,0.45); text-decoration: none; transition: color 0.2s; }
-  .kino-link:hover { color: rgba(255,255,255,0.9); }
-
   .kino-error { text-align: center; padding: 30px 16px; opacity: 0.7; font-size: 13px; line-height: 1.6; }
   .kino-error i { font-size: 32px; display: block; margin-bottom: 10px; color: #f59e0b; }
 
-  .kino-direct-links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .kino-direct-link { display: flex; flex-direction: column; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 14px; text-decoration: none; color: white; transition: all 0.2s; }
-  .kino-direct-link:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.25); transform: translateY(-1px); }
-  .kino-direct-link-name { font-size: 13px; font-weight: 600; margin-bottom: 3px; }
-  .kino-direct-link-addr { font-size: 11px; opacity: 0.5; }
-
   @media (max-width: 600px) {
-    .kino-direct-links { grid-template-columns: 1fr; }
-    .kino-tab { font-size: 11px; padding: 5px 11px; }
+    .rpg-badge { min-width: 65px; font-size: 9px; }
+    .rpg-title { font-size: 13px; }
   }
 
   /* ── PODOLÍ WIDGET ── */
@@ -378,7 +370,7 @@
 </style>
 </head>
 <body class="fallback-cloudy">
-<div class="bg-photo active" id="bg-photo" style="background-image: url(&quot;https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=1920&amp;q=80&quot;);"></div>
+<div class="bg-photo" id="bg-photo"></div>
 <div class="bg-overlay"></div>
 <div class="particles" id="particles"></div>
 
@@ -390,194 +382,16 @@
     </div>
     <div class="updated">
       <span class="pulse"></span>
-      <span id="last-updated">Aktualizováno 19:13</span>
+      <span id="last-updated">Načítám...</span>
     </div>
   </div>
 
   <div id="content">
-      <div class="card hero-card">
-        <div class="hero-photo" id="hero-photo" style="background-image: url(&quot;https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?w=1920&amp;q=80&quot;);">
-          <div class="hero-icon-wrap">
-            <i class="ti ti-cloud-sun hero-icon cloud"></i>
-            <div><span class="hero-temp-badge">19° max / 6° min</span></div>
-            <div class="hero-desc">Polojasno</div>
-          </div>
-        </div>
-        <div class="hero-data">
-          <div class="temp-grid">
-            <div class="temp-block">
-              <div class="temp-big">19°<span class="temp-big-small">C</span></div>
-              <div class="temp-label"><i class="ti ti-temperature" style="font-size:11px;"></i> Aktuální teplota</div>
-            </div>
-            <div class="temp-block feels">
-              <div class="temp-big">16°<span class="temp-big-small">C</span></div>
-              <div class="temp-label"><i class="ti ti-mood-smile" style="font-size:11px;"></i> Pocitová teplota</div>
-            </div>
-          </div>
-          <div>
-            <div class="stat-row"><span class="stat-row-label"><i class="ti ti-droplet" style="font-size:14px;"></i> Vlhkost</span><span class="stat-row-val">31%</span></div>
-            <div class="stat-row"><span class="stat-row-label"><i class="ti ti-wind" style="font-size:14px;"></i> Vítr</span><span class="stat-row-val">6 km/h</span></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="section-title"><i class="ti ti-sun"></i> Slunce dnes</div>
-        <div class="sun-cycle">
-          <div class="sun-time">
-            <div class="sun-time-icon sunrise"><i class="ti ti-sunrise"></i></div>
-            <div class="sun-time-val">5:11</div>
-            <div class="sun-time-lbl">Východ</div>
-          </div>
-          <div class="sun-arc-wrap">
-            <div class="sun-arc"></div>
-            <div class="sun-marker " style="left: 90.16803890078515%; top: 69.60080085994326%;"></div>
-          </div>
-          <div class="sun-time">
-            <div class="sun-time-icon sunset"><i class="ti ti-sunset"></i></div>
-            <div class="sun-time-val">20:45</div>
-            <div class="sun-time-lbl">Západ</div>
-          </div>
-        </div>
-        <div class="day-length"><i class="ti ti-clock" style="font-size:12px; vertical-align:-1px;"></i> Délka dne: <strong>15h 34m</strong></div>
-      </div>
-
-      <div class="card">
-        <div class="section-title"><i class="ti ti-lungs"></i> Kvalita ovzduší v Praze</div>
-
-        <div class="aqi-main-row">
-          <div class="aqi-num">36</div>
-          <div class="aqi-label">Evropský index kvality ovzduší (0–100+)</div>
-          <div class="aqi-status good">Dobrá</div>
-        </div>
-
-        <div class="pm-card">
-          <div class="pm-header">
-            <div class="pm-name-block">
-              <span class="pm-name">PM2.5</span>
-              <span class="pm-fullname">Jemné prachové částice</span>
-            </div>
-            <div class="pm-val-block"><span class="pm-val">6</span><span class="pm-unit">μg/m³</span></div>
-          </div>
-          <div class="pm-bar"><div class="pm-bar-fill low" style="width:24%"></div></div>
-          <div class="pm-explain">Mikročástice menší než 2.5 mikrometru. Vznikají při spalování (auta, topení, průmysl). Jsou nejnebezpečnější — pronikají hluboko do plic a krve. Limit WHO: 25 μg/m³.</div>
-        </div>
-
-        <div class="pm-card">
-          <div class="pm-header">
-            <div class="pm-name-block">
-              <span class="pm-name">PM10</span>
-              <span class="pm-fullname">Hrubé prachové částice</span>
-            </div>
-            <div class="pm-val-block"><span class="pm-val">8</span><span class="pm-unit">μg/m³</span></div>
-          </div>
-          <div class="pm-bar"><div class="pm-bar-fill low" style="width:16%"></div></div>
-          <div class="pm-explain">Větší prachové částice (do 10 mikrometrů). Pochází z dopravy, stavebnictví, prachu z ulic. Dráždí dýchací cesty. Limit WHO: 50 μg/m³.</div>
-        </div>
-
-        <div class="pm-card">
-          <div class="pm-header">
-            <div class="pm-name-block">
-              <span class="pm-name">NO₂</span>
-              <span class="pm-fullname">Oxid dusičitý</span>
-            </div>
-            <div class="pm-val-block"><span class="pm-val">6</span><span class="pm-unit">μg/m³</span></div>
-          </div>
-          <div class="pm-bar"><div class="pm-bar-fill low" style="width:15%"></div></div>
-          <div class="pm-explain">Plyn z výfuků aut a spalování paliv. Nejvyšší u rušných silnic. Dráždí plíce, zhoršuje astma. Limit WHO: 40 μg/m³.</div>
-        </div>
-
-        <div class="pm-card">
-          <div class="pm-header">
-            <div class="pm-name-block">
-              <span class="pm-name">O₃</span>
-              <span class="pm-fullname">Přízemní ozón</span>
-            </div>
-            <div class="pm-val-block"><span class="pm-val">91</span><span class="pm-unit">μg/m³</span></div>
-          </div>
-          <div class="pm-bar"><div class="pm-bar-fill mid" style="width:75.83333333333333%"></div></div>
-          <div class="pm-explain">Vzniká reakcí výfukových plynů se slunečním zářením. Nejhorší v létě odpoledne. Dráždí oči, plíce, snižuje výkonnost. Limit WHO: 120 μg/m³.</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="section-title"><i class="ti ti-clock"></i> Odpočítávání srážek</div>
-        <div class="countdown-grid">
-          <div class="countdown-box last-rain">
-            <i class="ti ti-cloud-rain countdown-icon"></i>
-            <div style="font-size:11px; opacity:0.7; text-transform:uppercase; letter-spacing:0.05em;">Naposledy pršelo</div>
-            <div class="countdown-num">2</div>
-            <div class="countdown-unit">dny zpět</div>
-          </div>
-          <div class="countdown-box next-rain">
-            <i class="ti ti-umbrella countdown-icon"></i>
-            <div style="font-size:11px; opacity:0.7; text-transform:uppercase; letter-spacing:0.05em;">Další déšť za</div>
-            <div class="countdown-num">-</div>
-            <div class="countdown-unit">nepravděpodobně</div>
-          </div>
-        </div>
-        
-        <div style="background:rgba(16,185,129,0.25); border:1px solid rgba(16,185,129,0.4); border-radius:12px; padding:14px; margin-top:12px; display:flex; align-items:center; gap:10px;">
-          <i class="ti ti-sun" style="font-size:20px; color:#10b981;"></i>
-          <span style="font-size:14px;">Nejbližších 7 dní bez výrazných srážek</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="section-title"><i class="ti ti-calendar"></i> Předpověď 7 dní</div>
-        <div class="forecast-row">
-            <div class="forecast-day">Dnes</div>
-            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
-            <div class="forecast-temp">19°/6°</div>
-            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
-            <div class="forecast-prob">0%</div>
-          </div><div class="forecast-row">
-            <div class="forecast-day">Zítra</div>
-            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
-            <div class="forecast-temp">21°/9°</div>
-            <div class="forecast-bar"><div class="forecast-fill " style="width:38%"></div></div>
-            <div class="forecast-prob">38%</div>
-          </div><div class="forecast-row">
-            <div class="forecast-day">St</div>
-            <div class="forecast-icon"><i class="ti ti-cloud-rain"></i></div>
-            <div class="forecast-temp">19°/13°</div>
-            <div class="forecast-bar"><div class="forecast-fill dry" style="width:20%"></div></div>
-            <div class="forecast-prob">20%</div>
-          </div><div class="forecast-row">
-            <div class="forecast-day">Čt</div>
-            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
-            <div class="forecast-temp">23°/11°</div>
-            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
-            <div class="forecast-prob">3%</div>
-          </div><div class="forecast-row">
-            <div class="forecast-day">Pá</div>
-            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
-            <div class="forecast-temp">24°/11°</div>
-            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
-            <div class="forecast-prob">1%</div>
-          </div><div class="forecast-row">
-            <div class="forecast-day">So</div>
-            <div class="forecast-icon"><i class="ti ti-cloud-sun"></i></div>
-            <div class="forecast-temp">25°/12°</div>
-            <div class="forecast-bar"><div class="forecast-fill dry" style="width:5%"></div></div>
-            <div class="forecast-prob">2%</div>
-          </div><div class="forecast-row">
-            <div class="forecast-day">Ne</div>
-            <div class="forecast-icon"><i class="ti ti-cloud"></i></div>
-            <div class="forecast-temp">29°/13°</div>
-            <div class="forecast-bar"><div class="forecast-fill dry" style="width:14%"></div></div>
-            <div class="forecast-prob">14%</div>
-          </div>
-      </div>
-
-      <div class="card">
-        <div class="section-title"><i class="ti ti-bulb"></i> Dnešní verdict</div>
-        <div class="verdict">
-          <i class="ti ti-message-circle"></i>
-          <div>Slušný den. Užij si ho.</div>
-        </div>
-      </div>
+    <div class="loading">
+      <i class="ti ti-loader-2"></i>
+      Stahuji data z meteorologických serverů...
     </div>
+  </div>
 
   <div style="text-align:center; margin-top:16px;">
     <button class="refresh-btn" onclick="loadWeather()">
@@ -599,54 +413,22 @@
           <div class="podoli-header-sub">Odhad podle počasí, času a dne</div>
         </div>
       </div>
-      <div class="podoli-updated" id="podoli-updated">19:13</div>
+      <div class="podoli-updated" id="podoli-updated">Načítám…</div>
     </div>
 
     <div class="podoli-pools" id="podoli-pools">
-      <div class="podoli-pool">
-        <div class="podoli-pool-header">
-          <div class="podoli-pool-name">🌊 Venkovní 50m</div>
-          <span class="podoli-pool-status green">🟢 Skoro prázdno</span>
-        </div>
-        <div class="podoli-bar-wrap">
-          <div class="podoli-bar-fill green" style="width:5%"></div>
-        </div>
-        <div class="podoli-bar-pct">~5% kapacity</div>
+      <div style="text-align:center; padding:20px; opacity:0.5; font-size:13px;">
+        <i class="ti ti-loader-2" style="animation:spin 1s linear infinite; display:block; font-size:24px; margin-bottom:8px;"></i>
+        Čekám na data počasí…
       </div>
-      <div class="podoli-pool">
-        <div class="podoli-pool-header">
-          <div class="podoli-pool-name">🏊 Venkovní 33m</div>
-          <span class="podoli-pool-status green">🟢 Skoro prázdno</span>
-        </div>
-        <div class="podoli-bar-wrap">
-          <div class="podoli-bar-fill green" style="width:5%"></div>
-        </div>
-        <div class="podoli-bar-pct">~5% kapacity</div>
-      </div>
-      <div class="podoli-pool">
-        <div class="podoli-pool-header">
-          <div class="podoli-pool-name">🏟️ Vnitřní 50m</div>
-          <span class="podoli-pool-status green">🟢 Skoro prázdno</span>
-        </div>
-        <div class="podoli-bar-wrap">
-          <div class="podoli-bar-fill green" style="width:10%"></div>
-        </div>
-        <div class="podoli-bar-pct">~10% kapacity</div>
-      </div></div>
+    </div>
 
-    <div class="podoli-tip" id="podoli-tip" style="display: flex;">
+    <div class="podoli-tip" id="podoli-tip" style="display:none;">
       <i class="ti ti-bulb"></i>
-      <div id="podoli-tip-text">Průměrný provoz. Nejklidnější bývá všední den dopoledne (9-11h) nebo po obědě (11-13:30h).</div>
+      <div id="podoli-tip-text"></div>
     </div>
 
-    <div class="podoli-best-time" id="podoli-best-time">
-    <div style="font-size:11px; opacity:0.5; width:100%; margin-bottom:4px;">
-      <i class="ti ti-clock" style="font-size:11px;"></i> Nejklidnější časy dnes:
-    </div>
-    <span class="podoli-time-chip">6:00–9:00</span>
-    <span class="podoli-time-chip">11:00–13:30</span>
-    <span class="podoli-time-chip">po 19:30</span>
-  </div>
+    <div class="podoli-best-time" id="podoli-best-time"></div>
   </div>
 
   <!-- KINO PANEL -->
@@ -655,51 +437,24 @@
       <i class="ti ti-movie kino-toggle-icon"></i>
       <div>
         <div class="kino-toggle-title">Co hrají pražská kina tento týden</div>
-        <div class="kino-toggle-sub" id="kino-sub">Aero · Světozor · Bio Oko · Lucerna · Mat · Edison</div>
+        <div class="kino-toggle-sub">Aero · Atlas · Bio Oko · Lucerna · Mat · Kino 35 · Světozor · Ponrepo · Edison · Pilotů · Dlabačov</div>
       </div>
     </div>
     <i class="ti ti-chevron-down kino-chevron" id="kino-chevron"></i>
   </button>
 
   <div class="kino-panel" id="kino-panel">
-    <div class="section-title" style="margin-bottom:16px;"><i class="ti ti-ticket"></i> Program kin · tento týden</div>
-
-    <div class="kino-tabs" id="kino-tabs">
-      <button class="kino-tab active" onclick="showKinoTab(0)" id="kino-tab-0">Načítám...</button>
-    </div>
-
-    <div id="kino-contents"></div>
-
-    <div style="margin-top:20px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.08);">
-      <div class="kino-section-label">Další kina – přímé odkazy</div>
-      <div class="kino-direct-links">
-        <a class="kino-direct-link" href="https://www.kinokavalirka.cz/program" target="_blank">
-          <div class="kino-direct-link-name"><i class="ti ti-external-link" style="font-size:11px;"></i> Kino Kavalírka</div>
-          <div class="kino-direct-link-addr">Plzeňská, Košíře</div>
-        </a>
-        <a class="kino-direct-link" href="https://www.kinopilotu.cz/program" target="_blank">
-          <div class="kino-direct-link-name"><i class="ti ti-external-link" style="font-size:11px;"></i> Kino Pilotů</div>
-          <div class="kino-direct-link-addr">Donská, Vršovice</div>
-        </a>
-        <a class="kino-direct-link" href="https://www.nfa.cz/ponrepo/program" target="_blank">
-          <div class="kino-direct-link-name"><i class="ti ti-external-link" style="font-size:11px;"></i> Ponrepo</div>
-          <div class="kino-direct-link-addr">Bartolomějská, Staré Město</div>
-        </a>
-        <a class="kino-direct-link" href="https://www.kinoatlas.cz/program" target="_blank">
-          <div class="kino-direct-link-name"><i class="ti ti-external-link" style="font-size:11px;"></i> Kino Atlas</div>
-          <div class="kino-direct-link-addr">Václavské náměstí</div>
-        </a>
-      </div>
-    </div>
-
+    <div class="section-title" style="margin-bottom:16px;"><i class="ti ti-sword"></i> Filmový radar · RPG edice</div>
+    <div id="kino-rpg-list"></div>
     <div style="text-align:center; margin-top:16px; font-size:11px; opacity:0.35;" id="kino-footer">
       Načítám data...
     </div>
   </div>
+  <!-- END KINO PANEL -->
 
 </div>
 
-<div class="photo-credit" id="photo-credit">Česká pahorkatina · Unsplash</div>
+<div class="photo-credit" id="photo-credit"></div>
 
 <script>
 const BACKGROUNDS = {
@@ -1154,11 +909,9 @@ async function loadWeather() {
 // ── KINO PANEL ──────────────────────────────────────────────────────────────
 
 const KINA_JSON_URL = 'https://raw.githubusercontent.com/sewarespekt-jpg/pocasi-hub/main/kina.json';
-const FILM_EMOJIS = ['🎬','🎭','🌍','🎞️','✨','🍿','🎪','🎥','🌙','🔮','🎠','🏆'];
 
 let kinoOpen = false;
-let kinoData = null;
-let kinoActiveTab = 0;
+let kinoLoaded = false;
 
 function toggleKino() {
   kinoOpen = !kinoOpen;
@@ -1170,7 +923,7 @@ function toggleKino() {
     chevron.classList.add('open');
     toggle.style.borderBottomLeftRadius = '0';
     toggle.style.borderBottomRightRadius = '0';
-    if (!kinoData) loadKinoData();
+    if (!kinoLoaded) loadKinoData();
   } else {
     panel.classList.remove('open');
     chevron.classList.remove('open');
@@ -1179,79 +932,49 @@ function toggleKino() {
   }
 }
 
-function showKinoTab(idx) {
-  kinoActiveTab = idx;
-  document.querySelectorAll('.kino-tab').forEach((t,i) => {
-    t.classList.toggle('active', i === idx);
-  });
-  document.querySelectorAll('.kino-content').forEach((c,i) => {
-    c.classList.toggle('active', i === idx);
-  });
-}
-
 async function loadKinoData() {
-  const tabsEl = document.getElementById('kino-tabs');
-  const contentsEl = document.getElementById('kino-contents');
+  const listEl = document.getElementById('kino-rpg-list');
   const footerEl = document.getElementById('kino-footer');
 
-  tabsEl.innerHTML = '<button class="kino-tab active" style="opacity:0.5;cursor:default"><i class="ti ti-loader-2" style="animation:spin 1s linear infinite;display:inline-block;margin-right:4px;font-size:11px;"></i> Načítám program...</button>';
-  contentsEl.innerHTML = '<div class="kino-loading"><i class="ti ti-loader-2"></i>Stahuji program kin z GitHubu...</div>';
+  listEl.innerHTML = '<div class="kino-loading"><i class="ti ti-loader-2"></i>Načítám filmový radar...</div>';
 
   try {
     const res = await fetch(KINA_JSON_URL + '?t=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
-    kinoData = await res.json();
+    const data = await res.json();
+    const filmy = data.filmy || [];
 
-    // Sestav taby a obsah
-    const kina = kinoData.kina || [];
-    const kinaSeFilmy = kina.filter(k => k.filmy && k.filmy.length > 0);
-
-    if (kinaSeFilmy.length === 0) {
-      tabsEl.innerHTML = '';
-      contentsEl.innerHTML = '<div class="kino-error"><i class="ti ti-alert-circle"></i>Program zatím není k dispozici.<br><span style="font-size:11px;">Scraper běží každou noc – zkus zítra.</span></div>';
+    if (filmy.length === 0) {
+      listEl.innerHTML = `
+        <div class="kino-error">
+          <i class="ti ti-alert-circle"></i>
+          Žádné filmy k zobrazení.<br>
+          <span style="font-size:11px;">Scraper běží každé úterý ve 22:00.</span>
+        </div>`;
       return;
     }
 
-    // Taby
-    tabsEl.innerHTML = kinaSeFilmy.map((k,i) =>
-      `<button class="kino-tab ${i===0?'active':''}" onclick="showKinoTab(${i})">${k.nazev}</button>`
-    ).join('');
+    listEl.innerHTML = filmy.map((film, i) => {
+      const barva = film.barva || '#94a3b8';
+      const projekce = film.pocet_projekci === 1 ? '1 projekce' : `${film.pocet_projekci}× projekce`;
+      return `
+        <div class="rpg-film" style="border-left-color: ${barva};">
+          <div class="rpg-rank">#${i + 1}</div>
+          <div class="rpg-badge" style="color:${barva}; border-color:${barva}40; background:${barva}18;">${film.rarita}</div>
+          <div class="rpg-title">${film.titul}</div>
+          <div class="rpg-count">${projekce}</div>
+        </div>`;
+    }).join('');
 
-    // Obsah pro každé kino
-    contentsEl.innerHTML = kinaSeFilmy.map((kino, ki) => `
-      <div class="kino-content ${ki===0?'active':''}">
-        ${kino.filmy.map((film, fi) => `
-          <div class="kino-film">
-            <div class="kino-film-emoji">${FILM_EMOJIS[fi % FILM_EMOJIS.length]}</div>
-            <div class="kino-film-info">
-              <div class="kino-film-title">${film.titul}</div>
-              ${film.dny && film.dny.length ? `<div class="kino-film-meta"><i class="ti ti-calendar" style="font-size:11px;vertical-align:-1px;"></i> ${film.dny.join(', ')}</div>` : ''}
-              ${film.casy && film.casy.length ? `<div class="kino-film-times">${film.casy.map(c=>`<span class="kino-time-badge">${c}</span>`).join('')}</div>` : ''}
-              ${film.poznamka ? `<div style="font-size:11px;opacity:0.5;margin-top:4px;">${film.poznamka}</div>` : ''}
-            </div>
-          </div>
-        `).join('')}
-        <a href="${kino.url}" target="_blank" class="kino-link">
-          <i class="ti ti-external-link"></i> Celý program na webu kina
-        </a>
-      </div>
-    `).join('');
-
-    // Footer
-    const sub = kinaSeFilmy.map(k=>k.nazev).join(' · ');
-    document.getElementById('kino-sub').textContent = sub;
-    footerEl.textContent = `Aktualizováno: ${kinoData.aktualizovano || '—'} · Týden: ${kinoData.tyden || '—'}`;
+    kinoLoaded = true;
+    footerEl.textContent = `Aktualizováno: ${data.aktualizovano || '—'} · Týden: ${data.tyden || '—'}`;
 
   } catch(e) {
-    tabsEl.innerHTML = '';
-    contentsEl.innerHTML = `
+    listEl.innerHTML = `
       <div class="kino-error">
         <i class="ti ti-alert-circle"></i>
         Program se nepodařilo načíst.<br>
-        <span style="font-size:11px;margin-top:4px;display:block;">${e.message}</span>
-        <a href="https://github.com/sewarespekt-jpg/pocasi-hub/actions" target="_blank" class="kino-link" style="justify-content:center;margin-top:10px;">
-          <i class="ti ti-external-link"></i> Zkontrolovat GitHub Actions
-        </a>
+        <span style="font-size:11px;">${e.message}</span>
       </div>`;
     footerEl.textContent = 'Chyba načítání dat';
   }
@@ -1455,6 +1178,5 @@ function renderPodoli(pocasi) {
 loadWeather();
 setInterval(loadWeather, 30 * 60 * 1000);
 </script>
-
-
-</body></html>
+</body>
+</html>
