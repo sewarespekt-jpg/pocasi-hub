@@ -1,36 +1,48 @@
 {
-  "aktualizovano": "2026-05-20 12:08",
+  "aktualizovano": "2026-05-20 21:04",
   "tyden": "20.05. - 26.05.2026",
-  "kina": [
+  "filmy": [
     {
-      "nazev": "Kino Aero",
-      "url": "https://www.kinoaero.cz/",
-      "filmy": []
+      "titul": "Punch-Drunk Love",
+      "pocet_projekci": 1,
+      "rarita": "LEGENDARY",
+      "barva": "#f97316"
     },
     {
-      "nazev": "Bio Oko",
-      "url": "https://www.biooko.net/",
-      "filmy": []
+      "titul": "Solaris",
+      "pocet_projekci": 1,
+      "rarita": "LEGENDARY",
+      "barva": "#f97316"
     },
     {
-      "nazev": "Svetozor",
-      "url": "https://kinosvetozor.cz/",
-      "filmy": []
+      "titul": "Animal Farm",
+      "pocet_projekci": 1,
+      "rarita": "LEGENDARY",
+      "barva": "#f97316"
     },
     {
-      "nazev": "Lucerna",
-      "url": "https://www.kinolucerna.cz/",
-      "filmy": []
+      "titul": "The Mandalorian and Grogu",
+      "pocet_projekci": 1,
+      "rarita": "LEGENDARY",
+      "barva": "#f97316"
     },
     {
-      "nazev": "Kino Mat",
-      "url": "https://www.mat.cz/kino/",
-      "filmy": []
+      "titul": "Kill Bill: The Whole Bloody Affair",
+      "pocet_projekci": 1,
+      "rarita": "LEGENDARY",
+      "barva": "#f97316"
     },
     {
-      "nazev": "Edison Filmhub",
-      "url": "https://www.edisonfilmhub.cz/program",
-      "filmy": []
+      "titul": "The Hitchhiker's Guide to the Galaxy",
+      "pocet_projekci": 1,
+      "rarita": "LEGENDARY",
+      "barva": "#f97316"
+    },
+    {
+      "titul": "Shrek",
+      "pocet_projekci": 2,
+      "rarita": "EPIC",
+      "barva": "#a855f7"
     }
   ]
 }
