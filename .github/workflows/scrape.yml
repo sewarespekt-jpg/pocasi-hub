@@ -1,21 +1,18 @@
-name: Scrape kina
+name: Scrape kina a zpravy
 on:
   schedule:
     - cron: '0 20 * * 3'
   workflow_dispatch:
 jobs:
-  scrape:
+  scrape-kina:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install dependencies
-        run: pip install anthropic
-      - name: Run scraper
+      - run: pip install anthropic
+      - name: Run kino scraper
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scrape_kina.py
@@ -24,5 +21,25 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add kina.json
-          git diff --staged --quiet || git commit -m "Aktualizace programu kin $(date '+%Y-%m-%d')"
+          git diff --staged --quiet || git commit -m "Aktualizace kin $(date '+%Y-%m-%d')"
+          git push
+
+  scrape-zpravy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install anthropic
+      - name: Run zpravy scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scrape_zpravy.py
+      - name: Commit zpravy.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add zpravy.json
+          git diff --staged --quiet || git commit -m "Aktualizace zpravy $(date '+%Y-%m-%d %H:%M')"
           git push
