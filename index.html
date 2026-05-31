@@ -91,6 +91,12 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
 }
+.grid-news {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  margin-bottom: 2px;
+}
 
 /* ── MODAL OVERLAY ── */
 .modal-overlay {
@@ -418,7 +424,89 @@ body {
   letter-spacing: 0.08em;
 }
 
-/* ── PARTICLES ── */
+/* ── ZPRAVY KARTY ── */
+.news-hlavni-tema {
+  font-size: 13px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.4;
+  margin-top: 8px;
+  font-style: italic;
+}
+.news-tema-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+  flex: 1;
+}
+.news-tema-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  cursor: pointer;
+}
+.news-tema-nazev {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: white;
+}
+.news-tema-co {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.news-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 4px 0;
+}
+
+/* Detail zprav */
+.news-detail-tema {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.news-detail-tema:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.news-detail-nazev {
+  font-family: var(--font-display);
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+.news-detail-row {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.news-detail-label {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.news-detail-text {
+  color: rgba(255,255,255,0.8);
+}
+.news-zdroj {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--muted);
+  margin-top: 8px;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 700px) {
+  .grid-news { grid-template-columns: 1fr; }
+}
 .particles { position: fixed; inset: 0; pointer-events: none; z-index: 1; }
 .rain-drop { position: absolute; width: 1px; background: linear-gradient(transparent, rgba(255,255,255,0.4)); animation: rain linear infinite; }
 @keyframes rain { 0% { transform: translateY(-100vh); opacity: 0; } 10% { opacity: 1; } 100% { transform: translateY(100vh); opacity: 0; } }
@@ -489,6 +577,58 @@ body {
 
 <!-- GRID -->
 <div class="main">
+  <!-- ŘÁDEK 1: ZPRÁVY -->
+  <div class="grid-news">
+
+    <!-- ČESKO -->
+    <div class="card" id="card-cesko">
+      <div class="card-inner">
+        <div>
+          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();">
+            <i class="ti ti-arrow-left"></i> ZPĚT
+          </button>
+          <div class="card-tag">Česko dnes</div>
+          <div class="news-hlavni-tema" id="cz-hlavni">Data se načtou po dalším scrapování</div>
+          <div class="news-tema-list" id="cz-list">
+            <i class="ti ti-loader-2 spin" style="font-size:24px;color:#333;"></i>
+          </div>
+        </div>
+        <div class="card-bottom">
+          <div class="card-status" id="cz-status"></div>
+          <div class="card-hint" onclick="expandCard('cesko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right" id="cz-chevron"></i></div>
+        </div>
+      </div>
+      <div class="detail-panel" id="detail-cesko">
+        <div class="detail-inner" id="cz-detail"></div>
+      </div>
+    </div>
+
+    <!-- NĚMECKO -->
+    <div class="card" id="card-nemecko">
+      <div class="card-inner">
+        <div>
+          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();">
+            <i class="ti ti-arrow-left"></i> ZPĚT
+          </button>
+          <div class="card-tag">Německo dnes</div>
+          <div class="news-hlavni-tema" id="de-hlavni">Data se načtou po dalším scrapování</div>
+          <div class="news-tema-list" id="de-list">
+            <i class="ti ti-loader-2 spin" style="font-size:24px;color:#333;"></i>
+          </div>
+        </div>
+        <div class="card-bottom">
+          <div class="card-status" id="de-status"></div>
+          <div class="card-hint" onclick="expandCard('nemecko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right" id="de-chevron"></i></div>
+        </div>
+      </div>
+      <div class="detail-panel" id="detail-nemecko">
+        <div class="detail-inner" id="de-detail"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ŘÁDEK 2: POČASÍ, BAZÉN, KINA -->
   <div class="grid">
 
     <!-- POČASÍ -->
@@ -559,9 +699,7 @@ body {
       </div>
     </div>
 
-  </div>
-
-  <!-- Footer -->
+  </div><!-- end grid řádek 2 -->
   <div class="footer">
     <span>DATA: OPEN-METEO · AIR QUALITY API</span>
     <span id="footer-updated">–</span>
@@ -831,6 +969,76 @@ async function loadKino(){
   }
 }
 
+// ── ZPRÁVY ────────────────────────────────────────────────────────────────
+
+const ZPRAVY_URL = 'https://raw.githubusercontent.com/sewarespekt-jpg/pocasi-hub/main/zpravy.json';
+
+async function loadZpravy() {
+  try {
+    const res = await fetch(ZPRAVY_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+
+    const zeme = data.zeme || [];
+    const cesko = zeme.find(z => z.nazev === 'Česko');
+    const nemecko = zeme.find(z => z.nazev === 'Německo');
+
+    if (cesko) renderZeme('cz', cesko, data.aktualizovano);
+    if (nemecko) renderZeme('de', nemecko, data.aktualizovano);
+
+  } catch(e) {
+    document.getElementById('cz-list').innerHTML = `<div style="font-size:11px;color:#333;">Data nedostupná</div>`;
+    document.getElementById('de-list').innerHTML = `<div style="font-size:11px;color:#333;">Data nedostupná</div>`;
+  }
+}
+
+function renderZeme(prefix, zeme, aktualizovano) {
+  const temata = zeme.temata || [];
+
+  // Hlavní téma na kartě
+  const hlavniEl = document.getElementById(prefix + '-hlavni');
+  if (hlavniEl) hlavniEl.textContent = zeme.hlavni_tema || '';
+
+  // Status
+  document.getElementById(prefix + '-status').textContent = aktualizovano ? `Akt. ${aktualizovano.split(' ')[0]}` : '';
+
+  // Seznam témat
+  document.getElementById(prefix + '-list').innerHTML = temata.map((t, i) => `
+    ${i > 0 ? '<div class="news-divider"></div>' : ''}
+    <div class="news-tema-item">
+      <div class="news-tema-nazev">${t.nazev}</div>
+      <div class="news-tema-co">${t.co_se_stalo ? t.co_se_stalo.substring(0, 80) + '…' : ''}</div>
+    </div>
+  `).join('');
+
+  // Detail
+  document.getElementById(prefix + '-detail').querySelector('.detail-inner').innerHTML = `
+    <div class="detail-section-title" style="margin-bottom:20px;">${zeme.emoji} ${zeme.hlavni_tema}</div>
+    ${temata.map(t => `
+      <div class="news-detail-tema">
+        <div class="news-detail-nazev">${t.nazev}</div>
+        <div class="news-detail-row">
+          <div class="news-detail-label">Co se stalo</div>
+          <div class="news-detail-text">${t.co_se_stalo || '—'}</div>
+        </div>
+        <div class="news-detail-row">
+          <div class="news-detail-label">Proč je to důležité</div>
+          <div class="news-detail-text">${t.proc_je_to_dulezite || '—'}</div>
+        </div>
+        <div class="news-detail-row">
+          <div class="news-detail-label">Co sledovat</div>
+          <div class="news-detail-text">${t.co_sledovat || '—'}</div>
+        </div>
+        <div class="news-detail-row">
+          <div class="news-detail-label">Aktéři</div>
+          <div class="news-detail-text">${t.akteri || '—'}</div>
+        </div>
+        <div class="news-zdroj">Zdroj: ${t.zdroj || '—'}</div>
+      </div>
+    `).join('')}
+  `;
+}
+
 // ── INIT ──────────────────────────────────────────────────────────────────
 function setHeroDate(){
   const d=new Date();
@@ -841,7 +1049,7 @@ function setHeroDate(){
 
 async function init(){
   setHeroDate();
-  await Promise.all([loadWeather(),loadKino()]);
+  await Promise.all([loadWeather(), loadKino(), loadZpravy()]);
   document.getElementById('loading').classList.add('hide');
   setTimeout(()=>document.getElementById('loading').remove(),500);
 }
