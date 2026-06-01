@@ -1,0 +1,52 @@
+{
+  "datum": "01.06.2026",
+  "zeme": [
+    {
+      "nazev": "Německo",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Informace o současné veřejné debatě v Německu nejsou v českých ani angličtinách zdrojích dostatečně aktuální na úroveň dnes",
+      "temata": [
+        {
+          "nazev": "Závažná dopravní nehoda v Thüringenu",
+          "co_se_stalo": "<cite index=\"6-1\">Čtyři lidé včetně dvou malých dětí zahynuli při frontální srážce osobního auta s nákladním vozem v Thüringenu</cite>",
+          "proc_je_to_dulezite": "Tragické dopravní nehody se stávají v německém mediálním prostoru významným tématem především kvůli počtu obětí mezi dětmi. Intenzita takových zpráv na německých zpravodajských serverech poukazuje na bezpečnost v silničním provozu jako aktuální společenský problém.",
+          "co_sledovat": "Běžné v německých médiích jsou následné debaty o bezpečnosti vozidel, řidičské disciplíně a preventivních opatřeních.",
+          "akteri": "Havárie jde předpokládejme o běžný dopravní incident bez známé politické příslušnosti aktérů",
+          "zdroj": "Google News – Top-Meldungen (německé zpravodajství)"
+        }
+      ]
+    },
+    {
+      "nazev": "Česko",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "<cite index=\"19-1,19-9\">Mediální novela ministra kultury Klempíře vyvolala bouři protestů a vyostřenou politickou debatu o budoucnosti veřejnoprávního vysílání</cite>",
+      "temata": [
+        {
+          "nazev": "Kauza mediální novely a zrušení poplatků za ČT a Český rozhlas",
+          "co_se_stalo": "<cite index=\"43-1\">Návrh mediální novely ministra Klempíře byl charakterizován jako nejhorší legislativní návrh v oblasti mediální politiky od roku 1989</cite>. <cite index=\"19-17,19-18\">Premiér Babiš návrh stáhl s odkazem na asi 400 připomínek; ministr Klempíř pak napsal, že zákon se stal záminkou boje proti vládě a hlavní záměr byl zrušit poplatky</cite>.",
+          "proc_je_to_dulezite": "Jde o zásadní spor o podobu veřejnoprávního vysílání v Česku. Zrušení poplatků by znamenalo existenční krizi pro Českou televizi a Český rozhlas. Média se dělí na podporovatele (poukazují na svobodu od poplatků) a kritiky (varují na kvalitu vysílání). Debata odrážuje širší ideologický spor koalice.",
+          "co_sledovat": "Zdá se, že se mediální novela vrací do sněmovny v upravené podobě. Klíčové bude, zda koalice dosáhne dohody nebo zda se rozpor vyhrotí dále. Důsledky pro независимost a financování veřejnoprávního vysílání budou zásadní.",
+          "akteri": "Ministr kultury Martin Klempíř (za PIRÁTY), premiér Andrej Babiš (ANO), který návrh nakonec zamítl",
+          "zdroj": "Novinky.cz, iROZHLAS, Aktuálně.cz"
+        },
+        {
+          "nazev": "Spor mezi prezidentem Pavlem a vládou ohledně summitu NATO",
+          "co_se_stalo": "<cite index=\"24-14,24-15\">Prezident Petr Pavel vyjádřil přesvědčení, že na červencový summit NATO nakonec pojede jak on, tak premiér Andrej Babiš (ANO), přičemž každý by se věnoval jiné části summitu</cite>",
+          "proc_je_to_dulezite": "V pozadí je rozpor ohledně toho, kdo zastupuje Česko na mezinárodních summmitech. Jde o konstituční otázku role prezidenta versus premiéra. Babiš byl kritizován za absenci na některých zahraniční schůzkách; nyní se hledá kompromis. Téma rezonuje jako součást širšího politického napětí mezi vládou a prezidentem.",
+          "co_sledovat": "Zda se skutečně oba dostaví na červencový summit NATO v Ankaře. Výsledek by měl signalizovat, zda vláda a prezident našli pracovní konsenzus.",
+          "akteri": "Prezident Petr Pavel (Piráti), premiér Andrej Babiš (ANO)",
+          "zdroj": "Česká televize ČT24, Aktuálně.cz"
+        },
+        {
+          "nazev": "Český průmysl rozšiřuje obchodní reach mimo tradiční trhy",
+          "co_se_stalo": "<cite index=\"21-35,21-36,21-37\">Česká exportéra se kvůli výpadku odbytu v Rusku a nejisté situaci na Blízkém východě zaměřují na nové trhy v Africe, Asii a Jižní Americe, kde chtějí navázat na pověst československých výrobků</cite>",
+          "proc_je_to_dulezite": "Ekonomické téma odrážející reálný dopad geopolitických změn na českou ekonomiku. Ztráta tradičních exportních trhů kvůli sankcím a mezinárodnímu napětí nutí firmy hledat nové směry. Je to součást adaptace ekonomiky na nové podmínky.",
+          "co_sledovat": "Úspěšnost českých firem na nových trzích, jejich konkurenceschopnost a roli české diplomacie v podpoře exportu.",
+          "akteri": "Česká vláda (prostřednictvím ministerstva zahraničí a exportních institucí), soukromé firmy a sdružení exportérů",
+          "zdroj": "ČT24, Česká televize"
+        }
+      ]
+    }
+  ],
+  "aktualizovano": "2026-06-01 18:30"
+}
