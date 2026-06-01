@@ -74,6 +74,26 @@ Vrať POUZE validní JSON, žádný jiný text:
 * Radši méně informací ale ověřených, než více vycucaných z palce
 </dulezite>"""
 
+def clean_text(text):
+    """Odstraní citation tagy a HTML ze stringů."""
+    if not isinstance(text, str):
+        return text
+    # Odstraní <cite index="...">...</cite> tagy ale zachová obsah
+    text = re.sub(r']*>(.*?)', r'\1', text, flags=re.DOTALL)
+    # Odstraní ostatní HTML tagy
+    text = re.sub(r'<[^>]+>', '', text)
+    return text.strip()
+
+def clean_data(obj):
+    """Rekurzivně vyčistí všechny stringy v datech."""
+    if isinstance(obj, dict):
+        return {k: clean_data(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [clean_data(i) for i in obj]
+    elif isinstance(obj, str):
+        return clean_text(obj)
+    return obj
+
 def main():
     dnes = datetime.now()
     print(f"Zpravy scraper (Haiku): {dnes.strftime('%Y-%m-%d %H:%M')}\n")
@@ -108,6 +128,7 @@ def main():
             exit(1)
 
         data = json.loads(json_match.group())
+        data = clean_data(data)
         data["aktualizovano"] = dnes.strftime("%Y-%m-%d %H:%M")
 
         with open("zpravy.json", "w", encoding="utf-8") as f:
