@@ -1,52 +1,52 @@
 {
-  "datum": "01.06.2026",
+  "datum": "03.06.2026",
   "zeme": [
     {
-      "nazev": "Německo",
-      "emoji": "🇩🇪",
-      "hlavni_tema": "Informace o současné veřejné debatě v Německu nejsou v českých ani angličtinách zdrojích dostatečně aktuální na úroveň dnes",
+      "nazev": "Česko",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "Soud tresce SPD za předvolební plakáty, letadlo padlo u Prahy a Menšík postupuje v Paříži",
       "temata": [
         {
-          "nazev": "Závažná dopravní nehoda v Thüringenu",
-          "co_se_stalo": "<cite index=\"6-1\">Čtyři lidé včetně dvou malých dětí zahynuli při frontální srážce osobního auta s nákladním vozem v Thüringenu</cite>",
-          "proc_je_to_dulezite": "Tragické dopravní nehody se stávají v německém mediálním prostoru významným tématem především kvůli počtu obětí mezi dětmi. Intenzita takových zpráv na německých zpravodajských serverech poukazuje na bezpečnost v silničním provozu jako aktuální společenský problém.",
-          "co_sledovat": "Běžné v německých médiích jsou následné debaty o bezpečnosti vozidel, řidičské disciplíně a preventivních opatřeních.",
-          "akteri": "Havárie jde předpokládejme o běžný dopravní incident bez známé politické příslušnosti aktérů",
-          "zdroj": "Google News – Top-Meldungen (německé zpravodajství)"
+          "nazev": "Tragická nehoda letadla u Prahy",
+          "co_se_stalo": "<cite index=\"31-3,31-4\"Soukromé letadlo havarovalo u pražského letiště Točná. Zemřeli dva lidé</cite",
+          "proc_je_to_dulezite": "Letecké nehody jsou vždy mediálním tématem. Jedná se o tragickou událost, která v jednom okamžiku připravila lidi o životy. Zprávy o nehodách generují zájem veřejnosti na bezpečnost letectví",
+          "co_sledovat": "Vyšetřování příčin havárie, identifikace obětí, otázky bezpečnosti u malých letadel",
+          "akteri": "Záchranné složky, vyšetřovatelé, vlastníci letadla",
+          "zdroj": "iROZHLAS, Aktuálně.cz, Google Zprávy"
+        },
+        {
+          "nazev": "Pokuta SPD za \"podněcování k nenávisti\"",
+          "co_se_stalo": "<cite index=\"28-3,28-4\"Soud uložil vládnímu hnutí SPD peněžitý trest ve výši tří milionů korun za kontroverzní předvolební plakáty. Verdikt označil SPD za trestný čin podněcování k nenávisti</cite",
+          "proc_je_to_dulezite": "<cite index=\"28-5\"Hnutí vinu odmítá s tím, že pouze komunikovalo své názory na migrační pakt nebo zneužívání dávek</cite. Jde o střet mezi justicí a politickou stranou (SPD Tomia Okamury) v koalici. Téma rezonuje v kontextu svobody projevu vs. právní odpovědnosti za obsah politické komunikace",
+          "co_sledovat": "Odvolání SPD, další právní kroky, dopad na político-právní klima v zemi",
+          "akteri": "SPD (Tomio Okamura - extrémně pravicová část koalice), soud, společnost",
+          "zdroj": "Aktuálně.cz, iROZHLAS, Novinky.cz"
+        },
+        {
+          "nazev": "Menšík v semifinále Roland Garros",
+          "co_se_stalo": "<cite index=\"40-3\"Tenista Jakub Menšík postupem do semifinále Roland Garros vyrovnal po šestnácti letech pařížské maximum Tomáše Berdycha</cite",
+          "proc_je_to_dulezite": "Je to sportovní úspěch českého tenisty na jednom z největších turnajů světa. Návrat česko-slovenského tenisu do elitní sféry po dlouhé pauze. Berdycha hranici překročit nedokázal, Menšík ji nyní vyrovnal",
+          "co_sledovat": "Semifinálový zápas, zda si Menšík vydobude postup do finále",
+          "akteri": "Jakub Menšík (tenista), Tomáš Berdych (bývalý tenista, průvodce)",
+          "zdroj": "Aktuálně.cz, Novinky.cz"
         }
       ]
     },
     {
-      "nazev": "Česko",
-      "emoji": "🇨🇿",
-      "hlavni_tema": "<cite index=\"19-1,19-9\">Mediální novela ministra kultury Klempíře vyvolala bouři protestů a vyostřenou politickou debatu o budoucnosti veřejnoprávního vysílání</cite>",
+      "nazev": "Německo",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Údaje o německých tématech jsou limitované - vyhledávání nevrátilo dostatečné aktuální informace",
       "temata": [
         {
-          "nazev": "Kauza mediální novely a zrušení poplatků za ČT a Český rozhlas",
-          "co_se_stalo": "<cite index=\"43-1\">Návrh mediální novely ministra Klempíře byl charakterizován jako nejhorší legislativní návrh v oblasti mediální politiky od roku 1989</cite>. <cite index=\"19-17,19-18\">Premiér Babiš návrh stáhl s odkazem na asi 400 připomínek; ministr Klempíř pak napsal, že zákon se stal záminkou boje proti vládě a hlavní záměr byl zrušit poplatky</cite>.",
-          "proc_je_to_dulezite": "Jde o zásadní spor o podobu veřejnoprávního vysílání v Česku. Zrušení poplatků by znamenalo existenční krizi pro Českou televizi a Český rozhlas. Média se dělí na podporovatele (poukazují na svobodu od poplatků) a kritiky (varují na kvalitu vysílání). Debata odrážuje širší ideologický spor koalice.",
-          "co_sledovat": "Zdá se, že se mediální novela vrací do sněmovny v upravené podobě. Klíčové bude, zda koalice dosáhne dohody nebo zda se rozpor vyhrotí dále. Důsledky pro независимost a financování veřejnoprávního vysílání budou zásadní.",
-          "akteri": "Ministr kultury Martin Klempíř (za PIRÁTY), premiér Andrej Babiš (ANO), který návrh nakonec zamítl",
-          "zdroj": "Novinky.cz, iROZHLAS, Aktuálně.cz"
-        },
-        {
-          "nazev": "Spor mezi prezidentem Pavlem a vládou ohledně summitu NATO",
-          "co_se_stalo": "<cite index=\"24-14,24-15\">Prezident Petr Pavel vyjádřil přesvědčení, že na červencový summit NATO nakonec pojede jak on, tak premiér Andrej Babiš (ANO), přičemž každý by se věnoval jiné části summitu</cite>",
-          "proc_je_to_dulezite": "V pozadí je rozpor ohledně toho, kdo zastupuje Česko na mezinárodních summmitech. Jde o konstituční otázku role prezidenta versus premiéra. Babiš byl kritizován za absenci na některých zahraniční schůzkách; nyní se hledá kompromis. Téma rezonuje jako součást širšího politického napětí mezi vládou a prezidentem.",
-          "co_sledovat": "Zda se skutečně oba dostaví na červencový summit NATO v Ankaře. Výsledek by měl signalizovat, zda vláda a prezident našli pracovní konsenzus.",
-          "akteri": "Prezident Petr Pavel (Piráti), premiér Andrej Babiš (ANO)",
-          "zdroj": "Česká televize ČT24, Aktuálně.cz"
-        },
-        {
-          "nazev": "Český průmysl rozšiřuje obchodní reach mimo tradiční trhy",
-          "co_se_stalo": "<cite index=\"21-35,21-36,21-37\">Česká exportéra se kvůli výpadku odbytu v Rusku a nejisté situaci na Blízkém východě zaměřují na nové trhy v Africe, Asii a Jižní Americe, kde chtějí navázat na pověst československých výrobků</cite>",
-          "proc_je_to_dulezite": "Ekonomické téma odrážející reálný dopad geopolitických změn na českou ekonomiku. Ztráta tradičních exportních trhů kvůli sankcím a mezinárodnímu napětí nutí firmy hledat nové směry. Je to součást adaptace ekonomiky na nové podmínky.",
-          "co_sledovat": "Úspěšnost českých firem na nových trzích, jejich konkurenceschopnost a roli české diplomacie v podpoře exportu.",
-          "akteri": "Česká vláda (prostřednictvím ministerstva zahraničí a exportních institucí), soukromé firmy a sdružení exportérů",
-          "zdroj": "ČT24, Česká televize"
+          "nazev": "Nelegální vývoz německého odpadu do Česka - trestní kauza",
+          "co_se_stalo": "<cite index=\"43-10\"Bruntálští kriminalisté v souvislosti s dovozem zhruba 600 tun nelegálního německého odpadu do Česka obvinili čtyři muže a stejný počet firem</cite",
+          "proc_je_to_dulezite": "<cite index=\"43-2,43-3\"Německá firma Roth International, která do Jiříkova odpad navezla, totiž skončila v insolvenci. Odvézt ho nakonec na své náklady nechaly úřady Horní Falce</cite. Kauza ukazuje na ekologické riziko a mezinárodní organizovanou kriminalitu v nakládání s odpadem",
+          "co_sledovat": "Soud v německém Weidenu, další odhalení podobných případů, spolupráce mezi českými a německými orgány",
+          "akteri": "Německé úřady (Horní Falc), česká policie, firma Roth International (insolventní)",
+          "zdroj": "Deník.cz, iROZHLAS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-01 18:30"
+  "aktualizovano": "2026-06-03 22:13"
 }
