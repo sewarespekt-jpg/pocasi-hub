@@ -1,52 +1,6 @@
 {
-  "datum": "03.06.2026",
-  "zeme": [
-    {
-      "nazev": "Česko",
-      "emoji": "🇨🇿",
-      "hlavni_tema": "Soud tresce SPD za předvolební plakáty, letadlo padlo u Prahy a Menšík postupuje v Paříži",
-      "temata": [
-        {
-          "nazev": "Tragická nehoda letadla u Prahy",
-          "co_se_stalo": "<cite index=\"31-3,31-4\"Soukromé letadlo havarovalo u pražského letiště Točná. Zemřeli dva lidé</cite",
-          "proc_je_to_dulezite": "Letecké nehody jsou vždy mediálním tématem. Jedná se o tragickou událost, která v jednom okamžiku připravila lidi o životy. Zprávy o nehodách generují zájem veřejnosti na bezpečnost letectví",
-          "co_sledovat": "Vyšetřování příčin havárie, identifikace obětí, otázky bezpečnosti u malých letadel",
-          "akteri": "Záchranné složky, vyšetřovatelé, vlastníci letadla",
-          "zdroj": "iROZHLAS, Aktuálně.cz, Google Zprávy"
-        },
-        {
-          "nazev": "Pokuta SPD za \"podněcování k nenávisti\"",
-          "co_se_stalo": "<cite index=\"28-3,28-4\"Soud uložil vládnímu hnutí SPD peněžitý trest ve výši tří milionů korun za kontroverzní předvolební plakáty. Verdikt označil SPD za trestný čin podněcování k nenávisti</cite",
-          "proc_je_to_dulezite": "<cite index=\"28-5\"Hnutí vinu odmítá s tím, že pouze komunikovalo své názory na migrační pakt nebo zneužívání dávek</cite. Jde o střet mezi justicí a politickou stranou (SPD Tomia Okamury) v koalici. Téma rezonuje v kontextu svobody projevu vs. právní odpovědnosti za obsah politické komunikace",
-          "co_sledovat": "Odvolání SPD, další právní kroky, dopad na político-právní klima v zemi",
-          "akteri": "SPD (Tomio Okamura - extrémně pravicová část koalice), soud, společnost",
-          "zdroj": "Aktuálně.cz, iROZHLAS, Novinky.cz"
-        },
-        {
-          "nazev": "Menšík v semifinále Roland Garros",
-          "co_se_stalo": "<cite index=\"40-3\"Tenista Jakub Menšík postupem do semifinále Roland Garros vyrovnal po šestnácti letech pařížské maximum Tomáše Berdycha</cite",
-          "proc_je_to_dulezite": "Je to sportovní úspěch českého tenisty na jednom z největších turnajů světa. Návrat česko-slovenského tenisu do elitní sféry po dlouhé pauze. Berdycha hranici překročit nedokázal, Menšík ji nyní vyrovnal",
-          "co_sledovat": "Semifinálový zápas, zda si Menšík vydobude postup do finále",
-          "akteri": "Jakub Menšík (tenista), Tomáš Berdych (bývalý tenista, průvodce)",
-          "zdroj": "Aktuálně.cz, Novinky.cz"
-        }
-      ]
-    },
-    {
-      "nazev": "Německo",
-      "emoji": "🇩🇪",
-      "hlavni_tema": "Údaje o německých tématech jsou limitované - vyhledávání nevrátilo dostatečné aktuální informace",
-      "temata": [
-        {
-          "nazev": "Nelegální vývoz německého odpadu do Česka - trestní kauza",
-          "co_se_stalo": "<cite index=\"43-10\"Bruntálští kriminalisté v souvislosti s dovozem zhruba 600 tun nelegálního německého odpadu do Česka obvinili čtyři muže a stejný počet firem</cite",
-          "proc_je_to_dulezite": "<cite index=\"43-2,43-3\"Německá firma Roth International, která do Jiříkova odpad navezla, totiž skončila v insolvenci. Odvézt ho nakonec na své náklady nechaly úřady Horní Falce</cite. Kauza ukazuje na ekologické riziko a mezinárodní organizovanou kriminalitu v nakládání s odpadem",
-          "co_sledovat": "Soud v německém Weidenu, další odhalení podobných případů, spolupráce mezi českými a německými orgány",
-          "akteri": "Německé úřady (Horní Falc), česká policie, firma Roth International (insolventní)",
-          "zdroj": "Deník.cz, iROZHLAS"
-        }
-      ]
-    }
-  ],
-  "aktualizovano": "2026-06-03 22:13"
+  "datum": "09.06.2026",
+  "chyba": "Nedostatečná dostupnost aktuálních dat",
+  "poznamka": "Vyhledávání nevrátila dostatečné množství čerstvých a relevantních informací o TOP 3 tématech pro dnes v Německu a Česku. Archiv vyhledávače obsahuje články starší 1-4 týdnů. Pro přesný mediální screening by bylo potřeba přímý přístup k aktuálním zpravodajským portálům (novinky.cz, idnes.cz, tagesschau.de, spiegel.de) v reálném čase.",
+  "aktualizovano": "2026-06-09 19:35"
 }
