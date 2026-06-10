@@ -295,7 +295,8 @@ function renderZeme(prefix,zeme,aktualizovano){const temata=zeme.temata||[];
   // Seznam témat na kartě (preview)
   document.getElementById(prefix+'-list').innerHTML=temata.map((t,i)=>`${i>0?'<div class="news-divider"></div>':''}<div class="news-tema-item"><div class="news-tema-nazev">${t.nazev}</div><div class="news-tema-co">${t.co_se_stalo?t.co_se_stalo.substring(0,80)+'…':''}</div></div>`).join('');
   // Detail panel - zobrazí se při expandu
-  const detailEl=document.getElementById(prefix+'-detail');
+  const panelId = prefix==='cz' ? 'detail-cesko' : 'detail-nemecko';
+  const detailEl=document.getElementById(panelId);
   detailEl.querySelector('.detail-inner').innerHTML=`
     <div style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.2em;color:var(--muted);margin-bottom:20px;padding-bottom:8px;border-bottom:1px solid var(--border);">${zeme.hlavni_tema||''}</div>
     ${temata.map(t=>`<div class="news-detail-tema">
