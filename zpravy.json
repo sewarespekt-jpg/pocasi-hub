@@ -4,65 +4,65 @@
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Debata o bezpečnosti a příprava na možný konflikt s Ruskem, doprovázená domácími bezpečnostními incidenty",
+      "hlavni_tema": "Koalice zrušila tankrabatt od 1. července, což vyvolává debatu o cenách paliv a hospodářské politice",
       "temata": [
         {
-          "nazev": "Ruská hrozba a militarizace Německa",
-          "co_se_stalo": "Interní strategický dokument Bundeswehru varuje, že Rusko přetváří svou ekonomiku s cílem na rozsáhlý konflikt s NATO. Německá armáda odhaduje, že Moskva může do konce desetiletí vybudovat síly o 1,5 milionu vojáků. Německo také připravuje plán na rozšíření sítě protiatomových bunkrů a úkrytů.",
-          "proc_je_to_dulezite": "Německo se ocitá v pozici státu, který se musí bezpečnostně orientovat vzhledem k dlouhodobé ruské hrozbě. Nejvyšší představitel civilní ochrany varuje, že současný stav příprav je v případě ozbrojené konfrontace absolutně nedostatečný. Toto je součástí širšího evropského bezpečnostního znepokoení.",
-          "co_sledovat": "Implementace bezpečnostních opatření, diskuse o vojenských investicích v Bundestagu, další zpřesnění vojenských plánů. Klíčové bude, jak se posune německá veřejná debata o zbrojení.",
-          "akteri": "Bundeswehr, kancléř Friedrich Merz (CDU), německá vláda, představitelé civilní obrany",
-          "zdroj": "EuroZprávy.cz, ZDF heute"
+          "nazev": "Konec tankrabattu od 1. července",
+          "co_se_stalo": "<cite index=\"9-2,9-3\"Frakce se dohodly, že tankrabatt skončí k 1. červenci a koalice jej neplánuje prodloužit</cite.",
+          "proc_je_to_dulezite": "Tankrabatt byl jedním z prvků vládní hospodářské politiky zaměřené na zmírnění dopadů energetické krize. <cite index=\"9-1,9-3\"Není prodlužován přes odpor koncernů, kterým hrozí sankcemi</cite. Jde o signál, jak se Německo snažená balancovat mezi podporou občanů a rozpočtovými omezeními.",
+          "co_sledovat": "Jak vysoké budou ceny paliv po konci rabattu. Zda se koalice (SPD, Zelení, FDP) shoduje na dalších krocích energetické politiky. Jak se politika dotkne voličů..",
+          "akteri": "<cite index=\"19-4\"Špičky Unie a SPD jednají se sociálními partnery</cite. Nová vláda vedená kancléřem Mertzem (CDU/CSU). <cite index=\"19-35\"Nový šéf FDP Kubicki kritizuje kancléřem Merze</cite.",
+          "zdroj": "tagesschau.de, BILD, ntv"
         },
         {
-          "nazev": "Dodávky zbraní Ukrajině - střely Taurus ve hře",
-          "co_se_stalo": "Kancléř Friedrich Merz prohlásil, že dodávky střel dlouhého doletu Taurus Ukrajině jsou na stole. Zmínil však, že by jejich nasazení vyžadovalo několikaměsíční výcvik ukrajinských vojáků. Vyjádření přišlo den po návštěvě ukrajinského prezidenta Zelenského v Berlíně.",
-          "proc_je_to_dulezite": "Německo bylo dosud velmi váhavé s dodávkami nejmodernějšího vybavení Ukrajině. Merz je pravicový politik (CDU), který podporuje tvrdší postoj vůči Rusku. Rozhodnutí o Taurus by znamenalo kvalitativní změnu v německé podpoře Ukrajiny a výrazné eskalaci v německo-ruské konfrontaci.",
-          "co_sledovat": "Další vývoj v německých rozhodnutích o zbrojení Ukrajiny, reakci Moskvy, debatu v Bundestagu a veřejnosti. Kdy a zda se Taurus opravdu pošle.",
-          "akteri": "Friedrich Merz (kancléř, CDU), Volodymyr Zelenskyj (Ukrajina), německá vláda, Rusko",
-          "zdroj": "EuroZprávy.cz"
+          "nazev": "Hospodářská stagnace a nezaměstnanost",
+          "co_se_stalo": "<cite index=\"44-1,44-2,44-3\"Jestliže by Německo rostlo tempem jako před covidem, byl by HDP o šest procent větší; toto snížení je srovnatelné s brexitem, a Německo se nachází v situaci, jakou od konce studené války nezažilo</cite.",
+          "proc_je_to_dulezite": "<cite index=\"47-8,47-44\"Z dlouhotrvající nespokojenosti s politickou a hospodářskou situací těží především Alternativa pro Německo (AfD), která posiluje pocit potřeby změny</cite. Ekonomická krize posiluje krajní politické strany.",
+          "co_sledovat": "Jak se změní hospodářská politika pod novým vedením. Zda sníží inflaci. Jak se situace odrazí ve volebních preferencích AfD. Reforma pracovního trhu a zdanění.",
+          "akteri": "Kancléř Friedrich Merz (CDU/CSU), ekonomové, průmyslníci, odboráři. Levicové strany kritizují austeritu.",
+          "zdroj": "Hospodářské noviny (analýza), iROZHLAS"
         },
         {
-          "nazev": "Bezpečnostní incidenty - útok v Hamburku",
-          "co_se_stalo": "Na hlavním nádraží v Hamburku na севере Německa došlo k útoku nožem. Nejméně šest lidí utrpělo vážná zranění. Vlaky nabírají zpoždění, některé spoje jsou zcela zrušeny.",
-          "proc_je_to_dulezite": "Incident se odehrává na pozadí diskuse o bezpečnosti v Německu, která se vede v souvislosti s větší přítomností migrantů a bezpečnostními zprávami. Podle několika zdrojů došlo i k dalším bezpečnostním incidentům včetně incidentu na česko-německé hranici.",
-          "co_sledovat": "Výsledky vyšetřování, bezpečnostní reakce státu, veřejná debata o bezpečnosti v Německu a migraci",
-          "akteri": "Policie, německé bezpečnostní služby, ministerstvo vnitra",
-          "zdroj": "EuroZprávy.cz, DW"
+          "nazev": "Společenská polarizace a migrace",
+          "co_se_stalo": "<cite index=\"9-1,9-2\"V Severním Irsku po zadržení Súdánce v souvislosti s útokem došlo ke krvavým nepokojům. V Německu se rozšiřují obavy z migrace a bezpečnosti</cite.",
+          "proc_je_to_dulezite": "Migrace a bezpečnost jsou centrálními tématy německé politiky. AfD na nich buduje svojí podporu. Polarizace společnosti roste a ovlivňuje veřejný diskurz.",
+          "co_sledovat": "Postoj vlády k migraci a bezpečnosti. Jak se bude debatovat o imigrační politice. Bude se měnit německý zákon o právech migrantů. Zda se zesílí restrikce.",
+          "akteri": "Ministři vnitra a pracovního trhu (SPD/Zelení). AfD jako hlavní kritik. Levice a občanské organizace. Unijní instituce.",
+          "zdroj": "tagesschau.de, Tagesspiegel, iROZHLAS"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Střet zájmů premiéra Babiše a politické kontroverzní návrhy v parlamentu ovládají domácí politiku",
+      "hlavni_tema": "Vláda ruší povinnost výuky angličtiny od 1. třídy a mění požadavky na cizí jazyky, což vyvolává debatu o vzdělání",
       "temata": [
         {
-          "nazev": "Kauza střetu zájmů Babiše a zmírnění pravidel pro dotace",
-          "co_se_stalo": "Vládní poslanci včetně Radka Vondráčka a Filipa Turka navrhli změnu zákona o střetu zájmů. Novela by umožnila firmám premiéra Andreje Babiše pobírat dotace bez ohledu na to, zda skutečně řešil střet zájmů. Zároveň se zkracuje lhůta pro jejich vymáhání. Paralelně Ministerstvo spravedlnosti nařídilo prověrku znaleckých posudků o zdraví podnikatele Romana Janouška.",
-          "proc_je_to_dulezite": "Toto je ústřední debata české politiky posledních let. Андrej Babiš čelil dlouhodobé kritice EU a část domácí veřejnosti kvůli střetu zájmů a jeho firmě Agrofert. Nyní jeho koalice pokouší legislativně zmírnit pravidla. Transparentnost a dodržování právního státu jsou základní hodnoty EU.",
-          "co_sledovat": "Hlasování v Senátu, potenciální reakce EU, průběh vyšetřování Babiše a jeho firem. Jak se bude situace vyvíjet s dotacemi, které Agrofert čerpá.",
-          "akteri": "Andriej Babiš (premiér, ANO), vládní koalice (ANO, SPD, Motoristé), opozice (zejm. ODS), EU, Ministerstvo spravedlnosti",
-          "zdroj": "Novinky.cz, Seznam Zprávy"
+          "nazev": "Reforma výuky cizích jazyků v základních školách",
+          "co_se_stalo": "<cite index=\"25-14,25-15\"Základní školy nebudou muset učit angličtinu od prvních tříd, ruší se i povinná výuka druhého cizího jazyka. Vyplývá to z dopisu ministra školství za hnutí ANO Roberta Plagy vedení základních škol</cite.",
+          "proc_je_to_dulezite": "<cite index=\"31-3,31-9\"Plagova změna v metodě výuky jazyků vzbudila vášně a některým učitelům zadělala na problém</cite. Jde o zásadní změnu v koncepci základního vzdělání, kterou ministr zavedl bez převzetí širšího konsenzu.",
+          "co_sledovat": "Jak na změnu reagují pedagogové a rodiče. Zda se změní kvalita jazykového vzdělání. Jak se bude vyvíjet debata v médiích. Zda vláda změnu obhájí nebo zmírní.",
+          "akteri": "Robert Plaga (ministr školství, ANO), učitelé, rodiče, Evropská unie (která prosazuje vícejazyčnost). Opoziční strany kritizují.",
+          "zdroj": "iROZHLAS, Aktuálně.cz, ČT24"
         },
         {
-          "nazev": "Změna povinné výuky angličtiny a cizích jazyků",
-          "co_se_stalo": "Ministr školství Robert Plaga (ANO) zrušil povinnou výuku angličtiny od první třídy a povinnou výuku druhého cizího jazyka od sedmé třídy. Místo toho budou mít žáci povinně volitelný druhý jazyk, který si mohou vybrat či zaříci. Angličtina se nebude muset vyučovat od prvního ročníku.",
-          "proc_je_to_dulezite": "Vzdělání a jazykové dovednosti jsou klíčové pro budoucí perspektivy českých žáků. Změna vyvolala diskusi, zda Česko oslabuje jazykovou přípravu svých občanů v globalizované ekonomice. Anglický jazyk je stále klíčový v práci a vzdělání.",
-          "co_sledovat": "Reakce pedagogů, rodičů a odborníků. Jak budou školy tento návrh implementovat. Zda dojde k další úpravě po kritice.",
-          "akteri": "Robert Plaga (ministr školství, ANO), ministerstvo školství, školy, pedagogové, rodiče",
-          "zdroj": "Aktuálně.cz, Deník.cz"
+          "nazev": "Střet zájmů premiéra Babiše - dotace pro jeho firmy",
+          "co_se_stalo": "<cite index=\"22-4,22-5,22-6\"Radek Vondráček, Filip Turek a další vládní poslanci přišli se změnou zákona o střetu zájmů. Společnostem premiéra by novela umožnila pobírat dotace a zkracuje se i lhůta pro jejich vymáhání</cite.",
+          "proc_je_to_dulezite": "To je přímá snaha oslabit zákonné omezení na střet zájmů premiéra. Jde o pokus legalizovat to, co bylo dosud zakázáno. Přispívá to k debatě o korupci a integritě vlády.",
+          "co_sledovat": "Zda se novela schválí v Senátu a jak na ni reaguje opozice. Bude to znamenat faktickou změnu v pravidlech dotací. Jak na to reaguje EU. Bude to skandál v médiích.",
+          "akteri": "Premiér Andrej Babiš (ANO), vládní koalice (ANO, SPD, Motoristé), opozice, média. EU sleduje dodržování pravidel.",
+          "zdroj": "Seznam Zprávy, iROZHLAS, Deník N"
         },
         {
-          "nazev": "Kauza českých řidičských průkazů vydaných ze Schwarzešic v Bulharsku - nehoda a bezpečnost",
-          "co_se_stalo": "Dvojice Bulharů, která v pátek závodila v ulicích Sofie v rychlých vozech, způsobila tragickou nehodu autobusu se čtyřmi mrtvými. Měla české řidičské průkazy, které podle zjištění Novinek získala od úřadu ve středočeských Černošicích. Jedná se o systémový problém - údajně se vydávaly řidičské průkazy osobám, které nesplňovaly požadavky.",
-          "proc_je_to_dulezite": "Incident odhaluje závažný bezpečnostní a administrativní problém. Česká místa jsou údajně vydávala řidičské průkazy osobám ze zahraničí bez řádných kontrol. To vytváří bezpečnostní riziko nejen pro Česko, ale i pro jiné země. Bulharsko už oznámilo, že nebude dále poskytovat vojenskou pomoc Ukrajině - důkaz globálních důsledků.",
-          "co_sledovat": "Vyšetřování ministerstva dopravy, případné postihy pro úředníky v Černošicích, audit vydávání řidičských průkazů, zahraniční reakce",
-          "akteri": "Česky ministerium dopravy, Úřad ve Středočeských Černošicích, bulharské úřady, bulharský ministr obrany Dimitar Stojanov",
-          "zdroj": "Novinky.cz"
+          "nazev": "Zahraničněpolitické napětí - USA a Írán",
+          "co_se_stalo": "<cite index=\"20-1,20-2\"Americký prezident Donald Trump ve středu prohlásil, že Spojené státy tvrdě zaútočí na Írán. Uvedl také, že Teherán příliš dlouho otálel s jednáními a ponese následky</cite.",
+          "proc_je_to_dulezite": "<cite index=\"32-12,32-13,32-14\"Na historické minimum klesla evropská důvěra ve Spojené státy jako záruku bezpečnosti. Jen každý desátý obyvatel z 15 evropských zemí vnímá USA jako spojence a většina pochybuje, že by jim Spojené státy přišly na pomoc v případě napadení</cite. Česko je součástí NATO a toto napětí jej přímo ovlivňuje.",
+          "co_sledovat": "Vývoj amerických vztahů s Íránem a jejich vliv na podporu Ukraine. Jak se změní bezpečnostní situace v Evropě. Bude se Česko více orientovat na EU či NATO. Jaký bude postoj vlády ke konfliktu.",
+          "akteri": "Donald Trump (USA), íránské vedení. V EU: kancléř Merz, prezident Macron. Česko - premiér Babiš, prezident Pavel.",
+          "zdroj": "Novinky.cz, Aktuálně.cz, iROZHLAS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-10 15:58"
+  "aktualizovano": "2026-06-10 21:22"
 }
