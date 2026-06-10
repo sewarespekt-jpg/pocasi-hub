@@ -1,6 +1,68 @@
 {
-  "datum": "09.06.2026",
-  "chyba": "Nedostatečná dostupnost aktuálních dat",
-  "poznamka": "Vyhledávání nevrátila dostatečné množství čerstvých a relevantních informací o TOP 3 tématech pro dnes v Německu a Česku. Archiv vyhledávače obsahuje články starší 1-4 týdnů. Pro přesný mediální screening by bylo potřeba přímý přístup k aktuálním zpravodajským portálům (novinky.cz, idnes.cz, tagesschau.de, spiegel.de) v reálném čase.",
-  "aktualizovano": "2026-06-09 19:35"
+  "datum": "10.06.2026",
+  "zeme": [
+    {
+      "nazev": "Německo",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Debata o bezpečnosti a příprava na možný konflikt s Ruskem, doprovázená domácími bezpečnostními incidenty",
+      "temata": [
+        {
+          "nazev": "Ruská hrozba a militarizace Německa",
+          "co_se_stalo": "Interní strategický dokument Bundeswehru varuje, že Rusko přetváří svou ekonomiku s cílem na rozsáhlý konflikt s NATO. Německá armáda odhaduje, že Moskva může do konce desetiletí vybudovat síly o 1,5 milionu vojáků. Německo také připravuje plán na rozšíření sítě protiatomových bunkrů a úkrytů.",
+          "proc_je_to_dulezite": "Německo se ocitá v pozici státu, který se musí bezpečnostně orientovat vzhledem k dlouhodobé ruské hrozbě. Nejvyšší představitel civilní ochrany varuje, že současný stav příprav je v případě ozbrojené konfrontace absolutně nedostatečný. Toto je součástí širšího evropského bezpečnostního znepokoení.",
+          "co_sledovat": "Implementace bezpečnostních opatření, diskuse o vojenských investicích v Bundestagu, další zpřesnění vojenských plánů. Klíčové bude, jak se posune německá veřejná debata o zbrojení.",
+          "akteri": "Bundeswehr, kancléř Friedrich Merz (CDU), německá vláda, představitelé civilní obrany",
+          "zdroj": "EuroZprávy.cz, ZDF heute"
+        },
+        {
+          "nazev": "Dodávky zbraní Ukrajině - střely Taurus ve hře",
+          "co_se_stalo": "Kancléř Friedrich Merz prohlásil, že dodávky střel dlouhého doletu Taurus Ukrajině jsou na stole. Zmínil však, že by jejich nasazení vyžadovalo několikaměsíční výcvik ukrajinských vojáků. Vyjádření přišlo den po návštěvě ukrajinského prezidenta Zelenského v Berlíně.",
+          "proc_je_to_dulezite": "Německo bylo dosud velmi váhavé s dodávkami nejmodernějšího vybavení Ukrajině. Merz je pravicový politik (CDU), který podporuje tvrdší postoj vůči Rusku. Rozhodnutí o Taurus by znamenalo kvalitativní změnu v německé podpoře Ukrajiny a výrazné eskalaci v německo-ruské konfrontaci.",
+          "co_sledovat": "Další vývoj v německých rozhodnutích o zbrojení Ukrajiny, reakci Moskvy, debatu v Bundestagu a veřejnosti. Kdy a zda se Taurus opravdu pošle.",
+          "akteri": "Friedrich Merz (kancléř, CDU), Volodymyr Zelenskyj (Ukrajina), německá vláda, Rusko",
+          "zdroj": "EuroZprávy.cz"
+        },
+        {
+          "nazev": "Bezpečnostní incidenty - útok v Hamburku",
+          "co_se_stalo": "Na hlavním nádraží v Hamburku na севере Německa došlo k útoku nožem. Nejméně šest lidí utrpělo vážná zranění. Vlaky nabírají zpoždění, některé spoje jsou zcela zrušeny.",
+          "proc_je_to_dulezite": "Incident se odehrává na pozadí diskuse o bezpečnosti v Německu, která se vede v souvislosti s větší přítomností migrantů a bezpečnostními zprávami. Podle několika zdrojů došlo i k dalším bezpečnostním incidentům včetně incidentu na česko-německé hranici.",
+          "co_sledovat": "Výsledky vyšetřování, bezpečnostní reakce státu, veřejná debata o bezpečnosti v Německu a migraci",
+          "akteri": "Policie, německé bezpečnostní služby, ministerstvo vnitra",
+          "zdroj": "EuroZprávy.cz, DW"
+        }
+      ]
+    },
+    {
+      "nazev": "Česko",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "Střet zájmů premiéra Babiše a politické kontroverzní návrhy v parlamentu ovládají domácí politiku",
+      "temata": [
+        {
+          "nazev": "Kauza střetu zájmů Babiše a zmírnění pravidel pro dotace",
+          "co_se_stalo": "Vládní poslanci včetně Radka Vondráčka a Filipa Turka navrhli změnu zákona o střetu zájmů. Novela by umožnila firmám premiéra Andreje Babiše pobírat dotace bez ohledu na to, zda skutečně řešil střet zájmů. Zároveň se zkracuje lhůta pro jejich vymáhání. Paralelně Ministerstvo spravedlnosti nařídilo prověrku znaleckých posudků o zdraví podnikatele Romana Janouška.",
+          "proc_je_to_dulezite": "Toto je ústřední debata české politiky posledních let. Андrej Babiš čelil dlouhodobé kritice EU a část domácí veřejnosti kvůli střetu zájmů a jeho firmě Agrofert. Nyní jeho koalice pokouší legislativně zmírnit pravidla. Transparentnost a dodržování právního státu jsou základní hodnoty EU.",
+          "co_sledovat": "Hlasování v Senátu, potenciální reakce EU, průběh vyšetřování Babiše a jeho firem. Jak se bude situace vyvíjet s dotacemi, které Agrofert čerpá.",
+          "akteri": "Andriej Babiš (premiér, ANO), vládní koalice (ANO, SPD, Motoristé), opozice (zejm. ODS), EU, Ministerstvo spravedlnosti",
+          "zdroj": "Novinky.cz, Seznam Zprávy"
+        },
+        {
+          "nazev": "Změna povinné výuky angličtiny a cizích jazyků",
+          "co_se_stalo": "Ministr školství Robert Plaga (ANO) zrušil povinnou výuku angličtiny od první třídy a povinnou výuku druhého cizího jazyka od sedmé třídy. Místo toho budou mít žáci povinně volitelný druhý jazyk, který si mohou vybrat či zaříci. Angličtina se nebude muset vyučovat od prvního ročníku.",
+          "proc_je_to_dulezite": "Vzdělání a jazykové dovednosti jsou klíčové pro budoucí perspektivy českých žáků. Změna vyvolala diskusi, zda Česko oslabuje jazykovou přípravu svých občanů v globalizované ekonomice. Anglický jazyk je stále klíčový v práci a vzdělání.",
+          "co_sledovat": "Reakce pedagogů, rodičů a odborníků. Jak budou školy tento návrh implementovat. Zda dojde k další úpravě po kritice.",
+          "akteri": "Robert Plaga (ministr školství, ANO), ministerstvo školství, školy, pedagogové, rodiče",
+          "zdroj": "Aktuálně.cz, Deník.cz"
+        },
+        {
+          "nazev": "Kauza českých řidičských průkazů vydaných ze Schwarzešic v Bulharsku - nehoda a bezpečnost",
+          "co_se_stalo": "Dvojice Bulharů, která v pátek závodila v ulicích Sofie v rychlých vozech, způsobila tragickou nehodu autobusu se čtyřmi mrtvými. Měla české řidičské průkazy, které podle zjištění Novinek získala od úřadu ve středočeských Černošicích. Jedná se o systémový problém - údajně se vydávaly řidičské průkazy osobám, které nesplňovaly požadavky.",
+          "proc_je_to_dulezite": "Incident odhaluje závažný bezpečnostní a administrativní problém. Česká místa jsou údajně vydávala řidičské průkazy osobám ze zahraničí bez řádných kontrol. To vytváří bezpečnostní riziko nejen pro Česko, ale i pro jiné země. Bulharsko už oznámilo, že nebude dále poskytovat vojenskou pomoc Ukrajině - důkaz globálních důsledků.",
+          "co_sledovat": "Vyšetřování ministerstva dopravy, případné postihy pro úředníky v Černošicích, audit vydávání řidičských průkazů, zahraniční reakce",
+          "akteri": "Česky ministerium dopravy, Úřad ve Středočeských Černošicích, bulharské úřady, bulharský ministr obrany Dimitar Stojanov",
+          "zdroj": "Novinky.cz"
+        }
+      ]
+    }
+  ],
+  "aktualizovano": "2026-06-10 15:58"
 }
