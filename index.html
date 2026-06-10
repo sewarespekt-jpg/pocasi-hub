@@ -172,7 +172,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
 </div>
 <div class="main">
   <div class="grid-news">
-    <div class="card" id="card-cesko">
+    <div class="card" id="card-cesko" onclick="expandCard('cesko')">
       <div class="card-inner">
         <div>
           <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
@@ -182,14 +182,14 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
         </div>
         <div class="card-bottom">
           <div class="card-status" id="cz-status"></div>
-          <div class="card-hint" onclick="expandCard('cesko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right"></i></div>
+          <div class="card-hint" id="cz-hint">DETAIL <i class="ti ti-chevron-right"></i></div>
         </div>
       </div>
       <div class="detail-panel" id="detail-cesko">
         <div class="detail-inner" id="cz-detail"></div>
       </div>
     </div>
-    <div class="card" id="card-nemecko">
+    <div class="card" id="card-nemecko" onclick="expandCard('nemecko')">
       <div class="card-inner">
         <div>
           <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
@@ -199,7 +199,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
         </div>
         <div class="card-bottom">
           <div class="card-status" id="de-status"></div>
-          <div class="card-hint" onclick="expandCard('nemecko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right"></i></div>
+          <div class="card-hint" id="de-hint">DETAIL <i class="ti ti-chevron-right"></i></div>
         </div>
       </div>
       <div class="detail-panel" id="detail-nemecko">
@@ -208,7 +208,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
     </div>
   </div>
   <div class="grid">
-    <div class="card" id="card-weather">
+    <div class="card" id="card-weather" onclick="expandCard('weather')">
       <div class="card-inner">
         <div>
           <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
@@ -225,7 +225,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
         <div class="detail-inner" id="w-detail"></div>
       </div>
     </div>
-    <div class="card" id="card-pool">
+    <div class="card" id="card-pool" onclick="expandCard('pool')">
       <div class="card-inner">
         <div>
           <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
@@ -242,7 +242,7 @@ body { background: var(--bg); color: var(--text); font-family: var(--font-body);
         <div class="detail-inner" id="p-detail"></div>
       </div>
     </div>
-    <div class="card" id="card-kino">
+    <div class="card" id="card-kino" onclick="expandCard('kino')">
       <div class="card-inner">
         <div>
           <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
