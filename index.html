@@ -25,283 +25,52 @@
   --font-mono: 'DM Mono', monospace;
   --font-body: 'DM Sans', sans-serif;
 }
-
 html { scroll-behavior: smooth; }
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: var(--font-body);
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-/* ── HERO SKYLINE ── */
-.hero {
-  width: 100%;
-  position: relative;
-  background: linear-gradient(180deg, #1a2a3a 0%, #2a3a1a 40%, #3a2a0a 70%, #1a1a1a 100%);
-  overflow: hidden;
-}
-.hero-skyline {
-  width: 100%;
-  display: block;
-  max-height: 420px;
-  object-fit: cover;
-  object-position: center 45%;
-  mix-blend-mode: normal;
-}
-.hero-overlay {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 120px;
-  background: linear-gradient(transparent, var(--bg));
-}
-.hero-title {
-  position: absolute;
-  bottom: 24px;
-  left: 0; right: 0;
-  text-align: center;
-}
-.hero-title-main {
-  font-family: var(--font-display);
-  font-size: clamp(32px, 8vw, 72px);
-  letter-spacing: 0.15em;
-  line-height: 1;
-  color: white;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.8);
-}
-.hero-title-sub {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.3em;
-  opacity: 0.5;
-  margin-top: 4px;
-  text-transform: uppercase;
-}
-
-/* ── MAIN GRID ── */
-.main {
-  padding: 32px 24px 48px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
-}
-.grid-news {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2px;
-  margin-bottom: 2px;
-}
-
-/* ── MODAL OVERLAY ── */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.85);
-  z-index: 100;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s ease;
-}
-.modal-overlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
-
-/* ── EXPANDED CARD ── */
-.card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: border-color 0.2s;
-  user-select: none;
-}
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); min-height: 100vh; overflow-x: hidden; }
+.hero { width: 100%; position: relative; background: linear-gradient(180deg, #1a2a3a 0%, #2a3a1a 40%, #3a2a0a 70%, #1a1a1a 100%); overflow: hidden; }
+.hero-skyline { width: 100%; display: block; max-height: 420px; object-fit: cover; object-position: center 45%; }
+.hero-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 120px; background: linear-gradient(transparent, var(--bg)); }
+.hero-title { position: absolute; bottom: 24px; left: 0; right: 0; text-align: center; }
+.hero-title-main { font-family: var(--font-display); font-size: clamp(32px, 8vw, 72px); letter-spacing: 0.15em; line-height: 1; color: white; text-shadow: 0 2px 20px rgba(0,0,0,0.8); }
+.hero-title-sub { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.3em; opacity: 0.5; margin-top: 4px; text-transform: uppercase; }
+.main { padding: 32px 24px 48px; max-width: 1100px; margin: 0 auto; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.grid-news { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; margin-bottom: 2px; }
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 100; opacity: 0; pointer-events: none; transition: opacity 0.4s ease; }
+.modal-overlay.active { opacity: 1; pointer-events: all; }
+.card { background: var(--card-bg); border: 1px solid var(--border); cursor: pointer; position: relative; overflow: hidden; transition: border-color 0.2s; user-select: none; }
 .card:hover { border-color: #333; }
 .card:first-child { border-radius: 4px 0 0 0; }
 .card:last-child { border-radius: 0 4px 0 0; }
-
-.card.expanded {
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%) !important;
-  width: min(680px, 92vw) !important;
-  height: auto !important;
-  max-height: 85vh !important;
-  z-index: 200;
-  border-color: #333;
-  border-radius: 4px !important;
-  cursor: default;
-  overflow-y: auto;
-}
+.card.expanded { position: fixed !important; top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; width: min(680px, 92vw) !important; height: auto !important; max-height: 85vh !important; z-index: 200; border-color: #333; border-radius: 4px !important; cursor: default; overflow-y: auto; }
 .card.expanded::-webkit-scrollbar { display: none; }
-
-/* Back button */
-.back-btn {
-  display: none;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.15em;
-  color: var(--muted);
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  margin-bottom: 20px;
-  transition: color 0.2s;
-}
+.back-btn { display: none; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.15em; color: var(--muted); background: none; border: none; cursor: pointer; padding: 0; margin-bottom: 20px; transition: color 0.2s; }
 .back-btn:hover { color: white; }
 .card.expanded .back-btn { display: flex; }
-
-.card-inner {
-  padding: 24px 20px 20px;
-  min-height: 220px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.card-tag {
-  font-family: var(--font-display);
-  font-size: clamp(28px, 4vw, 42px);
-  letter-spacing: 0.08em;
-  color: var(--text);
-  text-transform: uppercase;
-  margin-bottom: 12px;
-  line-height: 1;
-}
-
-.card-number {
-  font-family: var(--font-display);
-  font-size: clamp(56px, 10vw, 80px);
-  line-height: 1;
-  letter-spacing: -1px;
-  margin-bottom: 4px;
-}
-.card-number-unit {
-  font-size: 0.4em;
-  opacity: 0.5;
-  vertical-align: top;
-  margin-top: 8px;
-  display: inline-block;
-}
-
-.card-label {
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--muted);
-  letter-spacing: 0.05em;
-  margin-bottom: 16px;
-}
-
-.card-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.card-status {
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-}
-
-.card-hint {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  color: var(--muted);
-  letter-spacing: 0.1em;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  transition: color 0.2s;
-}
+.card-inner { padding: 24px 20px 20px; min-height: 220px; display: flex; flex-direction: column; justify-content: space-between; }
+.card-tag { font-family: var(--font-display); font-size: clamp(28px, 4vw, 42px); letter-spacing: 0.08em; color: var(--text); text-transform: uppercase; margin-bottom: 12px; line-height: 1; }
+.card-number { font-family: var(--font-display); font-size: clamp(56px, 10vw, 80px); line-height: 1; letter-spacing: -1px; margin-bottom: 4px; }
+.card-number-unit { font-size: 0.4em; opacity: 0.5; vertical-align: top; margin-top: 8px; display: inline-block; }
+.card-label { font-family: var(--font-mono); font-size: 11px; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 16px; }
+.card-bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+.card-status { font-size: 11px; font-weight: 500; letter-spacing: 0.05em; }
+.card-hint { font-family: var(--font-mono); font-size: 9px; color: var(--muted); letter-spacing: 0.1em; display: flex; align-items: center; gap: 4px; transition: color 0.2s; }
 .card:hover .card-hint { color: #888; }
-
-/* Kino karta — seznam místo čísla */
-.kino-films {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-.kino-film-row {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  font-size: 12px;
-  line-height: 1.3;
-}
-.kino-film-num {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  color: var(--legendary);
-  flex-shrink: 0;
-  min-width: 20px;
-}
-.kino-film-name {
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.3;
-  flex: 1;
-}
-
-/* ── DETAIL PANEL (inside expanded card) ── */
-.detail-panel {
-  display: none;
-  padding: 0 20px 24px;
-}
-.card.expanded .detail-panel {
-  display: block;
-}
-
-.detail-inner {
-  padding: 24px 20px;
-}
-
-.detail-section {
-  margin-bottom: 20px;
-}
+.kino-films { flex: 1; display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+.kino-film-row { display: flex; align-items: baseline; gap: 8px; font-size: 12px; line-height: 1.3; }
+.kino-film-num { font-family: var(--font-mono); font-size: 9px; color: var(--legendary); flex-shrink: 0; min-width: 20px; }
+.kino-film-name { font-size: 12px; font-weight: 500; line-height: 1.3; flex: 1; }
+.detail-panel { display: none; padding: 0 20px 24px; }
+.card.expanded .detail-panel { display: block; }
+.detail-inner { padding: 24px 20px; }
+.detail-section { margin-bottom: 20px; }
 .detail-section:last-child { margin-bottom: 0; }
-
-.detail-section-title {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.2em;
-  color: var(--muted);
-  text-transform: uppercase;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--border);
-}
-
-.detail-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 0;
-  border-bottom: 1px solid #161616;
-  font-size: 12px;
-}
+.detail-section-title { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.2em; color: var(--muted); text-transform: uppercase; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+.detail-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #161616; font-size: 12px; }
 .detail-row:last-child { border-bottom: none; }
 .detail-row-label { color: var(--muted); display: flex; align-items: center; gap: 6px; }
 .detail-row-val { font-family: var(--font-mono); font-size: 12px; }
-
-/* Forecast */
-.fc-row {
-  display: flex; align-items: center; gap: 8px;
-  padding: 6px 0; border-bottom: 1px solid #161616; font-size: 11px;
-}
+.fc-row { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid #161616; font-size: 11px; }
 .fc-row:last-child { border-bottom: none; }
 .fc-day { width: 36px; font-weight: 500; font-family: var(--font-mono); }
 .fc-icon { width: 18px; text-align: center; font-size: 13px; color: var(--muted); }
@@ -311,20 +80,10 @@ body {
 .fc-fill.dry { background: #2a2a2a; }
 .fc-temp { width: 52px; text-align: right; color: var(--muted); font-family: var(--font-mono); font-size: 11px; }
 .fc-prob { width: 30px; text-align: right; color: var(--muted); font-family: var(--font-mono); font-size: 10px; }
-
-/* AQI grid */
-.aqi-grid {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
-}
-.aqi-cell {
-  background: #161616;
-  padding: 10px 12px;
-  text-align: center;
-}
+.aqi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+.aqi-cell { background: #161616; padding: 10px 12px; text-align: center; }
 .aqi-val { font-family: var(--font-display); font-size: 28px; display: block; }
 .aqi-lbl { font-family: var(--font-mono); font-size: 9px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 2px; }
-
-/* Pool bars */
 .pool-bar-item { margin-bottom: 12px; }
 .pool-bar-item:last-child { margin-bottom: 0; }
 .pool-bar-header { display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 5px; }
@@ -335,214 +94,55 @@ body {
 .pool-bar-fill.green { background: #10b981; }
 .pool-bar-fill.yellow { background: #f59e0b; }
 .pool-bar-fill.red { background: #ef4444; }
-
-/* RPG list */
-.rpg-row {
-  display: flex; align-items: center; gap: 8px;
-  padding: 8px 0; border-bottom: 1px solid #161616; font-size: 11px;
-}
+.rpg-row { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid #161616; font-size: 11px; }
 .rpg-row:last-child { border-bottom: none; }
 .rpg-n { font-family: var(--font-mono); font-size: 9px; color: var(--muted); min-width: 20px; }
 .rpg-b { font-family: var(--font-mono); font-size: 8px; font-weight: 500; letter-spacing: 0.08em; padding: 1px 6px; border-radius: 2px; min-width: 64px; text-align: center; flex-shrink: 0; border: 1px solid transparent; }
 .rpg-t { flex: 1; font-size: 11px; line-height: 1.3; }
 .rpg-c { font-family: var(--font-mono); font-size: 9px; color: var(--muted); flex-shrink: 0; }
-
-/* Verdict / tip */
-.verdict-box {
-  background: #161616;
-  border-left: 2px solid var(--accent);
-  padding: 12px 14px;
-  font-size: 12px;
-  line-height: 1.6;
-  color: #aaa;
-  margin-top: 12px;
-}
-.pool-tip {
-  background: #161616;
-  border-left: 2px solid #38bdf8;
-  padding: 12px 14px;
-  font-size: 12px;
-  line-height: 1.6;
-  color: #aaa;
-  margin-top: 12px;
-}
-
-/* Chips */
+.verdict-box { background: #161616; border-left: 2px solid var(--accent); padding: 12px 14px; font-size: 12px; line-height: 1.6; color: #aaa; margin-top: 12px; }
+.pool-tip { background: #161616; border-left: 2px solid #38bdf8; padding: 12px 14px; font-size: 12px; line-height: 1.6; color: #aaa; margin-top: 12px; }
 .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
-.chip {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.08em;
-  padding: 4px 8px;
-  border: 1px solid #222;
-  color: var(--muted);
-}
-
-/* ── SUN ARC ── */
-.sun-arc-wrap {
-  margin: 16px 0;
-  padding: 16px 0 8px;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-}
-.sun-arc-title {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.2em;
-  color: var(--muted);
-  text-transform: uppercase;
-  margin-bottom: 16px;
-}
-.sun-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-.sun-time {
-  text-align: center;
-  flex-shrink: 0;
-  min-width: 60px;
-}
+.chip { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.08em; padding: 4px 8px; border: 1px solid #222; color: var(--muted); }
+.sun-arc-wrap { margin: 16px 0; padding: 16px 0 8px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.sun-arc-title { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.2em; color: var(--muted); text-transform: uppercase; margin-bottom: 16px; }
+.sun-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.sun-time { text-align: center; flex-shrink: 0; min-width: 60px; }
 .sun-time-icon { font-size: 24px; display: block; margin-bottom: 4px; }
 .sun-time-icon.sunrise { color: #fbbf24; }
 .sun-time-icon.sunset { color: #f97316; }
 .sun-time-val { font-family: var(--font-display); font-size: 22px; line-height: 1; }
 .sun-time-lbl { font-family: var(--font-mono); font-size: 9px; color: var(--muted); letter-spacing: 0.1em; margin-top: 3px; }
-.sun-arc-svg-wrap {
-  flex: 1;
-  position: relative;
-  height: 70px;
-}
+.sun-arc-svg-wrap { flex: 1; position: relative; height: 70px; }
 .sun-arc-svg { width: 100%; height: 100%; overflow: visible; }
-.sun-day-length {
-  text-align: center;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  color: var(--muted);
-  margin-top: 10px;
-  letter-spacing: 0.08em;
-}
-
-/* ── ZPRAVY KARTY ── */
-.news-hlavni-tema {
-  font-size: 13px;
-  color: rgba(255,255,255,0.7);
-  line-height: 1.4;
-  margin-top: 8px;
-  font-style: italic;
-}
-.news-tema-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 4px;
-  flex: 1;
-}
-.news-tema-item {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  cursor: pointer;
-}
-.news-tema-nazev {
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1.3;
-  color: white;
-}
-.news-tema-co {
-  font-size: 11px;
-  color: var(--muted);
-  line-height: 1.4;
-}
-.news-divider {
-  height: 1px;
-  background: var(--border);
-  margin: 4px 0;
-}
-
-/* Detail zprav */
-.news-detail-tema {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--border);
-}
-.news-detail-tema:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.news-detail-nazev {
-  font-family: var(--font-display);
-  font-size: 18px;
-  letter-spacing: 0.05em;
-  margin-bottom: 12px;
-  line-height: 1.2;
-}
-.news-detail-row {
-  margin-bottom: 8px;
-  font-size: 12px;
-  line-height: 1.6;
-}
-.news-detail-label {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.15em;
-  color: var(--muted);
-  text-transform: uppercase;
-  margin-bottom: 3px;
-}
-.news-detail-text {
-  color: rgba(255,255,255,0.8);
-}
-.news-zdroj {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  color: var(--muted);
-  margin-top: 8px;
-  letter-spacing: 0.05em;
-}
-
-@media (max-width: 700px) {
-  .grid-news { grid-template-columns: 1fr; }
-}
+.sun-day-length { text-align: center; font-family: var(--font-mono); font-size: 10px; color: var(--muted); margin-top: 10px; letter-spacing: 0.08em; }
+.news-hlavni-tema { font-size: 13px; color: rgba(255,255,255,0.7); line-height: 1.4; margin-top: 8px; font-style: italic; }
+.news-tema-list { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; flex: 1; }
+.news-tema-item { display: flex; flex-direction: column; gap: 3px; }
+.news-tema-nazev { font-size: 13px; font-weight: 600; line-height: 1.3; color: white; }
+.news-tema-co { font-size: 11px; color: var(--muted); line-height: 1.4; }
+.news-divider { height: 1px; background: var(--border); margin: 4px 0; }
+.news-detail-tema { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+.news-detail-tema:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.news-detail-nazev { font-family: var(--font-display); font-size: 18px; letter-spacing: 0.05em; margin-bottom: 12px; line-height: 1.2; }
+.news-detail-row { margin-bottom: 8px; font-size: 12px; line-height: 1.6; }
+.news-detail-label { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.15em; color: var(--muted); text-transform: uppercase; margin-bottom: 3px; }
+.news-detail-text { color: rgba(255,255,255,0.8); }
+.news-zdroj { font-family: var(--font-mono); font-size: 9px; color: var(--muted); margin-top: 8px; letter-spacing: 0.05em; }
 .particles { position: fixed; inset: 0; pointer-events: none; z-index: 1; }
 .rain-drop { position: absolute; width: 1px; background: linear-gradient(transparent, rgba(255,255,255,0.4)); animation: rain linear infinite; }
 @keyframes rain { 0% { transform: translateY(-100vh); opacity: 0; } 10% { opacity: 1; } 100% { transform: translateY(100vh); opacity: 0; } }
 .snow-flake { position: absolute; background: white; border-radius: 50%; opacity: 0.6; animation: snow linear infinite; }
 @keyframes snow { 0% { transform: translateY(-100vh); } 100% { transform: translateY(100vh) translateX(40px); } }
-
-/* ── FOOTER ── */
-.footer {
-  border-top: 1px solid var(--border);
-  padding: 16px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--font-mono);
-  font-size: 9px;
-  color: var(--muted);
-  letter-spacing: 0.1em;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-/* ── LOADING ── */
-.loading-screen {
-  position: fixed; inset: 0; background: var(--bg);
-  display: flex; align-items: center; justify-content: center;
-  flex-direction: column; z-index: 999; gap: 12px;
-  transition: opacity 0.4s ease;
-}
+.footer { border-top: 1px solid var(--border); padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 9px; color: var(--muted); letter-spacing: 0.1em; max-width: 1100px; margin: 0 auto; }
+.loading-screen { position: fixed; inset: 0; background: var(--bg); display: flex; align-items: center; justify-content: center; flex-direction: column; z-index: 999; gap: 12px; transition: opacity 0.4s ease; }
 .loading-screen.hide { opacity: 0; pointer-events: none; }
 .loading-title { font-family: var(--font-display); font-size: 24px; letter-spacing: 0.2em; color: #333; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .spin { animation: spin 1s linear infinite; display: inline-block; }
-
-/* ── RESPONSIVE ── */
 @media (max-width: 700px) {
   .grid { grid-template-columns: 1fr; gap: 2px; }
+  .grid-news { grid-template-columns: 1fr; }
   .card:first-child { border-radius: 4px 4px 0 0; }
   .card:last-child { border-radius: 0; }
   .card-number { font-size: 64px; }
@@ -556,16 +156,12 @@ body {
 </style>
 </head>
 <body>
-
 <div class="loading-screen" id="loading">
   <i class="ti ti-loader-2 spin" style="font-size:20px; color:#333;"></i>
   <div class="loading-title">PRAHA · HUB</div>
 </div>
-
 <div class="particles" id="particles"></div>
 <div class="modal-overlay" id="modal-overlay" onclick="closeExpanded()"></div>
-
-<!-- HERO -->
 <div class="hero">
   <img class="hero-skyline" src="https://raw.githubusercontent.com/sewarespekt-jpg/pocasi-hub/main/skyline.png.png" alt="Praha skyline">
   <div class="hero-overlay"></div>
@@ -574,486 +170,125 @@ body {
     <div class="hero-title-sub" id="hero-date">–</div>
   </div>
 </div>
-
-<!-- GRID -->
 <div class="main">
-  <!-- ŘÁDEK 1: ZPRÁVY -->
   <div class="grid-news">
-
-    <!-- ČESKO -->
     <div class="card" id="card-cesko">
       <div class="card-inner">
         <div>
-          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();">
-            <i class="ti ti-arrow-left"></i> ZPĚT
-          </button>
+          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
           <div class="card-tag">Česko dnes</div>
-          <div class="news-hlavni-tema" id="cz-hlavni">Data se načtou po dalším scrapování</div>
-          <div class="news-tema-list" id="cz-list">
-            <i class="ti ti-loader-2 spin" style="font-size:24px;color:#333;"></i>
-          </div>
+          <div class="news-hlavni-tema" id="cz-hlavni">Načítám...</div>
+          <div class="news-tema-list" id="cz-list"></div>
         </div>
         <div class="card-bottom">
           <div class="card-status" id="cz-status"></div>
-          <div class="card-hint" onclick="expandCard('cesko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right" id="cz-chevron"></i></div>
+          <div class="card-hint" onclick="expandCard('cesko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right"></i></div>
         </div>
       </div>
       <div class="detail-panel" id="detail-cesko">
         <div class="detail-inner" id="cz-detail"></div>
       </div>
     </div>
-
-    <!-- NĚMECKO -->
     <div class="card" id="card-nemecko">
       <div class="card-inner">
         <div>
-          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();">
-            <i class="ti ti-arrow-left"></i> ZPĚT
-          </button>
+          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
           <div class="card-tag">Německo dnes</div>
-          <div class="news-hlavni-tema" id="de-hlavni">Data se načtou po dalším scrapování</div>
-          <div class="news-tema-list" id="de-list">
-            <i class="ti ti-loader-2 spin" style="font-size:24px;color:#333;"></i>
-          </div>
+          <div class="news-hlavni-tema" id="de-hlavni">Načítám...</div>
+          <div class="news-tema-list" id="de-list"></div>
         </div>
         <div class="card-bottom">
           <div class="card-status" id="de-status"></div>
-          <div class="card-hint" onclick="expandCard('nemecko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right" id="de-chevron"></i></div>
+          <div class="card-hint" onclick="expandCard('nemecko'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right"></i></div>
         </div>
       </div>
       <div class="detail-panel" id="detail-nemecko">
         <div class="detail-inner" id="de-detail"></div>
       </div>
     </div>
-
   </div>
-
-  <!-- ŘÁDEK 2: POČASÍ, BAZÉN, KINA -->
   <div class="grid">
-
-    <!-- POČASÍ -->
     <div class="card" id="card-weather">
       <div class="card-inner">
         <div>
-          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();">
-            <i class="ti ti-arrow-left"></i> ZPĚT
-          </button>
+          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
           <div class="card-tag">Počasí</div>
-          <div class="card-number" id="w-temp">
-            <i class="ti ti-loader-2 spin" style="font-size:32px;color:#333;"></i>
-          </div>
+          <div class="card-number" id="w-temp"><i class="ti ti-loader-2 spin" style="font-size:32px;color:#333;"></i></div>
           <div class="card-label" id="w-state">Načítám...</div>
         </div>
         <div class="card-bottom">
           <div class="card-status" id="w-status"></div>
-          <div class="card-hint" onclick="expandCard('weather'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right" id="w-chevron"></i></div>
+          <div class="card-hint" onclick="expandCard('weather'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right"></i></div>
         </div>
       </div>
       <div class="detail-panel" id="detail-weather">
         <div class="detail-inner" id="w-detail"></div>
       </div>
     </div>
-
-    <!-- BAZÉN -->
     <div class="card" id="card-pool">
       <div class="card-inner">
         <div>
-          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();">
-            <i class="ti ti-arrow-left"></i> ZPĚT
-          </button>
+          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
           <div class="card-tag">Bazén</div>
-          <div class="card-number" id="p-pct">
-            <i class="ti ti-loader-2 spin" style="font-size:32px;color:#333;"></i>
-          </div>
+          <div class="card-number" id="p-pct"><i class="ti ti-loader-2 spin" style="font-size:32px;color:#333;"></i></div>
           <div class="card-label" id="p-state">Načítám...</div>
         </div>
         <div class="card-bottom">
           <div class="card-status" id="p-status"></div>
-          <div class="card-hint" onclick="expandCard('pool'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right" id="p-chevron"></i></div>
+          <div class="card-hint" onclick="expandCard('pool'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right"></i></div>
         </div>
       </div>
       <div class="detail-panel" id="detail-pool">
         <div class="detail-inner" id="p-detail"></div>
       </div>
     </div>
-
-    <!-- KINO -->
     <div class="card" id="card-kino">
       <div class="card-inner">
         <div>
-          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();">
-            <i class="ti ti-arrow-left"></i> ZPĚT
-          </button>
+          <button class="back-btn" onclick="closeExpanded(); event.stopPropagation();"><i class="ti ti-arrow-left"></i> ZPĚT</button>
           <div class="card-tag">Kina</div>
-          <div class="kino-films" id="k-films">
-            <i class="ti ti-loader-2 spin" style="font-size:32px;color:#333;"></i>
-          </div>
+          <div class="kino-films" id="k-films"><i class="ti ti-loader-2 spin" style="font-size:32px;color:#333;"></i></div>
         </div>
         <div class="card-bottom">
           <div class="card-status" id="k-status"></div>
-          <div class="card-hint" onclick="expandCard('kino'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right" id="k-chevron"></i></div>
+          <div class="card-hint" onclick="expandCard('kino'); event.stopPropagation();">DETAIL <i class="ti ti-chevron-right"></i></div>
         </div>
       </div>
       <div class="detail-panel" id="detail-kino">
         <div class="detail-inner" id="k-detail"></div>
       </div>
     </div>
-
-  </div><!-- end grid řádek 2 -->
+  </div>
   <div class="footer">
     <span>DATA: OPEN-METEO · AIR QUALITY API</span>
     <span id="footer-updated">–</span>
   </div>
 </div>
-
 <script>
 const LAT=50.0755,LON=14.4378;
 const KINA_URL='https://raw.githubusercontent.com/sewarespekt-jpg/pocasi-hub/main/kina.json';
-
-const WMO={
-  0:{l:'Jasno',i:'ti-sun',c:'sun'},1:{l:'Převážně jasno',i:'ti-sun',c:'sun'},
-  2:{l:'Polojasno',i:'ti-cloud-sun',c:'cloud'},3:{l:'Zataženo',i:'ti-cloud',c:'cloud'},
-  45:{l:'Mlha',i:'ti-cloud-fog',c:'fog'},48:{l:'Mlha',i:'ti-cloud-fog',c:'fog'},
-  51:{l:'Mrholení',i:'ti-cloud-drizzle',c:'rain'},53:{l:'Mrholení',i:'ti-cloud-drizzle',c:'rain'},
-  55:{l:'Mrholení',i:'ti-cloud-drizzle',c:'rain'},
-  61:{l:'Déšť',i:'ti-cloud-rain',c:'rain'},63:{l:'Déšť',i:'ti-cloud-rain',c:'rain'},
-  65:{l:'Silný déšť',i:'ti-cloud-rain',c:'rain'},
-  71:{l:'Sněžení',i:'ti-cloud-snow',c:'snow'},73:{l:'Sněžení',i:'ti-cloud-snow',c:'snow'},
-  75:{l:'Sněžení',i:'ti-cloud-snow',c:'snow'},
-  80:{l:'Přeháňky',i:'ti-cloud-rain',c:'rain'},81:{l:'Přeháňky',i:'ti-cloud-rain',c:'rain'},
-  82:{l:'Přeháňky',i:'ti-cloud-rain',c:'rain'},
-  95:{l:'Bouřka',i:'ti-cloud-storm',c:'storm'},96:{l:'Bouřka',i:'ti-cloud-storm',c:'storm'},
-  99:{l:'Bouřka',i:'ti-cloud-storm',c:'storm'}
-};
+const ZPRAVY_URL='https://raw.githubusercontent.com/sewarespekt-jpg/pocasi-hub/main/zpravy.json';
+const WMO={0:{l:'Jasno',i:'ti-sun',c:'sun'},1:{l:'Převážně jasno',i:'ti-sun',c:'sun'},2:{l:'Polojasno',i:'ti-cloud-sun',c:'cloud'},3:{l:'Zataženo',i:'ti-cloud',c:'cloud'},45:{l:'Mlha',i:'ti-cloud-fog',c:'fog'},48:{l:'Mlha',i:'ti-cloud-fog',c:'fog'},51:{l:'Mrholení',i:'ti-cloud-drizzle',c:'rain'},53:{l:'Mrholení',i:'ti-cloud-drizzle',c:'rain'},55:{l:'Mrholení',i:'ti-cloud-drizzle',c:'rain'},61:{l:'Déšť',i:'ti-cloud-rain',c:'rain'},63:{l:'Déšť',i:'ti-cloud-rain',c:'rain'},65:{l:'Silný déšť',i:'ti-cloud-rain',c:'rain'},71:{l:'Sněžení',i:'ti-cloud-snow',c:'snow'},73:{l:'Sněžení',i:'ti-cloud-snow',c:'snow'},75:{l:'Sněžení',i:'ti-cloud-snow',c:'snow'},80:{l:'Přeháňky',i:'ti-cloud-rain',c:'rain'},81:{l:'Přeháňky',i:'ti-cloud-rain',c:'rain'},82:{l:'Přeháňky',i:'ti-cloud-rain',c:'rain'},95:{l:'Bouřka',i:'ti-cloud-storm',c:'storm'},96:{l:'Bouřka',i:'ti-cloud-storm',c:'storm'},99:{l:'Bouřka',i:'ti-cloud-storm',c:'storm'}};
 function gW(c){return WMO[c]||{l:'Proměnlivě',i:'ti-cloud',c:'cloud'};}
 function fT(s){const d=new Date(s);return`${d.getHours()}:${String(d.getMinutes()).padStart(2,'0')}`;}
 function gDL(s,i){if(i===0)return'Dnes';if(i===1)return'Zítra';return['Ne','Po','Út','St','Čt','Pá','So'][new Date(s).getDay()];}
 function aI(v){if(v<=40)return{l:'Dobrá',c:'#10b981'};if(v<=60)return{l:'Přijatelná',c:'#fbbf24'};if(v<=80)return{l:'Střední',c:'#f97316'};return{l:'Špatná',c:'#ef4444'};}
-function vrd(code,prob,tmax){
-  if(code>=95)return'Bouřka. Zůstaň v krytí.';
-  if(code>=61)return'Prší. Vezmi deštník.';
-  if(prob>70)return'Velká šance na déšť.';
-  if(prob>40)return'Možná přeháňka.';
-  if(tmax>28)return'Horko. Voda a stín.';
-  if(tmax>23)return'Hezký teplý den.';
-  if(tmax<0)return'Mrzne. Teple se oblékni.';
-  if(tmax<5)return'Chladno. Bunda nutnost.';
-  return'Slušný den.';
-}
+function vrd(code,prob,tmax){if(code>=95)return'Bouřka. Zůstaň v krytí.';if(code>=61)return'Prší. Vezmi deštník.';if(prob>70)return'Velká šance na déšť.';if(prob>40)return'Možná přeháňka.';if(tmax>28)return'Horko. Voda a stín.';if(tmax>23)return'Hezký teplý den.';if(tmax<0)return'Mrzne. Teple se oblékni.';if(tmax<5)return'Chladno. Bunda nutnost.';return'Slušný den.';}
 function pCls(p){return p>=65?'red':p>=45?'yellow':'green';}
 function pTxt(p){if(p>=85)return'FULL HOUSE';if(p>=65)return'NARVÁNO';if(p>=45)return'PRŮMĚRNĚ';if(p>=25)return'POHODA';return'PRÁZDNO';}
-
-// ── EXPAND / CLOSE ────────────────────────────────────────────────────────
-let expandedCard = null;
-
-function expandCard(name) {
-  if (expandedCard) closeExpanded();
-  const card = document.getElementById('card-' + name);
-  const overlay = document.getElementById('modal-overlay');
-  card.classList.add('expanded');
-  overlay.classList.add('active');
-  document.body.style.overflow = 'hidden';
-  expandedCard = name;
-}
-
-function closeExpanded() {
-  if (!expandedCard) return;
-  const card = document.getElementById('card-' + expandedCard);
-  const overlay = document.getElementById('modal-overlay');
-  card.classList.remove('expanded');
-  overlay.classList.remove('active');
-  document.body.style.overflow = '';
-  expandedCard = null;
-}
-
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeExpanded(); });
-
-// ── PARTICLES ─────────────────────────────────────────────────────────────
-function setParticles(cls){
-  const p=document.getElementById('particles');p.innerHTML='';
-  if(cls==='rain'||cls==='storm'){
-    for(let i=0;i<60;i++){const d=document.createElement('div');d.className='rain-drop';d.style.cssText=`left:${Math.random()*100}%;height:${Math.random()*25+15}px;animation-duration:${Math.random()*.5+.6}s;animation-delay:${Math.random()*2}s`;p.appendChild(d);}
-  }else if(cls==='snow'){
-    for(let i=0;i<40;i++){const f=document.createElement('div');f.className='snow-flake';const s=Math.random()*4+2;f.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;animation-duration:${Math.random()*5+5}s;animation-delay:${Math.random()*5}s`;p.appendChild(f);}
-  }
-}
-
-// ── POOL CALC ─────────────────────────────────────────────────────────────
-function calcPool(poc){
-  const now=new Date();const h=now.getHours()+now.getMinutes()/60;
-  const dow=now.getDay();const month=now.getMonth()+1;
-  const vikend=dow===0||dow===6;const letni=month>=5&&month<=9;const lp=month===7||month===8;
-  const t=poc.teplota||15;const pt=poc.pocitova||t;const wmo=poc.wmo||0;
-  const prsi=[51,53,55,61,63,65,80,81,82,95,96,99].includes(wmo);
-  const slunecno=[0,1].includes(wmo);
-  let v50=20,v33=15,vi=25;
-  if(prsi){v50-=35;v33-=35;}if(slunecno){v50+=20;v33+=15;}
-  if(t>20){v50+=15;v33+=12;}if(t>25){v50+=20;v33+=15;}
-  if(vikend&&slunecno&&pt>25){v50+=35;v33+=30;}else if(vikend){v50+=15;v33+=12;}
-  if(h>=17&&h<19&&t>20){v50+=30;v33+=25;}if(h>=11&&h<13.5){v50-=10;v33-=10;}
-  if(h>=19){v50-=15;v33-=15;}if(!letni){v50-=25;v33-=25;}if(lp){v50+=15;v33+=12;}
-  if(prsi)vi+=20;if(slunecno&&t>25)vi-=10;if(!letni)vi+=15;if(vikend)vi+=15;
-  if(h>=6&&h<9)vi+=20;if(h>=17&&h<19)vi+=25;if(h>=19)vi-=10;if(lp)vi-=10;
-  const cl=v=>Math.min(98,Math.max(5,Math.round(v)));
-  return{v50:cl(v50),v33:cl(v33),vi:cl(vi),letni,prsi,slunecno,t,pt,vikend,h};
-}
-
-// ── WEATHER ───────────────────────────────────────────────────────────────
-async function loadWeather(){
-  try{
-    const[fR,aR]=await Promise.all([
-      fetch(`https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&current=temperature_2m,apparent_temperature,weathercode,relative_humidity_2m,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_probability_max,sunrise,sunset&timezone=Europe%2FPrague&forecast_days=7`),
-      fetch(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${LAT}&longitude=${LON}&current=european_aqi,pm10,pm2_5,nitrogen_dioxide,ozone&timezone=Europe%2FPrague`)
-    ]);
-    const fc=await fR.json();const air=await aR.json();
-    const cur=fc.current;const daily=fc.daily;
-    const temp=Math.round(cur.temperature_2m);
-    const feels=Math.round(cur.apparent_temperature);
-    const code=cur.weathercode;
-    const humidity=Math.round(cur.relative_humidity_2m);
-    const wind=Math.round(cur.wind_speed_10m);
-    const tmax=Math.round(daily.temperature_2m_max[0]);
-    const tmin=Math.round(daily.temperature_2m_min[0]);
-    const prob=daily.precipitation_probability_max[0]||0;
-    const wmo=gW(code);
-    const sr=daily.sunrise[0];const ss=daily.sunset[0];
-    const aqi=Math.round(air.current.european_aqi||0);
-    const pm25=Math.round(air.current.pm2_5||0);
-    const pm10=Math.round(air.current.pm10||0);
-    const no2=Math.round(air.current.nitrogen_dioxide||0);
-    const ai=aI(aqi);
-    const ms=new Date(ss)-new Date(sr);
-    const dayLen=`${Math.floor(ms/3600000)}h ${Math.floor((ms%3600000)/60000)}m`;
-    const now3=new Date();
-
-    // Sun position
-    const nowMs=Date.now();const srMs=new Date(sr).getTime();const ssMs=new Date(ss).getTime();
-    const isNight=nowMs<srMs||nowMs>ssMs;
-    const sunPct=isNight?0:Math.max(0,Math.min(100,((nowMs-srMs)/(ssMs-srMs))*100));
-    const angleRad=(sunPct/100)*Math.PI;
-    const sunSvgX=sunPct;
-    const sunSvgY=isNight?100:(100-Math.sin(angleRad)*100);
-    const sunColor=isNight?'#475569':'#fbbf24';
-
-    setParticles(wmo.c);
-
-    document.getElementById('w-temp').innerHTML=`${temp}<span class="card-number-unit">°C</span>`;
-    document.getElementById('w-state').innerHTML=`<i class="ti ${wmo.i}"></i> ${wmo.l} &nbsp;·&nbsp; ${tmax}° / ${tmin}°`;
-    document.getElementById('w-status').textContent=vrd(code,prob,tmax);
-    document.getElementById('footer-updated').textContent=`AKTUALIZOVÁNO ${now3.getHours()}:${String(now3.getMinutes()).padStart(2,'0')}`;
-
-    document.getElementById('w-detail').innerHTML=`
-      <div class="detail-section">
-        <div class="detail-section-title">Aktuálně</div>
-        <div class="detail-row"><span class="detail-row-label"><i class="ti ti-mood-smile"></i> Pocitová teplota</span><span class="detail-row-val">${feels}°C</span></div>
-        <div class="detail-row"><span class="detail-row-label"><i class="ti ti-droplet"></i> Vlhkost</span><span class="detail-row-val">${humidity}%</span></div>
-        <div class="detail-row"><span class="detail-row-label"><i class="ti ti-wind"></i> Vítr</span><span class="detail-row-val">${wind} km/h</span></div>
-        <div class="detail-row"><span class="detail-row-label"><i class="ti ti-umbrella"></i> Déšť dnes</span><span class="detail-row-val">${prob}%</span></div>
-      </div>
-      <div class="sun-arc-wrap">
-        <div class="sun-arc-title">Slunce dnes</div>
-        <div class="sun-row">
-          <div class="sun-time">
-            <i class="ti ti-sunrise sun-time-icon sunrise"></i>
-            <div class="sun-time-val">${fT(sr)}</div>
-            <div class="sun-time-lbl">VÝCHOD</div>
-          </div>
-          <div class="sun-arc-svg-wrap">
-            <svg class="sun-arc-svg" viewBox="0 0 100 60" preserveAspectRatio="none">
-              <path d="M 0 58 Q 50 -10 100 58" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-dasharray="3,3"/>
-              <circle cx="${sunSvgX}" cy="${sunSvgY * 0.6}" r="4" fill="${sunColor}" opacity="${isNight?0.3:1}"/>
-            </svg>
-          </div>
-          <div class="sun-time">
-            <i class="ti ti-sunset sun-time-icon sunset"></i>
-            <div class="sun-time-val">${fT(ss)}</div>
-            <div class="sun-time-lbl">ZÁPAD</div>
-          </div>
-        </div>
-        <div class="sun-day-length">DÉLKA DNE · ${dayLen}</div>
-      </div>
-      <div class="detail-section">
-        <div class="detail-section-title">Kvalita ovzduší</div>
-        <div class="aqi-grid">
-          <div class="aqi-cell"><span class="aqi-val" style="color:${ai.c}">${aqi}</span><span class="aqi-lbl">AQI · ${ai.l}</span></div>
-          <div class="aqi-cell"><span class="aqi-val">${pm25}</span><span class="aqi-lbl">PM2.5 μg/m³</span></div>
-          <div class="aqi-cell"><span class="aqi-val">${pm10}</span><span class="aqi-lbl">PM10 μg/m³</span></div>
-          <div class="aqi-cell"><span class="aqi-val">${no2}</span><span class="aqi-lbl">NO₂ μg/m³</span></div>
-        </div>
-      </div>
-      <div class="detail-section">
-        <div class="detail-section-title">Předpověď 7 dní</div>
-        ${daily.time.map((d,i)=>{const p=daily.precipitation_probability_max[i]||0;const w=gW(daily.weathercode[i]);const tm=Math.round(daily.temperature_2m_max[i]);const tn=Math.round(daily.temperature_2m_min[i]);const fc2=p>70?'heavy':p>30?'':'dry';return`<div class="fc-row"><div class="fc-day">${gDL(d,i)}</div><div class="fc-icon"><i class="ti ${w.i}"></i></div><div class="fc-bar"><div class="fc-fill ${fc2}" style="width:${Math.max(p,5)}%"></div></div><div class="fc-temp">${tm}°/${tn}°</div><div class="fc-prob">${p}%</div></div>`;}).join('')}
-      </div>
-      <div class="verdict-box">${vrd(code,prob,tmax)}</div>
-    `;
-
-    renderPool({teplota:temp,pocitova:feels,wmo:code});
-
-  }catch(e){
-    document.getElementById('w-temp').innerHTML=`<span style="font-size:14px;color:#333;">Chyba</span>`;
-  }
-}
-
-// ── POOL ──────────────────────────────────────────────────────────────────
-function renderPool(poc){
-  const d=calcPool(poc);
-  const avg=Math.round((d.v50+d.v33+d.vi)/3);
-  const cls=pCls(avg);const txt=pTxt(avg);
-  const now=new Date();
-  document.getElementById('p-pct').innerHTML=`${avg}<span class="card-number-unit">%</span>`;
-  document.getElementById('p-state').textContent='průměrná obsazenost';
-  document.getElementById('p-status').textContent=txt;
-
-  const pools=[
-    {n:'Venkovní 50m',p:d.v50,ok:d.letni},
-    {n:'Venkovní 33m',p:d.v33,ok:d.letni},
-    {n:'Vnitřní 50m',p:d.vi,ok:true},
-  ];
-
-  let tip='';
-  if(d.prsi)tip='Prší – venkovní bazény skoro prázdné.';
-  else if(d.vikend&&d.slunecno&&d.pt>25)tip='Víkend + slunce + teplo = full house. Přijď před 9:00 nebo po 19:30.';
-  else if(d.h>=17&&d.h<19&&d.t>20)tip='Špička z práce. Zkus po 19:00.';
-  else if(d.h>=11&&d.h<13.5)tip='Oběd = nejklidnější čas.';
-  else tip='Nejklidnější: všední 9–11h nebo 11–13:30h.';
-
-  document.getElementById('p-detail').innerHTML=`
-    <div class="detail-section">
-      <div class="detail-section-title">Detail bazénů</div>
-      ${pools.map(pool=>{
-        if(!pool.ok)return`<div class="pool-bar-item"><div class="pool-bar-header"><span class="pool-bar-name">${pool.n}</span><span style="color:#333;">MIMO SEZÓNU</span></div></div>`;
-        const bc=pCls(pool.p);
-        return`<div class="pool-bar-item"><div class="pool-bar-header"><span class="pool-bar-name">${pool.n}</span><span class="pool-bar-pct">${pool.p}%</span></div><div class="pool-bar"><div class="pool-bar-fill ${bc}" style="width:${pool.p}%"></div></div></div>`;
-      }).join('')}
-      <div class="pool-tip">${tip}</div>
-      <div class="chips">
-        <span class="chip">6:00–9:00</span>
-        <span class="chip">11:00–13:30</span>
-        <span class="chip">po 19:30</span>
-      </div>
-    </div>
-  `;
-}
-
-// ── KINO ──────────────────────────────────────────────────────────────────
-async function loadKino(){
-  try{
-    const res=await fetch(KINA_URL+'?t='+Date.now());
-    if(!res.ok)throw new Error('HTTP '+res.status);
-    const data=await res.json();
-    const filmy=data.filmy||[];
-    const legendary=filmy.filter(f=>f.rarita==='LEGENDARY').slice(0,3);
-
-    document.getElementById('k-status').textContent=data.tyden||'';
-
-    if(filmy.length===0){
-      document.getElementById('k-films').innerHTML=`<div style="font-size:12px;color:#333;padding-top:8px;">Žádná data</div>`;
-    }else{
-      document.getElementById('k-films').innerHTML=legendary.length>0?legendary.map((f,i)=>`
-        <div class="kino-film-row">
-          <span class="kino-film-num">#${i+1}</span>
-          <span class="kino-film-name">${f.titul}</span>
-        </div>`).join(''):`<div style="font-size:12px;color:#333;padding-top:8px;">Žádné legendary filmy</div>`;
-    }
-
-    document.getElementById('k-detail').innerHTML=`
-      <div class="detail-section">
-        <div class="detail-section-title">Filmový radar · RPG edice · ${filmy.length} filmů</div>
-        ${filmy.map((f,i)=>{const b=f.barva||'#555';const pr=f.pocet_projekci===1?'1×':`${f.pocet_projekci}×`;return`<div class="rpg-row" style="border-left:2px solid ${b};padding-left:8px;"><div class="rpg-n">#${i+1}</div><div class="rpg-b" style="color:${b};border-color:${b}30;background:${b}12;">${f.rarita}</div><div class="rpg-t">${f.titul}</div><div class="rpg-c">${pr}</div></div>`;}).join('')}
-        <div style="font-family:var(--font-mono);font-size:9px;color:#333;margin-top:12px;text-align:right;">AKT: ${data.aktualizovano||'—'}</div>
-      </div>
-    `;
-  }catch(e){
-    document.getElementById('k-films').innerHTML=`<div style="font-size:11px;color:#333;">Data nedostupná</div>`;
-  }
-}
-
-// ── ZPRÁVY ────────────────────────────────────────────────────────────────
-
-const ZPRAVY_URL = 'https://raw.githubusercontent.com/sewarespekt-jpg/pocasi-hub/main/zpravy.json';
-
-async function loadZpravy() {
-  try {
-    const res = await fetch(ZPRAVY_URL + '?t=' + Date.now());
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-
-    const zeme = data.zeme || [];
-    const cesko = zeme.find(z => z.nazev === 'Česko');
-    const nemecko = zeme.find(z => z.nazev === 'Německo');
-
-    if (cesko) renderZeme('cz', cesko, data.aktualizovano);
-    if (nemecko) renderZeme('de', nemecko, data.aktualizovano);
-
-  } catch(e) {
-    document.getElementById('cz-list').innerHTML = `<div style="font-size:11px;color:#333;">Data nedostupná</div>`;
-    document.getElementById('de-list').innerHTML = `<div style="font-size:11px;color:#333;">Data nedostupná</div>`;
-  }
-}
-
-function renderZeme(prefix, zeme, aktualizovano) {
-  const temata = zeme.temata || [];
-
-  // Hlavní téma na kartě
-  const hlavniEl = document.getElementById(prefix + '-hlavni');
-  if (hlavniEl) hlavniEl.textContent = zeme.hlavni_tema || '';
-
-  // Status
-  document.getElementById(prefix + '-status').textContent = aktualizovano ? `Akt. ${aktualizovano.split(' ')[0]}` : '';
-
-  // Seznam témat
-  document.getElementById(prefix + '-list').innerHTML = temata.map((t, i) => `
-    ${i > 0 ? '<div class="news-divider"></div>' : ''}
-    <div class="news-tema-item">
-      <div class="news-tema-nazev">${t.nazev}</div>
-      <div class="news-tema-co">${t.co_se_stalo ? t.co_se_stalo.substring(0, 80) + '…' : ''}</div>
-    </div>
-  `).join('');
-
-  // Detail
-  document.getElementById(prefix + '-detail').querySelector('.detail-inner').innerHTML = `
-    <div class="detail-section-title" style="margin-bottom:20px;">${zeme.emoji} ${zeme.hlavni_tema}</div>
-    ${temata.map(t => `
-      <div class="news-detail-tema">
-        <div class="news-detail-nazev">${t.nazev}</div>
-        <div class="news-detail-row">
-          <div class="news-detail-label">Co se stalo</div>
-          <div class="news-detail-text">${t.co_se_stalo || '—'}</div>
-        </div>
-        <div class="news-detail-row">
-          <div class="news-detail-label">Proč je to důležité</div>
-          <div class="news-detail-text">${t.proc_je_to_dulezite || '—'}</div>
-        </div>
-        <div class="news-detail-row">
-          <div class="news-detail-label">Co sledovat</div>
-          <div class="news-detail-text">${t.co_sledovat || '—'}</div>
-        </div>
-        <div class="news-detail-row">
-          <div class="news-detail-label">Aktéři</div>
-          <div class="news-detail-text">${t.akteri || '—'}</div>
-        </div>
-        <div class="news-zdroj">Zdroj: ${t.zdroj || '—'}</div>
-      </div>
-    `).join('')}
-  `;
-}
-
-// ── INIT ──────────────────────────────────────────────────────────────────
-function setHeroDate(){
-  const d=new Date();
-  const days=['NEDĚLE','PONDĚLÍ','ÚTERÝ','STŘEDA','ČTVRTEK','PÁTEK','SOBOTA'];
-  const months=['LEDNA','ÚNORA','BŘEZNA','DUBNA','KVĚTNA','ČERVNA','ČERVENCE','SRPNA','ZÁŘÍ','ŘÍJNA','LISTOPADU','PROSINCE'];
-  document.getElementById('hero-date').textContent=`${days[d.getDay()]} ${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;
-}
-
-async function init(){
-  setHeroDate();
-  await Promise.all([loadWeather(), loadKino(), loadZpravy()]);
-  document.getElementById('loading').classList.add('hide');
-  setTimeout(()=>document.getElementById('loading').remove(),500);
-}
-
+let expandedCard=null;
+function expandCard(name){if(expandedCard)closeExpanded();const card=document.getElementById('card-'+name);const overlay=document.getElementById('modal-overlay');card.classList.add('expanded');overlay.classList.add('active');document.body.style.overflow='hidden';expandedCard=name;}
+function closeExpanded(){if(!expandedCard)return;const card=document.getElementById('card-'+expandedCard);const overlay=document.getElementById('modal-overlay');card.classList.remove('expanded');overlay.classList.remove('active');document.body.style.overflow='';expandedCard=null;}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeExpanded();});
+function setParticles(cls){const p=document.getElementById('particles');p.innerHTML='';if(cls==='rain'||cls==='storm'){for(let i=0;i<60;i++){const d=document.createElement('div');d.className='rain-drop';d.style.cssText=`left:${Math.random()*100}%;height:${Math.random()*25+15}px;animation-duration:${Math.random()*.5+.6}s;animation-delay:${Math.random()*2}s`;p.appendChild(d);}}else if(cls==='snow'){for(let i=0;i<40;i++){const f=document.createElement('div');f.className='snow-flake';const s=Math.random()*4+2;f.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;animation-duration:${Math.random()*5+5}s;animation-delay:${Math.random()*5}s`;p.appendChild(f);}}}
+function calcPool(poc){const now=new Date();const h=now.getHours()+now.getMinutes()/60;const dow=now.getDay();const month=now.getMonth()+1;const vikend=dow===0||dow===6;const letni=month>=5&&month<=9;const lp=month===7||month===8;const t=poc.teplota||15;const pt=poc.pocitova||t;const wmo=poc.wmo||0;const prsi=[51,53,55,61,63,65,80,81,82,95,96,99].includes(wmo);const slunecno=[0,1].includes(wmo);let v50=20,v33=15,vi=25;if(prsi){v50-=35;v33-=35;}if(slunecno){v50+=20;v33+=15;}if(t>20){v50+=15;v33+=12;}if(t>25){v50+=20;v33+=15;}if(vikend&&slunecno&&pt>25){v50+=35;v33+=30;}else if(vikend){v50+=15;v33+=12;}if(h>=17&&h<19&&t>20){v50+=30;v33+=25;}if(h>=11&&h<13.5){v50-=10;v33-=10;}if(h>=19){v50-=15;v33-=15;}if(!letni){v50-=25;v33-=25;}if(lp){v50+=15;v33+=12;}if(prsi)vi+=20;if(slunecno&&t>25)vi-=10;if(!letni)vi+=15;if(vikend)vi+=15;if(h>=6&&h<9)vi+=20;if(h>=17&&h<19)vi+=25;if(h>=19)vi-=10;if(lp)vi-=10;const cl=v=>Math.min(98,Math.max(5,Math.round(v)));return{v50:cl(v50),v33:cl(v33),vi:cl(vi),letni,prsi,slunecno,t,pt,vikend,h};}
+async function loadWeather(){try{const[fR,aR]=await Promise.all([fetch(`https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&current=temperature_2m,apparent_temperature,weathercode,relative_humidity_2m,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_probability_max,sunrise,sunset&timezone=Europe%2FPrague&forecast_days=7`),fetch(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${LAT}&longitude=${LON}&current=european_aqi,pm10,pm2_5,nitrogen_dioxide,ozone&timezone=Europe%2FPrague`)]);const fc=await fR.json();const air=await aR.json();const cur=fc.current;const daily=fc.daily;const temp=Math.round(cur.temperature_2m);const feels=Math.round(cur.apparent_temperature);const code=cur.weathercode;const humidity=Math.round(cur.relative_humidity_2m);const wind=Math.round(cur.wind_speed_10m);const tmax=Math.round(daily.temperature_2m_max[0]);const tmin=Math.round(daily.temperature_2m_min[0]);const prob=daily.precipitation_probability_max[0]||0;const wmo=gW(code);const sr=daily.sunrise[0];const ss=daily.sunset[0];const aqi=Math.round(air.current.european_aqi||0);const pm25=Math.round(air.current.pm2_5||0);const pm10=Math.round(air.current.pm10||0);const no2=Math.round(air.current.nitrogen_dioxide||0);const ai=aI(aqi);const ms=new Date(ss)-new Date(sr);const dayLen=`${Math.floor(ms/3600000)}h ${Math.floor((ms%3600000)/60000)}m`;const now3=new Date();const nowMs=Date.now();const srMs=new Date(sr).getTime();const ssMs=new Date(ss).getTime();const isNight=nowMs<srMs||nowMs>ssMs;const sunPct=isNight?0:Math.max(0,Math.min(100,((nowMs-srMs)/(ssMs-srMs))*100));const angleRad=(sunPct/100)*Math.PI;const sunSvgX=sunPct;const sunSvgY=isNight?100:(100-Math.sin(angleRad)*100);const sunColor=isNight?'#475569':'#fbbf24';setParticles(wmo.c);document.getElementById('w-temp').innerHTML=`${temp}<span class="card-number-unit">°C</span>`;document.getElementById('w-state').innerHTML=`<i class="ti ${wmo.i}"></i> ${wmo.l} &nbsp;·&nbsp; ${tmax}° / ${tmin}°`;document.getElementById('w-status').textContent=vrd(code,prob,tmax);document.getElementById('footer-updated').textContent=`AKTUALIZOVÁNO ${now3.getHours()}:${String(now3.getMinutes()).padStart(2,'0')}`;document.getElementById('w-detail').innerHTML=`<div class="detail-section"><div class="detail-section-title">Aktuálně</div><div class="detail-row"><span class="detail-row-label"><i class="ti ti-mood-smile"></i> Pocitová teplota</span><span class="detail-row-val">${feels}°C</span></div><div class="detail-row"><span class="detail-row-label"><i class="ti ti-droplet"></i> Vlhkost</span><span class="detail-row-val">${humidity}%</span></div><div class="detail-row"><span class="detail-row-label"><i class="ti ti-wind"></i> Vítr</span><span class="detail-row-val">${wind} km/h</span></div><div class="detail-row"><span class="detail-row-label"><i class="ti ti-umbrella"></i> Déšť dnes</span><span class="detail-row-val">${prob}%</span></div></div><div class="sun-arc-wrap"><div class="sun-arc-title">Slunce dnes</div><div class="sun-row"><div class="sun-time"><i class="ti ti-sunrise sun-time-icon sunrise"></i><div class="sun-time-val">${fT(sr)}</div><div class="sun-time-lbl">VÝCHOD</div></div><div class="sun-arc-svg-wrap"><svg class="sun-arc-svg" viewBox="0 0 100 60" preserveAspectRatio="none"><path d="M 0 58 Q 50 -10 100 58" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-dasharray="3,3"/><circle cx="${sunSvgX}" cy="${sunSvgY*0.6}" r="4" fill="${sunColor}" opacity="${isNight?0.3:1}"/></svg></div><div class="sun-time"><i class="ti ti-sunset sun-time-icon sunset"></i><div class="sun-time-val">${fT(ss)}</div><div class="sun-time-lbl">ZÁPAD</div></div></div><div class="sun-day-length">DÉLKA DNE · ${dayLen}</div></div><div class="detail-section"><div class="detail-section-title">Kvalita ovzduší</div><div class="aqi-grid"><div class="aqi-cell"><span class="aqi-val" style="color:${ai.c}">${aqi}</span><span class="aqi-lbl">AQI · ${ai.l}</span></div><div class="aqi-cell"><span class="aqi-val">${pm25}</span><span class="aqi-lbl">PM2.5 μg/m³</span></div><div class="aqi-cell"><span class="aqi-val">${pm10}</span><span class="aqi-lbl">PM10 μg/m³</span></div><div class="aqi-cell"><span class="aqi-val">${no2}</span><span class="aqi-lbl">NO₂ μg/m³</span></div></div></div><div class="detail-section"><div class="detail-section-title">Předpověď 7 dní</div>${daily.time.map((d,i)=>{const p=daily.precipitation_probability_max[i]||0;const w=gW(daily.weathercode[i]);const tm=Math.round(daily.temperature_2m_max[i]);const tn=Math.round(daily.temperature_2m_min[i]);const fc2=p>70?'heavy':p>30?'':'dry';return`<div class="fc-row"><div class="fc-day">${gDL(d,i)}</div><div class="fc-icon"><i class="ti ${w.i}"></i></div><div class="fc-bar"><div class="fc-fill ${fc2}" style="width:${Math.max(p,5)}%"></div></div><div class="fc-temp">${tm}°/${tn}°</div><div class="fc-prob">${p}%</div></div>`;}).join('')}</div><div class="verdict-box">${vrd(code,prob,tmax)}</div>`;renderPool({teplota:temp,pocitova:feels,wmo:code});}catch(e){document.getElementById('w-temp').innerHTML=`<span style="font-size:14px;color:#333;">Chyba</span>`;}}
+function renderPool(poc){const d=calcPool(poc);const avg=Math.round((d.v50+d.v33+d.vi)/3);const cls=pCls(avg);const txt=pTxt(avg);document.getElementById('p-pct').innerHTML=`${avg}<span class="card-number-unit">%</span>`;document.getElementById('p-state').textContent='průměrná obsazenost';document.getElementById('p-status').textContent=txt;const pools=[{n:'Venkovní 50m',p:d.v50,ok:d.letni},{n:'Venkovní 33m',p:d.v33,ok:d.letni},{n:'Vnitřní 50m',p:d.vi,ok:true}];let tip='';if(d.prsi)tip='Prší – venkovní bazény skoro prázdné.';else if(d.vikend&&d.slunecno&&d.pt>25)tip='Víkend + slunce + teplo = full house. Přijď před 9:00 nebo po 19:30.';else if(d.h>=17&&d.h<19&&d.t>20)tip='Špička z práce. Zkus po 19:00.';else if(d.h>=11&&d.h<13.5)tip='Oběd = nejklidnější čas.';else tip='Nejklidnější: všední 9–11h nebo 11–13:30h.';document.getElementById('p-detail').innerHTML=`<div class="detail-section"><div class="detail-section-title">Detail bazénů</div>${pools.map(pool=>{if(!pool.ok)return`<div class="pool-bar-item"><div class="pool-bar-header"><span class="pool-bar-name">${pool.n}</span><span style="color:#333;">MIMO SEZÓNU</span></div></div>`;const bc=pCls(pool.p);return`<div class="pool-bar-item"><div class="pool-bar-header"><span class="pool-bar-name">${pool.n}</span><span class="pool-bar-pct">${pool.p}%</span></div><div class="pool-bar"><div class="pool-bar-fill ${bc}" style="width:${pool.p}%"></div></div></div>`;}).join('')}<div class="pool-tip">${tip}</div><div class="chips"><span class="chip">6:00–9:00</span><span class="chip">11:00–13:30</span><span class="chip">po 19:30</span></div></div>`;}
+async function loadKino(){try{const res=await fetch(KINA_URL+'?t='+Date.now());if(!res.ok)throw new Error('HTTP '+res.status);const data=await res.json();const filmy=data.filmy||[];const legendary=filmy.filter(f=>f.rarita==='LEGENDARY').slice(0,3);document.getElementById('k-status').textContent=data.tyden||'';if(filmy.length===0){document.getElementById('k-films').innerHTML=`<div style="font-size:12px;color:#333;padding-top:8px;">Žádná data</div>`;}else{document.getElementById('k-films').innerHTML=legendary.length>0?legendary.map((f,i)=>`<div class="kino-film-row"><span class="kino-film-num">#${i+1}</span><span class="kino-film-name">${f.titul}</span></div>`).join(''):`<div style="font-size:12px;color:#333;padding-top:8px;">Žádné legendary filmy</div>`;}document.getElementById('k-detail').innerHTML=`<div class="detail-section"><div class="detail-section-title">Filmový radar · RPG edice · ${filmy.length} filmů</div>${filmy.map((f,i)=>{const b=f.barva||'#555';const pr=f.pocet_projekci===1?'1×':`${f.pocet_projekci}×`;return`<div class="rpg-row" style="border-left:2px solid ${b};padding-left:8px;"><div class="rpg-n">#${i+1}</div><div class="rpg-b" style="color:${b};border-color:${b}30;background:${b}12;">${f.rarita}</div><div class="rpg-t">${f.titul}</div><div class="rpg-c">${pr}</div></div>`;}).join('')}<div style="font-family:var(--font-mono);font-size:9px;color:#333;margin-top:12px;text-align:right;">AKT: ${data.aktualizovano||'—'}</div></div>`;}catch(e){document.getElementById('k-films').innerHTML=`<div style="font-size:11px;color:#333;">Data nedostupná</div>`;}}
+async function loadZpravy(){try{const res=await fetch(ZPRAVY_URL+'?t='+Date.now());if(!res.ok)throw new Error('HTTP '+res.status);const data=await res.json();const zeme=data.zeme||[];const cesko=zeme.find(z=>z.nazev&&z.nazev.toLowerCase().includes('esko'));const nemecko=zeme.find(z=>z.nazev&&z.nazev.toLowerCase().includes('mecko'));if(cesko)renderZeme('cz',cesko,data.aktualizovano);else document.getElementById('cz-hlavni').textContent='Data nedostupná';if(nemecko)renderZeme('de',nemecko,data.aktualizovano);else document.getElementById('de-hlavni').textContent='Data nedostupná';}catch(e){document.getElementById('cz-hlavni').textContent='Chyba načítání';document.getElementById('de-hlavni').textContent='Chyba načítání';}}
+function renderZeme(prefix,zeme,aktualizovano){const temata=zeme.temata||[];const hlavniEl=document.getElementById(prefix+'-hlavni');if(hlavniEl)hlavniEl.textContent=zeme.hlavni_tema||'';document.getElementById(prefix+'-status').textContent=aktualizovano?`Akt. ${aktualizovano.split(' ')[0]}`:'';document.getElementById(prefix+'-list').innerHTML=temata.map((t,i)=>`${i>0?'<div class="news-divider"></div>':''}<div class="news-tema-item"><div class="news-tema-nazev">${t.nazev}</div><div class="news-tema-co">${t.co_se_stalo?t.co_se_stalo.substring(0,80)+'…':''}</div></div>`).join('');document.getElementById(prefix+'-detail').querySelector('.detail-inner').innerHTML=`<div style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.2em;color:var(--muted);margin-bottom:20px;padding-bottom:8px;border-bottom:1px solid var(--border);">${zeme.hlavni_tema||''}</div>${temata.map(t=>`<div class="news-detail-tema"><div class="news-detail-nazev">${t.nazev}</div><div class="news-detail-row"><div class="news-detail-label">Co se stalo</div><div class="news-detail-text">${t.co_se_stalo||'—'}</div></div><div class="news-detail-row"><div class="news-detail-label">Proč je to důležité</div><div class="news-detail-text">${t.proc_je_to_dulezite||'—'}</div></div><div class="news-detail-row"><div class="news-detail-label">Co sledovat</div><div class="news-detail-text">${t.co_sledovat||'—'}</div></div><div class="news-detail-row"><div class="news-detail-label">Aktéři</div><div class="news-detail-text">${t.akteri||'—'}</div></div><div class="news-zdroj">Zdroj: ${t.zdroj||'—'}</div></div>`).join('')}`;}
+function setHeroDate(){const d=new Date();const days=['NEDĚLE','PONDĚLÍ','ÚTERÝ','STŘEDA','ČTVRTEK','PÁTEK','SOBOTA'];const months=['LEDNA','ÚNORA','BŘEZNA','DUBNA','KVĚTNA','ČERVNA','ČERVENCE','SRPNA','ZÁŘÍ','ŘÍJNA','LISTOPADU','PROSINCE'];document.getElementById('hero-date').textContent=`${days[d.getDay()]} ${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;}
+async function init(){setHeroDate();await Promise.all([loadWeather(),loadKino(),loadZpravy()]);document.getElementById('loading').classList.add('hide');setTimeout(()=>document.getElementById('loading').remove(),500);}
 init();
 setInterval(loadWeather,30*60*1000);
 </script>
