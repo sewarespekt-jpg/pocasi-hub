@@ -133,6 +133,10 @@ def main():
 
         print(f"Tokeny: vstup={response.usage.input_tokens}, výstup={response.usage.output_tokens}")
 
+        # Nejdřív vyčisti cite tagy z raw textu PŘED parsováním JSON
+        text = re.sub(r']*>(.*?)', r'\1', text, flags=re.DOTALL)
+        text = re.sub(r'<[^>]+>', '', text)
+
         # Najdi JSON v odpovědi
         json_match = re.search(r'\{[\s\S]*\}', text)
         if not json_match:
