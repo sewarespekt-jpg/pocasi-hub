@@ -36,6 +36,7 @@ Preferuj tyto zdroje ale nevylučuj jiné pokud přinesou relevantní informaci.
 <vystup>
 Veškerý výstup piš VÝHRADNĚ V ČEŠTINĚ.
 Délka zpracování každé země: maximálně na minutu čtení.
+DŮLEŽITÉ: Vrať POUZE čistý validní JSON bez jakýchkoliv HTML tagů, cite tagů nebo markdown formátování.
 
 Vrať POUZE validní JSON, žádný jiný text:
 {
@@ -43,12 +44,12 @@ Vrať POUZE validní JSON, žádný jiný text:
   "zeme": [
     {
       "nazev": "Německo",
-      "emoji": "🇩🇪",
+      "emoji": "DE",
       "hlavni_tema": "Jedna věta co nejvíc hýbe zemí dnes",
       "temata": [
         {
           "nazev": "Název tématu",
-          "co_se_stalo": "Fakt — co přesně se stalo",
+          "co_se_stalo": "Fakt co přesně se stalo",
           "proc_je_to_dulezite": "Pozadí a předhistorie",
           "co_sledovat": "Důsledky a co sledovat dál",
           "akteri": "Hlavní aktéři a jejich případná politická příslušnost",
@@ -58,9 +59,18 @@ Vrať POUZE validní JSON, žádný jiný text:
     },
     {
       "nazev": "Česko",
-      "emoji": "🇨🇿",
+      "emoji": "CZ",
       "hlavni_tema": "Jedna věta co nejvíc hýbe zemí dnes",
-      "temata": []
+      "temata": [
+        {
+          "nazev": "Název tématu",
+          "co_se_stalo": "Fakt co přesně se stalo",
+          "proc_je_to_dulezite": "Pozadí a předhistorie",
+          "co_sledovat": "Důsledky a co sledovat dál",
+          "akteri": "Hlavní aktéři a jejich případná politická příslušnost",
+          "zdroj": "Médium ze kterého fakta pocházejí"
+        }
+      ]
     }
   ]
 }
@@ -72,17 +82,18 @@ Vrať POUZE validní JSON, žádný jiný text:
 * Rozlišuj fakt od interpretace
 * Pokud se zdroje rozcházejí, uveď to
 * Radši méně informací ale ověřených, než více vycucaných z palce
+* JSON musí být kompletní a validní — nekrát ho uprostřed
 </dulezite>"""
+
 
 def clean_text(text):
     """Odstraní citation tagy a HTML ze stringů."""
     if not isinstance(text, str):
         return text
-    # Odstraní <cite index="...">...</cite> tagy ale zachová obsah
     text = re.sub(r']*>(.*?)', r'\1', text, flags=re.DOTALL)
-    # Odstraní ostatní HTML tagy
     text = re.sub(r'<[^>]+>', '', text)
     return text.strip()
+
 
 def clean_data(obj):
     """Rekurzivně vyčistí všechny stringy v datech."""
@@ -93,6 +104,7 @@ def clean_data(obj):
     elif isinstance(obj, str):
         return clean_text(obj)
     return obj
+
 
 def main():
     dnes = datetime.now()
@@ -109,7 +121,7 @@ def main():
     try:
         response = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=2048,
+            max_tokens=4096,
             tools=[{"type": "web_search_20250305", "name": "web_search"}],
             messages=[{"role": "user", "content": PROMPT}]
         )
@@ -121,13 +133,38 @@ def main():
 
         print(f"Tokeny: vstup={response.usage.input_tokens}, výstup={response.usage.output_tokens}")
 
+        # Najdi JSON v odpovědi
         json_match = re.search(r'\{[\s\S]*\}', text)
         if not json_match:
             print("CHYBA: Žádný JSON v odpovědi")
             print("Odpověď:", text[:500])
             exit(1)
 
-        data = json.loads(json_match.group())
+        json_str = json_match.group()
+
+        # Zkus parsovat JSON
+        try:
+            data = json.loads(json_str)
+        except json.JSONDecodeError as e:
+            print(f"JSON chyba na pozici {e.pos}: {e.msg}")
+            # Zkus najít jen validní část
+            try:
+                # Ořízni na konec posledního kompletního objektu zemí
+                truncated = json_str[:e.pos]
+                last_brace = truncated.rfind('}}')
+                if last_brace > 0:
+                    fixed = truncated[:last_brace + 2] + ']}' 
+                    data = json.loads(fixed)
+                    print("JSON opraven zkrácením.")
+                else:
+                    print("CHYBA: JSON nelze opravit")
+                    print("Text kolem chyby:", json_str[max(0, e.pos-200):e.pos+200])
+                    exit(1)
+            except Exception as e2:
+                print(f"CHYBA opravy JSON: {e2}")
+                exit(1)
+
+        # Vyčisti cite tagy a HTML
         data = clean_data(data)
         data["aktualizovano"] = dnes.strftime("%Y-%m-%d %H:%M")
 
@@ -136,9 +173,9 @@ def main():
 
         print(f"\nHotovo! zpravy.json uložen.")
         for zeme in data.get("zeme", []):
-            print(f"\n{zeme['emoji']} {zeme['nazev']}: {zeme['hlavni_tema']}")
+            print(f"\n{zeme.get('nazev', '?')}: {zeme.get('hlavni_tema', '?')}")
             for t in zeme.get("temata", []):
-                print(f"  - {t['nazev']}")
+                print(f"  - {t.get('nazev', '?')}")
 
     except json.JSONDecodeError as e:
         print(f"CHYBA parsování JSON: {e}")
@@ -146,6 +183,7 @@ def main():
     except Exception as e:
         print(f"CHYBA: {e}")
         exit(1)
+
 
 if __name__ == "__main__":
     main()
