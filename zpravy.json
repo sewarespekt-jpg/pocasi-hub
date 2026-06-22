@@ -1,68 +1,68 @@
 {
-  "datum": "18.06.2026",
+  "datum": "22.06.2026",
   "zeme": [
     {
       "nazev": "Německo",
-      "emoji": "DE",
-      "hlavni_tema": "Německo čelí geopolitickým tenzím a ekonomickým výzvám v době otřesů na Blízkém východě a změnách v transatlantických vztazích",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Levicová strana se zapojila do debaty o izraelsko-palestinském konfliktu, což vyvolalo konflikt s židovskou komunou",
       "temata": [
         {
-          "nazev": "USA-Írán dohoda a německá role",
-          "co_se_stalo": "Prezidenti USA a Íránu elektronicky podepsali memorandum o porozumění, které otevírá cestu k mírové dohodě. Německo podle kancléře Friedricha Merze vyslalo do oblasti Perského zálivu první lodě určené k odstraňování námořních min.",
-          "proc_je_to_dulezite": "Dohoda znamená obrat v geopolitice. Berlín se chce podílet na stabilizaci regionu po tom, co konflikt Íránu a USA desítky měsíců ohrožoval světové obchod a ceny energií. Jde o signál německé samostatnosti v zahraniční politice.",
-          "co_sledovat": "Jak se Německo bude dále angažovat v regionu, zda to ovlivní jeho vztahy se Spojenými státy a jak se to projeví na cenách energií a bezpečnosti námořních tras.",
-          "akteri": "Kancléř Friedrich Merz (CDU/CSU - středopravá koalice), německá vláda; USA a Írán na mezinárodní úrovni.",
-          "zdroj": "iROZHLAS.cz, Novinky.cz"
+          "nazev": "Levice a spor o Izrael",
+          "co_se_stalo": "Levicová strana se v minulém týdnu přidala k obviňování Izraele z genocidy v souvislosti s konfliktem v Gaze.",
+          "proc_je_to_dulezite": "Vedení židovské komuny v Německu kritizuje tuto pozici jako problematickou a kontroverzní. Josef Schuster, prezident Zentralratu der Juden in Deutschland, označil stranu za volitelnou.",
+          "co_sledovat": "Následky pro levici v kampaních a její celoevropské postavení k blízkovýchodnímu konfliktu; polarizace německé společnosti kolem otázky Izraele",
+          "akteri": "Levicová strana (Die Linke, levicová opozice), Josef Schuster a židovská komunita, CDU (kritika)",
+          "zdroj": "Tagesspiegel"
         },
         {
-          "nazev": "Ekonomické problémy a ztráta konkurenceschopnosti",
-          "co_se_stalo": "Německá ekonomika zaostává za očekáváním. Pokud by hospodářství rostlo stejně jako před pandemií covidu-19, byl by HDP Německa o šest procent větší, než je dnes.",
-          "proc_je_to_dulezite": "Jde o nejhorší situaci Německa od konce studené války. Ztráta konkurenceschopnosti se týká průmyslu, inovací a investic. To ovlivňuje nezaměstnanost, sociální náladu a politickou stabilitu. AfD (krajně pravicová Alternativa pro Německo) těží z nezpokojení občanů.",
-          "co_sledovat": "Jaké reformy německá vláda navrátí, zda se podaří zvrátit hospodářský trend, jak se změny projeví na pracovním trhu a politické polarizaci společnosti.",
-          "akteri": "Německá federální vláda pod vedením Merze, AfD jako opoziční síla; ekonomové a průmyslníci kritizující tempo reforem.",
-          "zdroj": "Hospodářské noviny"
+          "nazev": "Fotbalové mistrovství světa 2026",
+          "co_se_stalo": "Německo hraje na probíhajícím Mistrovství světa ve fotbale 2026. Podle záznamů tým hraje ve skupině a vydržuje nebo se potýká s výsledky.",
+          "proc_je_to_dulezite": "Fotbal je v Německu jedním z nejsledovanějších sportů. Mistrovství světa vždy generuje velký mediální zájem a spojuje národní identitu.",
+          "co_sledovat": "Pokračování skupinové fáze, postupové možnosti týmu, fan reactions a mediální pokrytí",
+          "akteri": "Německý fotbalový svaz DFB, hráči německé reprezentace, fanoušci",
+          "zdroj": "ZDF, oficiální zpravodajství"
         },
         {
-          "nazev": "Záchrana velryby v Baltském moři",
-          "co_se_stalo": "Mladá velryba (keporkak), která uvázla na mělčině u ostrova Poel v březnu, byla v příslušném čase zachráněna. Nákladní člun s velrybou se vydal na cestu do Severního moře.",
-          "proc_je_to_dulezite": "Případ vábil pozornost evropské veřejnosti jako symbol snahy německé společnosti chránit přírodu a divochou přírodu. V době klimatických výzev jde o symbolickou akci, která rezonuje s německými zájmy o životní prostředí.",
-          "co_sledovat": "Přežije-li velryba ve volné přírodě, jak se bude dál vyvíjet péče o ohrožené druhy v Baltském moři.",
-          "akteri": "Německé záchranné sbory, environmentálních organizace, místní komunity; média jako aktéři v mobilizaci veřejné podpory.",
-          "zdroj": "CNN Prima NEWS, iROZHLAS.cz"
+          "nazev": "Plány na deportace do Afghánistánu",
+          "co_se_stalo": "Německá vláda plánuje podstatně rozšířit návrat migrantů do Afghánistánu na základě dohod s Talibanem.",
+          "proc_je_to_dulezite": "Jde o silně kontroverzní politiku vzhledem k bezpečnostní situaci v Afghánistánu a právům uprchlíků. Odsunování do zemí s autoritářskými režimy vzbuzuje debatu o právním státu.",
+          "co_sledovat": "Právní výzvy, reakce mezinárodních organizací, veřejný odpor, schválení či zamítnutí dohod v parlamentu",
+          "akteri": "Vláda (koalice CDU/CSU a SPD či jiné), Ministerstvo vnitra, lidská práva, Taliban, uprchlické organizace",
+          "zdroj": "Tagesspiegel"
         }
       ]
     },
     {
       "nazev": "Česko",
-      "emoji": "CZ",
-      "hlavni_tema": "Česko čelí dvěma hlavním výzvám: změně financování veřejnoprávních médií a tropickým vedrům, která zasáhnou zemi o víkendu",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "Prezident Pavel se neposílá na summit NATO v Ankaře, vláda a veřejnost zuří nad budoucností veřejnoprávních médií",
       "temata": [
         {
-          "nazev": "Zmena financování veřejnoprávních médií",
-          "co_se_stalo": "Vláda schválila návrh na změnu financování médií veřejné služby. Chce jim dát ze státního rozpočtu výrazně méně, než kolik měla tato média z poplatků doposud. Na protest vypukne v pondělí 22. června jednodenní stávka v České televizi a Českém rozhlase.",
-          "proc_je_to_dulezite": "Jde o zásadní změnu v modelu financování veřejnoprávních médií, která má dopady na nezávislost redakcí. Existuje riziko, že snížená finanční podpora povede k redukci obsahu a zaměstnanců. Téma rezonuje s diskusí o wolnosti médií a vlivu politiky na obsah.",
-          "co_sledovat": "Jak se realizuje stávka, jaký bude dopad na vysílání, jak se postaví různé politické strany (koalice ANO-SPD-Motoristé versus opozice), zda budou přijaté dodatečné kompromisy.",
-          "akteri": "Vláda Andreje Babiše (ANO - středolevice); zaměstnanci ČT a ČRo (tedy odbory); opozice, která kritizuje rozhodnutí; prezident Petr Pavel, který rozhodnutí kritizuje.",
-          "zdroj": "Novinky.cz, Aktuálně.cz, Deník.cz"
+          "nazev": "Prezident Pavel mimo delegaci NATO",
+          "co_se_stalo": "Premiér Andrej Babiš (ANO) oznámil, že prezident Petr Pavel nebude součástí delegace na červencovém summitu NATO v Ankaře, kterou povede sám premiér.",
+          "proc_je_to_dulezite": "Absence hlovy státu z takto důležité mezinárodní schůze je neobvyklá a signalizuje vnitřní napětí mezi premiérem (ANO) a prezidentem (nezávislý, z vojenského prostředí). Odsunuje prezidenta z prostor vlivu.",
+          "co_sledovat": "Oficiální vyjádření prezidenta (které slibuje v úterý), politické důsledky, reakce opozice, důvody (vláda tvrdí praktické důvody), postoj evropských partnerů",
+          "akteri": "Andrej Babiš (premiér, ANO), Petr Pavel (prezident, nezávislý), vláda ČR, NATO, opozice",
+          "zdroj": "Novinky.cz"
         },
         {
-          "nazev": "Tropické vedra a meteorologické varování",
-          "co_se_stalo": "Český hydrometeorologický ústav vydal varování před vlnou tropických veder. O víkendu se teploty vyšplhají až k 36 stupňům Celsia a horko doprovodí silné bouřky. Výstraha platí až do pondělí 22. června.",
-          "proc_je_to_dulezite": "Extrémní teploty ohrožují zdraví, zejména starších lidí a těch se srdečními problémy. Vysoké teploty zvyšují riziko cévní mozkové příhody, dehydratace a únavy. Zdravotníci varují, že zdravotnický systém bude zatížen. Jde o důsledek klimatických změn, které se v Česku projevují stále intenzivněji.",
-          "co_sledovat": "Jak se lidé přizpůsobí teplotám, zda budou zaznamenány případy zdravotních komplikací, jak budou reagovat města a obce (letní koupaliště, sprchy na ulici), jaká doporučení vydají zdravotníci.",
-          "akteri": "Český hydrometeorologický ústav (vědecká instituce); ministerstvo zdravotnictví; zdravotníci; média informující veřejnost; samosprávy a krizové štáby.",
-          "zdroj": "Deník.cz, iROZHLAS.cz, Aktuálně.cz"
+          "nazev": "Boj o nezávislost veřejnoprávních médií",
+          "co_se_stalo": "Vláda (ANO, SPD, Motoristé) plánuje změnit financování veřejnoprávních médií (ČT a ČRo) z poplatků na státní rozpočet, ale přitom jim přiznává o 1,4 miliardy korun méně. Zaměstnanci vstoupili do jednodenní stávky.",
+          "proc_je_to_dulezite": "Jde o zásadní otázku mediální nezávislosti a možné kontroly státu nad zpravodajstvím. Tisíce lidí demonstrovaly na podporu médií. Organizace Milion chvilek poukazují na snahu vládnout médii. Moderátor Daniel Stach obhajuje autonomii redakce.",
+          "co_sledovat": "Výsledek legislativního procesu, další stávky, důsledky pro kvalitu zpravodajství, pokud se financování změní; veřejný odpor; volby příštího roku a vztah k mediální svobodě",
+          "akteri": "Vláda (Babiš, Motoristé, SPD), zaměstnanci ČT a ČRo, Milion chvilek (iniciativa), Daniel Stach (moderátor ČT), opozice, EU",
+          "zdroj": "Deník N, Aktuálně.cz, Novinky.cz"
         },
         {
-          "nazev": "Problém kandidáta Prokopa a majetku v Praze",
-          "co_se_stalo": "Ondřej Prokop, předseda pražské organizace ANO a kandidát hnutí na primátora, nepřiznal v povinném majetkovém přehledu vlastnictví tří družstevních bytů. Až po konfrontaci se Seznamem Zprávy koupi dodatečně přiznal.",
-          "proc_je_to_dulezite": "Jde o problém transparentnosti a důvěryhodnosti kandidáta. Neúplné majetková přiznání jsou závažná v předvolebním období a vyvolávají otázky o Prokopově integritě. Případ se dotýká image ANO a premiéra Andreje Babiše, který ho podporuje. Spekuluje se, že Babiš může Prokopa nahradit ministrem Vojtěchem v komunálních volbách.",
-          "co_sledovat": "Jak se postaví Babiš k situaci, zda to ovlivní pozici Prokopa jako kandidáta, jak na to budou reagovat voliči a média, jaké budou další kroky koalice ANO.",
-          "akteri": "Ondřej Prokop (ANO); Andrej Babiš (ANO); Adam Vojtěch (ministr zdravotnictví, ANO); Seznam Zprávy (investigativní novináka); volební komise.",
-          "zdroj": "Seznam Zprávy, Aktuálně.cz, Deník.cz"
+          "nazev": "Silné bouřky a nepříznivé počasí",
+          "co_se_stalo": "Česko v pondělí 22. június zasáhly silné bouřky. Český hydrometeorologický ústav (ČHMÚ) vydal výstrahy. Hasiči měli stovky výjezdů, zejména ve středních Čechách.",
+          "proc_je_to_dulezite": "Extrémní počasí způsobuje škody, ohrožuje zdraví a život. Zdá se být součástí širší vlny veder a bouřek v létě 2026. Temperaturní rekordy a příval deště vyžadují krizové řízení.",
+          "co_sledovat": "Počet škod na majetku, postiženích, evakuací; obnova; další bouřky a tropické teploty (údajně až 35°C), které mají přijít ke konci týdne",
+          "akteri": "Český hydrometeorologický ústav (ČHMÚ), hasiči a záchranné služby, místní samosprávy, občané",
+          "zdroj": "Novinky.cz, iROZHLAS, Aktuálně.cz"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-18 14:58"
+  "aktualizovano": "2026-06-22 16:48"
 }
