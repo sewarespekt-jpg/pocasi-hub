@@ -1,33 +1,33 @@
 {
-  "datum": "22.06.2026",
+  "datum": "23.06.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Levicová strana se zapojila do debaty o izraelsko-palestinském konfliktu, což vyvolalo konflikt s židovskou komunou",
+      "hlavni_tema": "Extrémní horko přkrývá zemi tepelnou kupolí, teploty se blíží 40 stupňům",
       "temata": [
         {
-          "nazev": "Levice a spor o Izrael",
-          "co_se_stalo": "Levicová strana se v minulém týdnu přidala k obviňování Izraele z genocidy v souvislosti s konfliktem v Gaze.",
-          "proc_je_to_dulezite": "Vedení židovské komuny v Německu kritizuje tuto pozici jako problematickou a kontroverzní. Josef Schuster, prezident Zentralratu der Juden in Deutschland, označil stranu za volitelnou.",
-          "co_sledovat": "Následky pro levici v kampaních a její celoevropské postavení k blízkovýchodnímu konfliktu; polarizace německé společnosti kolem otázky Izraele",
-          "akteri": "Levicová strana (Die Linke, levicová opozice), Josef Schuster a židovská komunita, CDU (kritika)",
-          "zdroj": "Tagesspiegel"
+          "nazev": "Heatwave a teplotní rekordy",
+          "co_se_stalo": "Německo zasáhla silná heatwave. Meteorologové varují, že v průběhu týdne by mohla být překonána 40stupňová hranice.",
+          "proc_je_to_dulezite": "Evropu postihují extrémní teploty způsobené horkým saharským vzduchem a tlakovou výší. Meteorologové upozorňují, že vlna veder potrvá minimálně do poloviny týdne. Jde o opakující se problém, který ohrožuje veřejné zdraví a infrastrukturu.",
+          "co_sledovat": "Množství zásahů záchranných služeb, počet osob hospitalizovaných v důsledku horka, případné škody na infrastruktuře a dopravě. Zdá se, že podobné vlny budou v létě opakovat.",
+          "akteri": "Německý meteorologický úřad (vydává varování), místní úřady, zdravotnické služby",
+          "zdroj": "Tagesspiegel, ZDF heute"
         },
         {
-          "nazev": "Fotbalové mistrovství světa 2026",
-          "co_se_stalo": "Německo hraje na probíhajícím Mistrovství světa ve fotbale 2026. Podle záznamů tým hraje ve skupině a vydržuje nebo se potýká s výsledky.",
-          "proc_je_to_dulezite": "Fotbal je v Německu jedním z nejsledovanějších sportů. Mistrovství světa vždy generuje velký mediální zájem a spojuje národní identitu.",
-          "co_sledovat": "Pokračování skupinové fáze, postupové možnosti týmu, fan reactions a mediální pokrytí",
-          "akteri": "Německý fotbalový svaz DFB, hráči německé reprezentace, fanoušci",
-          "zdroj": "ZDF, oficiální zpravodajství"
+          "nazev": "Nové vedení levicové strany Die Linke",
+          "co_se_stalo": "Die Linke zvolila nové vedení. Ines Schwerdtner a Luigi Pantisano byli zvoleni na pozici co-předsedů strany, přičemž Pantisano vyhrál pouze těsně.",
+          "proc_je_to_dulezite": "Die Linke prochází reorganizací vedení v čase, kdy se nemůže dobře uchytit v nové politické konstelaci. Schwerdtner verbálně vyzývá stranu, aby se nechtě vzdala východu svobodominusům. Volba nového vedení je součástí snahy strany o regeneraci.",
+          "co_sledovat": "Jak se Die Linke bude pozicovat vůči ostatním levicovým subjektům, jak se změní její strategie v otázce východu Německa a jak bude reagovat na konkurenci dalších levicových a progresivních stran.",
+          "akteri": "Ines Schwerdtner (Die Linke), Luigi Pantisano (Die Linke) - oba jako nové vedení partají, členstvo strany Die Linke",
+          "zdroj": "ZDF heute"
         },
         {
-          "nazev": "Plány na deportace do Afghánistánu",
-          "co_se_stalo": "Německá vláda plánuje podstatně rozšířit návrat migrantů do Afghánistánu na základě dohod s Talibanem.",
-          "proc_je_to_dulezite": "Jde o silně kontroverzní politiku vzhledem k bezpečnostní situaci v Afghánistánu a právům uprchlíků. Odsunování do zemí s autoritářskými režimy vzbuzuje debatu o právním státu.",
-          "co_sledovat": "Právní výzvy, reakce mezinárodních organizací, veřejný odpor, schválení či zamítnutí dohod v parlamentu",
-          "akteri": "Vláda (koalice CDU/CSU a SPD či jiné), Ministerstvo vnitra, lidská práva, Taliban, uprchlické organizace",
+          "nazev": "Počet insolvencí dosáhl nejvyššího bodu od roku 2013",
+          "co_se_stalo": "Počet insolventních firem v Německu dosáhl v první polovině roku 2026 nejvyššího stavu od roku 2013. Údaje pocházejí od Creditreform.",
+          "proc_je_to_dulezite": "Jde o signál hospodářských problémů. Vysoký počet insolvencí indikuje ekonomické potíže, které postihují střední a malé podniky. To odrážívá širší problémy s hospodářským růstem a konkurenceschopností německé ekonomiky, kterou vláda pokouší oživit.",
+          "co_sledovat": "Další vývoj počtu insolvencí, odvětví, která jsou nejvíce postihnutá, politické opatření vlády na podporu podnikatelství.",
+          "akteri": "Creditreform (zdroj dat), kancelářský Merz (pokouší se řešit ekonomické problémy), podnikatelská komunita",
           "zdroj": "Tagesspiegel"
         }
       ]
@@ -35,34 +35,34 @@
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Prezident Pavel se neposílá na summit NATO v Ankaře, vláda a veřejnost zuří nad budoucností veřejnoprávních médií",
+      "hlavni_tema": "Konflikt mezi prezidentem Pavlem a premiérem Babišem o summit NATO eskaluje, Pavel chce podat kompetenční žalobu",
       "temata": [
         {
-          "nazev": "Prezident Pavel mimo delegaci NATO",
-          "co_se_stalo": "Premiér Andrej Babiš (ANO) oznámil, že prezident Petr Pavel nebude součástí delegace na červencovém summitu NATO v Ankaře, kterou povede sám premiér.",
-          "proc_je_to_dulezite": "Absence hlovy státu z takto důležité mezinárodní schůze je neobvyklá a signalizuje vnitřní napětí mezi premiérem (ANO) a prezidentem (nezávislý, z vojenského prostředí). Odsunuje prezidenta z prostor vlivu.",
-          "co_sledovat": "Oficiální vyjádření prezidenta (které slibuje v úterý), politické důsledky, reakce opozice, důvody (vláda tvrdí praktické důvody), postoj evropských partnerů",
-          "akteri": "Andrej Babiš (premiér, ANO), Petr Pavel (prezident, nezávislý), vláda ČR, NATO, opozice",
-          "zdroj": "Novinky.cz"
+          "nazev": "Spor o účast prezidenta na summitu NATO",
+          "co_se_stalo": "Vláda premiéra Babiše rozhodla, že prezident Petr Pavel se NEBUDE účastnit červencového summitu NATO v Ankaře. Vláda tvrdí, že jde o praktické důvody. Pavel podle zdrojů Seznam Zpráv zvažuje nebo již podal kompetenční žalobu k Ústavnímu soudu.",
+          "proc_je_to_dulezite": "Tento spor je eskalací dlouhodobého konfliktu mezi Pavlem a Babišem. NATO řeší největší bezpečnostní hrozby za dobu své existence a účast hlavy státu na summitu je tradičně důležitá pro reprezentaci země. Pavel označil rozhodnutí za 'bezprecedentní' a 'nešťastný krok'. Jde o zásadní ústavní spor o kompetence prezidenta.",
+          "co_sledovat": "Rozhodnutí Ústavního soudu o kompetenční žalobě, postoj ostatních politických stran, vývoj vztahu mezi Pavlem a Babišem, důsledky pro mezinárodní pozici Česka.",
+          "akteri": "Prezident Petr Pavel (kandidát proti rozhodnutí vlády), premiér Andrej Babiš (ANO - iniciátor opatření), ministr zahraničí Petr Macinka (Motoristé), ministr obrany Jaromír Zůna (SPD), Ústavní soud",
+          "zdroj": "Seznam Zprávy, Deník N, ČT24"
         },
         {
-          "nazev": "Boj o nezávislost veřejnoprávních médií",
-          "co_se_stalo": "Vláda (ANO, SPD, Motoristé) plánuje změnit financování veřejnoprávních médií (ČT a ČRo) z poplatků na státní rozpočet, ale přitom jim přiznává o 1,4 miliardy korun méně. Zaměstnanci vstoupili do jednodenní stávky.",
-          "proc_je_to_dulezite": "Jde o zásadní otázku mediální nezávislosti a možné kontroly státu nad zpravodajstvím. Tisíce lidí demonstrovaly na podporu médií. Organizace Milion chvilek poukazují na snahu vládnout médii. Moderátor Daniel Stach obhajuje autonomii redakce.",
-          "co_sledovat": "Výsledek legislativního procesu, další stávky, důsledky pro kvalitu zpravodajství, pokud se financování změní; veřejný odpor; volby příštího roku a vztah k mediální svobodě",
-          "akteri": "Vláda (Babiš, Motoristé, SPD), zaměstnanci ČT a ČRo, Milion chvilek (iniciativa), Daniel Stach (moderátor ČT), opozice, EU",
-          "zdroj": "Deník N, Aktuálně.cz, Novinky.cz"
+          "nazev": "Výstražná stávka zaměstnanců veřejnoprávních médií",
+          "co_se_stalo": "V pondělí 23. června vstoupili zaměstnanci České televize a Českého rozhlasu do jednodenní výstražné stávky. Protestují proti vládnímu plánu zrušit televizní a rozhlasové poplatky a financovat obě média ze státního rozpočtu. Stávka se projevila ve vysílání všech stanic s výjimkou dětských kanálů.",
+          "proc_je_to_dulezite": "Jde o střet o nezávislost médií. Vláda chce sice zrušit poplatky, ale navrhuje financování ze státního rozpočtu s nižší částkou (o 1,4 miliardy korun méně). Zaměstnanci se obávají, že to ohrožuje redakční nezávislost. Bylo sem i velké veřejné shromáždění organizované Milionem chvilek pro demokracii. Mediální experti varují, že měkké protesty budou pokračovat tvrdšími akcemi.",
+          "co_sledovat": "Další stávky, výsledek finančního řešení, postoj české veřejnosti, potenciální dopad na kvalitu zpravodajství, legislativní rozhodnutí o financování médií.",
+          "akteri": "Zaměstnanci ČT a ČRo (iniciátoři stávky), ministr kultury Ota Klempíř (Motoristé - zastání vlády), ministr školství Robert Plaga (ANO), Milion chvilek pro demokracii (organizátor demonstrace), ostatní politické strany",
+          "zdroj": "Deník N, iRozhlas, ČT24, Deník.cz"
         },
         {
-          "nazev": "Silné bouřky a nepříznivé počasí",
-          "co_se_stalo": "Česko v pondělí 22. június zasáhly silné bouřky. Český hydrometeorologický ústav (ČHMÚ) vydal výstrahy. Hasiči měli stovky výjezdů, zejména ve středních Čechách.",
-          "proc_je_to_dulezite": "Extrémní počasí způsobuje škody, ohrožuje zdraví a život. Zdá se být součástí širší vlny veder a bouřek v létě 2026. Temperaturní rekordy a příval deště vyžadují krizové řízení.",
-          "co_sledovat": "Počet škod na majetku, postiženích, evakuací; obnova; další bouřky a tropické teploty (údajně až 35°C), které mají přijít ke konci týdne",
-          "akteri": "Český hydrometeorologický ústav (ČHMÚ), hasiči a záchranné služby, místní samosprávy, občané",
-          "zdroj": "Novinky.cz, iROZHLAS, Aktuálně.cz"
+          "nazev": "Obžaloba proti Pekárně Zelená louka (část Agrofertů) kvůli dotaci",
+          "co_se_stalo": "Státní zástupce Adam Bašný podal v pondělí obžalobu na společnost Pekárna Zelená louka spadající pod koncern Agrofert a dva lidi kvůli zneužití evropské dotace 100 milionů korun na inovační linku na toastový chléb.",
+          "proc_je_to_dulezite": "Jde o případ potenciálního zneužití státních a evropských prostředků. Agrofert je koncern s dlouhodobě komplikovanou historií ve vztahu k veřejným dotacím a střetu zájmů. Obžaloba upozorňuje na problém s přidělováním a čerpáním unijních financí v Česku.",
+          "co_sledovat": "Průběh soudního procesu, případný důkaz manipulace s dotací, výsledný rozsudek, potenciální dopad na další projekty Agrofertů a politiku dotací.",
+          "akteri": "Státní zástupce Adam Bašný (iniciátor obžaloby), firma Pekárna Zelená louka (obviněný subjekt), Agrofert (nadřazený koncern), soud",
+          "zdroj": "iRozhlas, ČT24, Aktuálně.cz"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-22 16:48"
+  "aktualizovano": "2026-06-23 14:40"
 }
