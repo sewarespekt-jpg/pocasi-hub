@@ -1,68 +1,68 @@
 {
-  "datum": "23.06.2026",
+  "datum": "25.06.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Extrémní horko přkrývá zemi tepelnou kupolí, teploty se blíží 40 stupňům",
+      "hlavni_tema": "Německo se chystá na historickou hitzewelle - teploty mohou překonat 40 stupňů",
       "temata": [
         {
-          "nazev": "Heatwave a teplotní rekordy",
-          "co_se_stalo": "Německo zasáhla silná heatwave. Meteorologové varují, že v průběhu týdne by mohla být překonána 40stupňová hranice.",
-          "proc_je_to_dulezite": "Evropu postihují extrémní teploty způsobené horkým saharským vzduchem a tlakovou výší. Meteorologové upozorňují, že vlna veder potrvá minimálně do poloviny týdne. Jde o opakující se problém, který ohrožuje veřejné zdraví a infrastrukturu.",
-          "co_sledovat": "Množství zásahů záchranných služeb, počet osob hospitalizovaných v důsledku horka, případné škody na infrastruktuře a dopravě. Zdá se, že podobné vlny budou v létě opakovat.",
-          "akteri": "Německý meteorologický úřad (vydává varování), místní úřady, zdravotnické služby",
-          "zdroj": "Tagesspiegel, ZDF heute"
+          "nazev": "Historická hitzewelle s teplotami do 40 stupňů",
+          "co_se_stalo": "Německo v těchto dnech zažívá extrémně vysoké teploty. Podle německých meteorologů by teploty mohly koncem týdne dosáhnout 40 stupňů, především na jihozápadě země. Dosavadní německý rekord z roku 2019 je 39,6 stupňů.",
+          "proc_je_to_dulezite": "Jde o potenciálně historickou hitzewelle - podle meteorologů by to byl vůbec první červen, kdy by v Německu byly překonány 40 stupně. Dlouhotrvající vysoké teploty bez nočního ochlazení mají vážné dopady na zdraví, zejména seniory, těhotné ženy a malé děti. Dlouhodobě ovlivňuje také infrastrukturu, zemědělství a energetiku.",
+          "co_sledovat": "V příštích dnech se soustředit na nejnovější meteorologické předpovědi - zda skutečně dojde k překročení 40 stupňů. Konce týdne lze očekávat také silné bouřky v některých regionech. Důležité bude sledovat, zda se hitzewelle bude vyvíjet podle nejpesimističtějších scénářů, které počítají se zůstáváním vysokých teplot až do začátku července.",
+          "akteri": "Německý meteorologický služba (Deutscher Wetterdienst), předseda vlády a místní úřady vydávající varování",
+          "zdroj": "Deutscher Wetterdienst, wetter.com, news.de"
         },
         {
-          "nazev": "Nové vedení levicové strany Die Linke",
-          "co_se_stalo": "Die Linke zvolila nové vedení. Ines Schwerdtner a Luigi Pantisano byli zvoleni na pozici co-předsedů strany, přičemž Pantisano vyhrál pouze těsně.",
-          "proc_je_to_dulezite": "Die Linke prochází reorganizací vedení v čase, kdy se nemůže dobře uchytit v nové politické konstelaci. Schwerdtner verbálně vyzývá stranu, aby se nechtě vzdala východu svobodominusům. Volba nového vedení je součástí snahy strany o regeneraci.",
-          "co_sledovat": "Jak se Die Linke bude pozicovat vůči ostatním levicovým subjektům, jak se změní její strategie v otázce východu Německa a jak bude reagovat na konkurenci dalších levicových a progresivních stran.",
-          "akteri": "Ines Schwerdtner (Die Linke), Luigi Pantisano (Die Linke) - oba jako nové vedení partají, členstvo strany Die Linke",
-          "zdroj": "ZDF heute"
+          "nazev": "Přerušení železničního provozu kvůli technické poruše",
+          "co_se_stalo": "V úterý večer vypadl železniční rádio Deutsche Bahn po celém Německu. Během dvou hodin se podařilo problém vyřešit a provoz byl obnoven. Příčinou byla výměna techniky.",
+          "proc_je_to_dulezite": "Výpadek zasáhl cestující v celém Německu - mnoho lidí se ocitlo uvězněno ve vlacích. Jde o kritickou infrastrukturu a důležitý dopravní prostředek. Incident ukázal zranitelnost mobilní komunikační infrastruktury.",
+          "co_sledovat": "Jak Deutsche Bahn vysvětlí příčiny technické poruchy a jaká opatření podnikne, aby se vyhnula budoucím výpadkům.",
+          "akteri": "Deutsche Bahn, technici, pasažéři",
+          "zdroj": "Tagesspiegel, ZDF"
         },
         {
-          "nazev": "Počet insolvencí dosáhl nejvyššího bodu od roku 2013",
-          "co_se_stalo": "Počet insolventních firem v Německu dosáhl v první polovině roku 2026 nejvyššího stavu od roku 2013. Údaje pocházejí od Creditreform.",
-          "proc_je_to_dulezite": "Jde o signál hospodářských problémů. Vysoký počet insolvencí indikuje ekonomické potíže, které postihují střední a malé podniky. To odrážívá širší problémy s hospodářským růstem a konkurenceschopností německé ekonomiky, kterou vláda pokouší oživit.",
-          "co_sledovat": "Další vývoj počtu insolvencí, odvětví, která jsou nejvíce postihnutá, politické opatření vlády na podporu podnikatelství.",
-          "akteri": "Creditreform (zdroj dat), kancelářský Merz (pokouší se řešit ekonomické problémy), podnikatelská komunita",
-          "zdroj": "Tagesspiegel"
+          "nazev": "Iran-USA jednání a bezpečnostní situace",
+          "co_se_stalo": "Probíhají jednání mezi USA a Íránem zaměřená na mírové řešení. Podle zpráv Írán trvá na tom, aby USA a Izrael stáhly svoje jednotky z regionu. Jedná se o součást širších jednání mezi USA a Íránem.",
+          "proc_je_to_dulezite": "Jde o zásadní geopolitické jednání s potenciálem zmírnit napětí na Blízkém východě. Záleží také na tom, zda bude Líban součástí dohody. Pro Německo je důležité, protože bezpečnostní situace v regionu ovlivňuje evropskou bezpečnost a energetiku.",
+          "co_sledovat": "Průběh jednání v Ženevě a Petrohradě, zejména zda se daří dosáhnout průlomu. Důležité bude sledovat postoje jednotlivých aktérů - Íránu, USA, Izraele a dalších regionálních hráčů.",
+          "akteri": "USA (ministr zahraničí Marco Rubio), Írán, Izrael, případně mezinárodní mediátoři",
+          "zdroj": "ZDF, Spiegel"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Konflikt mezi prezidentem Pavlem a premiérem Babišem o summit NATO eskaluje, Pavel chce podat kompetenční žalobu",
+      "hlavni_tema": "Ústavní soud nařídil vládě zařadit prezidenta Pavla do delegace na summit NATO",
       "temata": [
         {
-          "nazev": "Spor o účast prezidenta na summitu NATO",
-          "co_se_stalo": "Vláda premiéra Babiše rozhodla, že prezident Petr Pavel se NEBUDE účastnit červencového summitu NATO v Ankaře. Vláda tvrdí, že jde o praktické důvody. Pavel podle zdrojů Seznam Zpráv zvažuje nebo již podal kompetenční žalobu k Ústavnímu soudu.",
-          "proc_je_to_dulezite": "Tento spor je eskalací dlouhodobého konfliktu mezi Pavlem a Babišem. NATO řeší největší bezpečnostní hrozby za dobu své existence a účast hlavy státu na summitu je tradičně důležitá pro reprezentaci země. Pavel označil rozhodnutí za 'bezprecedentní' a 'nešťastný krok'. Jde o zásadní ústavní spor o kompetence prezidenta.",
-          "co_sledovat": "Rozhodnutí Ústavního soudu o kompetenční žalobě, postoj ostatních politických stran, vývoj vztahu mezi Pavlem a Babišem, důsledky pro mezinárodní pozici Česka.",
-          "akteri": "Prezident Petr Pavel (kandidát proti rozhodnutí vlády), premiér Andrej Babiš (ANO - iniciátor opatření), ministr zahraničí Petr Macinka (Motoristé), ministr obrany Jaromír Zůna (SPD), Ústavní soud",
-          "zdroj": "Seznam Zprávy, Deník N, ČT24"
+          "nazev": "Politický spor o účast prezidenta Pavla na summitu NATO",
+          "co_se_stalo": "Ústavní soud ve středu vydal předběžné opatření, které nařídilo vládě Andreje Babiše (ANO), aby zajistila účast prezidenta Petra Pavla na červencovém summitu NATO v Ankaře. Rozhodnutí je výsledkem kompetenční žaloby. Vláda nyní musí poslat přihlášku s prezidentem na summit.",
+          "proc_je_to_dulezite": "Jde o zásadní politický konflikt mezi prezidentem a vládou. Babiš dlouhodobě odmítá Pavla na summity brát, přestože je prezident automaticky vedoucím delegace NATO. Dva soudci (navržení samotným Pavlem) byli proti předběžnému opatření. Ministr zahraničí Petr Macinka (Motoristé) nazval rozhodnutí 'pokusem o ústavní puč', což vyvolalo ostrou kritiku od hnutí STAN a opozice.",
+          "co_sledovat": "Jak se situace vyvine v příštích týdnech - jaké budou další kroky vlády a prezidenta. Bude zajímavé sledovat, zda se podobné spory budou opakovat. Důležité je také, jak toto rozhodnutí bude interpretováno ústavními právníky a jak se zasadí dalších soudců.",
+          "akteri": "Prezident Petr Pavel (nezávislý), premiér Andrej Babiš (ANO), ministr zahraničí Petr Macinka (Motoristé), Ústavní soud, opozice (STAN, KDU-ČSL)",
+          "zdroj": "Novinky.cz, Aktuálně.cz, CNN Prima NEWS"
         },
         {
-          "nazev": "Výstražná stávka zaměstnanců veřejnoprávních médií",
-          "co_se_stalo": "V pondělí 23. června vstoupili zaměstnanci České televize a Českého rozhlasu do jednodenní výstražné stávky. Protestují proti vládnímu plánu zrušit televizní a rozhlasové poplatky a financovat obě média ze státního rozpočtu. Stávka se projevila ve vysílání všech stanic s výjimkou dětských kanálů.",
-          "proc_je_to_dulezite": "Jde o střet o nezávislost médií. Vláda chce sice zrušit poplatky, ale navrhuje financování ze státního rozpočtu s nižší částkou (o 1,4 miliardy korun méně). Zaměstnanci se obávají, že to ohrožuje redakční nezávislost. Bylo sem i velké veřejné shromáždění organizované Milionem chvilek pro demokracii. Mediální experti varují, že měkké protesty budou pokračovat tvrdšími akcemi.",
-          "co_sledovat": "Další stávky, výsledek finančního řešení, postoj české veřejnosti, potenciální dopad na kvalitu zpravodajství, legislativní rozhodnutí o financování médií.",
-          "akteri": "Zaměstnanci ČT a ČRo (iniciátoři stávky), ministr kultury Ota Klempíř (Motoristé - zastání vlády), ministr školství Robert Plaga (ANO), Milion chvilek pro demokracii (organizátor demonstrace), ostatní politické strany",
-          "zdroj": "Deník N, iRozhlas, ČT24, Deník.cz"
+          "nazev": "Mistrovství světa ve fotbale - české výkony na turnaji",
+          "co_se_stalo": "Česká reprezentace hraje na mistrovství světa v USA. V závěrečném zápase skupiny se střetá s Mexikem, přičemž se podařilo si zajistit velmi dobrý výkon a zájem fanoušků. Na zápas by mělo dorazit около 6 200 českých příznivců. Kapitán reprezentace Ladislav Krejčí označuje tento zápas za dosud největší v své kariéře.",
+          "proc_je_to_dulezite": "Fotbal je pro české národní povědomí velmi důležitým tématem. Výsledky na mistrovství světa jsou sledovány v médiích a mezi veřejností s velkým zájmem. Jde také o prezentaci České republiky na mezinárodní scéně.",
+          "co_sledovat": "Výsledky v závěrečných zápasech skupiny a postup případně nepostup do vyřazovací fáze. Příští zápasy české reprezentace a celkový průběh turnaje. Debatu o kvalitě české reprezentace a budoucnosti týmu.",
+          "akteri": "České fotbalisté, kapitán Ladislav Krejčí, realizační tým, fanoušci",
+          "zdroj": "CNN Prima NEWS, TN.cz"
         },
         {
-          "nazev": "Obžaloba proti Pekárně Zelená louka (část Agrofertů) kvůli dotaci",
-          "co_se_stalo": "Státní zástupce Adam Bašný podal v pondělí obžalobu na společnost Pekárna Zelená louka spadající pod koncern Agrofert a dva lidi kvůli zneužití evropské dotace 100 milionů korun na inovační linku na toastový chléb.",
-          "proc_je_to_dulezite": "Jde o případ potenciálního zneužití státních a evropských prostředků. Agrofert je koncern s dlouhodobě komplikovanou historií ve vztahu k veřejným dotacím a střetu zájmů. Obžaloba upozorňuje na problém s přidělováním a čerpáním unijních financí v Česku.",
-          "co_sledovat": "Průběh soudního procesu, případný důkaz manipulace s dotací, výsledný rozsudek, potenciální dopad na další projekty Agrofertů a politiku dotací.",
-          "akteri": "Státní zástupce Adam Bašný (iniciátor obžaloby), firma Pekárna Zelená louka (obviněný subjekt), Agrofert (nadřazený koncern), soud",
-          "zdroj": "iRozhlas, ČT24, Aktuálně.cz"
+          "nazev": "Kauzula bytů zastupitele Ondřeje Prokopa - ANO má krizi v Praze",
+          "co_se_stalo": "Pražský lídr hnutí ANO Ondřej Prokop oznamuje, že končí v politice a nebude kandidovat v nadcházejících volbách. Důvodem jsou zjištění Seznam Zpráv, že neuvedl v majetkovém přiznání tři pražské byty. Prokop byl také odvolán z dozorčí rady dopravního podniku.",
+          "proc_je_to_dulezite": "Jde o další kauzu spojovanou s hnutím ANO, které vede premiér Babiš. To oslabuje jeho pozici v Praze, kde má ANO dlouhodobě problémy. Kauza se týká majetnotnosti politiků a důvěry veřejnosti. Je to druhá podobná kauza v poslední době - zní o nemajetkovém přiznání a porušení právních povinností.",
+          "co_sledovat": "Jak se bude vyvíjet diskuse o transparentnosti a věrohodnosti politiků hnutí ANO. Nadcházející pražské volby a postavení ANO v hlavním městě. Zda budou další podobné případy odhaleny v rámci třídění AKO majetků politiků.",
+          "akteri": "Ondřej Prokop (ANO), Andrej Babiš (ANO), Seznam Zprávy (investigativní novináři), radní Prahy 3",
+          "zdroj": "iROZHLAS.cz, Deník N"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-23 14:40"
+  "aktualizovano": "2026-06-25 14:23"
 }
