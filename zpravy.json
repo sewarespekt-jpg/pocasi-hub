@@ -1,68 +1,68 @@
 {
-  "datum": "25.06.2026",
+  "datum": "26.06.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Německo se chystá na historickou hitzewelle - teploty mohou překonat 40 stupňů",
+      "hlavni_tema": "Bezpečnostní napětí a příprava země na válku s Ruskem dominují niemieckou mediální agendu",
       "temata": [
         {
-          "nazev": "Historická hitzewelle s teplotami do 40 stupňů",
-          "co_se_stalo": "Německo v těchto dnech zažívá extrémně vysoké teploty. Podle německých meteorologů by teploty mohly koncem týdne dosáhnout 40 stupňů, především na jihozápadě země. Dosavadní německý rekord z roku 2019 je 39,6 stupňů.",
-          "proc_je_to_dulezite": "Jde o potenciálně historickou hitzewelle - podle meteorologů by to byl vůbec první červen, kdy by v Německu byly překonány 40 stupně. Dlouhotrvající vysoké teploty bez nočního ochlazení mají vážné dopady na zdraví, zejména seniory, těhotné ženy a malé děti. Dlouhodobě ovlivňuje také infrastrukturu, zemědělství a energetiku.",
-          "co_sledovat": "V příštích dnech se soustředit na nejnovější meteorologické předpovědi - zda skutečně dojde k překročení 40 stupňů. Konce týdne lze očekávat také silné bouřky v některých regionech. Důležité bude sledovat, zda se hitzewelle bude vyvíjet podle nejpesimističtějších scénářů, které počítají se zůstáváním vysokých teplot až do začátku července.",
-          "akteri": "Německý meteorologický služba (Deutscher Wetterdienst), předseda vlády a místní úřady vydávající varování",
-          "zdroj": "Deutscher Wetterdienst, wetter.com, news.de"
+          "nazev": "Příprava Německa na válku s Ruskem",
+          "co_se_stalo": "Vnitřní strategické dokumenty Bundeswehru varují, že Rusko přetváří svou ekonomiku a státní struktury s cílem připravit se na rozsáhlý konflikt s NATO. Německá armáda tvrdí, že Moskva je do konce desetiletí schopna vybudovat síly o 1,5 milionu vojáků a představuje existenční riziko.",
+          "proc_je_to_dulezite": "Německo čelí přímé hrozbě z východu a musí se modernizovat. Kancléř Merz zdůrazňuje, že Evropa si nemůže dovolit být v relacích se Spojenými státy sentimentální a potřebuje větší nezávislost. V pozadí jsou dlouhodobé obavy z ruské agrese a nový bezpečnostní paradox v Evropě.",
+          "co_sledovat": "Budoucí vojenské výdaje Německa, modernizace infrastruktury pro rychlý přesun vojsk k hranicím EU, postoj nové německé koalice k další pomoci Ukrajině. Důležité bude, jak Německo reaguje na americké požadavky Donalda Trumpa.",
+          "akteri": "Kancléř Friedrich Merz (CDU), německá armáda (Bundeswehr), ministr obrany Boris Pistorius. V pozadí konflikt mezi Německem a Trumpovou administrativou ohledně bezpečnosti v Hormuzském průlivu.",
+          "zdroj": "iROZHLAS.cz, Deník N, Aktuálně.cz"
         },
         {
-          "nazev": "Přerušení železničního provozu kvůli technické poruše",
-          "co_se_stalo": "V úterý večer vypadl železniční rádio Deutsche Bahn po celém Německu. Během dvou hodin se podařilo problém vyřešit a provoz byl obnoven. Příčinou byla výměna techniky.",
-          "proc_je_to_dulezite": "Výpadek zasáhl cestující v celém Německu - mnoho lidí se ocitlo uvězněno ve vlacích. Jde o kritickou infrastrukturu a důležitý dopravní prostředek. Incident ukázal zranitelnost mobilní komunikační infrastruktury.",
-          "co_sledovat": "Jak Deutsche Bahn vysvětlí příčiny technické poruchy a jaká opatření podnikne, aby se vyhnula budoucím výpadkům.",
-          "akteri": "Deutsche Bahn, technici, pasažéři",
-          "zdroj": "Tagesspiegel, ZDF"
+          "nazev": "Stávka pilotů Lufthansy a ekonomická krize",
+          "co_se_stalo": "Piloti německé letecké společnosti Lufthansa pokračují ve dvoudenní stávce za lepší platy a důchody. Stovky letů jsou zrušeny nebo zpožděny, včetně spojů s Prahou.",
+          "proc_je_to_dulezite": "Stávka odráží širší ekonomické problémy v Německu – počet firemních bankrotů se zvýšil o 10,3 procenta na rekordně vysoký počet od roku 2014. Jde o druhou stávku pilotů za dva měsíce, což signalizuje rostoucí napětí na pracovním trhu.",
+          "co_sledovat": "Další pokusů o vyjednávání mezi Lufthansou a odbory, dopady na cestující a ekonomiku, zda se stávka rozšíří na další segmenty letectví.",
+          "akteri": "Piloti Lufthansy, odbory v letectví, vedení společnosti Lufthansa. Ekonomické pozadí souvisí s vládní politikou kancléře Merze.",
+          "zdroj": "Deník N, iROZHLAS.cz"
         },
         {
-          "nazev": "Iran-USA jednání a bezpečnostní situace",
-          "co_se_stalo": "Probíhají jednání mezi USA a Íránem zaměřená na mírové řešení. Podle zpráv Írán trvá na tom, aby USA a Izrael stáhly svoje jednotky z regionu. Jedná se o součást širších jednání mezi USA a Íránem.",
-          "proc_je_to_dulezite": "Jde o zásadní geopolitické jednání s potenciálem zmírnit napětí na Blízkém východě. Záleží také na tom, zda bude Líban součástí dohody. Pro Německo je důležité, protože bezpečnostní situace v regionu ovlivňuje evropskou bezpečnost a energetiku.",
-          "co_sledovat": "Průběh jednání v Ženevě a Petrohradě, zejména zda se daří dosáhnout průlomu. Důležité bude sledovat postoje jednotlivých aktérů - Íránu, USA, Izraele a dalších regionálních hráčů.",
-          "akteri": "USA (ministr zahraničí Marco Rubio), Írán, Izrael, případně mezinárodní mediátoři",
-          "zdroj": "ZDF, Spiegel"
+          "nazev": "Problém migrace a afghánských uprchlíků",
+          "co_se_stalo": "Německá vláda kancléře Friedricha Merze nabízí finanční kompenzaci tisícům Afghánců, kteří spolupracovali s německými institucemi, výměnou za to, že se vzdají svého nároku na azyl. Krok vyvolal v Německu ostrou debatu.",
+          "proc_je_to_dulezite": "Jde o morální a politickou otázku – Berlín sliboval ochranu tisícům Afghánců po pádu Kábulu v srpnu 2021. Průzkumy ukazují, že 60 procent Němců se staví negativně k přijímání více uprchlíků. Problém odráží politický tlak krajní pravice a vnitřní dělení německé společnosti.",
+          "co_sledovat": "Počet uprchlíků, kteří nabídku přijmou, politickou reakci opozice, další migrační politiku vlády Merze, zda tento krok povede k eskalaci debaty o migraci.",
+          "akteri": "Kancléř Friedrich Merz (CDU/CSU), německá vláda, krajně-pravicová AfD (která tlačí na přísnější politiku), lidská práva.",
+          "zdroj": "Aktuálně.cz, iROZHLAS.cz"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Ústavní soud nařídil vládě zařadit prezidenta Pavla do delegace na summit NATO",
+      "hlavni_tema": "Politická krize mezi prezidentem Pavlem a vládou ohledně účasti na summitu NATO dominuje českou mediální agendu",
       "temata": [
         {
-          "nazev": "Politický spor o účast prezidenta Pavla na summitu NATO",
-          "co_se_stalo": "Ústavní soud ve středu vydal předběžné opatření, které nařídilo vládě Andreje Babiše (ANO), aby zajistila účast prezidenta Petra Pavla na červencovém summitu NATO v Ankaře. Rozhodnutí je výsledkem kompetenční žaloby. Vláda nyní musí poslat přihlášku s prezidentem na summit.",
-          "proc_je_to_dulezite": "Jde o zásadní politický konflikt mezi prezidentem a vládou. Babiš dlouhodobě odmítá Pavla na summity brát, přestože je prezident automaticky vedoucím delegace NATO. Dva soudci (navržení samotným Pavlem) byli proti předběžnému opatření. Ministr zahraničí Petr Macinka (Motoristé) nazval rozhodnutí 'pokusem o ústavní puč', což vyvolalo ostrou kritiku od hnutí STAN a opozice.",
-          "co_sledovat": "Jak se situace vyvine v příštích týdnech - jaké budou další kroky vlády a prezidenta. Bude zajímavé sledovat, zda se podobné spory budou opakovat. Důležité je také, jak toto rozhodnutí bude interpretováno ústavními právníky a jak se zasadí dalších soudců.",
-          "akteri": "Prezident Petr Pavel (nezávislý), premiér Andrej Babiš (ANO), ministr zahraničí Petr Macinka (Motoristé), Ústavní soud, opozice (STAN, KDU-ČSL)",
-          "zdroj": "Novinky.cz, Aktuálně.cz, CNN Prima NEWS"
+          "nazev": "Konflikt prezidenta Pavla s vládou a rozhodnutí Ústavního soudu",
+          "co_se_stalo": "Ústavní soud vydal ve středu předběžné opatření, které nařídilo vládě zajistit účast prezidenta Petra Pavla na summitu NATO v Ankaře. Vláda jej totiž do delegace nezařadila. Ministr zahraničí Petr Macinka (Motoristé) následně tvrdil, že Pavel nebude v čele delegace a označil rozhodnutí soudu za pokus o ústavní puč.",
+          "proc_je_to_dulezite": "Jde o konflikt mezi výkonnou (vláda) a judikativoú (Ústavní soud) mocí. Macinkův výrok o puči je ostrý a vzbuzuje obavy o stabilitě státu. V pozadí je dlouhodobý spor mezi premiérem Babišem (ANO) a prezidentem Pavlem, kteří mají rozdílné názory na bezpečnostní politiku a Ukrajinu. Média upozorňují na nebezpečnost delegitimizace Ústavního soudu.",
+          "co_sledovat": "Jakým způsobem se spor vyřeší na summitu, zda Pavel povede delegaci nebo ne, případné další právní spory, politické důsledky pro vládu a koalici ANO-SPD-Motoristé, reakci veřejnosti na dehonestaci soudní moci.",
+          "akteri": "Prezident Petr Pavel (bez strany, ale blízký bezpečnostnímu establishmentu), premiér Andrej Babiš (ANO), ministr zahraničí Petr Macinka (Motoristé), Ústavní soud. V pozadí opozice (ODS, Piráti) kritizující vládu. Právník Jan Kysela nazval Macinkovo vyjádření skandální.",
+          "zdroj": "Novinky.cz, Aktuálně.cz, Deník.cz, iROZHLAS.cz"
         },
         {
-          "nazev": "Mistrovství světa ve fotbale - české výkony na turnaji",
-          "co_se_stalo": "Česká reprezentace hraje na mistrovství světa v USA. V závěrečném zápase skupiny se střetá s Mexikem, přičemž se podařilo si zajistit velmi dobrý výkon a zájem fanoušků. Na zápas by mělo dorazit около 6 200 českých příznivců. Kapitán reprezentace Ladislav Krejčí označuje tento zápas za dosud největší v své kariéře.",
-          "proc_je_to_dulezite": "Fotbal je pro české národní povědomí velmi důležitým tématem. Výsledky na mistrovství světa jsou sledovány v médiích a mezi veřejností s velkým zájmem. Jde také o prezentaci České republiky na mezinárodní scéně.",
-          "co_sledovat": "Výsledky v závěrečných zápasech skupiny a postup případně nepostup do vyřazovací fáze. Příští zápasy české reprezentace a celkový průběh turnaje. Debatu o kvalitě české reprezentace a budoucnosti týmu.",
-          "akteri": "České fotbalisté, kapitán Ladislav Krejčí, realizační tým, fanoušci",
-          "zdroj": "CNN Prima NEWS, TN.cz"
+          "nazev": "Extrémní horka a chování státu",
+          "co_se_stalo": "Česko zažívá historicky nejteplejší dny s teplotami přesahujícími 40 stupňů Celsia. Poslankyně z klubu Pirátů se pokusily navrhovat mimořádné jednání Sněmovny o připravenosti státu na vlnu veder a jeho komunikaci, ale nebyl jim přidělenu čas – část koalice jejich výstup zaujala svým veselím.",
+          "proc_je_to_dulezite": "Jde o zdravotní a společenské riziko – extrémní teplo ohrožuje životnost starších osob a sociálně zranitelné skupiny. Problém odráží širší apatii části koalice k veřejným zdravotním hrozbám a polarizaci Sněmovny, kde se vládní poslanci vysmívají parlamentárnímu procesu opozice.",
+          "co_sledovat": "Počet hospitalizací souvisejících s horkem, komunikaci státu o prevenci, zda koalice přijme nějaká opatření, pokračování teplotních rekordů, reakci odborné veřejnosti.",
+          "akteri": "Poslankyně Pirátů, vládní koalice (ANO, SPD, Motoristé), zdravotnické orgány, meteorologické služby. V pozadí klimatická krize.",
+          "zdroj": "Aktuálně.cz, Deník N"
         },
         {
-          "nazev": "Kauzula bytů zastupitele Ondřeje Prokopa - ANO má krizi v Praze",
-          "co_se_stalo": "Pražský lídr hnutí ANO Ondřej Prokop oznamuje, že končí v politice a nebude kandidovat v nadcházejících volbách. Důvodem jsou zjištění Seznam Zpráv, že neuvedl v majetkovém přiznání tři pražské byty. Prokop byl také odvolán z dozorčí rady dopravního podniku.",
-          "proc_je_to_dulezite": "Jde o další kauzu spojovanou s hnutím ANO, které vede premiér Babiš. To oslabuje jeho pozici v Praze, kde má ANO dlouhodobě problémy. Kauza se týká majetnotnosti politiků a důvěry veřejnosti. Je to druhá podobná kauza v poslední době - zní o nemajetkovém přiznání a porušení právních povinností.",
-          "co_sledovat": "Jak se bude vyvíjet diskuse o transparentnosti a věrohodnosti politiků hnutí ANO. Nadcházející pražské volby a postavení ANO v hlavním městě. Zda budou další podobné případy odhaleny v rámci třídění AKO majetků politiků.",
-          "akteri": "Ondřej Prokop (ANO), Andrej Babiš (ANO), Seznam Zprávy (investigativní novináři), radní Prahy 3",
-          "zdroj": "iROZHLAS.cz, Deník N"
+          "nazev": "Česká reprezentace se trápí na mistrovství světa ve fotbale",
+          "co_se_stalo": "Česká fotbalová reprezentace pokračuje v neúspěšném průběhu mistrovství světa. Nejprve podlehla Jižní Koreji 1:2, následně padla Mexiku 0:3 a v tabulce skupiny obsadila poslední místo s jedním bodem.",
+          "proc_je_to_dulezite": "Sportovní neúspěch je důležitým tématem pro českou veřejnost. Komentáři fotbalových expertů zdůrazňují, že Korea je \"daleko před námi\", což signalizuje hlubší problém české reprezentace – nedostatek přípravy, kvalitních hráčů nebo trenérské strategie. Jde o psychologicky zatěžující téma pro fanoušky.",
+          "co_sledovat": "Zbývající zápasy České republiky na MS, případnou kritiku trenéra Miroslava Koubka, analýzy Češích výkonů a srovnání s ostatními evropskými týmy, jak fotbalová federace reaguje na neúspěch.",
+          "akteri": "Česká fotbalová reprezentace (trenér Miroslav Koubek), hráči, fotbaloví experti a komentátoři v médiích (Aktuálně.cz, Nova), fanoušci.",
+          "zdroj": "Aktuálně.cz, CNN Prima NEWS, TN.cz"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-25 14:23"
+  "aktualizovano": "2026-06-26 14:14"
 }
