@@ -1,68 +1,68 @@
 {
-  "datum": "26.06.2026",
+  "datum": "29.06.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Bezpečnostní napětí a příprava země na válku s Ruskem dominují niemieckou mediální agendu",
+      "hlavni_tema": "Vlna rekordních teplot zasahuje Německo, meteorologové zaznamenali nový historický rekord 41,7 °C.",
       "temata": [
         {
-          "nazev": "Příprava Německa na válku s Ruskem",
-          "co_se_stalo": "Vnitřní strategické dokumenty Bundeswehru varují, že Rusko přetváří svou ekonomiku a státní struktury s cílem připravit se na rozsáhlý konflikt s NATO. Německá armáda tvrdí, že Moskva je do konce desetiletí schopna vybudovat síly o 1,5 milionu vojáků a představuje existenční riziko.",
-          "proc_je_to_dulezite": "Německo čelí přímé hrozbě z východu a musí se modernizovat. Kancléř Merz zdůrazňuje, že Evropa si nemůže dovolit být v relacích se Spojenými státy sentimentální a potřebuje větší nezávislost. V pozadí jsou dlouhodobé obavy z ruské agrese a nový bezpečnostní paradox v Evropě.",
-          "co_sledovat": "Budoucí vojenské výdaje Německa, modernizace infrastruktury pro rychlý přesun vojsk k hranicím EU, postoj nové německé koalice k další pomoci Ukrajině. Důležité bude, jak Německo reaguje na americké požadavky Donalda Trumpa.",
-          "akteri": "Kancléř Friedrich Merz (CDU), německá armáda (Bundeswehr), ministr obrany Boris Pistorius. V pozadí konflikt mezi Německem a Trumpovou administrativou ohledně bezpečnosti v Hormuzském průlivu.",
-          "zdroj": "iROZHLAS.cz, Deník N, Aktuálně.cz"
+          "nazev": "Historická vlna veder - nový teplotní rekord",
+          "co_se_stalo": "Stanice Neissemünde u polské hranice zaznamenala teplotu 41,7 °C, což překonává dosavadní německý rekord z soboty (41,5 °C). Postupně se vlna extrémního horka šíří po celé zemi.",
+          "proc_je_to_dulezite": "Německo, stejně jako celá střední Evropa, prožívá nejhorší letní období v sezóně. Těmito teplotami jsou ohroženi především starší lidé a osoby se zdravotními komplikacemi. Jde o jasný důsledek klimatických změn, které se v Evropě projevují stále intenzivněji a častěji.",
+          "co_sledovat": "Jak budou úřady reagovat na zdravotnické riziko; jaké preventivní opatření bude vláda zavádět; zda se vlna veder vyvíjí podle předpovědí meteorologů či překoná očekávání.",
+          "akteri": "Německé meteorologické služby, zdravotnické instituce, stavy zemí jako Bayern a ostatních regionů",
+          "zdroj": "Deník N, Novinky.cz"
         },
         {
-          "nazev": "Stávka pilotů Lufthansy a ekonomická krize",
-          "co_se_stalo": "Piloti německé letecké společnosti Lufthansa pokračují ve dvoudenní stávce za lepší platy a důchody. Stovky letů jsou zrušeny nebo zpožděny, včetně spojů s Prahou.",
-          "proc_je_to_dulezite": "Stávka odráží širší ekonomické problémy v Německu – počet firemních bankrotů se zvýšil o 10,3 procenta na rekordně vysoký počet od roku 2014. Jde o druhou stávku pilotů za dva měsíce, což signalizuje rostoucí napětí na pracovním trhu.",
-          "co_sledovat": "Další pokusů o vyjednávání mezi Lufthansou a odbory, dopady na cestující a ekonomiku, zda se stávka rozšíří na další segmenty letectví.",
-          "akteri": "Piloti Lufthansy, odbory v letectví, vedení společnosti Lufthansa. Ekonomické pozadí souvisí s vládní politikou kancléře Merze.",
-          "zdroj": "Deník N, iROZHLAS.cz"
+          "nazev": "Nepopularita USA v Německu - průzkum důvěry",
+          "co_se_stalo": "Průzkum veřejného mínění v Německu ukazuje, že Trump a Spojené státy jsou v současnosti „obrovitě nepopulární\" - jde o nejhorší vnímání USA v zemi za delší dobu.",
+          "proc_je_to_dulezite": "Posun v německo-amerických vztazích má důležitý geopolitický kontext. Tradicionalně byla Amerika pro Německo důležitým spojencem v NATO a strategickým partnerem. Tato ztráta důvěry signalizuje hlubší změnu v evropsko-americké aliance a může ovlivnit i německou bezpečnostní politiku.",
+          "co_sledovat": "Budoucí vývoj německo-amerických vztahů; jak bude reagovat česká diplomacie a NATO; zda se Německo bude více orientovat na evropskou sebezávisost a obrannou schopnost.",
+          "akteri": "Německá veřejnost, Tagesspiegel, bezpečnostní experti jako Neumann; Trump a jeho administrativa; Kancléř Friedrich Merz (CDU/CSU)",
+          "zdroj": "Tagesspiegel"
         },
         {
-          "nazev": "Problém migrace a afghánských uprchlíků",
-          "co_se_stalo": "Německá vláda kancléře Friedricha Merze nabízí finanční kompenzaci tisícům Afghánců, kteří spolupracovali s německými institucemi, výměnou za to, že se vzdají svého nároku na azyl. Krok vyvolal v Německu ostrou debatu.",
-          "proc_je_to_dulezite": "Jde o morální a politickou otázku – Berlín sliboval ochranu tisícům Afghánců po pádu Kábulu v srpnu 2021. Průzkumy ukazují, že 60 procent Němců se staví negativně k přijímání více uprchlíků. Problém odráží politický tlak krajní pravice a vnitřní dělení německé společnosti.",
-          "co_sledovat": "Počet uprchlíků, kteří nabídku přijmou, politickou reakci opozice, další migrační politiku vlády Merze, zda tento krok povede k eskalaci debaty o migraci.",
-          "akteri": "Kancléř Friedrich Merz (CDU/CSU), německá vláda, krajně-pravicová AfD (která tlačí na přísnější politiku), lidská práva.",
-          "zdroj": "Aktuálně.cz, iROZHLAS.cz"
+          "nazev": "Úprava pravidel v Zelené straně - reforma po skandálu",
+          "co_se_stalo": "Po skandálu kolem člena Gelbhaara, kdy interní prüzkum partaje vyzvedl závažné pochybení, Zelení zavedli nové pravidla a kodex chování pro své členy.",
+          "proc_je_to_dulezite": "Gelbhaarův případ vyvolal vnitřní krizi v Zelené straně, která se dlouhodobě prezentuje jako strana čistých hodnot a morálky. Reforma je pokusem obnovit důvěru veřejnosti a předejít budoucím skandálům.",
+          "co_sledovat": "Zda bude nový kodex efektivní; jak budou zelení v příštích volbách; budou se uskutečňovat další výměny v partaji.",
+          "akteri": "Zelená strana (Die Grünen), jejich vedení; veřejnost",
+          "zdroj": "Tagesspiegel"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Politická krize mezi prezidentem Pavlem a vládou ohledně účasti na summitu NATO dominuje českou mediální agendu",
+      "hlavni_tema": "Česko zaznamenalo nový absolutní teplotní rekord 41,9 °C, druhý vlny veder v pěti dnech.",
       "temata": [
         {
-          "nazev": "Konflikt prezidenta Pavla s vládou a rozhodnutí Ústavního soudu",
-          "co_se_stalo": "Ústavní soud vydal ve středu předběžné opatření, které nařídilo vládě zajistit účast prezidenta Petra Pavla na summitu NATO v Ankaře. Vláda jej totiž do delegace nezařadila. Ministr zahraničí Petr Macinka (Motoristé) následně tvrdil, že Pavel nebude v čele delegace a označil rozhodnutí soudu za pokus o ústavní puč.",
-          "proc_je_to_dulezite": "Jde o konflikt mezi výkonnou (vláda) a judikativoú (Ústavní soud) mocí. Macinkův výrok o puči je ostrý a vzbuzuje obavy o stabilitě státu. V pozadí je dlouhodobý spor mezi premiérem Babišem (ANO) a prezidentem Pavlem, kteří mají rozdílné názory na bezpečnostní politiku a Ukrajinu. Média upozorňují na nebezpečnost delegitimizace Ústavního soudu.",
-          "co_sledovat": "Jakým způsobem se spor vyřeší na summitu, zda Pavel povede delegaci nebo ne, případné další právní spory, politické důsledky pro vládu a koalici ANO-SPD-Motoristé, reakci veřejnosti na dehonestaci soudní moci.",
-          "akteri": "Prezident Petr Pavel (bez strany, ale blízký bezpečnostnímu establishmentu), premiér Andrej Babiš (ANO), ministr zahraničí Petr Macinka (Motoristé), Ústavní soud. V pozadí opozice (ODS, Piráti) kritizující vládu. Právník Jan Kysela nazval Macinkovo vyjádření skandální.",
-          "zdroj": "Novinky.cz, Aktuálně.cz, Deník.cz, iROZHLAS.cz"
+          "nazev": "Extremní teplo - nový národní teplotní rekord",
+          "co_se_stalo": "Meteorologická stanice v Doksanech na Litoměřicku naměřila 41,9 °C. Jedná se o nový absolutní teplotní rekord v České republice, překonávající záznam z soboty (41,0 °C). Poprvé v historii záznamů Českého hydrometeorologického ústavu byla ve standardní síti stanic dosažena 41stupňová teplota.",
+          "proc_je_to_dulezite": "Česko zažívá nejintenzivnější vlnu veder v moderní historii meteorologických měření. Situace vytváří zdravotnické riziko pro bezvýjimečně všechny skupiny obyvatel, zejména ohrožuje seniory a lidi s chronickými nemocemi. Jde o projev klimatických změn a následek globálního oteplování, které postihuje střední Evropu s rostoucí intenzitou.",
+          "co_sledovat": "Jak dlouho bude vlna trvat a kdy dojde k ochlazení; jaké zdravotnické komplikace se objeví; jak si economy poradí s energetickou zátěží (chlazení); budou se zavádět mimořádná opatření.",
+          "akteri": "ČHMÚ (Český hydrometeorologický ústav), ministerstva zdravotnictví a životního prostředí, hejtmani a místní úřady, energetické společnosti",
+          "zdroj": "Novinky.cz, Aktuálně.cz, Deník N, iROZHLAS"
         },
         {
-          "nazev": "Extrémní horka a chování státu",
-          "co_se_stalo": "Česko zažívá historicky nejteplejší dny s teplotami přesahujícími 40 stupňů Celsia. Poslankyně z klubu Pirátů se pokusily navrhovat mimořádné jednání Sněmovny o připravenosti státu na vlnu veder a jeho komunikaci, ale nebyl jim přidělenu čas – část koalice jejich výstup zaujala svým veselím.",
-          "proc_je_to_dulezite": "Jde o zdravotní a společenské riziko – extrémní teplo ohrožuje životnost starších osob a sociálně zranitelné skupiny. Problém odráží širší apatii části koalice k veřejným zdravotním hrozbám a polarizaci Sněmovny, kde se vládní poslanci vysmívají parlamentárnímu procesu opozice.",
-          "co_sledovat": "Počet hospitalizací souvisejících s horkem, komunikaci státu o prevenci, zda koalice přijme nějaká opatření, pokračování teplotních rekordů, reakci odborné veřejnosti.",
-          "akteri": "Poslankyně Pirátů, vládní koalice (ANO, SPD, Motoristé), zdravotnické orgány, meteorologické služby. V pozadí klimatická krize.",
-          "zdroj": "Aktuálně.cz, Deník N"
+          "nazev": "Politické turbulence v pražském hnutí ANO",
+          "co_se_stalo": "Ondřej Prokop, kandidát na primátora Prahy za hnutí ANO (nejsilnější vládní strana), se vzdal své pozice vedoucího klubu zastupitelů poté, co se během své kampaně dozvěděl o vlastních majetku, kterým si nebyl vědom. Místo Prokopa převzal Jan Hušbauer.",
+          "proc_je_to_dulezite": "Jde o signál vnitřní krize hnutí ANO v hlavním městě. Přestože je ANO nejsilnější vládní stranou na národní úrovni, v Praze dlouhodobě selhává. Skandál kolem Prokopa a jeho majetku poukazuje na slabšinu v řízení strany a ohrožuje její pozici před podzimními komunálními volbami. Proces také ukazuje na možné střety zájmů mezi politickou činností a osobním majetkem.",
+          "co_sledovat": "Jak bude ANO řešit volby v Praze; budou se objevovat další informace o Prokopově majetku; jak se bude hnutí reorganizovat; jakou pozici si zajistí ostatní subjekty (ODS, PIRÁTI, atd.) do podzimních voleb.",
+          "akteri": "Hnutí ANO, Ondřej Prokop, Jan Hušbauer, vedení pražské komunální politiky; stranické konkurenty jako ODS či PIRÁTI",
+          "zdroj": "Novinky.cz, Aktuálně.cz, iROZHLAS"
         },
         {
-          "nazev": "Česká reprezentace se trápí na mistrovství světa ve fotbale",
-          "co_se_stalo": "Česká fotbalová reprezentace pokračuje v neúspěšném průběhu mistrovství světa. Nejprve podlehla Jižní Koreji 1:2, následně padla Mexiku 0:3 a v tabulce skupiny obsadila poslední místo s jedním bodem.",
-          "proc_je_to_dulezite": "Sportovní neúspěch je důležitým tématem pro českou veřejnost. Komentáři fotbalových expertů zdůrazňují, že Korea je \"daleko před námi\", což signalizuje hlubší problém české reprezentace – nedostatek přípravy, kvalitních hráčů nebo trenérské strategie. Jde o psychologicky zatěžující téma pro fanoušky.",
-          "co_sledovat": "Zbývající zápasy České republiky na MS, případnou kritiku trenéra Miroslava Koubka, analýzy Češích výkonů a srovnání s ostatními evropskými týmy, jak fotbalová federace reaguje na neúspěch.",
-          "akteri": "Česká fotbalová reprezentace (trenér Miroslav Koubek), hráči, fotbaloví experti a komentátoři v médiích (Aktuálně.cz, Nova), fanoušci.",
-          "zdroj": "Aktuálně.cz, CNN Prima NEWS, TN.cz"
+          "nazev": "Bezpečnostní díra v registru psů - debata o státních systémech",
+          "co_se_stalo": "Před spuštěním nové povinné centrální evidence psů server iROZHLAS zjistil, že systém obsahuje bezpečnostní díru. Majitelé psů musí své zvířata registrovat do nové databáze, ale systém byl zaveden bez patřičného bezpečnostního prověření.",
+          "proc_je_to_dulezite": "Incident poukazuje na problém v českých státních institucích - zavedení nových informačních systémů bez adekvátního bezpečnostního screeningu. Jde o obecnější problém digitalizace státu. Bezpečnostní chyba v registru by mohla vést k úniku osobních údajů chovatelů.",
+          "co_sledovat": "Zda bude systém opravit; jak bude reagovat ministerstvo vnitra a resort zodpovědný za implementaci; budou se zavádět opatření na ochranu údajů; podobné problémy v dalších státních systémech.",
+          "akteri": "iROZHLAS a média, ministerium vnitra, IT bezpečnostní experti, majitelé psů",
+          "zdroj": "iROZHLAS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-26 14:14"
+  "aktualizovano": "2026-06-29 15:39"
 }
