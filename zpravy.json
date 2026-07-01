@@ -1,68 +1,52 @@
 {
-  "datum": "30.06.2026",
+  "datum": "01.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Německá reprezentace ztroskotala na mistrovství světa, média mluví o praporu a skandálu",
+      "hlavni_tema": "Informace o dnešních nejdůležitějších tématech v Německu nejsou dostatečně jasné z dostupných zdrojů",
       "temata": [
         {
-          "nazev": "Krach fotbalové reprezentace na MS 2026",
-          "co_se_stalo": "Německá fotbalová reprezentace pod trenérem Nagelsmannem selhala na mistrovství světa, výkony byly slabé a neuspokojivé",
-          "proc_je_to_dulezite": "Fotbal je v Německu národní sportovní tradicí. Německo patří k favoritům každého turnaje, selhání vyvolává důsledky pro trenéra a vzbuzuje debatu o budoucnosti týmu. Předchozí snaha vybudovat konkurenceschopný tým se ukázala neúspěšná",
-          "co_sledovat": "Jak se změní obsazení týmu, zda Nagelsmann zůstane v pozici, co bude přínos mladých hráčů v příštích turnajích",
-          "akteri": "Trenér Julian Nagelsmann, Spolkový svaz fotbalu DFB, hráči jako Pavlovic, kterého se diskutuje na pozici šestky",
-          "zdroj": "tagesschau.de, Tagesspiegel, sportschau.de"
-        },
-        {
-          "nazev": "Zvyšující se extremismus v Německu",
-          "co_se_stalo": "Počet extremistů v Německu dosáhl nového rekordu, zejména s ohledem na pravicový extremismus. Zastupitelé Spolkového úřadu pro ochranu ústavy (BfV) varují, že příznivci krajní pravice jsou stále mladší",
-          "proc_je_to_dulezite": "Tato zjištění vznikla na pozadí dlouhodobé debaty o polarizaci německé společnosti. Vzrůstající pravicový extremismus ohrožuje demokratické hodnoty a sociální stabilitu. Věk extremistů klesá, což signalizuje hluboké problémy v integraci a vzdělání mládeže",
-          "co_sledovat": "Jak bude reagovat vláda, jaké bude politické řešení, jak se bude vyvíjet ideologické zaměření příslušníků",
-          "akteri": "BfV (Spolkový úřad pro ochranu ústavy), německá vláda, státní instituce, sociologové",
-          "zdroj": "Die Zeit, ntv, zpráva Spolkového úřadu"
-        },
-        {
-          "nazev": "Rekordy teplot a klimatická krize v Německu",
-          "co_se_stalo": "Německo se potýká s extrémními teplotami. Zejména v Německu zaznamenáváno 41,7 stupňů Celsia v Braniborsku, zdravotnické riziko se zvýšilo",
-          "proc_je_to_dulezite": "Jde o součást globální klimatické krize. Extrémní teploty přinášejí zdravotní rizika, energetické problémy a tlak na infrastrukturu. Železniční doprava je ale podle zpráv stále stabilní. Toto je varování o budoucnosti klimatu",
-          "co_sledovat": "Další vývoj teploto v létě, zdravotní komplikace starších osob a slabších skupin populace, adaptační opatření vlády",
-          "akteri": "Meteorologové ČHMÚ, zdravotnické služby, orgány krizového řízení, Ministerstvo životního prostředí",
-          "zdroj": "ZDFheute, Tagesspiegel, zprávy Německého meteorologického úřadu"
+          "nazev": "Nedostatek informací",
+          "co_se_stalo": "Vyhledávání nevrátilo relevantní německé zprávy z dnešního dne",
+          "proc_je_to_dulezite": "Dostupné zdroje neumožňují spolehlivý reporting",
+          "co_sledovat": "Doporučuje se opetovné vyhledávání s jinými klíčovými slovy",
+          "akteri": "Neuvedeni",
+          "zdroj": "Bez spolehlivého zdroje"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Přetrvávající konflikt mezi prezidentem Pavlem a premiérem Babišem o vedení delegace na summitu NATO",
+      "hlavni_tema": "Prezident Pavel odmítá ústupek v případě návštěvy summitu NATO, což vyostřuje politický spor s vládou",
       "temata": [
         {
-          "nazev": "Konflikt Pavel vs. Babiš nad leadershipem na summitu NATO v Ankaře",
-          "co_se_stalo": "Prezident Petr Pavel odmítl výzvu premiéra Andreje Babiše, aby se zřekl účasti na červencovém summitu NATO. Vláda trvá na tom, že delegaci povede premiér Babiš, přestože Ústavní soud vydal předběžné opatření na podporu Pavla",
-          "proc_je_to_dulezite": "Jde o zásadní střet mezi exekutivou (vláda Babiše) a hlavou státu (Pavel). Tento spor odhaluje hluboké rozpory v koalici ANO. Ústavní soud se angažuje, právě byla vydána rozhodnutí - je to constitutional crisis v minimu. Babiš se snaží oslabit vliv prezidenta v zahraniční politice",
-          "co_sledovat": "Jak se vyhrotí konflikt dál, zda dojde k dalšímu rozhodnutí soudu, jak se to dotkne stability české politiky a vztahu k NATO, případné konsekvence pro vládu",
-          "akteri": "Prezident Petr Pavel (nestraník, zvolený 2023), premiér Andrej Babiš (ANO - hnutí ANO), ministr obrany, ministr průmyslu Karel Havlíček (ANO), ministryně financí Alena Schillerová (ANO), Ústavní soud",
-          "zdroj": "Novinky.cz, Aktuálně.cz, iROZHLAS, Deník.cz"
+          "nazev": "Konflikt mezi Hradem a vládou o summit NATO",
+          "co_se_stalo": "<cite index=\"27-6\"Ústavní soud vydal předběžné opatření, podle kterého musí vláda vzít prezidenta Petra Pavla s sebou na červencový summit NATO.</cite <cite index=\"33-13,33-15\"Prezident Petr Pavel nevyhoví žádosti premiéra Andreje Babiše, aby přehodnotil svůj postoj a na summit NATO nelétal, zdůrazňujíc, že účast je jeho ústavní a pracovní povinností.</cite",
+          "proc_je_to_dulezite": "<cite index=\"27-2,27-3\"Spor mezi Hradem a Strakovou akademií se dále vyhrotil. Prezident nechce ustoupit v případě cesty na summit NATO.</cite Jde o fundamentální konflikt mezi prezidentem a vládou kolem toho, kdo bude vést českou delegaci na summitu.",
+          "co_sledovat": "Jak se situace vyvine před červencovým summitem v Ankaře, zda bude nalezeno řešení mezi Pavlem a Babišem, či zda se paradoxně pojedou oba dva",
+          "akteri": "Prezident Petr Pavel (nezávislý), premiér Andrej Babiš (ANO), Ústavní soud",
+          "zdroj": "Seznam Zprávy, Deník N, Aktuálně.cz"
         },
         {
-          "nazev": "Historické teplotní rekordy a extrémní vlna veder",
-          "co_se_stalo": "Česko zažilo v pátek-neděli historicky nejteplejší víkend v měřené historii. V neděli padl absolutní teplotní rekord: v Doksanech byla naměřena teplota 41,9 stupňů Celsia. Bylo to překonání dosavadního maxima o 1,5 stupně",
-          "proc_je_to_dulezite": "Teploty odpovídají klimatickému ohrožení. Podle meteorologů jde o 'naprosto bezprecedentní' jev. Během víkendu měly např. i v pondělí být silné bouřky. Je to součást vlny veder, která sužuje Evropu. Zdravotní riziko je velké, zvláště pro starší osoby",
-          "co_sledovat": "Další vývoj meteorologické situace, zdravotní komplikace obyvatel, adaptace infrastruktury (especialmente železnice a energetika), klimatické změny v dlouhodobém horizontu",
-          "akteri": "Český hydrometeorologický ústav (ČHMÚ), zdravotnické služby, hasiči a záchranáři, krizové štáby, klimatologové",
-          "zdroj": "iROZHLAS, Aktuálně.cz, ČT24, Deník.cz"
+          "nazev": "Extrémní vedra a počasí",
+          "co_se_stalo": "<cite index=\"25-7\"Podruhé za dva dny stanice v Doksanech na Litoměřicku naměřila nové absolutní teplotní maximum pro Česko. V neděli vzrostlo na 41,9 stupně.</cite <cite index=\"28-1,28-2\"Úterní podvečer přinesl jihu Moravy tolik potřebné srážky, ale bohužel také silné bouřky. Zejména z okolí Blanska lidé hlásili až pěticentimetrové kroupy.</cite",
+          "proc_je_to_dulezite": "<cite index=\"37-19,37-20\"Kvůli kolapsům z horka má pražská záchranná služba letošní červen několikanásobně více výjezdů než loni. Před rokem měli za celý červen 41 výjezdů ke kolapsům z horka, letos už jich je 188.</cite Jde o bezprecedentní meteorologickou situaci s dopady na zdraví a infrastrukturu.",
+          "co_sledovat": "Další vývoj počasí, další případné teplotní rekordy, stav veřejného zdraví, výpadky dopravy a energetiky",
+          "akteri": "Českomoravská meteorologická stanice, hasiči, záchranná služba",
+          "zdroj": "Hospodářské noviny, Deník N, Novinky.cz"
         },
         {
-          "nazev": "Konec trenéra Koubka po neúspěchu České fotbalové reprezentace na MS",
-          "co_se_stalo": "Trenér Miroslav Koubek skončil na pozici hlavního kouče České fotbalové reprezentace. Přestože se s týmem probojoval baráží na mistrovství světa, jeho výkony a výsledky na samotném šampionátu byly slabé. Sám Koubek řekl: 'Tým se na MS nedotkl svého maxima, beru to i jako osobní neúspěch'",
-          "proc_je_to_dulezite": "Fotbal je v Česku populární sport s vášnivými fanoušky. Selhání na MS je vždy tématem - fanoušci a média reagují, diskutuje se, kdo bude nový trenér. Deník Krejčího o tom vydal příspěvky, které rozdělily českou veřejnost mezi ty, kteří Koubka podporují, a kritiky",
-          "co_sledovat": "Výběr nového trenéra (skloňuje se jméno Luboš Kozel), příprava na Ligu národů, jak se tým změní, generační střídání hráčů",
-          "akteri": "Miroslav Koubek (trenér), Luboš Kozel (bývalý hráč, případný kandidát), fotbaloví hráči, Česká fotbalová asociace, média, fanoušci",
-          "zdroj": "Aktuálně.cz, Deník.cz, iROZHLAS, novinky.cz"
+          "nazev": "Zemětřesení ve Venezuele a česká pomoc",
+          "co_se_stalo": "<cite index=\"35-1\"Při středečním zemětřesení ve Venezuele zemřelo nejméně 1719 lidí a dalších více než pět tisíc utrpělo zranění.</cite <cite index=\"27-4,27-5\"Čeští záchranáři pracují ve Venezuele na záchraně přeživších po rozsáhlých středečních zemětřeseních. Jsou nasazeni v nejhůře zasaženém pobřežním státě La Guaira.</cite",
+          "proc_je_to_dulezite": "Česká meziministerska jednota USAR je součástí mezinárodní záchranné operace v jedné z nejhorších postižených oblastí. Jde o demonstraci české humanitární pomoci a odbornosti českých záchranářů na mezinárodní scéně.",
+          "co_sledovat": "Průběh záchranných prací, počet zachráněných osob, celkové oběti na životech, dopad na región",
+          "akteri": "Čeští záchranáři USAR, venezuelská vláda, mezinárodní záchranné týmy",
+          "zdroj": "Seznam Zprávy, Novinky.cz, iROZHLAS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-06-30 14:10"
+  "aktualizovano": "2026-07-01 14:26"
 }
