@@ -1,52 +1,68 @@
 {
-  "datum": "01.07.2026",
+  "datum": "02.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Informace o dnešních nejdůležitějších tématech v Německu nejsou dostatečně jasné z dostupných zdrojů",
+      "hlavni_tema": "Koalice CDU/CSU a SPD připravuje rozsáhlý reformní balíček zaměřený na daňové úlevy a ekonomický růst",
       "temata": [
         {
-          "nazev": "Nedostatek informací",
-          "co_se_stalo": "Vyhledávání nevrátilo relevantní německé zprávy z dnešního dne",
-          "proc_je_to_dulezite": "Dostupné zdroje neumožňují spolehlivý reporting",
-          "co_sledovat": "Doporučuje se opetovné vyhledávání s jinými klíčovými slovy",
-          "akteri": "Neuvedeni",
-          "zdroj": "Bez spolehlivého zdroje"
+          "nazev": "Daňová reforma a balíček růstu",
+          "co_se_stalo": "Vládní koalice Schwarze-Rote (CDU/CSU a SPD) se shodla na reformě daně z příjmu a tzv. balíčku pro zrychlení ekonomiky. Vedoucí koalice Friedrich Merz říká, že se jedná o velký skok vpřed.",
+          "proc_je_to_dulezite": "Německo se potýká s hospodářskými problémy a nižší dynamikou růstu. Reforma daní je součástí širšího plánu revitalizace ekonomiky v obtížné situaci.",
+          "co_sledovat": "Jak se reforma promítne do rozpočtu a zda ji schválí Sněmovna. Důležité bude sledovat vliv na občany a firmy.",
+          "akteri": "Friedrich Merz (CDU/CSU - kancléř), SPD představitelé - podporují reformu; media spekulují o odporu z jiných stran.",
+          "zdroj": "tagesschau.de, SZ.de, ntv"
+        },
+        {
+          "nazev": "Skandál kolem vstupenek na fotbalové mistrovství",
+          "co_se_stalo": "Федеральные следственные органы provedly razzie po podezření na korupci v souvislosti s výběrem vstupenek na EURO za zvýhodněné ceny.",
+          "proc_je_to_dulezite": "Těchto problém zasahuje sportovní řízení a veřejné procesy. Korupční skandály narušují důvěru veřejnosti v sportovní instituce.",
+          "co_sledovat": "Průběh vyšetřování a případná obvinění. Dopady na DFB (německou fotbalovou asociaci).",
+          "akteri": "Německé federální orgány, sportovní funkcionáři",
+          "zdroj": "ZDFheute"
+        },
+        {
+          "nazev": "Satirický skandál - nová Böhmermann-aféra",
+          "co_se_stalo": "Německo zažívá nový satirický skandál, který je strukturálně podobný známé Böhmermann-aféře z roku 2015 o prezidentovi Erdoğanovi.",
+          "proc_je_to_dulezite": "Otevírá otázky o svobodě projevu, limitech satiry a hranicích společenské debaty v Německu. Reflexe vlastních hodnot.",
+          "co_sledovat": "Jak budou instituce reagovat, jaké budou politické a mediální dopady.",
+          "akteri": "Satirici, mediální komentátoři, politické kruhy",
+          "zdroj": "Tagesspiegel"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Prezident Pavel odmítá ústupek v případě návštěvy summitu NATO, což vyostřuje politický spor s vládou",
+      "hlavni_tema": "Spor mezi vládou a prezidentem Petrem Pavlem o složení delegace na summit NATO v Ankaře",
       "temata": [
         {
-          "nazev": "Konflikt mezi Hradem a vládou o summit NATO",
-          "co_se_stalo": "<cite index=\"27-6\"Ústavní soud vydal předběžné opatření, podle kterého musí vláda vzít prezidenta Petra Pavla s sebou na červencový summit NATO.</cite <cite index=\"33-13,33-15\"Prezident Petr Pavel nevyhoví žádosti premiéra Andreje Babiše, aby přehodnotil svůj postoj a na summit NATO nelétal, zdůrazňujíc, že účast je jeho ústavní a pracovní povinností.</cite",
-          "proc_je_to_dulezite": "<cite index=\"27-2,27-3\"Spor mezi Hradem a Strakovou akademií se dále vyhrotil. Prezident nechce ustoupit v případě cesty na summit NATO.</cite Jde o fundamentální konflikt mezi prezidentem a vládou kolem toho, kdo bude vést českou delegaci na summitu.",
-          "co_sledovat": "Jak se situace vyvine před červencovým summitem v Ankaře, zda bude nalezeno řešení mezi Pavlem a Babišem, či zda se paradoxně pojedou oba dva",
-          "akteri": "Prezident Petr Pavel (nezávislý), premiér Andrej Babiš (ANO), Ústavní soud",
-          "zdroj": "Seznam Zprávy, Deník N, Aktuálně.cz"
+          "nazev": "Konflikt kolem mandátu a delegace na summit NATO",
+          "co_se_stalo": "Vláda premiéra Andreje Babiše nezadala prezidentu Petru Pavlovi oficiální mandát na summit NATO v Ankaře. Pavel tvrdí, že se jedná o bezprecedentní postup. Následně ministerstvo zahraničí (ministr Macinka) částečně vyhovělo a upravilo doprovod prezidenta.",
+          "proc_je_to_dulezite": "Jde o základní ústavní pravidla a rozdělení pravomocí mezi hlavu státu a vládu. Je to precedens pro vztahy mezi institucemi. Summit NATO je klíčová strategická událost.",
+          "co_sledovat": "Jak se situace vyvine, zda Pavel dostane mandát, jaké budou politické důsledky. Spor se dotýká ústavního práva a stability institucí.",
+          "akteri": "Prezident Petr Pavel (bez strany), premiér Andrej Babiš (ANO), ministr zahraničí Petr Macinka (Motoristé), kritici z řad Pirátů (Ivan Bartoš) a Svobodných",
+          "zdroj": "novinky.cz, iROZHLAS, ČT24, CNN Prima NEWS"
         },
         {
-          "nazev": "Extrémní vedra a počasí",
-          "co_se_stalo": "<cite index=\"25-7\"Podruhé za dva dny stanice v Doksanech na Litoměřicku naměřila nové absolutní teplotní maximum pro Česko. V neděli vzrostlo na 41,9 stupně.</cite <cite index=\"28-1,28-2\"Úterní podvečer přinesl jihu Moravy tolik potřebné srážky, ale bohužel také silné bouřky. Zejména z okolí Blanska lidé hlásili až pěticentimetrové kroupy.</cite",
-          "proc_je_to_dulezite": "<cite index=\"37-19,37-20\"Kvůli kolapsům z horka má pražská záchranná služba letošní červen několikanásobně více výjezdů než loni. Před rokem měli za celý červen 41 výjezdů ke kolapsům z horka, letos už jich je 188.</cite Jde o bezprecedentní meteorologickou situaci s dopady na zdraví a infrastrukturu.",
-          "co_sledovat": "Další vývoj počasí, další případné teplotní rekordy, stav veřejného zdraví, výpadky dopravy a energetiky",
-          "akteri": "Českomoravská meteorologická stanice, hasiči, záchranná služba",
-          "zdroj": "Hospodářské noviny, Deník N, Novinky.cz"
+          "nazev": "Silné bouřky a extrémní počasí",
+          "co_se_stalo": "Česko zasáhly ve středu velmi silné bouřky se zvlněnou studenou frontou. Na Olomoucku se dokonce vytvořila supercela. Bouřky přinesly silný vítr, přívalové deště a způsobily škody.",
+          "proc_je_to_dulezite": "Přírodní katastrofy ovlivňují bezpečnost, dopravu, infrastrukturu a životní situaci občanů. Zvyšující se intenzita a frekvence bouřek souvisí s klimatickými změnami.",
+          "co_sledovat": "Další vývoj počasí, hlášené výstrahy, škody a evakuace. Dlouhodobý trend intenzity bouřek.",
+          "akteri": "Český hydrometeorologický ústav (ČHMÚ), hasiči, záchranáři, meteorologové",
+          "zdroj": "novinky.cz, deník.cz, Aktuálně.cz"
         },
         {
-          "nazev": "Zemětřesení ve Venezuele a česká pomoc",
-          "co_se_stalo": "<cite index=\"35-1\"Při středečním zemětřesení ve Venezuele zemřelo nejméně 1719 lidí a dalších více než pět tisíc utrpělo zranění.</cite <cite index=\"27-4,27-5\"Čeští záchranáři pracují ve Venezuele na záchraně přeživších po rozsáhlých středečních zemětřeseních. Jsou nasazeni v nejhůře zasaženém pobřežním státě La Guaira.</cite",
-          "proc_je_to_dulezite": "Česká meziministerska jednota USAR je součástí mezinárodní záchranné operace v jedné z nejhorších postižených oblastí. Jde o demonstraci české humanitární pomoci a odbornosti českých záchranářů na mezinárodní scéně.",
-          "co_sledovat": "Průběh záchranných prací, počet zachráněných osob, celkové oběti na životech, dopad na región",
-          "akteri": "Čeští záchranáři USAR, venezuelská vláda, mezinárodní záchranné týmy",
-          "zdroj": "Seznam Zprávy, Novinky.cz, iROZHLAS"
+          "nazev": "Premiér Babiš obdržel miliardy korun dividend z Agrofertu",
+          "co_se_stalo": "Premiér Andrej Babiš příznál v majetkovém přiznání, že obdržel loňský rok od koncernu Agrofert dividendu ve výši 4,25 miliardy korun po zdanění (původně 5 miliard). Dříve také přiznal příjem od společnosti Imoba vlastnící Čapí hnízdo.",
+          "proc_je_to_dulezite": "Souvisí se střetem zájmů premiéra. Babiš formálně Agrofert převedl do svěřenského fondu kvůli zákonu o střetu zájmů v únoru 2026, ale stále dostává vysoké dividendy. Veřejnost se ptá, zda je to slučitelné s neutralitou premiéra.",
+          "co_sledovat": "Diskuse o střetu zájmů, odpovědi státní inspekce a parlamentu. Dopad na důvěru veřejnosti v instituci premiéra.",
+          "akteri": "Premiér Andrej Babiš (ANO), opozice, státní inspektoři, média",
+          "zdroj": "ČT24, CNN Prima NEWS, iROZHLAS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-07-01 14:26"
+  "aktualizovano": "2026-07-02 13:50"
 }
