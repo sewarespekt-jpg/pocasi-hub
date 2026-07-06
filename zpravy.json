@@ -1,68 +1,68 @@
 {
-  "datum": "03.07.2026",
+  "datum": "06.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
-      "emoji": "🇩🇪",
-      "hlavni_tema": "Koalice se dohodla na reformním balíčku, který má Německo vyvést z krize",
+      "emoji": "DE",
+      "hlavni_tema": "Sjezd AfD v Erfurtu doprovázely masivní protesty, strany se snaží skrývat konflikty před zářijovými volbami.",
       "temata": [
         {
-          "nazev": "Reformní balíček německé koalice",
-          "co_se_stalo": "Dlouhé vyjednávání skončilo dohodou na reformním balíčku, který má řešit německou krizi",
-          "proc_je_to_dulezite": "Německo čelí ekonomickým výzvám a politické napětí - vládní koalice ztrácí podporu. Veřejnost hledá řešení, média se soustředí na konkrétní dopad na občany a ekonomiku",
-          "co_sledovat": "Jak bude balíček konkrétně implementován, jaké bude mít důsledky na daně, důchody a sociální systém. Whether reformy stabilizují podporu pro vládu",
-          "akteri": "Vládní koalice (SPD, Zelení a další strany); Kancléř Friedrich Merz",
-          "zdroj": "Tagesspiegel, ZDFheute"
+          "nazev": "Sjezd Alternativy pro Německo a masové protesty v Erfurtu",
+          "co_se_stalo": "Alternativa pro Německo (AfD) konala dvoudenní sjezd v Erfurtu. V sobotu se na protestech sešlo podle policie 31 tisíc lidí, v neděli byla účast nižší. Spolupředsedkyně Alice Weidelová prohlásila, že AfD bude po zářijových zemských volbách vládnout.",
+          "proc_je_to_dulezite": "AfD je aktuálně největší opoziční stranou v německém spolkovém sněmu s 20,8 procenta hlasů z loňských předčasných voleb. Německá civilní tajná služba ji loni označila za prokazatelně pravicově extremistickou. Sjezd se konal v napjaté atmosféře veřejného odporu a politických debat o roli strany v německé politice.",
+          "co_sledovat": "Mediátoři pozorují, jak si AfD udržuje volební podporu před zářijovými volbami a zda se jí podaří skrývat vnitřní konflikty. Klíčové jsou také důsledky pro ostatní partie a možné koalice. Mezinárodně se sleduje postoj německých bezpečnostních služeb vůči straně.",
+          "akteri": "Alice Weidelová a Tino Chrupalla (spolupředsedové AfD), Tomio Okamura (SPD), politická opozice.",
+          "zdroj": "iROZHLAS, Google News Česko, zdfheute.de"
         },
         {
-          "nazev": "Krize v německém fotbale - Nagelsmann pod tlakem",
-          "co_se_stalo": "Podle německých médií vedení DFB údajně navrlo Bundestrainerovi Nagelsmannovi dobrovolný odchod z pozice po neúspěšných výsledcích",
-          "proc_je_to_dulezite": "Německá fotbalová veřejnost je zvyklá na úspěchy. Slabé výkony národního týmu jsou téma na mediální scéně a emotivně působí na fanoušky. DFB čelí tlaku",
-          "co_sledovat": "Bude-li Nagelsmann opravdu odcházet či zůstane. Kdo ho případně nahradí. Jak se tým připraví na budoucí turnaje",
-          "akteri": "Bundestrainer Julian Nagelsmann, vedení DFB, mediální pokrytí (Bild a další)",
-          "zdroj": "Tagesspiegel"
+          "nazev": "Ruské útoky na Ukrajinu a německá obrana",
+          "co_se_stalo": "Minulý týden byl zaznamenán masivní ruský útok na Kyjev, při kterém drony a rakety zabily nejméně 30 lidí. Ruské útoky pokračují v Charkovské oblasti a dalších regionech. Německo zajišťuje vojenskou podporu Ukrajině.",
+          "proc_je_to_dulezite": "Konfikt na Ukrajině je pro Německo strategicky důležitý a ovlivňuje jeho bezpečnostní politiku, energetickou nezávislost a postoj k Rusku. Německo je jedním z hlavních poskytovatelů vojenské a finanční pomoci Ukrajině v EU.",
+          "co_sledovat": "Rozsah německé vojenské pomoci Ukrajině, postoj AfD a ostatních stran ke konfliktu, bezpečnostní dopad na německé území a ekonomické důsledky sankcí.",
+          "akteri": "Německá vláda (Scholz - SPD), AfD (kritická k pomoci Ukrajině), německé ministerstvo obrany",
+          "zdroj": "iROZHLAS, ČT24"
         },
         {
-          "nazev": "NATO summit v Turecku - Trump buduje tlak na Německo",
-          "co_se_stalo": "Summit NATO se blíží a Donald Trump signalizuje, že bude klást vysoké nároky na evropské státy, zvlášť na Německo",
-          "proc_je_to_dulezite": "Vztah USA-Německo je pro evropskou bezpečnost kritický. Trump už několikrát kritizoval německé výdaje na obranu. Německá veřejnost a politika sledují, jaké nové požadavky přijdou",
-          "co_sledovat": "Jaké konkrétní požadavky Trump na summitu vysloví. Jak Německo bude reagovat. Dopad na německé rozpočty na obranu",
-          "akteri": "Donald Trump, německá vláda, NATO",
-          "zdroj": "Tagesspiegel, ZDFheute"
+          "nazev": "Nové pravidla pro nemocenské hlášení - spor v koalici",
+          "co_se_stalo": "Schválené plány černorýže koalice na zavedení povinné lékařské zprávy již od prvního dne nemoci vyvolaly kritiku i v samotné CDU. Šéf poslaneckého klubu Pirátů Jakub Michálek skončil v širším vedení strany. Kritika přichází i od CDU-Arbeitnehmerschaft.",
+          "proc_je_to_dulezite": "Reforma pracovně-právního systému v Německu je klíčová pro ekonomiku a sociální politiku. Nová pravidla by měla podle koalice zvýšit produktivitu, ale vyvolávají odpor pracovníků a odborů, kteří vidí v opatření přetěžování nemocných.",
+          "co_sledovat": "Zda reforma obstojí v poslanecké sněmovně, jak se na ni podívají odbory a veřejnost, ekonomické důsledky a dopad na sociální klima.",
+          "akteri": "Černá-rudá koalice (SPD, CDU/CSU), CDU-Arbeitnehmerschaft (proti), odborové svazy",
+          "zdroj": "zdfheute.de"
         }
       ]
     },
     {
       "nazev": "Česko",
-      "emoji": "🇨🇿",
-      "hlavni_tema": "Politický spor mezi prezidentem Pavlem a premiérem Babišem eskaluje na veřejnosti",
+      "emoji": "CZ",
+      "hlavni_tema": "Politické napětí mezi prezidentem Petrem Pavlem a premiérem Andrejem Babišem vyvrcholilo soudem vynuceným povolením návštěvy summitu NATO.",
       "temata": [
         {
-          "nazev": "Konflikt Babiš vs. Pavel - ústavní spor",
-          "co_se_stalo": "Premiér Andrej Babiš (ANO) v rozhovoru kritizoval prezidenta Pavla, že si vykládá ústavu podle svého. Pavel vyzval Babiše, aby svá tvrzení podložil důkazy nebo je vzal zpět",
-          "proc_je_to_dulezite": "Jde o základní ústavní principy a hranice moci v ČR. Spor se rozšířil i na sociální sítě. Politická scéna je polarizovaná - prezidentův právní tým a premiérův poradce si vyměňují ostré údery na veřejnosti",
-          "co_sledovat": "Jak se bude spor dále eskalovat. Bude-li Babiš svá tvrzení dokazovat či stáhne. Vliv na vztahy mezi premiérem a prezidentem. Postoj veřejnosti",
-          "akteri": "Premiér Andrej Babiš (ANO), prezident Petr Pavel (nestraník), právní poradci obou stran, externe poradce ministra zahraničí Pavel Šik",
-          "zdroj": "Aktuálně.cz, Deník.cz, ČT24"
+          "nazev": "Konflikt Pavel vs. Babiš: Ústavní spor o summit NATO",
+          "co_se_stalo": "Prezident Petr Pavel (nestraník, v čele státu) se chystal na summit NATO v Ankaře příští týden, ale premiér Andrej Babiš (ANO) ho chcel poslat až po vládní delegaci, ne připadá se mu jeho nezávislá účast. Ústavní soud vydal předběžné opatření, které nařídilo vládě Pavlovi cestu umožnit.",
+          "proc_je_to_dulezite": "Jde o zásadní spor o ústavní postavení prezidenta a jeho pravomoci v zahraniční politice. Babiš kritizuje Pavla za to, že si vykládá Ústavu 'jak chce', Pavel poukazuje na svou roli jako představitele státu. Jejich konflikt symbolizuje napětí mezi exekutivou a prezidentem a hýbe českým politickým prostředím.",
+          "co_sledovat": "Jak se zúčastní summit - Pavel i Babiš samostatně? Jaké budou důsledky tohoto právního sporu pro složení moci? Jak se tento konflikt bude vyvíjet dál a jak bude ovlivňovat domácí politiku.",
+          "akteri": "Prezident Petr Pavel (nestraník, hlava státu), premiér Andrej Babiš (ANO), Ústavní soud ČR, ministr Oto Klempíř (Motoristé), ministr zahraničí",
+          "zdroj": "Seznam Zprávy, iROZHLAS, Novinky.cz, Aktuálně.cz"
         },
         {
-          "nazev": "Ruské útoky na Kyjev - evakuace z červeného kříže",
-          "co_se_stalo": "Ruské nočné útoky na Kyjev zničily velký sklad Ukrajinského červeného kříže s humanitární pomocí. Zraněno bylo nejméně 21 lidí, sklad obsahoval vybavení v hodnotě 37 milionů Kč",
-          "proc_je_to_dulezite": "Útoky jsou zdokumentovány jako největší na Kyjev dosavadní. Zaměřují se na civilní infrastrukturu. Česko podporuje Ukrajinu, témata ruské agrese jsou v ČR mediálně sledovaná a vyvolávají diskusi o podpoře Kyjevskému",
-          "co_sledovat": "Další ruské útoky a jejich intenzita. Schopnost Ukrajiny se bránit. Otázka další vojenské a humanitární pomoci z ČR a EU",
-          "akteri": "Ruská armáda, Ukrajina (prezident Zelenskyj, místní úřady), Český červený kříž (partnerská organizace)",
-          "zdroj": "Aktuálně.cz"
+          "nazev": "Návraty českých záchranářů z Venezuela a humanitární mise",
+          "co_se_stalo": "Česká záchranářská jednotka USAR (Urban Search and Rescue) se vrátila domů poté, co pomáhala po ničivém zemětřesení v Venezuele. Tým vedený Petrem Vodičkou prohledal kolem 40 budov a vyprostil pět mrtvých. Zemětřesení z minulého týdne zabilo přes 3 tisíc lidí.",
+          "proc_je_to_dulezite": "Prezentuje to připravenost a schopnost české záchranné služby reagovat na mezinárodní humanitární krize. Vypovídá o českém angažmá v mezinárodní pomoci a solidarity. Média zdůraňují profesionalitu českého týmu a obtížné podmínky - práce v teplotách přes 30 stupňů a vysoké vlhkosti.",
+          "co_sledovat": "Další humanitární mise, zapojení české záchranné jednotky do mezinárodních operací, spolupráce s OSN a mezinárodními organizacemi.",
+          "akteri": "Velitel Petr Vodička, jednotka USAR, ministerstvo vnitra, česká záchranná služba",
+          "zdroj": "Aktuálně.cz, ČT24, Novinky.cz"
         },
         {
-          "nazev": "Rekordní zájem o české státní dluhopisy",
-          "co_se_stalo": "Zájemci objednali české státní dluhopisy za zhruba 80 miliard korun, což čtyřnásobně překročilo původní emisní plán 20 miliard korun",
-          "proc_je_to_dulezite": "Indikuje vysokou důvěru investorů v českou ekonomiku. Ukončenie regulace cen pohonných hmot a nižší daň z nafty přispěly k určité ekonomické stabilitě. Zájem o dluhopisy je pozitivním signálem na trzích",
-          "co_sledovat": "Jak se budou kurzy dluhopisů vyvíjet. Bude-li muset stát emitovat více dluhopisů. Dopad na dluhovou službu státu a rozpočet",
-          "akteri": "Ministerstvo financí ČR, České národní bance, investoři",
-          "zdroj": "Deník.cz, ministerstvo financí"
+          "nazev": "Závraty v pirátské straně a změny v politické skladbě",
+          "co_se_stalo": "Šéf poslaneckého klubu Pirátů Jakub Michálek skončil v širším vedení strany kvůli jednoduché změně stanov. Tato změna se dlouhodobě probírala. Dochází tak k reorganizaci vedení Pirátské strany.",
+          "proc_je_to_dulezite": "Piráti jsou součástí koaličního systému v Česku a tyto vnitřní změny signalizují posun v jejich politické orientaci a vnitřním vlivovém systému. Vypovídá to o dynamice mezi jednotlivými koaliční partnery a jejich vnitřních sporů.",
+          "co_sledovat": "Další personální změny v Pirátské straně, jejich dopad na koalici a vládu, vedlejší efekty na stabilitu vlády.",
+          "akteri": "Jakub Michálek (Piráti - odvolán), vedení Pirátů, členové strany",
+          "zdroj": "Novinky.cz, iROZHLAS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-07-03 13:53"
+  "aktualizovano": "2026-07-06 15:22"
 }
