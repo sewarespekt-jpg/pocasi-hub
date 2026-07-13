@@ -1,68 +1,68 @@
 {
-  "datum": "09.07.2026",
+  "datum": "13.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "DE",
-      "hlavni_tema": "Bundesverfassungsgericht povolil hlasování o zdravotnické reformě a zákonu o vytápění, které rozdělují koalici SPD a Zelených.",
+      "hlavni_tema": "Konflikty na Blízkém východě a obavy z bezpečnosti zatěžují německou zahraniční politiku",
       "temata": [
         {
-          "nazev": "Hlasování o reformě zdravotního pojištění (GKV-reforma)",
-          "co_se_stalo": "Spolkový ústavní soud zamítl nouzové návrhy na zastavení hlasování v Bundestagu o reformě zdravotního pojištění. Hlasování se má uskutečnit v pátek.",
-          "proc_je_to_dulezite": "Reforma je jedním z nejdůležitějších legislativních projektů černočervené koalice. Změní pravidla pro zdravotní pojišťovny - ty už nebudou muset informovat členy o zvýšení příspěvků, což vyvolalo vlnu kritiky z řad zdravotnických pojišťoven a opozice.",
-          "co_sledovat": "Výsledek hlasování v pátek bude měřítkem vnitřního soudržství koalice. Očekává se schválení se zásadní podporou.",
-          "akteri": "Spolková vláda (SPD-Zelení), Bundesverfassungsgericht, Bundestag. Opozici kritizuje výsledek - CDU/CSU a FDP",
+          "nazev": "Eskalace v Hormuzském průlivu a vliv na Německo",
+          "co_se_stalo": "Spojené státy provedily další vlnu útoků na íránské vojenské cíle, Írán odpovídá útoky na loď v Hormuzském průlivu. Medií se diskutuje, jak to ovlivňuje obchodní vztahy a bezpečnost",
+          "proc_je_to_dulezite": "Hormuzský průliv je klíčový pro vývoz ropy a energií do Evropy, včetně Německa. Eskalace napětí přímo ohrožuje dodávky energií a zvyšuje ceny ropy, což má přímý dopad na německé hospodářství",
+          "co_sledovat": "Vývoj diplomatických rozhovorů, dopad na německý energetický trh, stanovisko EU a německé vlády k situaci",
+          "akteri": "Donald Trump (USA, republikán - příznivce vojenské akce), Írán (odpovídající stranou), EU a německá vláda (zkouší hledat diplomatické řešení)",
+          "zdroj": "tagesschau.de, SZ.de, Deutschlandfunk"
+        },
+        {
+          "nazev": "Reforma práv letušů a cestujících",
+          "co_se_stalo": "EU dnes schválila nové návrhy na posílení práv letušů a cestujících, mimo jiné zákaz skrytých dodatečných poplatků od 2027",
+          "proc_je_to_dulezite": "Změna se dotkne německých (a evropských) letušů a cestujících. Jde o ochranu spotřebitelů a standardizaci EU regulace",
+          "co_sledovat": "Implementace nových pravidel, reakce leteckých společností, dopad na ceny letenek",
+          "akteri": "EU instituce (legislativa pro ochranu spotřebitelů), evropské letecké společnosti (budou muset přizpůsobit svoje modely)",
           "zdroj": "tagesschau.de, Spiegel"
         },
         {
-          "nazev": "Heizungsgesetz - zákon o vytápění",
-          "co_se_stalo": "Bundestag se chystá hlasovat také o zákonu na vytápění - dalším kontroverzním projektu zelené části koalice. Ústavní soud povolil i toto hlasování.",
-          "proc_je_to_dulezite": "Zákon o vytápění je součástí klimatické politiky Zelených a vyvolává obavy u domácností i byznysu ohledně zvýšených nákladů na modernizaci.",
-          "co_sledovat": "Hlasování v pátek. Tento zákon je jedním z nejpolitičtěji vypjatějších témat německé politiky.",
-          "akteri": "Zelení (podpora), SPD (váhavě), CDU/CSU a FDP (proti). Ministr hospodářství Habeck (Zelení)",
-          "zdroj": "MDR.de, Spiegel"
-        },
-        {
-          "nazev": "Převzetí Commerzbanky - Unicredit se blíží většině akcií",
-          "co_se_stalo": "Italská banka Unicredit pokračuje v nákupu akcií Commerzbanky a blíží se k dosažení kontrolního podílu. Zmínka o tom, jak se Unicredit přibližuje k podstatné pozici v německé bance.",
-          "proc_je_to_dulezite": "Jde o jednu z největších finančních transakcí v Německu za poslední roky. Převzetí cizí bankou vyvolává diskuse o suverenitě německého finančního sektoru a pracovních místech.",
-          "co_sledovat": "Další kroky Unicredit a reakce německé regulační autority. Očekává se politická diskuse o ochraně německého bankování.",
-          "akteri": "Unicredit (Itálie), Commerzbank, německá ministerstva, Bundesbank",
-          "zdroj": "ZDFheute"
+          "nazev": "Politická situace v Berlíně a debata o vedení CDU",
+          "co_se_stalo": "Zdá se, že probíhají diskuse o politickém vedení a problémech se zvolenými kandidáty. Média poukazují na turbulentní debaty v CDU",
+          "proc_je_to_dulezite": "Berlínská politika se chystá na zásadní volby, změna kandidátů tak blízko voleb je neobvyklá a signalizuje vnitřní problémy v straně",
+          "co_sledovat": "Vývoj kandidatur CDU, pozici Levice jako případné alternativy, průběh voleb",
+          "akteri": "CDU (Merkelova tradice), Levice (SPD, Zelení), jednotlivé kandidáti",
+          "zdroj": "Tagesspiegel, RND"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "CZ",
-      "hlavni_tema": "Summit NATO v Ankaře dominuje české mediální scéně - Babiš ohlásil, že Česko letos nesplní závazek 2 % HDP na obranu.",
+      "hlavni_tema": "Hluboké napětí mezi prezidentem Pavlem a premiérem Babišem o zahraniční a bezpečnostní politiku",
       "temata": [
         {
-          "nazev": "Česko nesplní závazek vydávat 2 % HDP na obranu",
-          "co_se_stalo": "Premiér Andrej Babiš (ANO) prohlásil na NATO summitu v Ankaře, že Česko v letošním roce nesplní záväzek vydávat dvě procenta HDP na vojenské výdaje. Důvodem je deficit rozpočtu, který jeho vláda zdědila od předchozí (Fialovy) vlády.",
-          "proc_je_to_dulezite": "Česko je jednou z mála zemí NATO, která na obranu vydává nejméně - spolu se Slovenskem a Albánií. Neschopnost splnit závazek vytváří napětí v alianční solidaritě a hraje do rukou kritice USA.",
-          "co_sledovat": "Sliby Babiše, že v příštím roce bude Česko na 2 % HDP. Možné politické tlaky z aliance na zvýšení výdajů a domácí diskuse o rozpočtových prioritách.",
-          "akteri": "Andrej Babiš (premiér, ANO), Petr Pavel (prezident, nez.), Donald Trump (USA - přítomný na summitu s ostrými výroky)",
-          "zdroj": "Aktuálně.cz, iROZHLAS, Seznam Zprávy"
+          "nazev": "Konflikt Pavel versus Babiš kolem NATO summitu",
+          "co_se_stalo": "Prezident Petr Pavel se zúčastnil summitu NATO v Ankaře. Premiér Andrej Babiš (ANO) to kritizoval jako ostudу a odmítl Pavlův návrh na obnovení konzultačních schůzek ústavních činitelů",
+          "proc_je_to_dulezite": "Jde o fundamentální nesoulad v přístupu k zahraniční politice. Pavel vidí nutnost koordinace uvnitř státu, Babiš ji odmítá. To naznačuje hluboký rozpor v tom, jak by Česko mělo fungovat",
+          "co_sledovat": "Další vývoj vztahu Pavel-Babiš, pozice prezidenta v přípravě na další summit NATO, otázka, jak se bude řešit případná jejich budoucí koexistence",
+          "akteri": "Prezident Petr Pavel (oficiální hlava státu, prosazuje koordinaci), Premiér Andrej Babiš (ANO - výrazně vůči Pavlovi negativní), vláda (podpořila Babiše), opozice",
+          "zdroj": "Novinky.cz, iROZHLAS, Aktuálně.cz, Česká televize"
         },
         {
-          "nazev": "Trumpova vystoupení na NATO summitu - napětí v alianci",
-          "co_se_stalo": "Donald Trump se na summitu v Ankaře choval kontroverzně: hrozil Španělsku přerušením obchodu, zopakoval nároky na Grónsko a Kanadu, zesměšňoval italskou premiérku Giorgii Meloniovou. Komentátoři upozorňují na destabilizační účinek jeho chování.",
-          "proc_je_to_dulezite": "Trump zpochybňuje soudržnost NATO a vzbuzuje obavy evropských členů. Vzdává se podpory Ukrajině a místo toho propaguje izolacionismus. Česká politika se ocitla v neutrální pozici mezi USA a zbytkem Evropy.",
-          "co_sledovat": "Jak se budou evropské země, včetně Česka, vůči Trumpu pozicovat. Už je zvažován přesun summitu NATO z Albánie.",
-          "akteri": "Donald Trump (USA), Andrej Babiš a Petr Pavel (Česko), ostatní členové NATO, Volodymyr Zelenskyj (Ukrajina)",
-          "zdroj": "Aktuálně.cz, Seznam Zprávy, iROZHLAS"
+          "nazev": "Dopravní nehoda poslance Filipa Turka",
+          "co_se_stalo": "Poslanec za Motoristy Filip Turek měl v pondělí dopoledne v centru Prahy vážnou dopravní nehodu. Jeho automobil se srazil s nemocničním vozem, který skončil na střeše na tramvajových kolejích",
+          "proc_je_to_dulezite": "Nehoda se týká člena vládní koalice a vládního zmocněnce pro klimatickou politiku. Hrozilo vážné zranění nebo smrt osob v obou vozidlech",
+          "co_sledovat": "Stav zraněných osob, příčiny nehody, bezpečnostní prvky, otázka odpovědnosti",
+          "akteri": "Filip Turek (Motoristé - vládní zmocněnec), řidič/posádka nemocničního vozidla, pražská policie",
+          "zdroj": "Novinky.cz, Blesk.cz, Aktuálně.cz"
         },
         {
-          "nazev": "Hlasování EU o Chat Control - kontrola soukromé komunikace",
-          "co_se_stalo": "Evropský parlament se ve čtvrtek chystá znovu hlasovat o jednom z nejkontroverznějších návrhů posledních let - Chat Control 1.0. Jde o dočasné výjimky, která internetovým platformám umožňuje skenovat soukromou komunikaci uživatelů.",
-          "proc_je_to_dulezite": "Jde o zásadní otázku soukromí a osobních práv v digitálním prostoru. Návrh je velmi vnímaný občany jako hrozba svobody. Česko je jednou ze zemí prosazujících toto opatření.",
-          "co_sledovat": "Výsledek hlasování v EU parlamentu. Vnitrostátní debata o balancování bezpečnosti a soukromí.",
-          "akteri": "Evropský parlament, Česko (podporující), Německo (v návrhu), organizace na ochranu osobních údajů",
-          "zdroj": "Novinky.cz"
+          "nazev": "Česko posílá druhý vrtulník do Francie na pomoc s požáry",
+          "co_se_stalo": "Česko vyslalo druhý vrtulník do jižní Francie v okolí Valence, aby pomohl s hašením rozsáhlých požárů. První vrtulník odletěl v pátek a má za sebou už první den nasazení",
+          "proc_je_to_dulezite": "Česko se podílí na mezinárodní solidaritě a pomoci v nouzi. Požáry jsou katastrofální - v Evropě zemřela desítka lidí a jsou obrovské majetkové škody",
+          "co_sledovat": "Trvání požárů, efektivita mezinárodní koordinace, počet zraněných a evakuovaných",
+          "akteri": "Česká vláda (rozhodla o vyslání stroje), české záchranné složky (hasiči, piloti), Francie (příslušná země), evropské státy (další pomoc)",
+          "zdroj": "Aktuálně.cz, iROZHLAS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-07-09 14:48"
+  "aktualizovano": "2026-07-13 14:24"
 }
