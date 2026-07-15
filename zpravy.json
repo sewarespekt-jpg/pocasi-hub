@@ -1,68 +1,68 @@
 {
-  "datum": "13.07.2026",
+  "datum": "15.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "DE",
-      "hlavni_tema": "Konflikty na Blízkém východě a obavy z bezpečnosti zatěžují německou zahraniční politiku",
+      "hlavni_tema": "Německo se připravuje na potenciální válečný konflikt s Ruskem - schválení rozpočtu na zbrojení a protiatomové úkryty.",
       "temata": [
         {
-          "nazev": "Eskalace v Hormuzském průlivu a vliv na Německo",
-          "co_se_stalo": "Spojené státy provedily další vlnu útoků na íránské vojenské cíle, Írán odpovídá útoky na loď v Hormuzském průlivu. Medií se diskutuje, jak to ovlivňuje obchodní vztahy a bezpečnost",
-          "proc_je_to_dulezite": "Hormuzský průliv je klíčový pro vývoz ropy a energií do Evropy, včetně Německa. Eskalace napětí přímo ohrožuje dodávky energií a zvyšuje ceny ropy, což má přímý dopad na německé hospodářství",
-          "co_sledovat": "Vývoj diplomatických rozhovorů, dopad na německý energetický trh, stanovisko EU a německé vlády k situaci",
-          "akteri": "Donald Trump (USA, republikán - příznivce vojenské akce), Írán (odpovídající stranou), EU a německá vláda (zkouší hledat diplomatické řešení)",
-          "zdroj": "tagesschau.de, SZ.de, Deutschlandfunk"
+          "nazev": "Příprava na konflikt s Ruskem a rozšíření zbrojení",
+          "co_se_stalo": "Údaje z integrálního strategického dokumentu Bundeswehru upozorňují, že Rusko přetváří svou ekonomiku s cílem připravit se na rozsáhlý konflikt. Německo zároveň schválilo plány na rozšíření sítě protiatomových bunkrů a úkrytů.",
+          "proc_je_to_dulezite": "Podle Bundeswehru je Moskva do konce desetiletí schopna vybudovat síly o 1,5 milionu vojáků. To vytváří napětí v security strategii Německa, které se nachází v přední linii evropské bezpečnosti. Jde o signál, že Německo vnímá bezpečnostní hrozbu vážně.",
+          "co_sledovat": "Tempo a rozsah zbrojení Německa, vyjednávání v NATO ohledně obrany, případné další sankce proti Rusku a další investice do vojenské infrastruktury.",
+          "akteri": "Federální ministr obrany, kancléř Friedrich Merz (CDU/CSU), Bundeswehr, NATO",
+          "zdroj": "EuroZprávy.cz, iROZHLAS.cz"
         },
         {
-          "nazev": "Reforma práv letušů a cestujících",
-          "co_se_stalo": "EU dnes schválila nové návrhy na posílení práv letušů a cestujících, mimo jiné zákaz skrytých dodatečných poplatků od 2027",
-          "proc_je_to_dulezite": "Změna se dotkne německých (a evropských) letušů a cestujících. Jde o ochranu spotřebitelů a standardizaci EU regulace",
-          "co_sledovat": "Implementace nových pravidel, reakce leteckých společností, dopad na ceny letenek",
-          "akteri": "EU instituce (legislativa pro ochranu spotřebitelů), evropské letecké společnosti (budou muset přizpůsobit svoje modely)",
-          "zdroj": "tagesschau.de, Spiegel"
+          "nazev": "Bürokratieabbau - reforma zjednodušení státní správy",
+          "co_se_stalo": "Německá vláda schválila plán na snížení byrokracie a výdajů spojených se státní správou o 600 milionů eur. Jedná se o iniciativu tzv. Entlastungskabinett (kabinet na odlehčení).",
+          "proc_je_to_dulezite": "Podnikatelé i občané dlouhodobě kritizují německou byrokracii. Reforma má zvýšit konkurenceschopnost Německa a zlepšit podnikatelské prostředí. Jde o vnitřní hospodářský nástroj, který má politickou podporu.",
+          "co_sledovat": "Konkrétní legislativní opatření, která z plánu vzejdou; dopad na malé a střední podniky; propojen s digitalizací státní správy.",
+          "akteri": "Kancléř Friedrich Merz (CDU/CSU), ministerstva Taurus a BILD vykrývají reformu",
+          "zdroj": "BILD, Die Zeit, T-Online"
         },
         {
-          "nazev": "Politická situace v Berlíně a debata o vedení CDU",
-          "co_se_stalo": "Zdá se, že probíhají diskuse o politickém vedení a problémech se zvolenými kandidáty. Média poukazují na turbulentní debaty v CDU",
-          "proc_je_to_dulezite": "Berlínská politika se chystá na zásadní volby, změna kandidátů tak blízko voleb je neobvyklá a signalizuje vnitřní problémy v straně",
-          "co_sledovat": "Vývoj kandidatur CDU, pozici Levice jako případné alternativy, průběh voleb",
-          "akteri": "CDU (Merkelova tradice), Levice (SPD, Zelení), jednotlivé kandidáti",
-          "zdroj": "Tagesspiegel, RND"
+          "nazev": "Migrační politika - nabídka kompenzace afghánským uprchlíkům",
+          "co_se_stalo": "Německá vláda pod vedením kancléře Friedricha Merze nabízí afghánským uprchlíkům, kterí spolupracovali s německými institucemi, finanční kompenzaci výměnou za vzdání se nároku na azyl v Německu.",
+          "proc_je_to_dulezite": "Po pádu Kábulu v roce 2021 Berlín sliboval ochranu afghánským lidem, kteří spolupracovali s Německem. Nový přístup vyvolal vášnivou debatu o německé morálce a politické konzistenci. Jde o součást rétorika strany CDU/CSU zaměřené na zpřísnění migrační politiky.",
+          "co_sledovat": "Počet afghánců, kteří nabídku přijmou; právní výzvy a kritika od mezinárodních organizací; dopad na německé vztahy s Afgánistánem a mezinárodní kredibilitu.",
+          "akteri": "Kancléř Friedrich Merz (CDU/CSU), stanice MDR, uprchlické organizace",
+          "zdroj": "Aktuálně.cz, iROZHLAS.cz"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "CZ",
-      "hlavni_tema": "Hluboké napětí mezi prezidentem Pavlem a premiérem Babišem o zahraniční a bezpečnostní politiku",
+      "hlavni_tema": "Nehoda poslance Filipa Turka vyvolala politickou bouři ohledně bezpečnosti v dopravě a odpovědnosti politiků.",
       "temata": [
         {
-          "nazev": "Konflikt Pavel versus Babiš kolem NATO summitu",
-          "co_se_stalo": "Prezident Petr Pavel se zúčastnil summitu NATO v Ankaře. Premiér Andrej Babiš (ANO) to kritizoval jako ostudу a odmítl Pavlův návrh na obnovení konzultačních schůzek ústavních činitelů",
-          "proc_je_to_dulezite": "Jde o fundamentální nesoulad v přístupu k zahraniční politice. Pavel vidí nutnost koordinace uvnitř státu, Babiš ji odmítá. To naznačuje hluboký rozpor v tom, jak by Česko mělo fungovat",
-          "co_sledovat": "Další vývoj vztahu Pavel-Babiš, pozice prezidenta v přípravě na další summit NATO, otázka, jak se bude řešit případná jejich budoucí koexistence",
-          "akteri": "Prezident Petr Pavel (oficiální hlava státu, prosazuje koordinaci), Premiér Andrej Babiš (ANO - výrazně vůči Pavlovi negativní), vláda (podpořila Babiše), opozice",
-          "zdroj": "Novinky.cz, iROZHLAS, Aktuálně.cz, Česká televize"
+          "nazev": "Nehoda poslance Filipa Turka na pražské křižovatce",
+          "co_se_stalo": "V pondělí se srazilo SUV poslance Filipa Turka (Motoristé) s nemocničním vozem na křižovatce v centru Prahy. Nemocniční vůz se při nárazu vymrštil do vzduchu a chybí mu jen metrů, aby zasel skupinu chodců. Policisté nyní vyhodnocují záznam a vyslýchají účastníky.",
+          "proc_je_to_dulezite": "Nehoda se stala v rušné oblasti středu Prahy a téměř si vyžádala další oběti. Podle záznamů Seznam Zpráv se zdá, že Turek porušil pravidla a vjel do křižovatky bez oprávnění. Věc získala okamžitě mediální pozornost a spustila diskusi o chování politiků a jejich odpovědnosti.",
+          "co_sledovat": "Výsledky policejního vyšetření; případné právní kroky proti poslanci; politické důsledky pro jeho funkci; debata o bezpečnosti automobilů ve vysokých rychlostech v centru města.",
+          "akteri": "Poslanec Filip Turek (Motoristé), premiér Andrej Babiš (ANO), policie České republiky, opozice",
+          "zdroj": "Seznam Zprávy, iDNES, Aktuálně.cz"
         },
         {
-          "nazev": "Dopravní nehoda poslance Filipa Turka",
-          "co_se_stalo": "Poslanec za Motoristy Filip Turek měl v pondělí dopoledne v centru Prahy vážnou dopravní nehodu. Jeho automobil se srazil s nemocničním vozem, který skončil na střeše na tramvajových kolejích",
-          "proc_je_to_dulezite": "Nehoda se týká člena vládní koalice a vládního zmocněnce pro klimatickou politiku. Hrozilo vážné zranění nebo smrt osob v obou vozidlech",
-          "co_sledovat": "Stav zraněných osob, příčiny nehody, bezpečnostní prvky, otázka odpovědnosti",
-          "akteri": "Filip Turek (Motoristé - vládní zmocněnec), řidič/posádka nemocničního vozidla, pražská policie",
-          "zdroj": "Novinky.cz, Blesk.cz, Aktuálně.cz"
+          "nazev": "Prošetřování premiéra Andreje Babiše v kauze Agrofert",
+          "co_se_stalo": "Úřad evropského veřejného žalobce (EPPO) zahájil trestní řízení kvůli vyplácení dotací holdingu Agrofert. Iniciativa vychází z oznámení Pirátů o údajném střetu zájmů premiéra Babiše, který se údajně stará o holding pomocí svěřenského fondu.",
+          "proc_je_to_dulezite": "Babiš vložil akcie Agrofertu do fondu RSVP Trust, aby vyřešil konflikt zájmů, ale EPPO se nyní zabývá, zda byl postup legální a zda foram vyplácení dotací byly správné. Jde o dlouhotrvající kauzu, která sleduje integrity české politiky a střety zájmů.",
+          "co_sledovat": "Průběh vyšetřování EPPO; důkazy týkající se politiků a úředníků; návrat dotací z minulosti; politické dopady na kabinet a na Babiše.",
+          "akteri": "Premiér Andrej Babiš (ANO), Piráti, EPPO, ministerstvo spravedlnosti",
+          "zdroj": "ČT24, Aktuálně.cz, Seznam Zprávy"
         },
         {
-          "nazev": "Česko posílá druhý vrtulník do Francie na pomoc s požáry",
-          "co_se_stalo": "Česko vyslalo druhý vrtulník do jižní Francie v okolí Valence, aby pomohl s hašením rozsáhlých požárů. První vrtulník odletěl v pátek a má za sebou už první den nasazení",
-          "proc_je_to_dulezite": "Česko se podílí na mezinárodní solidaritě a pomoci v nouzi. Požáry jsou katastrofální - v Evropě zemřela desítka lidí a jsou obrovské majetkové škody",
-          "co_sledovat": "Trvání požárů, efektivita mezinárodní koordinace, počet zraněných a evakuovaných",
-          "akteri": "Česká vláda (rozhodla o vyslání stroje), české záchranné složky (hasiči, piloti), Francie (příslušná země), evropské státy (další pomoc)",
-          "zdroj": "Aktuálně.cz, iROZHLAS"
+          "nazev": "Výstrahy před velmi silnými bouřkami a extrémními počasím",
+          "co_se_stalo": "Český hydrometeorologický ústav (ČHMÚ) prodloužil výstrahu před velmi silnými bouřkami, které hrozí i ve středu. Největší riziko spočívá v silném větru, padajících stromech a místy také v kroupích. Jedná se o varování pro rekreační aktivity a festivalový provoz.",
+          "proc_je_to_dulezite": "Bouřky mohou ohrozit lidi v přírodě, na festivalech a v táborech. Letošní léto je poznamenáno tropickými teplotami a při tím spíše je riziko náhlých a prudkých změn počasí. Jde o praktickou záležitost bezpečnosti a plánování volného času.",
+          "co_sledovat": "Intenzita a další vývoj bouří; případné škody na majetku a zraňování lidí; dopad na festivaly a letní akce; dlouhodobý trend klimatických změn.",
+          "akteri": "ČHMÚ, hasiči, policie, organizátoři akcí",
+          "zdroj": "Novinky.cz, Aktuálně.cz, CNN Prima NEWS"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-07-13 14:24"
+  "aktualizovano": "2026-07-15 13:27"
 }
