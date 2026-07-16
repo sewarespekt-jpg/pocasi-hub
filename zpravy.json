@@ -1,68 +1,68 @@
 {
-  "datum": "15.07.2026",
+  "datum": "16.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
-      "emoji": "DE",
-      "hlavni_tema": "Německo se připravuje na potenciální válečný konflikt s Ruskem - schválení rozpočtu na zbrojení a protiatomové úkryty.",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Macronova návštěva Německa a příprava německo-francouzského summitu jako důraz na posílení evropské jednoty",
       "temata": [
         {
-          "nazev": "Příprava na konflikt s Ruskem a rozšíření zbrojení",
-          "co_se_stalo": "Údaje z integrálního strategického dokumentu Bundeswehru upozorňují, že Rusko přetváří svou ekonomiku s cílem připravit se na rozsáhlý konflikt. Německo zároveň schválilo plány na rozšíření sítě protiatomových bunkrů a úkrytů.",
-          "proc_je_to_dulezite": "Podle Bundeswehru je Moskva do konce desetiletí schopna vybudovat síly o 1,5 milionu vojáků. To vytváří napětí v security strategii Německa, které se nachází v přední linii evropské bezpečnosti. Jde o signál, že Německo vnímá bezpečnostní hrozbu vážně.",
-          "co_sledovat": "Tempo a rozsah zbrojení Německa, vyjednávání v NATO ohledně obrany, případné další sankce proti Rusku a další investice do vojenské infrastruktury.",
-          "akteri": "Federální ministr obrany, kancléř Friedrich Merz (CDU/CSU), Bundeswehr, NATO",
-          "zdroj": "EuroZprávy.cz, iROZHLAS.cz"
+          "nazev": "Macronova návštěva a německo-francouzský summit",
+          "co_se_stalo": "Francouzský prezident Emmanuel Macron navštívil Německo a setkal se s kancléřem Friedrichem Merzem (CDU) na zámku Bensberg u Kolína. Jde o přípravu na německo-francouzský ministerský summit na zámku Augustusburg v Brühlu, kterého se účastní řada členů obou kabinetů.",
+          "proc_je_to_dulezite": "Setkání symbolizuje obnovu úzké spolupráce mezi Německem a Francií, která je klíčová pro evropskou politiku. Merz, který je novějším kancléřem z CDU, tak posílí svou pozici na evropské scéně a demonstruje kontinuitu vztahů navzdory změnám ve vedení.",
+          "co_sledovat": "Očekávaná prohlášení z ministerského summitu o budoucí evropské strategii, pozicích vůči Rusku a USA, a jakých konkrétních opatření se německo-francouzská osa dohodne.",
+          "akteri": "Emmanuel Macron (francouzský prezident, středolevicový), Friedrich Merz (německý kancléř, CDU - středopravicová), členy obou kabinetů",
+          "zdroj": "news.de"
         },
         {
-          "nazev": "Bürokratieabbau - reforma zjednodušení státní správy",
-          "co_se_stalo": "Německá vláda schválila plán na snížení byrokracie a výdajů spojených se státní správou o 600 milionů eur. Jedná se o iniciativu tzv. Entlastungskabinett (kabinet na odlehčení).",
-          "proc_je_to_dulezite": "Podnikatelé i občané dlouhodobě kritizují německou byrokracii. Reforma má zvýšit konkurenceschopnost Německa a zlepšit podnikatelské prostředí. Jde o vnitřní hospodářský nástroj, který má politickou podporu.",
-          "co_sledovat": "Konkrétní legislativní opatření, která z plánu vzejdou; dopad na malé a střední podniky; propojen s digitalizací státní správy.",
-          "akteri": "Kancléř Friedrich Merz (CDU/CSU), ministerstva Taurus a BILD vykrývají reformu",
-          "zdroj": "BILD, Die Zeit, T-Online"
+          "nazev": "Akční plán proti daňovému podvodu",
+          "co_se_stalo": "Федеральный финансовый министр Lars Klingbeil (SPD) a Bundesjustizministerin Stefanie Hubig (SPD) představili akční plán proti daňovému podvodu, který mají formálně prezentovat v Berlíně.",
+          "proc_je_to_dulezite": "Daňové úniky představují vážný problém pro státní rozpočty. SPD se snaží demonstrovat svou efektivitu v boji s ekonomickou kriminalitou jako součást svého programu v koalici.",
+          "co_sledovat": "Konkrétní opatření, která budou součástí plánu, a zda budou mít dopad na firmy a bohaté jednotlivce podezřelé z daňových úniků.",
+          "akteri": "Lars Klingbeil (SPD, ministr financí), Stefanie Hubig (SPD, ministryně justice)",
+          "zdroj": "news.de"
         },
         {
-          "nazev": "Migrační politika - nabídka kompenzace afghánským uprchlíkům",
-          "co_se_stalo": "Německá vláda pod vedením kancléře Friedricha Merze nabízí afghánským uprchlíkům, kterí spolupracovali s německými institucemi, finanční kompenzaci výměnou za vzdání se nároku na azyl v Německu.",
-          "proc_je_to_dulezite": "Po pádu Kábulu v roce 2021 Berlín sliboval ochranu afghánským lidem, kteří spolupracovali s Německem. Nový přístup vyvolal vášnivou debatu o německé morálce a politické konzistenci. Jde o součást rétorika strany CDU/CSU zaměřené na zpřísnění migrační politiky.",
-          "co_sledovat": "Počet afghánců, kteří nabídku přijmou; právní výzvy a kritika od mezinárodních organizací; dopad na německé vztahy s Afgánistánem a mezinárodní kredibilitu.",
-          "akteri": "Kancléř Friedrich Merz (CDU/CSU), stanice MDR, uprchlické organizace",
-          "zdroj": "Aktuálně.cz, iROZHLAS.cz"
+          "nazev": "Kauza rechtsextremistické aktivistky Marla Svenja Liebich",
+          "co_se_stalo": "Rechtsextremistka Marla Svenja Liebich se vrátila z útěku v zahraničí zpět do Německa a byla umístěna do vězení. Policie ji zadržela v návaznosti na její extremistické aktivity.",
+          "proc_je_to_dulezite": "Případ ukazuje trvající problém s extremismem v Německu a snahy státu využívat právního systému k potlačení extremistických hnutí. Právní procesuální rozhodnutí o podmínkách věznění se stávají předmětem veřejné diskuse.",
+          "co_sledovat": "Průběh soudního řízení, zákonné důvody pro speciální podmínky věznění a případné veřejné diskuse o právech extremistů versus bezpečnosti státu.",
+          "akteri": "Marla Svenja Liebich (rechtsextremistická aktivistka), německé vnitrostátní bezpečnostní a právní orgány",
+          "zdroj": "Tagesspiegel"
         }
       ]
     },
     {
       "nazev": "Česko",
-      "emoji": "CZ",
-      "hlavni_tema": "Nehoda poslance Filipa Turka vyvolala politickou bouři ohledně bezpečnosti v dopravě a odpovědnosti politiků.",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "Politická rozvolnění a kauza poslance Filipa Turka dominují českým mediím, zatímco cyklista Pavel Žofka zahynul na Mont Blanc",
       "temata": [
         {
-          "nazev": "Nehoda poslance Filipa Turka na pražské křižovatce",
-          "co_se_stalo": "V pondělí se srazilo SUV poslance Filipa Turka (Motoristé) s nemocničním vozem na křižovatce v centru Prahy. Nemocniční vůz se při nárazu vymrštil do vzduchu a chybí mu jen metrů, aby zasel skupinu chodců. Policisté nyní vyhodnocují záznam a vyslýchají účastníky.",
-          "proc_je_to_dulezite": "Nehoda se stala v rušné oblasti středu Prahy a téměř si vyžádala další oběti. Podle záznamů Seznam Zpráv se zdá, že Turek porušil pravidla a vjel do křižovatky bez oprávnění. Věc získala okamžitě mediální pozornost a spustila diskusi o chování politiků a jejich odpovědnosti.",
-          "co_sledovat": "Výsledky policejního vyšetření; případné právní kroky proti poslanci; politické důsledky pro jeho funkci; debata o bezpečnosti automobilů ve vysokých rychlostech v centru města.",
-          "akteri": "Poslanec Filip Turek (Motoristé), premiér Andrej Babiš (ANO), policie České republiky, opozice",
-          "zdroj": "Seznam Zprávy, iDNES, Aktuálně.cz"
+          "nazev": "Nehoda poslance Filipa Turka a jeho mediální spin",
+          "co_se_stalo": "Poslanec Motoristů Filip Turek, vládní zmocněnec, měl v pondělí dopravní nehodu v centru Prahy, kdy se jeho SUV srazilo se sanitkou, která skončila na střeše. Turek nyní odmítá vinu a trvá na tom, že řidiči Fabie \"zachránil život\", přestože kamerové záběry ukazují, že vjel do křižovatky odbočovacím pruhem.",
+          "proc_je_to_dulezite": "Kauza vyvolala masivní veřejnou diskusi o odpovědnosti vládních funkcionářů, morálce v politice a o manipulaci faktů. Internet se rozesmál, vznikla hra \"Křižovatka 63\". Jde o případ, kdy se politické osobnosti snaží měnit narativ jednoznačně prokázané situace.",
+          "co_sledovat": "Policejní vyšetřování nehody, případné právní důsledky pro Turka, veřejné postoje dalších politiků a toho, jak bude vláda Turekovo chování řešit. Zdá se, že by se mohl stát ministrem životního prostředí, což 52 procent Čechů odmítá.",
+          "akteri": "Filip Turek (Motoristé, vládní zmocněnec pro klimatickou politiku), řidič sanitky (oběť), premiér Andrej Babiš (ANO), česká veřejnost a sociální sítě",
+          "zdroj": "Aktuálně.cz, Seznam Zprávy, ČT24"
         },
         {
-          "nazev": "Prošetřování premiéra Andreje Babiše v kauze Agrofert",
-          "co_se_stalo": "Úřad evropského veřejného žalobce (EPPO) zahájil trestní řízení kvůli vyplácení dotací holdingu Agrofert. Iniciativa vychází z oznámení Pirátů o údajném střetu zájmů premiéra Babiše, který se údajně stará o holding pomocí svěřenského fondu.",
-          "proc_je_to_dulezite": "Babiš vložil akcie Agrofertu do fondu RSVP Trust, aby vyřešil konflikt zájmů, ale EPPO se nyní zabývá, zda byl postup legální a zda foram vyplácení dotací byly správné. Jde o dlouhotrvající kauzu, která sleduje integrity české politiky a střety zájmů.",
-          "co_sledovat": "Průběh vyšetřování EPPO; důkazy týkající se politiků a úředníků; návrat dotací z minulosti; politické dopady na kabinet a na Babiše.",
-          "akteri": "Premiér Andrej Babiš (ANO), Piráti, EPPO, ministerstvo spravedlnosti",
-          "zdroj": "ČT24, Aktuálně.cz, Seznam Zprávy"
+          "nazev": "Tragédie na Mont Blanc - Český horolezec Pavel Žofka",
+          "co_se_stalo": "Při výstupu na Mont Blanc zemřeli dva čeští horolezci, z nichž jedním byl uznávaný profesionální horský vůdce a ostravský rodák Pavel Žofka. Další člen výpravy byl zraněn. Podle francouzských četníků horolezce smetla lavina kamení.",
+          "proc_je_to_dulezite": "Smrt uznávaného českého horolezce s mezinárodní pověstí je vážnou zprávou pro českou alpinistickou komunitu. Jde o tragédie, která ukazuje na rizika vysokohorských expedic i na zkušenosti jedincům, kteří věnují svůj život horolezectví.",
+          "co_sledovat": "Oficiální zprávu francouzských úřadů o příčině smrti, postoje České republiky k bezpečnosti horolezců a případné rozhovory s pozůstalými a alpinistickými kruhy.",
+          "akteri": "Pavel Žofka (uznávaný horolezec, Ostrava), další dva členové výpravy, francouzská fournier gendarmerie a alpinistické komunity",
+          "zdroj": "Novinky.cz, Aktuálně.cz"
         },
         {
-          "nazev": "Výstrahy před velmi silnými bouřkami a extrémními počasím",
-          "co_se_stalo": "Český hydrometeorologický ústav (ČHMÚ) prodloužil výstrahu před velmi silnými bouřkami, které hrozí i ve středu. Největší riziko spočívá v silném větru, padajících stromech a místy také v kroupích. Jedná se o varování pro rekreační aktivity a festivalový provoz.",
-          "proc_je_to_dulezite": "Bouřky mohou ohrozit lidi v přírodě, na festivalech a v táborech. Letošní léto je poznamenáno tropickými teplotami a při tím spíše je riziko náhlých a prudkých změn počasí. Jde o praktickou záležitost bezpečnosti a plánování volného času.",
-          "co_sledovat": "Intenzita a další vývoj bouří; případné škody na majetku a zraňování lidí; dopad na festivaly a letní akce; dlouhodobý trend klimatických změn.",
-          "akteri": "ČHMÚ, hasiči, policie, organizátoři akcí",
-          "zdroj": "Novinky.cz, Aktuálně.cz, CNN Prima NEWS"
+          "nazev": "Česko mimo nový evropský projekt protiraketové obrany",
+          "co_se_stalo": "Devět evropských zemí připravuje společný projekt na vytvoření protiraketové obrany, avšak Česko je mimo iniciativu. Podle analytika Lukáše Visingra by se Praha měla projektu zúčastnit, protože Česko má rozvinutý zbrojní průmysl, který by mohl být přínosem.",
+          "proc_je_to_dulezite": "Česko tak zůstává mimo důležitý evropský bezpečnostní projekt v době, kdy se intenzivně řeší obranu vůči vojenským hrozbám. Absence České republiky odráží buď nedostatek iniciativy, nebo problémy v unijní koordinaci. Jde o signál o okrajovém postavení Česka v evropských bezpečnostních otázkách.",
+          "co_sledovat": "Zda se Česko pokusí připojit k projektu, co by bylo zapotřebí ke zlepšení české pozice v evropských obranných iniciativách, a jaký bude postoj vlády Andreje Babiše k bezpečnostním projektům.",
+          "akteri": "Lukáš Visinger (bezpečnostní analytik), česká vláda (premiér Andrej Babiš - ANO), devět evropských zemí v projektu",
+          "zdroj": "Seznam Zprávy"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-07-15 13:27"
+  "aktualizovano": "2026-07-16 13:41"
 }
