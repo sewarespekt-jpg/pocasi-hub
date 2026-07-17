@@ -1,68 +1,68 @@
 {
-  "datum": "16.07.2026",
+  "datum": "17.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Macronova návštěva Německa a příprava německo-francouzského summitu jako důraz na posílení evropské jednoty",
+      "hlavni_tema": "Spor o vodu a klimatické změny opět v centru pozornosti veřejnosti",
       "temata": [
         {
-          "nazev": "Macronova návštěva a německo-francouzský summit",
-          "co_se_stalo": "Francouzský prezident Emmanuel Macron navštívil Německo a setkal se s kancléřem Friedrichem Merzem (CDU) na zámku Bensberg u Kolína. Jde o přípravu na německo-francouzský ministerský summit na zámku Augustusburg v Brühlu, kterého se účastní řada členů obou kabinetů.",
-          "proc_je_to_dulezite": "Setkání symbolizuje obnovu úzké spolupráce mezi Německem a Francií, která je klíčová pro evropskou politiku. Merz, který je novějším kancléřem z CDU, tak posílí svou pozici na evropské scéně a demonstruje kontinuitu vztahů navzdory změnám ve vedení.",
-          "co_sledovat": "Očekávaná prohlášení z ministerského summitu o budoucí evropské strategii, pozicích vůči Rusku a USA, a jakých konkrétních opatření se německo-francouzská osa dohodne.",
-          "akteri": "Emmanuel Macron (francouzský prezident, středolevicový), Friedrich Merz (německý kancléř, CDU - středopravicová), členy obou kabinetů",
-          "zdroj": "news.de"
+          "nazev": "Hrozící nedostatek vody v Německu",
+          "co_se_stalo": "Německo čelí stále vážnější problémy s vodou, což vyvolává diskusi o potřebě omezení spotřeby. Fraktionářka Zelených Britta Haßelmannová navrhuje v případě potřeby regulovat průmysl a výrobce nápojů jako Red Bull.",
+          "proc_je_to_dulezite": "Sucho je dlouhodobým problémem, který se zhoršuje s klimatickými změnami. Omezení vody pro průmysl by mělo zásadní dopady na německou ekonomiku. Toto téma rezonuje v kontextu energetické krize a ekologických otázek.",
+          "co_sledovat": "Konkrétní legislativní opatření vlády, reakci průmyslu, vliv na ceny energií a potravin, politické sváry o způsobu řešení krize.",
+          "akteri": "Britta Haßelmannová (Zelení), průmyslová lobby, vláda, zájmy zemědělství",
+          "zdroj": "Tagesspiegel.de"
         },
         {
-          "nazev": "Akční plán proti daňovému podvodu",
-          "co_se_stalo": "Федеральный финансовый министр Lars Klingbeil (SPD) a Bundesjustizministerin Stefanie Hubig (SPD) představili akční plán proti daňovému podvodu, který mají formálně prezentovat v Berlíně.",
-          "proc_je_to_dulezite": "Daňové úniky představují vážný problém pro státní rozpočty. SPD se snaží demonstrovat svou efektivitu v boji s ekonomickou kriminalitou jako součást svého programu v koalici.",
-          "co_sledovat": "Konkrétní opatření, která budou součástí plánu, a zda budou mít dopad na firmy a bohaté jednotlivce podezřelé z daňových úniků.",
-          "akteri": "Lars Klingbeil (SPD, ministr financí), Stefanie Hubig (SPD, ministryně justice)",
-          "zdroj": "news.de"
+          "nazev": "Vyšetřování proti kabaretistovi Steimleovi a svoboda slova",
+          "co_se_stalo": "Státní prokuratura vyšetřuje herce a kabaretisty Uweho Steimleho pro výroky o politicích Merkeliánn a Merzeliho. Steimle měl podíl na AfD akci, kde pronesl kontroverzní humorné poznámky.",
+          "proc_je_to_dulezite": "Vyvolává otázky o svobodě slova v Německu a hranicích satiry. AfD je pravicově extremistická strana, což činí téma politizovaným. Případ ukazuje napětí mezi politickou korektností a humorem.",
+          "co_sledovat": "Výsledek vyšetřování, právní precedent, debata o svobodě projevu v mediích, pozici AfD v politickém spektru.",
+          "akteri": "Uwe Steimle (kabaretista), AfD (pravicová strana), státní prokuratura, politici Merz a Merkelová",
+          "zdroj": "Tagesspiegel.de, SZ.de"
         },
         {
-          "nazev": "Kauza rechtsextremistické aktivistky Marla Svenja Liebich",
-          "co_se_stalo": "Rechtsextremistka Marla Svenja Liebich se vrátila z útěku v zahraničí zpět do Německa a byla umístěna do vězení. Policie ji zadržela v návaznosti na její extremistické aktivity.",
-          "proc_je_to_dulezite": "Případ ukazuje trvající problém s extremismem v Německu a snahy státu využívat právního systému k potlačení extremistických hnutí. Právní procesuální rozhodnutí o podmínkách věznění se stávají předmětem veřejné diskuse.",
-          "co_sledovat": "Průběh soudního řízení, zákonné důvody pro speciální podmínky věznění a případné veřejné diskuse o právech extremistů versus bezpečnosti státu.",
-          "akteri": "Marla Svenja Liebich (rechtsextremistická aktivistka), německé vnitrostátní bezpečnostní a právní orgány",
-          "zdroj": "Tagesspiegel"
+          "nazev": "Kontroverze kolem Jense Spahna a leihmutterství",
+          "co_se_stalo": "Jens Spahn, союзнік фракционный лидер CDU, и его супруг завели ребенка с помощью суррогатной матери в США, хотя в Германии это запрещено.",
+          "proc_je_to_dulezite": "Vyvolává etickou debatu o leihmutterství a dvojích standardech - zatímco je v Německu zakázáno, Spahn si tyto služby vzal v zahraničí. Kauza míchá politiku, morální otázky a práva homosexuálních párů.",
+          "co_sledovat": "Reakce církví, konzervativních skupin, LGBTQ+ komunity, potenciální legislativní změny, dopad na Spahnův politický status.",
+          "akteri": "Jens Spahn (CDU), konzervativci, LGBTQ+ komunita, etické skupiny",
+          "zdroj": "Tagesspiegel.de"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Politická rozvolnění a kauza poslance Filipa Turka dominují českým mediím, zatímco cyklista Pavel Žofka zahynul na Mont Blanc",
+      "hlavni_tema": "Nehoda vládního zmocněnce Filipa Turka ovládá mediální prostor a burcuje diskusi o bezpečnosti",
       "temata": [
         {
-          "nazev": "Nehoda poslance Filipa Turka a jeho mediální spin",
-          "co_se_stalo": "Poslanec Motoristů Filip Turek, vládní zmocněnec, měl v pondělí dopravní nehodu v centru Prahy, kdy se jeho SUV srazilo se sanitkou, která skončila na střeše. Turek nyní odmítá vinu a trvá na tom, že řidiči Fabie \"zachránil život\", přestože kamerové záběry ukazují, že vjel do křižovatky odbočovacím pruhem.",
-          "proc_je_to_dulezite": "Kauza vyvolala masivní veřejnou diskusi o odpovědnosti vládních funkcionářů, morálce v politice a o manipulaci faktů. Internet se rozesmál, vznikla hra \"Křižovatka 63\". Jde o případ, kdy se politické osobnosti snaží měnit narativ jednoznačně prokázané situace.",
-          "co_sledovat": "Policejní vyšetřování nehody, případné právní důsledky pro Turka, veřejné postoje dalších politiků a toho, jak bude vláda Turekovo chování řešit. Zdá se, že by se mohl stát ministrem životního prostředí, což 52 procent Čechů odmítá.",
-          "akteri": "Filip Turek (Motoristé, vládní zmocněnec pro klimatickou politiku), řidič sanitky (oběť), premiér Andrej Babiš (ANO), česká veřejnost a sociální sítě",
-          "zdroj": "Aktuálně.cz, Seznam Zprávy, ČT24"
+          "nazev": "Dopravní nehoda poslance Filipa Turka",
+          "co_se_stalo": "<cite index=\"21-26\"Filip Turek se v pondělí na jedné z nejnebezpečnějších křižovatek v Praze srazil v SUV se zdravotnickým vozem a následně čelí výzvám k rezignaci.</cite",
+          "proc_je_to_dulezite": "Turek je čestný předseda Motoristů a poslanec, takže nehoda má politický rozměr. Zaměřuje pozornost na bezpečnost dopravy v Praze a vyvolává diskusi o připravenosti politiků řídit motorová vozidla. Dle záznamů z palubních kamer vjel do křižovatky odbočovacím pruhem.",
+          "co_sledovat": "Výsledek vyšetřování, personální důsledky pro Turka, diskuse o bezpečnosti dopravy, reakce koaliční vlády vs. opozice",
+          "akteri": "Filip Turek (Motoristé, vládní zmocněnec), koalice (podporující), opozice (požadující rezignaci), premiér Andrej Babiš (ANO)",
+          "zdroj": "Seznam Zprávy, iROZHLAS.cz, novinky.cz"
         },
         {
-          "nazev": "Tragédie na Mont Blanc - Český horolezec Pavel Žofka",
-          "co_se_stalo": "Při výstupu na Mont Blanc zemřeli dva čeští horolezci, z nichž jedním byl uznávaný profesionální horský vůdce a ostravský rodák Pavel Žofka. Další člen výpravy byl zraněn. Podle francouzských četníků horolezce smetla lavina kamení.",
-          "proc_je_to_dulezite": "Smrt uznávaného českého horolezce s mezinárodní pověstí je vážnou zprávou pro českou alpinistickou komunitu. Jde o tragédie, která ukazuje na rizika vysokohorských expedic i na zkušenosti jedincům, kteří věnují svůj život horolezectví.",
-          "co_sledovat": "Oficiální zprávu francouzských úřadů o příčině smrti, postoje České republiky k bezpečnosti horolezců a případné rozhovory s pozůstalými a alpinistickými kruhy.",
-          "akteri": "Pavel Žofka (uznávaný horolezec, Ostrava), další dva členové výpravy, francouzská fournier gendarmerie a alpinistické komunity",
-          "zdroj": "Novinky.cz, Aktuálně.cz"
+          "nazev": "Skandál s milionovými \"zlatými padáky\" u zdravotní pojišťovny",
+          "co_se_stalo": "<cite index=\"20-17,20-18\"Exmanažeři Zdravotní pojišťovny ministerstva vnitra si zajistili po odchodu z funkce mnohamilionové částky, přičemž největší \"zlatý padák\" dostal bývalý výkonný ředitel Otakar Smolík – 23,4 milionu korun.</cite",
+          "proc_je_to_dulezite": "Jde o zneužívání veřejných prostředků a nekompetentní řízení státní instituce. Premiér Babiš reagoval výrazem \"skandální\" a slíbil ministrovi vnitra řešit problém. Částky jsou násobně vyšší než výplaty vedení největších zdravotních pojišťoven.",
+          "co_sledovat": "Vyšetření příslušných institucí, možné trestní stíhání, reformu systému odměn vedoucích pracovníků státních institucí, důsledky pro vládu",
+          "akteri": "Otakar Smolík a další exmanažeři, premiér Andrej Babiš (ANO), ministr vnitra, kontrolní instituce",
+          "zdroj": "iROZHLAS.cz, Radiožurnál"
         },
         {
-          "nazev": "Česko mimo nový evropský projekt protiraketové obrany",
-          "co_se_stalo": "Devět evropských zemí připravuje společný projekt na vytvoření protiraketové obrany, avšak Česko je mimo iniciativu. Podle analytika Lukáše Visingra by se Praha měla projektu zúčastnit, protože Česko má rozvinutý zbrojní průmysl, který by mohl být přínosem.",
-          "proc_je_to_dulezite": "Česko tak zůstává mimo důležitý evropský bezpečnostní projekt v době, kdy se intenzivně řeší obranu vůči vojenským hrozbám. Absence České republiky odráží buď nedostatek iniciativy, nebo problémy v unijní koordinaci. Jde o signál o okrajovém postavení Česka v evropských bezpečnostních otázkách.",
-          "co_sledovat": "Zda se Česko pokusí připojit k projektu, co by bylo zapotřebí ke zlepšení české pozice v evropských obranných iniciativách, a jaký bude postoj vlády Andreje Babiše k bezpečnostním projektům.",
-          "akteri": "Lukáš Visinger (bezpečnostní analytik), česká vláda (premiér Andrej Babiš - ANO), devět evropských zemí v projektu",
-          "zdroj": "Seznam Zprávy"
+          "nazev": "Výstrahy ČHMÚ před bouřkami a heatwavem",
+          "co_se_stalo": "<cite index=\"24-1,24-2,24-3\"Český hydrometeorologický ústav (ČHMÚ) varoval na pátek před silnými bouřkami na území celé České republiky a zároveň vydal varování před vysokými teplotami na Moravě a ve Slezsku.</cite",
+          "proc_je_to_dulezite": "Údaje o počasí jsou bezprostředně relevantní pro bezpečnost a plánování. Kombinace bouřek a extrémního tepla představuje hrozbu pro zdraví. Buduje na obecnějším obrazu klimatických změn a jejich dopadů.",
+          "co_sledovat": "Reálné dopady počasí na regiony, počet zraněných a škod, připravenost krizových služeb, dlouhodobé trendy v počasí",
+          "akteri": "ČHMÚ, meteorologové, krizové služby, místní samosprávy",
+          "zdroj": "Novinky.cz, ČHMÚ"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-07-16 13:41"
+  "aktualizovano": "2026-07-17 13:18"
 }
