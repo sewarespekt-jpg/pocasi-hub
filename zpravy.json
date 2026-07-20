@@ -1,68 +1,68 @@
 {
-  "datum": "17.07.2026",
+  "datum": "20.07.2026",
   "zeme": [
     {
       "nazev": "Německo",
-      "emoji": "🇩🇪",
-      "hlavni_tema": "Spor o vodu a klimatické změny opět v centru pozornosti veřejnosti",
+      "emoji": "DE",
+      "hlavni_tema": "Volby a změny v politických strukturách, fotbalový šampionát a mezinárodní pozornost",
       "temata": [
         {
-          "nazev": "Hrozící nedostatek vody v Německu",
-          "co_se_stalo": "Německo čelí stále vážnější problémy s vodou, což vyvolává diskusi o potřebě omezení spotřeby. Fraktionářka Zelených Britta Haßelmannová navrhuje v případě potřeby regulovat průmysl a výrobce nápojů jako Red Bull.",
-          "proc_je_to_dulezite": "Sucho je dlouhodobým problémem, který se zhoršuje s klimatickými změnami. Omezení vody pro průmysl by mělo zásadní dopady na německou ekonomiku. Toto téma rezonuje v kontextu energetické krize a ekologických otázek.",
-          "co_sledovat": "Konkrétní legislativní opatření vlády, reakci průmyslu, vliv na ceny energií a potravin, politické sváry o způsobu řešení krize.",
-          "akteri": "Britta Haßelmannová (Zelení), průmyslová lobby, vláda, zájmy zemědělství",
-          "zdroj": "Tagesspiegel.de"
+          "nazev": "Změny ve vedení poslanecké frakce CDU/CSU",
+          "co_se_stalo": "Frakce kancléře Merze se chystá na sondní zasedání, kde se bude rozhodovat o novém fraktionistovi",
+          "proc_je_to_dulezite": "Politické vedení prochází transformací a reorganizací struktury v klíčovém období. Merz je nový kancléř a jeho frakce prochází personální změnami.",
+          "co_sledovat": "Výsledek sondního zasedání a nominace nového vedení frakce. Stabilita koalice a její schopnost prosazovat legislativu.",
+          "akteri": "Kancléř Friedrich Merz (CDU), vedení frakce CDU/CSU",
+          "zdroj": "Tagesspiegel"
         },
         {
-          "nazev": "Vyšetřování proti kabaretistovi Steimleovi a svoboda slova",
-          "co_se_stalo": "Státní prokuratura vyšetřuje herce a kabaretisty Uweho Steimleho pro výroky o politicích Merkeliánn a Merzeliho. Steimle měl podíl na AfD akci, kde pronesl kontroverzní humorné poznámky.",
-          "proc_je_to_dulezite": "Vyvolává otázky o svobodě slova v Německu a hranicích satiry. AfD je pravicově extremistická strana, což činí téma politizovaným. Případ ukazuje napětí mezi politickou korektností a humorem.",
-          "co_sledovat": "Výsledek vyšetřování, právní precedent, debata o svobodě projevu v mediích, pozici AfD v politickém spektru.",
-          "akteri": "Uwe Steimle (kabaretista), AfD (pravicová strana), státní prokuratura, politici Merz a Merkelová",
-          "zdroj": "Tagesspiegel.de, SZ.de"
+          "nazev": "Incidenty s americkým prezidentem na fotbalovém mistrovství",
+          "co_se_stalo": "Prezident Donald Trump a šéf FIFA Gianni Infantino byli vypískáni diváky při ceremoniálu na finále mistrovství, zatímco předávali pohár vítězům",
+          "proc_je_to_dulezite": "Událost veřejně demonstruje napětí a rozpor vůči americké politice. Zároveň se jedná o mediálně velký moment z finále fotbalového světového šampionátu.",
+          "co_sledovat": "Otaza, jak bude Trump reagovat na kritiku. Vliv Trumpovy přítomnosti na vztahy USA k Evropě.",
+          "akteri": "Donald Trump (президент USA), Gianni Infantino (FIFA), publikum na stadiónu",
+          "zdroj": "Stern, Die Zeit, Spiegel"
         },
         {
-          "nazev": "Kontroverze kolem Jense Spahna a leihmutterství",
-          "co_se_stalo": "Jens Spahn, союзнік фракционный лидер CDU, и его супруг завели ребенка с помощью суррогатной матери в США, хотя в Германии это запрещено.",
-          "proc_je_to_dulezite": "Vyvolává etickou debatu o leihmutterství a dvojích standardech - zatímco je v Německu zakázáno, Spahn si tyto služby vzal v zahraničí. Kauza míchá politiku, morální otázky a práva homosexuálních párů.",
-          "co_sledovat": "Reakce církví, konzervativních skupin, LGBTQ+ komunity, potenciální legislativní změny, dopad na Spahnův politický status.",
-          "akteri": "Jens Spahn (CDU), konzervativci, LGBTQ+ komunita, etické skupiny",
-          "zdroj": "Tagesspiegel.de"
+          "nazev": "Střednědobé hospodářské a sociální trendy",
+          "co_se_stalo": "Německá média pokrývají témata jako hledání bydlení na venkově, řešení energetické bezpečnosti a mladí akademici na nejistém trhu práce",
+          "proc_je_to_dulezite": "Odrážejí hluboké společenské změny - migration z měst na venkov, energetické přechody a generační konflikty na trhu práce souvisejí s dlouhodobými strukturálními problémy německé ekonomiky",
+          "co_sledovat": "Politické reakce na tyto trendy, reformy školství a energetiky, situaci mladých lidí",
+          "akteri": "Vláda Merze, ministerstva, místní politici",
+          "zdroj": "Tagesspiegel, FAZ"
         }
       ]
     },
     {
       "nazev": "Česko",
-      "emoji": "🇨🇿",
-      "hlavni_tema": "Nehoda vládního zmocněnce Filipa Turka ovládá mediální prostor a burcuje diskusi o bezpečnosti",
+      "emoji": "CZ",
+      "hlavni_tema": "Extremismus a bezpečnost, ceníkové šoky u pohonných hmot a démografické problémy",
       "temata": [
         {
-          "nazev": "Dopravní nehoda poslance Filipa Turka",
-          "co_se_stalo": "<cite index=\"21-26\"Filip Turek se v pondělí na jedné z nejnebezpečnějších křižovatek v Praze srazil v SUV se zdravotnickým vozem a následně čelí výzvám k rezignaci.</cite",
-          "proc_je_to_dulezite": "Turek je čestný předseda Motoristů a poslanec, takže nehoda má politický rozměr. Zaměřuje pozornost na bezpečnost dopravy v Praze a vyvolává diskusi o připravenosti politiků řídit motorová vozidla. Dle záznamů z palubních kamer vjel do křižovatky odbočovacím pruhem.",
-          "co_sledovat": "Výsledek vyšetřování, personální důsledky pro Turka, diskuse o bezpečnosti dopravy, reakce koaliční vlády vs. opozice",
-          "akteri": "Filip Turek (Motoristé, vládní zmocněnec), koalice (podporující), opozice (požadující rezignaci), premiér Andrej Babiš (ANO)",
-          "zdroj": "Seznam Zprávy, iROZHLAS.cz, novinky.cz"
+          "nazev": "Skandál se zprávou o extremismu",
+          "co_se_stalo": "Vláda má v pondělí na stole zprávu o extremismu za rok 2025, v níž není zmíněno hnutí SPD, přestože právě loňského roku byl jeho předseda Tomia Okamura obviněn ze šíření nenávisti",
+          "proc_je_to_dulezite": "Jedná se o citlivou politickou věc spojující bezpečnost státu, etnicky založenou politiku a potenciální censurování. Okamura je kontroverzní figurou kritizovanou za extremistické výroky. Absence SPD ze zprávy vyvolává otázky o politické motivaci.",
+          "co_sledovat": "Reakce opozice a médií na kontroverzní obsah zprávy. Budou-li následovat změny ve způsobu compilace takovýchto zpráv. Vývojové kolem kauz v SPD.",
+          "akteri": "Premiér Andrej Babiš (ANO), ministr vnitra, Tomio Okamura (SPD), vláda",
+          "zdroj": "Seznam Zprávy, iROZHLAS"
         },
         {
-          "nazev": "Skandál s milionovými \"zlatými padáky\" u zdravotní pojišťovny",
-          "co_se_stalo": "<cite index=\"20-17,20-18\"Exmanažeři Zdravotní pojišťovny ministerstva vnitra si zajistili po odchodu z funkce mnohamilionové částky, přičemž největší \"zlatý padák\" dostal bývalý výkonný ředitel Otakar Smolík – 23,4 milionu korun.</cite",
-          "proc_je_to_dulezite": "Jde o zneužívání veřejných prostředků a nekompetentní řízení státní instituce. Premiér Babiš reagoval výrazem \"skandální\" a slíbil ministrovi vnitra řešit problém. Částky jsou násobně vyšší než výplaty vedení největších zdravotních pojišťoven.",
-          "co_sledovat": "Vyšetření příslušných institucí, možné trestní stíhání, reformu systému odměn vedoucích pracovníků státních institucí, důsledky pro vládu",
-          "akteri": "Otakar Smolík a další exmanažeři, premiér Andrej Babiš (ANO), ministr vnitra, kontrolní instituce",
-          "zdroj": "iROZHLAS.cz, Radiožurnál"
+          "nazev": "Zdražování pohonných hmot",
+          "co_se_stalo": "Končí vládní regulace cen pohonných hmot, která platila delší dobu. Od pondělí řidiče čeká cenový šok - litr nafty by mohl zdražit až o pět korun, benzin o přes půl koruny",
+          "proc_je_to_dulezite": "Ústřední ekonomické téma týkající se rodinných rozpočtů a provozu podniků. Regulace cen byla důležitým nástrojem kontroly inflace. Nyní dochází k návratu na tržní podmínky, které mohou být pro řidiče bolestivé.",
+          "co_sledovat": "Účinek na ceny v ekonomice, reakci spotřebitelů, možné politické tlaky na vrácení regulace, vliv na logistiku a provoz podniků",
+          "akteri": "Vláda Andreje Babiše (ANO), ministr financí, čerpací stanice, řidiči",
+          "zdroj": "Novinky.cz, Deník N"
         },
         {
-          "nazev": "Výstrahy ČHMÚ před bouřkami a heatwavem",
-          "co_se_stalo": "<cite index=\"24-1,24-2,24-3\"Český hydrometeorologický ústav (ČHMÚ) varoval na pátek před silnými bouřkami na území celé České republiky a zároveň vydal varování před vysokými teplotami na Moravě a ve Slezsku.</cite",
-          "proc_je_to_dulezite": "Údaje o počasí jsou bezprostředně relevantní pro bezpečnost a plánování. Kombinace bouřek a extrémního tepla představuje hrozbu pro zdraví. Buduje na obecnějším obrazu klimatických změn a jejich dopadů.",
-          "co_sledovat": "Reálné dopady počasí na regiony, počet zraněných a škod, připravenost krizových služeb, dlouhodobé trendy v počasí",
-          "akteri": "ČHMÚ, meteorologové, krizové služby, místní samosprávy",
-          "zdroj": "Novinky.cz, ČHMÚ"
+          "nazev": "Demografická krize a pokles porodnosti",
+          "co_se_stalo": "Česko přestalo být evropským premiantem v porodnosti. Podle analytika UNIQA jsou příčinami geopolitické šoky, drahé energie a ekonomické nejistoty měnící rodinné plány",
+          "proc_je_to_dulezite": "Jde o dlouhodobou strukturální krizi ovlivňující budoucnost státu - stárnutí populace, nedostatek pracovní síly a pokles daňové základny. Česko bylo dříve příkladem úspěchu v oblasti porodnosti.",
+          "co_sledovat": "Vládní politiky na podporu rodin, sociální opatření, demografické prognózy, diskuse o imigraci a pracovní síle",
+          "akteri": "Vláda, ministerstvo sociálních věcí, analytici ekonomických společností",
+          "zdroj": "Seznam Zprávy"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-07-17 13:18"
+  "aktualizovano": "2026-07-20 13:56"
 }
