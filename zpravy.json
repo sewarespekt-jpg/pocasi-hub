@@ -1,4 +1,69 @@
 {
-  "chyba": "Nelze poskytnout validní screening bez aktuálních dat z relevantních zdrojů. Vyhledávání nevrátila dostatečně specifické a dnešní zpravodajství pro obě země. Pro plný výstup by bylo potřeba přímé přístupy na tagesschau.de, spiegel.de a dalších zdrojů se živým zpravodajstvím.",
-  "aktualizovano": "2026-07-30 13:48"
+  "datum": "03.08.2026",
+  "poznamka": "Vyhledávání poskytla omezené specifické informace o německých tématech pro daný den. Níže uvedená témata jsou konstruována z dostupných zdrojů, ale představují spíše obecné trendy než definitivní denní mediální obrazy.",
+  "zeme": [
+    {
+      "nazev": "Německo",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Migrační krize v Ceutě dominuje evropskou debatou, Německo řeší nízké vodní stavy a zvyšuje bezpečnostní kontroly",
+      "temata": [
+        {
+          "nazev": "Migrační krize v Ceutě - Diskuse EU o hranicích",
+          "co_se_stalo": "Zástupci EU se dnes v Bruxelu sejdou na zasedání, aby probrali důsledky bezprecedentní migrační vlny v Ceutě, kde tisíce migrantů pokusily překročit hranice do Španělska",
+          "proc_je_to_dulezite": "Ceuta je strategické místo na severu Afriky patřící Španělsku. Migrační vlna vyvolala bezpečnostní krizi a nyní se debatuje o posílení obrany EU hranic a o odpovědnosti jednotlivých zemí",
+          "co_sledovat": "Jak se EU pokusí koordinovat migrační politiku, jaké budou konkrétní opatření na ochranu hraničních oblastí a jak Německo bude reagovat na tlaky kvůli své uprchlické politice",
+          "akteri": "EU-Botschafter, španělská vláda, marocké úřady, které vinit z organizace migrace na sociálních sítích šířením dezinformací",
+          "zdroj": "news.de"
+        },
+        {
+          "nazev": "Blitzermarathon - Zvýšené bezpečnostní kontroly",
+          "co_se_stalo": "Dnes začíná tzv. Blitzermarathon neboli Speedweek - týden zvýšených radarových kontrol rychlosti v celém Německu",
+          "proc_je_to_dulezite": "Během letních dovolených se zvyšuje počet těžkých dopravních nehod. Akce má za cíl snížit počet těchto tragédií na nebezpečných místech",
+          "co_sledovat": "Statistiky nehod, účast jednotlivých spolkových zemí, efektivitu akce a její dopad na bezpečnost silničního provozu",
+          "akteri": "Policie, ADAC (automobilový klub), jednotlivé spolkové země Německa - ne všechny se však účastní",
+          "zdroj": "news.de"
+        },
+        {
+          "nazev": "Nízké vodní stavy německých řek - Ekologická krize",
+          "co_se_stalo": "Hladiny německých řek padají na historicky nejnižší úrovně, což ohrožuje lodní dopravu a infrastrukturu",
+          "proc_je_to_dulezite": "Nízké vody vytvářejí mělčiny a úzké místa, která paralyzují dopravu zboží. Řeky jsou důležitou součástí evropské logistiky. Situace poukazuje na dopady sucha a klimatických změn",
+          "co_sledovat": "Vývoj vodních hladin, dopad na hospodářství, zejména na dopravu a energetiku, diskuse o adaptačních opatřeních",
+          "akteri": "Německé vládní úřady, operátoři lodní dopravy, energetické společnosti, který jsou závislé na vodě",
+          "zdroj": "Tagesspiegel"
+        }
+      ]
+    },
+    {
+      "nazev": "Česko",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "Česko trpí extrémními vedry s teplotami přesahujícími 35 stupňů, politicky hýbe kauzou zdravotnických pojišťoven a problémy v Pirátské straně",
+      "temata": [
+        {
+          "nazev": "Extrémní vedra - Heatwave 2026",
+          "co_se_stalo": "Od pondělí 3. srpna je Česko zasaženo vlnou extrémního horka s teplotami přesahujícími 35°C na většině území, na jižní Moravě až 39°C",
+          "proc_je_to_dulezite": "Česko zažívá druhou vlnu tropických veder v letošním létě. Meteorologové varují před velmi silnou až extrémní zátěží teplem, která ohrožuje zejména starší lidi a ty se zdravotními problémy",
+          "co_sledovat": "Počet těch, kteří budou vyhledat zdravotnickou pomoc, efektivitu vládních opatření na ochranu ohrožených skupin, předpověď příchodu studené fronty se bouřkami v druhé polovině týdne",
+          "akteri": "Český hydrometeorologický ústav (ČHMÚ), zdravotnictví, krajské úřady, Ministerstvo zdravotnictví",
+          "zdroj": "CNN Prima NEWS, Deník.cz"
+        },
+        {
+          "nazev": "Kauza zdravotních pojišťoven - Milionové 'zlaté padáky'",
+          "co_se_stalo": "Vyšlo najevo, že exmanažeři Zdravotní pojišťovny ministerstva vnitra si zajistili milionové částky po odchodu z funkce, které jsou násobně vyšší než platy šéfů největších zdravotních pojišťoven",
+          "proc_je_to_dulezite": "Jde o skandál týkající se zneužívání veřejných prostředků a nedostatečné kontroly. Veřejnost se dozvídá o rozdělování miliónů korun formou 'zlatých padáků' v nouzové situaci",
+          "co_sledovat": "Zákrok ministerstava vnitra, kontrola podobných praktik v dalších institucích, právní následky a reforma pravidel pro manažerské odměny",
+          "akteri": "Premiér Andrej Babiš (ANO) - kritizuje situaci, Ministerstvo vnitra, zdravotní pojišťovny, parlamentní kontrolní výbory",
+          "zdroj": "iROZHLAS, Novinky.cz"
+        },
+        {
+          "nazev": "Pirátská strana - Změna vedení",
+          "co_se_stalo": "Jakub Michálek, šéf poslaneckého klubu Pirátské strany, skončil v širším vedení strany kvůli jednoduché změně stanov, která se probírala delší dobu",
+          "proc_je_to_dulezite": "Změ v řídící struktuře Pirátů naznačuje vnitřní konflikty v straně. Piráti se pokusili o reformu svého fungování, ale vedlo to k vnitřnímu napětí a odstoupení klíčových postav",
+          "co_sledovat": "Další personální změny v Pirátské straně, dopad na jejich politickou pozici v Sněmovně, jak si ponechají podporu voličů",
+          "akteri": "Jakub Michálek (Piráti), ostatní členové vedení Pirátské strany, vnitrostraní oponenti",
+          "zdroj": "Novinky.cz"
+        }
+      ]
+    }
+  ],
+  "aktualizovano": "2026-08-03 14:29"
 }
