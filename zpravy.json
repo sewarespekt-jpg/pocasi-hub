@@ -1,68 +1,68 @@
 {
-  "datum": "05.08.2026",
+  "datum": "07.08.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Rozpočtová odpovědnost a reforma důchodů dominují německé politice",
+      "hlavni_tema": "Ruská sabotáž: dron s výbušninou na letiště v Lipsku znovu upozorňuje na hrozby německé bezpečnosti",
       "temata": [
         {
-          "nazev": "Reforma důchodového systému a Renta s 63",
-          "co_se_stalo": "Střet o budoucnost důchodů v Německu - vedení pracovníků argumentuje proti udržování penze v 63 letech kvůli nedostatku pracovní síly",
-          "proc_je_to_dulezite": "Německo čelí dlouhodobé demografické výzvě s rostoucím podílem starší populace. Reforma důchodů je jednou z nejdiskutovanějších politických otázek v zemi, která dělí vládu a vytváří tlak na změny v sociálním systému",
-          "co_sledovat": "Budoucí legislativní kroky vlády v otázce zvýšení věkové hranice pro odchod do důchodu a důsledky pro německý pracovní trh",
-          "akteri": "Německá pracovnická hnutí (proti reformě), vedení zaměstnavatelských organizací jako Steffen Kampeter, ministr pension (zatím neurčen), Černorubá koalice (SPD-CDU) která se snaží prosadit reformu",
-          "zdroj": "Tagesspiegel.de"
+          "nazev": "Dron s výbušninou na lipském letišti",
+          "co_se_stalo": "Policie na Lipském letišti zajistila dron vybavený výbušninou. Según dostupným informacím se zdá, že byl zacílen na letadlo s municí určenou pro Ukrajinu.",
+          "proc_je_to_dulezite": "Incident upozorňuje na zvyšující se hrozbu ruských sabotážních operací v Německu. Podle zdrojů mají ruské tajné služby německé infrastruktury opět v zorném poli. Toto téma se stalo zásadním po série předchozích incidentů sabotážní činnosti.",
+          "co_sledovat": "Budou se zvyšovat bezpečnostní opatření na německých letištích a kritické infrastruktuře. Česko a další státy zvažují podobná opatření. Možné daleko-sáhlejší důsledky pro německou bezpečnostní politiku.",
+          "akteri": "Ruské tajné služby (údajný původce), německá policie a bezpečnostní aparát, Lipské letiště",
+          "zdroj": "Tagesspiegel.de, Tagesschau.de"
         },
         {
-          "nazev": "Bezpečnostní hrozby před volbami a ruská dezinformace",
-          "co_se_stalo": "Ruské aktéry según německých úřadů se snaží diskreditovat německé politiky před volbami do jednotlivých zemí - poznamenáváno je zvýšené úsilí o manipulaci veřejného mínění",
-          "proc_je_to_dulezite": "Německo se připravuje na několik důležitých regionálních voleb. Ruská propagandistická činnost představuje bezpečnostní hrozbu pro integritu voleb a demokratický proces",
-          "co_sledovat": "Bezpečnostní opatření před volbami, zprávy o dalších pokusech dezinformace, adekvátní odpověď německých institucí",
-          "akteri": "Ruská státní aktéra (neurčeně), německé bezpečnostní služby, regionální politici a strany připravující se na volby",
-          "zdroj": "Tagesspiegel.de"
+          "nazev": "Verdikt v případu útoku na ver.di demonstraci v Mnichově",
+          "co_se_stalo": "Soud odsoudil pachatele k doživotnímu trestu za útok autem na demonstraci odborů ver.di v Mnichově. Jde o závažný případ násilného extremismu.",
+          "proc_je_to_dulezite": "Incident odráží úroveň politického a společenského napětí v Německu. Exemplárně ukazuje rostoucí polarizaci veřejnosti a přechod od verbální agrese k fyzickému násilí.",
+          "co_sledovat": "Diskuse o opatřeních proti extremismu, bezpečnosti na veřejných akcích a motivaci pachatele. Náznak na radikalizaci části populace.",
+          "akteri": "Pachatel (odsouzený), odborová unie ver.di, německé soudy, bezpečnostní složky",
+          "zdroj": "Google News, Tagesschau, Spiegel"
         },
         {
-          "nazev": "Hromadné trestání extremistů a bezpečnostní operace",
-          "co_se_stalo": "Osm členů a podporovatelů extremistické skupiny Letzte Verteidigungswelle bylo odsouzeno k vězení za plánování bombových a palebných útoků",
-          "proc_je_to_dulezite": "Odsouzení ukazuje intenzivnější bezpečnostní operace proti domácím extremistům v Německu. Skupina plánovala teroristické akce, což signalizuje pokračující hrozbu pravicového extremismu",
-          "co_sledovat": "Další bezpečnostní zásahy proti extremistickým skupinám, detaily o trestání dalších podezřelých",
-          "akteri": "Členové skupiny Letzte Verteidigungswelle, německé soudce a bezpečnostní složky",
-          "zdroj": "Tagesspiegel.de"
+          "nazev": "AfD pokračuje v nárůstu podpory v průzkumech",
+          "co_se_stalo": "Podle dostupných informací pokračuje AfD v nárůstu svého podílu v průzkumech veřejného mínění, zatímco tradiční Unie (CDU/CSU) ztrácí.",
+          "proc_je_to_dulezite": "Dlouhodobě vážné téma pro německou politiku. Posun směrem k více protislouneckému politickému spektru spolu s erozí tradičního politického středu má dopad na formování budoucí koalice a politických priorit.",
+          "co_sledovat": "Vývoj volebních preferencí, Volby 2025/2026 a budoucí koaliční vyjednávání. Jakým způsobem bude reagovat tradičnější politika na nové tlaky.",
+          "akteri": "AfD (Alternativa pro Německo - pravicově populistická strana), CDU/CSU (Unie), SPD a ostatní tradiční strany",
+          "zdroj": "Tagesspiegel.de, Politické průzkumy"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Prezident Pavel a rozpočtová odpovědnost vyvolávají politické debaty",
+      "hlavni_tema": "Veto prezidenta Pavla k rozpočtovému zákonu a bezpečnostní obavy spojené s nálezem dronu v Lipsku",
       "temata": [
         {
-          "nazev": "Prezidentské veto k rozpočtové odpovědnosti",
-          "co_se_stalo": "Středeční veto prezidenta Petra Pavla k zákonu rozvolňujícímu pravidla rozpočtové odpovědnosti zdá se být prvním z možné řady dalších veta",
-          "proc_je_to_dulezite": "Rozpočtová odpovědnost je klíčová pro dlouhodobou ekonomickou stabilitu Česka. Veto prezidenta signalizuje rozpor mezi prezidentem a vládou v otázce fiskální politiky. Toto veto by mohlo otevřít cestu k politickému konfliktu",
-          "co_sledovat": "Zda přijde další veto, jak na ně reaguje vláda, možné projednávání v parlamentu a případné překonání veta",
-          "akteri": "Prezident Petr Pavel (politicky neutrální pozice), vláda Andreje Babiše (ANO), parlament",
-          "zdroj": "Novinky.cz"
+          "nazev": "Veto prezidenta Petra Pavla k zákonu o rozpočtové odpovědnosti",
+          "co_se_stalo": "Středeční veto prezidenta Petra Pavla k zákonu rozvolňujícímu pravidla rozpočtové odpovědnosti. Podle dostupných informací není toto prvním vetem v poslední době.",
+          "proc_je_to_dulezite": "Odráží napětí mezi prezidentem a vládou Andreje Babiše (ANO). Veto signalizuje neshody v hospodářské politice a rozpočtové disciplíně. Ústav se ocitá v důležitém politickém střetu.",
+          "co_sledovat": "Jak se sněmovna s vetem vypořádá, zda jej přehlasuje. Jakých dalších vет se lze očekávat. Budoucí vztah mezi prezidenturou a exekutivou.",
+          "akteri": "Prezident Petr Pavel (politicky neutrální, formálně nezávislý), premiér Andrej Babiš (ANO), vláda ČR, poslanci",
+          "zdroj": "Novinky.cz, Aktuálně.cz"
         },
         {
-          "nazev": "Zemědělská reforma a odpor malých farmářů",
-          "co_se_stalo": "Vláda připravuje novelu, která by měla změnit způsob prodeje zemědělské půdy. Asociace soukromého zemědělství ČR (ASZ) ji odmítá a oznamuje možné demonstrace",
-          "proc_je_to_dulezite": "Reforma by měla ústředně ovlivnit přístup malých farmářů k půdě. Podle ASZ je reforma navržena pouze ve prospěch velkých agroPodniků. Otázka vlastnictví a pronájmu zemědělské půdy je dlouhodobě citlivá téma v ČR",
-          "co_sledovat": "Konkrétní znění novely, další postoje zemědělských organizací, možné demonstrace nebo právní kroky",
-          "akteri": "Vláda Andreje Babiše (ANO), Asociace soukromého zemědělství ČR (šéf Jaroslav Šebek), malí farmáři",
-          "zdroj": "Aktuálně.cz"
+          "nazev": "Zvýšená bezpečnost na českých letištích v důsledku nálezu dronu v Lipsku",
+          "co_se_stalo": "Česko v reakci na nález dronu s výbušninou na lipském letišti zvýší ochranu svých letišť. Premiér Andrej Babiš chce zvýšit bezpečnostní opatření. Pražské letiště analyzuje incident.",
+          "proc_je_to_dulezite": "Zvyšující se hrozba ruské sabotážní činnosti se promítá do bezpečnostní politiky celého regionu. Česko reaguje preventivně v návaznosti na incident v Německu. Téma zdůrazňuje zranitelnost kritické infrastruktury.",
+          "co_sledovat": "Konkrétní bezpečnostní opatření na letištích, investice do ochrany infrastruktury. Koordinace s NATO a dalšími státy. Dlouhodobá strategie obrany proti hybridním hrozbám.",
+          "akteri": "Premiér Andrej Babiš (vláda), Letiště Václava Havla Praha, bezpečnostní služby, ministr dopravy",
+          "zdroj": "Deník N, iROZHLAS, Novinky.cz"
         },
         {
-          "nazev": "Případ tenistky Markéty Vondroušové - měnící se vnímání antidopingových procedur",
-          "co_se_stalo": "Po zveřejnění podrobné zprávy se veřejné mínění ve světě ohledně kauzy Markéty Vondroušové dramaticky změnilo. Zpráva obsahuje dekonstrukci její obhajoby",
-          "proc_je_to_dulezite": "Případ původně vyvolal vlnu solidarity a kritiku antidopingových postupů. Nové informace však naznačují, že situace nemusí být tak jasná jako se původně zdálo. Může jít o obrácení vnímání případu a důvěry v antidopingový systém",
-          "co_sledovat": "Další posudky a analýzy zprávy, oficiální stanoviska řídících orgánů tenisu, případné zmírňující nebo zhoršující rozhodnutí",
-          "akteri": "Markéta Vondroušová (česká tenistka), mezinárodní tenisové asociace (WTA, ITF), antidopingová agentura",
-          "zdroj": "Aktuálně.cz"
+          "nazev": "Problém s nízkou hladinou zemního plynu a energetická situace",
+          "co_se_stalo": "Zásoby zemního plynu v EU jsou na nízké úrovni — zásobníky naplněny z méně než 58 procent, nejméně od roku 2011. Mnoho rodin vynakládá velké prostředky na plyn i při jeho minimalním využití.",
+          "proc_je_to_dulezite": "Energetická bezpečnost zůstává dlouhodobě kritickým tématem pro Česko. Nízké zásoby mohou vést k problémům v příštím topném období. Rozbor výrazně dopadá na domácnosti a jejich rozpočty.",
+          "co_sledovat": "Vývoj zásob na podzim a zimu 2026. Ceny energie. Vládní opatření na podporu domácností. Diverzifikace zdrojů plynu.",
+          "akteri": "Vláda ČR, domácnosti, energetické podniky, Evropská komise",
+          "zdroj": "Aktuálně.cz, Novinky.cz"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-08-05 13:58"
+  "aktualizovano": "2026-08-07 12:53"
 }
