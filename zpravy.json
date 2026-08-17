@@ -1,68 +1,68 @@
 {
-  "datum": "10.08.2026",
+  "datum": "17.08.2026",
   "zeme": [
     {
       "nazev": "Německo",
       "emoji": "🇩🇪",
-      "hlavni_tema": "Německo se potýká s historickým nízkým stavem vody v Rýnu, který ohrožuje dopravu a energetiku, a zároveň řeší nálezem bomby vybaveného dronu bezpečnostní hrozby.",
+      "hlavni_tema": "Bezpečnostní obavy a úsilí Německa posílit svou obranu vůči potenciální ruské hrozbě",
       "temata": [
         {
-          "nazev": "Historické sucho a krize Rýna",
-          "co_se_stalo": "Německo a ostatní evropské státy čelí historicky nízkému stavu vody v řekách. Zvlášť kritická je situace na Rýnu, kde hladina dosahuje extrémně nízkých úrovní, což ohrožuje lodní dopravu.",
-          "proc_je_to_dulezite": "Řeka Rhein je životní arterií pro nákladní dopravu. Nízká voda znamená, že lodě nemohou normálně plout, což ohrožuje logistiku a ekonomiku. Média poukazují na to, že jde o vzácné a dlouhodobě trvající sucho, jež nemá v poslední době precedent.",
-          "co_sledovat": "Zákazy jízdy kamiónů o víkendech byly pozastaveny v již čtyřech německých zemích. Situace se podle ministra dopravy Steffena Bilgera nebude zlepšovat celý srpen. Sledovat lze, jak dlouho bude krize trvat a jaké to bude mít ekonomické dopady.",
-          "akteri": "Ministr dopravy Steffen Bilger, ministr vnitra Alexander Dobrindt, čtyři německé spolkové země (včetně Baderska-Württemberska a Saska), které zavádějí opatření.",
-          "zdroj": "ZDFheute, Tagesspiegel, Spiegel (podle Google News)"
+          "nazev": "Zákeřné řešení migrace - Němci prodlužují hraniční kontroly",
+          "co_se_stalo": "Německý ministr vnitra Alexander Dobrindt oznámil, že Německo znovu prodlouží kontroly na pozemních hranicích včetně české. Důvodem je situace v Ceutě, kde se do španělského města na severu Afriky nekontrolovaně dostalo okolo 50 tisíc lidí z Maroka od čtvrtka.",
+          "proc_je_to_dulezite": "Jde o opakovaný signál, že schengenský prostor v EU čelí vážné migrační krizi. Kontroly na česko-německé hranici trvají již od října 2023 a jejich prodlužování znamená stálé napětí. Kancléř Merz vyzývá Španělsko, aby dostalo Ceutu pod kontrolu. V pozadí stojí širší evropská debata o bezpečnosti hranic a integračních kapacitách zemí.",
+          "co_sledovat": "Zda Španělsko bezpečnostní situaci v Ceutě zvládne, a jestli se Německo rozhodne pro vůbec první úplné vypuštění kontrol. Důsledky na přeshraniční obchod a mobilitu mezi Českem a Německem.",
+          "akteri": "Německý ministr vnitra Alexander Dobrindt, kancléř Friedrich Merz, španělská vláda. Bezpečnostní obavy podporují i německá veřejnost a pravicové síly.",
+          "zdroj": "Aktuálně.cz, Deník N"
         },
         {
-          "nazev": "Bezpečnostní hrozba: dron s bombou na letišti v Lipsku",
-          "co_se_stalo": "Na letišti Lipsko/Halle byl objeven dron s výbušninou. Výbušnina obsahuje Semtex a PETN. Na dronu byla také nalezena DNA. Incident se stal, když letadlo durante letu narazilo na neznámý objekt.",
-          "proc_je_to_dulezite": "Ministr vnitra Dobrindt to vykládá jako součást hybridního válčení, jehož cílem je Německo politicky destabilizovat. Jde o bezpečnostní incident s potencionálem být teroristickým činem. Dobrindt uvedl, že Německo čelí každodenním útokům.",
-          "co_sledovat": "Vyšetřování identity pachatele, původu dronu a okolností incidentu. Není jasné, kdo dron přivezl, řídil nebo měl být odpálen. Situace vyvolává otázky o bezpečnosti letišť a kritické infrastruktury.",
-          "akteri": "Ministr vnitra Alexander Dobrindt, německý kancléř Friedrich Merz (řídil bezpečnostní radu během dovolené), vyšetřovatelé.",
-          "zdroj": "ČT24, Bild, Deutsche Welle (podle Google News a českých médií)"
+          "nazev": "Volkswagenova hluboká krize a plánované masivní propouštění",
+          "co_se_stalo": "Vedení automobilky Volkswagen čeká ostré jednání kolem plánovaného masivního propouštění. Situace automobil-ky je v ostrém kontrastu k pozici Tesly, která po loňském odlivu zákazníků v Evropě zase roste.",
+          "proc_je_to_dulezite": "Volkswagen patří k ikonám německého průmyslu a zaměstnanci. Jeho krize odráží širší problémy německého automobilového průmyslu v přechodu na elektromobilitu. Propouštění by mělo zásadní dopad na německou ekonomiku, zaměstnanost a sociální stabilitu. Německá vláda a odbory jsou zvlášť citlivé na toto téma.",
+          "co_sledovat": "Konkrétní počty propouštěných pracovníků, socální dopady a reakci odborů. Zda se Volkswagen podaří transformovat svůj byznys model. Tržní dynamika mezi tradičními výrobci a Teslou.",
+          "akteri": "Vedení Volkswagenu, odbory (ovlivňují rozhodování v Německu), Spolková vláda pod vedením Merze (CDU). Časopis Bild a média podávají příslušné zpravodajství.",
+          "zdroj": "Deník N"
         },
         {
-          "nazev": "Politická obavy z AfD a snaha chránit informace",
-          "co_se_stalo": "Německá vláda hledá způsoby, jak zabránit předávání utajovaných informací spolkovým zemím, do jejichž vlád by se mohla dostat Alternativa pro Německo (AfD).",
-          "proc_je_to_dulezite": "AfD se v posledních měsících stává stále silnější politickou silou. Vláda se obává, že by měla-li AfD přístup k utajovaným informacím, mohla by je zneužít nebo vyzradit. Jde o bezpečnostní a politický problém demokratické stability.",
-          "co_sledovat": "Výsledky komunálních voleb, zvlášť v Bavorsku, kde AfD dosahuje vysokých procent. Další vývoj v ochraně státních informací. Obecně postoj vlády vůči růstu AfD.",
-          "akteri": "Ministr obrany Boris Pistorius, německá vláda, Alternativa pro Německo (AfD) - pravicová populistická strana.",
-          "zdroj": "Bild, Deník N"
+          "nazev": "Německá bezpečnostní politika a obrana před ruskou hrozbou",
+          "co_se_stalo": "Interní strategický dokument Bundeswehru varuje, že Rusko připravuje svou ekonomiku a státní struktury na rozsáhlý konflikt s NATO. Německo se rozhodlo koupit řízené střely Tomahawk od USA a jejich rozmísťovat na německém území. Vláda rovněž plánuje rozšíření sítě protiatomových bunkrů.",
+          "proc_je_to_dulezite": "Jde o zásadní obrat v německé bezpečnostní politice a přehodnocení vůči Rusku. Německo historicky usiloval o deeskalaci a obchod s Ruskem. Nový trend signalizuje, že Berlin vidí přímou hrozbu pro svou bezpečnost. Tomahawks a obrana proti elektromagnetickému pulsu naznačují přípravu na horší scénář.",
+          "co_sledovat": "Jak se bude Rusko na tyto kroky dívat a jakou podnikne odpověď. Parlamentní schválení nákupu zbraní. Debata v německé společnosti o nové bezpečnostní realitě a vojenských výdajích.",
+          "akteri": "Kancléř Friedrich Merz (CDU), ministr obrany Boris Pistorius (SPD), Bundeswehr, německý parlament. V pozadí - obrana NATO.",
+          "zdroj": "Deník N, Eurozprávy, EuroZprávy.cz"
         }
       ]
     },
     {
       "nazev": "Česko",
       "emoji": "🇨🇿",
-      "hlavni_tema": "Česko se potýká s domácí politickou krízí mezi prezidentem Pavlem a premiérem Babišem, zároveň roste nezaměstnanost a ekonomické problémy.",
+      "hlavni_tema": "Veto prezidenta Pavla k rozpočtovému balíčku a rozpočtové klady budou dominovat českou politickou debatu",
       "temata": [
         {
-          "nazev": "Veto prezidenta Petra Pavla k rozpočtovému zákonu",
-          "co_se_stalo": "Prezident Petr Pavel vetoval zákon rozvolňujicí pravidla rozpočtové odpovědnosti. Toto veto nemusí být zdaleka jediné, jak uvedla média. Zákon měl měnit rozpočtová pravidla.",
-          "proc_je_to_dulezite": "Rozpočtová pravidla jsou klíčová pro ekonomickou stabilitu země. Pavel svým vetem signalizuje nesouhlás s rozpočtovou politikou kabinetu Andreje Babiše. Zdá se, že vztah mezi prezidentem a premiérem se zhoršuje, což může mít dopady na vládu.",
-          "co_sledovat": "Jak se bude vláda dál vyvíjet, zda-li se přetrhne vztah mezi Pavlem a Babišem. Co přinese další veto prezidenta? Jak se změní rozpočtová politika? Média naznačují, že se začíná vyvíjet scénář 'extrémní kohabitace'.",
-          "akteri": "Prezident Petr Pavel (nezávislý, zvolený 2023), premiér Andrej Babiš (ANO), vláda Babiše.",
-          "zdroj": "Novinky.cz, iROZHLAS"
+          "nazev": "Prezidentské veto k rozpočtovému balíčku - střet o koncepci veřejných financí",
+          "co_se_stalo": "Střeční prezident Petr Pavel použil své veto vůči zákonu rozvolňujícímu pravidla rozpočtové odpovědnosti. Zdá se, že to nemusí být jeho jediné veto v tomto směru. Zároveň senát schválil konsolidační balíček, který zvýší daňovou povinnost prakticky všem, kteří v Česku žijí nebo podnikají.",
+          "proc_je_to_dulezite": "Jde o fundamentální rozpor mezi prezidentem Pavlem a vládou Andreje Babiše ohledně směru rozpočtové politiky. Pavel vidí nebezpečí v rozvolnění pravidel a dlouhodobé stability veřejných financí. Babiš naopak chce flexibilitu. Konsolidační balíček znamená zvýšení daní a poplatků pro všechny sociální skupiny, což je politicky velmi citlivé.",
+          "co_sledovat": "Zda Pavel podá další veta a jak vláda zareaguje. Parlamentní schválení vs. prezidentská odpor. Dopad konsolidace na životní úroveň občanů a možné protesty. Prezidentské volby či další politické otřesy.",
+          "akteri": "Prezident Petr Pavel (politicky blízký středu), premiér Andrej Babiš (ANO - lidovci), vláda, senát, poslanci. Mediální pokrytí zejména Novinky.cz, Aktuálně.cz.",
+          "zdroj": "Novinky.cz, Aktuálně.cz"
         },
         {
-          "nazev": "Vzestup nezaměstnanosti a ekonomické problémy",
-          "co_se_stalo": "Nezaměstnanost v Česku v červenci stoupla na pět procent z červnových 4,8 procenta. Úřady práce evidovaly 367.346 ucházejících o zaměstnání, což bylo o 11.212 víc než měsíc dřív.",
-          "proc_je_to_dulezite": "Zvýšená nezaměstnanost je signálem ekonomických problémů v zemi. Ministr práce Aleš Juchelka (ANO) to sice označuje za tradiční prázdninový nárůst, ale trend je znepokojivý. Zároveň, podle médií, se hypoindex v srpnu vyšplhal na nejvyšší úroveň za dva roky.",
-          "co_sledovat": "Jak se bude vyvíjet nezaměstnanost v nadcházejících měsících, zda půjde jen o sezónní zvýšení či dlouhodobý trend. Výsledky hospodářské politiky vlády. Ceny hypoték a bytů.",
-          "akteri": "Ministr práce a sociálních věcí Aleš Juchelka (ANO), Úřad práce ČR, vláda Babiše.",
+          "nazev": "Bouřky a bouřlivé počasí ohrožují jihovýchod Česka",
+          "co_se_stalo": "Meteorologové zpřísnili pro jihovýchod ČR výstrahu před velmi silnými bouřemi. V pondělí dopoledne se mohou objevit multicely a supercely. Bouře mohou doprovázet přívalový déšť, kroupy a nárazy větru o rychlosti až 90 km/h.",
+          "proc_je_to_dulezite": "Jedná se o bezprostřední hrozbu pro bezpečnost obyvatel. Nárazy větru 90 km/h mohou způsobit selhání energetické infrastruktury, lokální záplav a škody na majetku. Český hydrometeorologický ústav zvyšuje stupeň nebezpečí, což signalizuje sérii soudržnosti. Změna klimatu způsobuje čím dál extrémnější počasí.",
+          "co_sledovat": "Vývoj počasí a konkrétní škody. Připravenost záchranných služeb. Výpadky elektřiny a spojů. Možné evakuace v ohrožených oblastech. Dlouhodobý trend klimatických změn v Česku.",
+          "akteri": "Český hydrometeorologický ústav (ČHMÚ), hasiči, záchranné služby, energetické distribuční společnosti, místní samosprávy v jihovýchodních Čechách.",
           "zdroj": "Aktuálně.cz, iROZHLAS"
         },
         {
-          "nazev": "Kauza vedení Pirátů a změna stanov",
-          "co_se_stalo": "Šéf poslaneckého klubu Pirátů Jakub Michálek skončil v širším vedení strany kvůli jednoduché změně stanov, která se probírala už delší dobu. Jeho odpůrcům se rozhodnutí zamlouvá.",
-          "proc_je_to_dulezite": "Jedná se o vnitřní střet v Pirátské straně. Změna v průběhu byla důvodem jeho odchodu. Je to znak, že se v koalici v Česku dějí pohyby a že by se mohla situace v poslanecké sněmovně měnit.",
-          "co_sledovat": "Jak se bude vyvíjet situace uvnitř Pirátů, zda-li proběhnou další změny v jejich vedení. Jaký to bude mít dopad na koalici a vládu.",
-          "akteri": "Jakub Michálek (Piráti), Piráti a jejich odpůrci v rámci strany, vláda Babiše.",
+          "nazev": "Lékaři a zdravotnický personál v konfliktu s ministerstvem o platy",
+          "co_se_stalo": "Lékaři a odbory se ani ve středu nedohodli se zástupci ministerstva zdravotnictví na navýšení odměňování lékařů. Ministrův návrh podle odborů úplně ignoruje požadavky zdravotnických pracovníků na spravedlivé ohodnocení.",
+          "proc_je_to_dulezite": "Zdravotnictví je základní veřejná služba. Nespokojení lékaři a sestry znamenají hrozbu pro kvalitu medicíny a stabilitu systému. Následky nemusejí být viditelné okamžitě, ale dlouhodobě se projevují odchodem kvalitních lékarů do soukromého sektoru nebo do zahraničí. Sociální odpor zdravotnických pracovníků během krize (pamatovat si COVID) může způsobit seriosní potíže.",
+          "co_sledovat": "Další jednání a zda budou uzavřeny dohody. Riziko stávek. Dopad na veřejné zdravotnictví. Platy a podmínky v sousedních zemích.",
+          "akteri": "Lékaři, zdravotní sestry, odbory (zejména Ústředí odborů), ministr zdravotnictví, vláda Babiše. Zpravodajství zejména Novinky.cz.",
           "zdroj": "Novinky.cz"
         }
       ]
     }
   ],
-  "aktualizovano": "2026-08-10 12:57"
+  "aktualizovano": "2026-08-17 12:34"
 }
