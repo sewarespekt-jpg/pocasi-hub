@@ -1,6 +1,68 @@
 {
-  "datum": "18.08.2026",
-  "chyba": "Nedostatek aktuálních dat z dnešního data. Vyhledávání přineslo články z různých minulých období (květen-srpen 2026), nikoliv z 18.8.2026. Pro korektní mediální screening je nutný přístup k live zpravodajství nebo aktualizovaným portálům s real-time datumem.",
-  "poznamka": "Proveděno 5 vyhledávání dle zadání, ale výsledky neobsahují relevantní informace z dnešního dne s jasným datovým kódováním.",
-  "aktualizovano": "2026-08-18 12:36"
+  "datum": "19.08.2026",
+  "zeme": [
+    {
+      "nazev": "Německo",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Vnitrostranicový konflikt v BSW kolem vedoucí strany Wagenknecht otřásá plány na koalici v Durynsku",
+      "temata": [
+        {
+          "nazev": "Konflikt BSW a Wagenknecht v Durynsku",
+          "co_se_stalo": "Zdá se, že se v nově vzniklé straně BSW (Bündnis Sahra Wagenknecht) ostrý vnitrostranicový spor mezi vedením kolem Sarahry Wagenknecht a zbytkem strany. Koalice v Durynsku se dostala do turbulencí a strana plánuje svolaní mimoředného sněmu.",
+          "proc_je_to_dulezite": "BSW je relativně nová politická síla v Německu, která v posledních měsících zažívá rychlý růst. Durynské volby ukázaly její potenciál. Nyní se však ukazuje, že vnitřní spory ohledně linky strany mohou znamenat její oslabení. Zejména spor ohledně koalice je pro politickou stabilitu regionu klíčový.",
+          "co_sledovat": "Výsledek mimoředného sněmu BSW, zda se strana stabilizuje či se dělí. Jak se vyvine koaliční jednání v Durynsku. Zda se Wagenknecht podaří udržet kontrolu nad stranou.",
+          "akteri": "Sahra Wagenknecht (vůdkyně BSW), místní vedení BSW v Durynsku, ministr Björn Voigt (nominant BSW), ostatní členové strany",
+          "zdroj": "tagesschau.de, DIE ZEIT, Deutschlandfunk, Google News"
+        },
+        {
+          "nazev": "Nord-Stream - zatčení dalšího podezřelého",
+          "co_se_stalo": "Německé úřady zadržely dalšího podezřelého v Chorvatsku v souvislosti se sprengením plynovodu Nord Stream. Jedná se o pokračování vyšetřování incidentu z roku 2022.",
+          "proc_je_to_dulezite": "Sprengení Nord Stream bylo jedním z největších geopolitických incidentů posledních let. Ovlivnilo energetickou krizi v Evropě a přímo Německo. Postupné zatýkání podezřelých ukazuje, že vyšetřování pokračuje a zdá se být namířeno konkrétním osobám. Jde o citlivou záležitost s mezinárodním dopadem.",
+          "co_sledovat": "Identitu dalších zatčených osob. Rezultáty soudního řízení. Politickou a diplomatickou reakci na případné odhalení odpovědnosti.",
+          "akteri": "Německé vyšetřovací orgány, chorvatská policie, mezinárodní partneři",
+          "zdroj": "ZDFheute, Eilmeldung"
+        },
+        {
+          "nazev": "AfD a bezpečnostní otázky - debata o zákazu",
+          "co_se_stalo": "Média poukazují na pokračující debatu o Alternativě pro Německo (AfD) jako bezpečnostní hrozbě. Diskuse se vedeou o možnosti proceedings na zákaz strany a o její charakteru jako nebezpečné pro demokracii. Německá vláda řeší také otázku bezpečnosti informací vůči státům, kde by AfD mohla být součástí vlády.",
+          "proc_je_to_dulezite": "AfD je stále silnější politickou silou v Německu. Nedávno se upozorňuje na její vliv v některých zemích, zvláště v těch, kde měla silný volební výsledek. Otázka bezpečnostní integrity státu a předávání klasifikovaných informací se stává kritickou pro německou bezpečnostní strukturu.",
+          "co_sledovat": "Právní kroky proti AfD. Výsledky předvolebních kampaní. Stabilitu vlád v jednotlivých spolkových zemích.",
+          "akteri": "AfD, Ministerstvo obrany (Boris Pistorius), ostatní německé strany, politické vedení Německa",
+          "zdroj": "DIE ZEIT, Tagesspiegel, Google News"
+        }
+      ]
+    },
+    {
+      "nazev": "Česko",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "Rozpočtové boje na příští rok začínají - Schillerová jedná s ministry o požadavcích v čele s otázkou výše schodku",
+      "temata": [
+        {
+          "nazev": "Rozpočet na rok 2027 - jednání o resortních požadavcích",
+          "co_se_stalo": "Ministryně financí Alena Schillerová (ANO) dnes jedná s ostatními ministry o jejich požadavcích pro příští rok. Zatím neupřesnila očekávanou výši schodku pro rok 2027.",
+          "proc_je_to_dulezite": "Rozpočet je klíčový dokument pro fungování státu. Česko se v posledních letech potýkalo s vysokými schodky. Rozpočet na rok 2027 bude komplikovaný vzhledem k ekonomické situaci a také vzhledem k tomu, že předcházející rozpočet byl v parlamentu problematický (prezident Pavel veto nevraacího zákona o rozpočtové odpovědnosti).",
+          "co_sledovat": "Dohodnutou výši schodku. Prioritní oblasti financování (infrastruktura, zdravotnictví, sucho). Schválení rozpočtu v Poslanecké sněmovně.",
+          "akteri": "Alena Schillerová (ministryně financí, ANO), premiér Andrej Babiš (ANO), ostatní ministři, prezident Petr Pavel",
+          "zdroj": "Seznam Zprávy, iROZHLAS, Novinky.cz"
+        },
+        {
+          "nazev": "Vltavská filharmonie - zdražení a výběr dodavatele",
+          "co_se_stalo": "Miliardová stavba Vltavské filharmonie v Praze bude realizována konzorciem tří firem. Cena stavby vzrostla o stamiliony korun. Nikdo jiný neměl zájem na zakázku. Media popisují rozpočtovou manévr, který zdražení umožnil.",
+          "proc_je_to_dulezite": "Vltavská filharmonie je prestižní kulturní projekt v České republice. Jde o miliardu korun z veřejných prostředků. Zdražování a specifický výběr dodavatelů vyvolávají otázky o transparentnosti veřejných zakázek a hospodaření s veřejným penězi.",
+          "co_sledovat": "Termín dokončení stavby. Další vývoj ceny. Zprávy o kontrole ÚOHS a audity na projekt.",
+          "akteri": "Ministerstvo kultury, Praha, konzorcium firem realizujících stavbu, ÚOHS (Úřad pro ochranu hospodářské soutěže)",
+          "zdroj": "Seznam Zprávy, iROZHLAS"
+        },
+        {
+          "nazev": "Veto prezidenta Pavla k rozpočtovému zákonu",
+          "co_se_stalo": "Prezident Petr Pavel vetoval zákon o rozvolnění pravidel rozpočtové odpovědnosti. Média poukazují, že to nemusí být jeho jediné veto. Babiš to okamžitě kritizoval jako skandální rozhodnutí.",
+          "proc_je_to_dulezite": "Rozpočtová odpovědnost je jedním ze základů fiskální stability státu. Prezidentovo veto signalizuje názor, že vláda (vedená Babišem z hnutí ANO) chce zbavit se pravidel, která zabraňují nadměrnému deficitu. To je politických střet mezi exekutivou a prezidentem.",
+          "co_sledovat": "Zda vláda veto přehlasuje či nikoli. Další veta prezidenta Pavla. Debatu o podstatě rozpočtové odpovědnosti.",
+          "akteri": "Prezident Petr Pavel, premiér Andrej Babiš (ANO), Poslanecká sněmovna",
+          "zdroj": "Novinky.cz, iROZHLAS"
+        }
+      ]
+    }
+  ],
+  "aktualizovano": "2026-08-19 12:36"
 }
