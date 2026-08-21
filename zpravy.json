@@ -1,6 +1,6 @@
 {
-  "chyba": "Nedostatek aktuálních dat",
-  "poznamka": "Vyhledávání vrátilo především archivní články a navigační prvky místo konkrétních dnešních zpráv. Ke kvalitnímu screeningu z 20.8.2026 je nutný přímý přístup k aktuálnímu obsahu zpravodajských webů.",
-  "postup": "Doporučuji opakovat vyhledávání s větší specifičností zaměřenou na konkrétní dnešní zprávy.",
-  "aktualizovano": "2026-08-20 12:38"
+  "datum": "21.08.2026",
+  "chyba": "Vyhledávání neposkytla dostatečně aktuální a konkrétní informace pro vytvoření přesného denního screeningu. Dostupné zdroje neobsahovaly jasně identifikovatelná TOP 3 témata pro daný den v požadovaném detailu. Pro přesný screening je nutný přímý přístup k aktuálním vydáním hlavních médií (tagesschau.de, novinky.cz, apod.) s dnešním datem.",
+  "poznamka": "Vyhledávání vrátilo převážně stránky institucí, archivní články a obecné informace místo konkrétního denního zpravodajství.",
+  "aktualizovano": "2026-08-21 12:37"
 }
