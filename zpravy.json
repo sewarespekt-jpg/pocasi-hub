@@ -1,6 +1,68 @@
 {
-  "datum": "21.08.2026",
-  "chyba": "Vyhledávání neposkytla dostatečně aktuální a konkrétní informace pro vytvoření přesného denního screeningu. Dostupné zdroje neobsahovaly jasně identifikovatelná TOP 3 témata pro daný den v požadovaném detailu. Pro přesný screening je nutný přímý přístup k aktuálním vydáním hlavních médií (tagesschau.de, novinky.cz, apod.) s dnešním datem.",
-  "poznamka": "Vyhledávání vrátilo převážně stránky institucí, archivní články a obecné informace místo konkrétního denního zpravodajství.",
-  "aktualizovano": "2026-08-21 12:37"
+  "datum": "24.08.2026",
+  "zeme": [
+    {
+      "nazev": "Německo",
+      "emoji": "🇩🇪",
+      "hlavni_tema": "Přípravy na říjnové volby se prodlubují kolem role SPD, kterou kritizují obě strany",
+      "temata": [
+        {
+          "nazev": "Krize důvěry v SPD vedení",
+          "co_se_stalo": "Podle průzkumů YouGov z 21. srpna si 55 procent občanů myslí, že SPD šéfové Bärbel Bas a Lars Klingbeil nejsou na svou funkci vhodní. Jen 10 procent si myslí, že jsou správní.",
+          "proc_je_to_dulezite": "SPD byla dříve tradičně silnou stranou. Nyní čelí masivní ztrátě důvěry voličů. Tato čísla naznačují možné problémy v koalici a přispívají k nejistotě před volbami.",
+          "co_sledovat": "Volby se chystají a diskuse o vedení SPD se bude do nich zapletovat. Může dojít ke změně v taktice strany nebo vyměnění vedení.",
+          "akteri": "Bärbel Bas a Lars Klingbeil (SPD - levostředová sociální demokracie), YouGov (průzkumná agentura)",
+          "zdroj": "news.de, 21. srpna 2026"
+        },
+        {
+          "nazev": "Protesty vůči BSW a Wagenknecht",
+          "co_se_stalo": "Podle reportáže ZDF z 21. srpna probíhají protesty v Bündnis Sahra Wagenknecht (BSW) před landtagovými volbami. Wagenknecht se zdá být otevřená jednání s AfD.",
+          "proc_je_to_dulezite": "BSW je relativně nová strana, která se pozicuje mimo tradiční spektrum. Možné spojení s AfD by bylo politicky kontroverzní a vyvolalo by vážné debaty o polarizaci německé politiky.",
+          "co_sledovat": "Výsledky nadcházejících landtagových voleb a případné koaliční jednání. Pozorovat, zda dojde k faktickému přiblížení BSW a AfD.",
+          "akteri": "Sahra Wagenknecht a BSW (straně vpravo od středu), AfD (pravicová alternativa pro Německo)",
+          "zdroj": "ZDF heute in Deutschland, 21. srpna 2026"
+        },
+        {
+          "nazev": "Tlak firem na ekonomické reformy",
+          "co_se_stalo": "Německé podniky podle reportáže ZDF vyvíjejí tlak na vládu, aby realizovala ekonomické reformy. Jde o klíčový bod diskuse o konkurenceschopnosti.",
+          "proc_je_to_dulezite": "Německá ekonomika zažívá problémy, zejména v průmyslu. Požadavky firem na reformy odrážejí jejich obavy z konkurenčního tlaku. Je to signál, že hospodářství není zdravé.",
+          "co_sledovat": "Jak reaguje vláda na požadavky firem. Budou provedeny nějaké reformy? Bude to mít vliv na volby?",
+          "akteri": "Německé firmy a průmysl, německá vláda",
+          "zdroj": "ZDF heute in Deutschland, 21. srpna 2026"
+        }
+      ]
+    },
+    {
+      "nazev": "Česko",
+      "emoji": "🇨🇿",
+      "hlavni_tema": "Veto prezidenta Pavla k rozpočtovému zákonu a debata o rozpočtové odpovědnosti",
+      "temata": [
+        {
+          "nazev": "Prezidentské veto k rozpočtovému zákonu",
+          "co_se_stalo": "V půli týdne (středa 23. srpna) prezident Petr Pavel uplanil veto proti zákonu, který rozvolňoval pravidla rozpočtové odpovědnosti. Podle článku by to nemuselo být jeho jediné veto.",
+          "proc_je_to_dulezite": "Rozpočtová odpovědnost je zásadní pro dlouhodobou stabilitu státu. Pavel tímto gestem signalizuje nesouhlas s tím, aby vláda uvolňovala pravidla. Je to konflikt mezi vládou a prezidentem.",
+          "co_sledovat": "Jak se vláda rozhodne - přepraví zákon přes veto? Budou další veta? Jaká bude dlouhodobá strategie v otázce financí státu?",
+          "akteri": "Prezident Petr Pavel (nestraník, nominován do funkce), vláda Andreje Babiše (ANO) a jeho koaliční partneři",
+          "zdroj": "Novinky.cz, iROZHLAS, 24. srpna 2026"
+        },
+        {
+          "nazev": "Růst minimální mzdy o 2500 korun",
+          "co_se_stalo": "Tripartita, která se skládá ze zástupců vlády, zaměstnavatelů a odborů, se chystá projednat zvýšení minimální mzdy. Návrh počítá se zvýšením přibližně o 2500 korun. Podle analýz to potěší více než 180 tisíc lidí.",
+          "proc_je_to_dulezite": "Minimální mzda ovlivňuje životní úroveň nejchudších pracovníků a je politicky citlivou otázkou. Růst sice pomáhá lidem, ale může komplikovat situaci zaměstnavatelům.",
+          "co_sledovat": "Výsledek jednání tripartity. Bude navržená výše schválena? Jak to ovlivní inflaci a konkurenceschopnost firem?",
+          "akteri": "Tripartita (vláda, odbory, zaměstnavatelé), Centrum ekonomických a sociálních studií (komentátoři), premiér Andrej Babiš (ANO)",
+          "zdroj": "Google Zprávy ČR, 24. srpna 2026"
+        },
+        {
+          "nazev": "Skandál s milionovými sluhoupy odcházejícím manažerům",
+          "co_se_stalo": "Exmanažeři Zdravotní pojišťovny ministerstva vnitra si zajistili po svém odchodu z funkce milionové částky jako tzv. zlaté padáky. Částky jsou násobně vyšší než u šéfů největších zdravotních pojišťoven. Premiér Babiš na to reagoval kriticky.",
+          "proc_je_to_dulezite": "Jde o případ zneužívání veřejných prostředků. Vysoké odchodní balíčky pro manažery vyvolávají otázky o správě státu a vyvíjí tlak na kontrolu veřejných institucí.",
+          "co_sledovat": "Budou následovat právní kroky? Bude minister vnitra věc řešit? Změní se pravidla pro odchodní balíčky?",
+          "akteri": "Premiér Andrej Babiš (ANO), ministr vnitra, exmanažeři zdravotní pojišťovny",
+          "zdroj": "iROZHLAS Zprávy z domova, 24. srpna 2026"
+        }
+      ]
+    }
+  ],
+  "aktualizovano": "2026-08-24 12:39"
 }
